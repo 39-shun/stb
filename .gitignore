@@ -1,0 +1,5 @@
+".env" 
+"data/" 
+"logs/" 
+"last_run.json" 
+"failed_stores.json" 
