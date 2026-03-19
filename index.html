@@ -333,13 +333,59 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   }
   #sidebar { display:none; }
   #mobile-bar { display:flex; }
-  #mobile-list-area { display:flex; height:45vh; }
-  #map-collapse-btn { display:block; }
   #ad-bottom { display:flex; }
-  #locate-btn { bottom:calc(var(--ad-bottom-h) + 16px) !important; }
-  #custom-pin-btn { bottom:calc(var(--ad-bottom-h) + 74px) !important; }
-  #map-wrap { flex:1; }
   .legend { display:none; }
+
+  /* メインを縦並びフレックスに */
+  #main {
+    display:flex; flex-direction:column;
+    height:calc(100vh - var(--header-h));
+    overflow:hidden;
+  }
+
+  /* 地図: デフォルト50%、畳んだら0 */
+  #map-wrap {
+    flex:0 0 50%;
+    position:relative;
+    transition:flex-basis .3s ease;
+    overflow:hidden;
+  }
+  #map-wrap.map-hidden {
+    flex:0 0 0%;
+  }
+
+  /* 現在地ボタン: 地図内下部固定（広告なし） */
+  #locate-btn   { bottom:16px !important; }
+  #custom-pin-btn { bottom:74px !important; }
+
+  /* 地図折りたたみボタン: 地図内下端に常に表示 */
+  #map-collapse-btn {
+    display:block;
+    position:absolute; bottom:0; left:0; right:0;
+    background:var(--surface); border-top:1px solid var(--border);
+    padding:4px 0; text-align:center;
+    font-size:11px; color:var(--text-sub); cursor:pointer;
+    z-index:800;
+  }
+
+  /* リストエリア: 残りスペースを全部使う */
+  #mobile-list-area {
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    overflow:hidden;
+    background:var(--surface);
+    border-top:2px solid var(--border);
+  }
+
+  /* 都道府県セレクト: 地図展開中のみ表示 */
+  #mobile-bar { transition:opacity .2s; }
+  #mobile-bar.hidden { opacity:0; pointer-events:none; }
+
+  /* 広告: 固定下部 */
+  #mobile-store-list {
+    padding-bottom:var(--ad-bottom-h);
+  }
 }
 @media (max-width:960px) { .tagline { display:none; } }
 </style>
@@ -433,7 +479,10 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
     <div id="sidebar-footer">
       ※ 全国店舗を約16日で巡回調査。<br>
-      掲載価格はスタバラテ（Tall）の調査時点の価格です。
+      掲載価格はスタバラテ（Tall）の調査時点の価格です。<br>
+      <a href="/privacy.html" style="color:var(--text-sub);text-decoration:underline;font-size:10px;">プライバシーポリシー</a>
+      ／
+      <a href="/disclaimer.html" style="color:var(--text-sub);text-decoration:underline;font-size:10px;">免責事項</a>
     </div>
   </aside>
 
@@ -451,7 +500,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       <div id="map"></div>
 
       <!-- 地図折りたたみハンドル -->
-      <div id="map-collapse-btn" onclick="toggleMapCollapse()">▲ リスト</div>
+      <div id="map-collapse-btn" onclick="toggleMapCollapse()" title="リストを広げる">▲ リストを広げる</div>
 
       <button id="locate-btn" title="現在地から近い順">⊕</button>
       <button id="custom-pin-btn" title="任意地点から近い順" onclick="toggleCustomPin()">📍</button>
@@ -626,19 +675,24 @@ window.scrollToFilter = function() {
 let mapCollapsed = false;
 window.toggleMapCollapse = function() {
   mapCollapsed = !mapCollapsed;
-  const btn = document.getElementById('map-collapse-btn');
+  const btn     = document.getElementById('map-collapse-btn');
+  const mapWrap = document.getElementById('map-wrap');
+  const mobileBar = document.getElementById('mobile-bar');
+
   if (mapCollapsed) {
-    document.getElementById('map-wrap').style.flex = '0';
-    document.getElementById('map-wrap').style.height = '0';
-    document.getElementById('mobile-list-area').style.height = 'calc(100vh - var(--header-h) - var(--ad-bottom-h))';
-    btn.textContent = '▼ 地図';
+    mapWrap.classList.add('map-hidden');
+    mobileBar.classList.add('hidden');
+    btn.textContent = '▼ 地図を表示';
+    // ボタンをリストエリア上部に移動
+    document.getElementById('mobile-list-top').after(btn);
   } else {
-    document.getElementById('map-wrap').style.flex = '1';
-    document.getElementById('map-wrap').style.height = '';
-    document.getElementById('mobile-list-area').style.height = '45vh';
-    btn.textContent = '▲ リスト';
+    mapWrap.classList.remove('map-hidden');
+    mobileBar.classList.remove('hidden');
+    btn.textContent = '▲ リストを広げる';
+    // ボタンを地図内に戻す
+    mapWrap.appendChild(btn);
   }
-  setTimeout(() => map.invalidateSize(), 300);
+  setTimeout(() => map.invalidateSize(), 350);
 };
 
 // スマホ：リストスクロール中の地図ドラッグ防止
