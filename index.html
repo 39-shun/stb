@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>スターバックス価格マップ｜全国ラテ価格帯マップ</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Playfair+Display:wght@600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   テーマ変数
+============================================================ */
+:root, [data-theme="light"] {
+  --bg:         #f7f5f0;
+  --surface:    #ffffff;
+  --surface2:   #f0ede6;
+  --border:     #e0dbd0;
+  --text:       #1c1a16;
+  --text-sub:   #8a8070;
+  --accent:     #00704A;
+  --accent-fg:  #ffffff;
+  --shadow:     0 2px 8px rgba(0,0,0,.10);
+  --cluster-bg: rgba(0,112,74,.82);
+  --cluster-fg: #fff;
+}
+[data-theme="dark"] {
+  --bg:         #111210;
+  --surface:    #1c1e1a;
+  --surface2:   #252720;
+  --border:     #2e302a;
+  --text:       #e8e4d8;
+  --text-sub:   #7a7868;
+  --accent:     #1e9e6b;
+  --accent-fg:  #ffffff;
+  --shadow:     0 2px 8px rgba(0,0,0,.45);
+  --cluster-bg: rgba(30,158,107,.85);
+  --cluster-fg: #fff;
+}
+[data-theme="standard"] {
+  --bg:         #eef2ee;
+  --surface:    #ffffff;
+  --surface2:   #e8ede8;
+  --border:     #c8d4c8;
+  --text:       #1a2a1a;
+  --text-sub:   #5a7a5a;
+  --accent:     #2d6a4f;
+  --accent-fg:  #ffffff;
+  --shadow:     0 2px 6px rgba(0,40,0,.10);
+  --cluster-bg: rgba(45,106,79,.82);
+  --cluster-fg: #fff;
+}
+:root {
+  --rank-normal:  #00704A;
+  --rank-b:       #C4960A;
+  --rank-a:       #B03A20;
+  --rank-roastery:#1a1a1a;
+  --sb-w: 300px;
+  --header-h: 52px;
+  --ad-bottom-h: 60px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; }
+body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--text); font-size:14px; transition:background .2s,color .2s; }
+
+/* ============================================================
+   PC Layout: header / sidebar / map
+============================================================ */
+#app {
+  display: grid; height: 100vh;
+  grid-template-rows: var(--header-h) 1fr;
+  grid-template-columns: var(--sb-w) 1fr;
+  grid-template-areas: "header header" "sidebar main";
+}
+
+/* ---- Header ---- */
+#header {
+  grid-area: header;
+  display: flex; align-items: center; gap: 14px; padding: 0 18px;
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  z-index: 1000; box-shadow: var(--shadow);
+}
+.logo { font-family:'Playfair Display',serif; font-size:15px; font-weight:600; color:var(--accent); white-space:nowrap; }
+.tagline { font-size:11px; color:var(--text-sub); white-space:nowrap; }
+.spacer { flex:1; }
+#theme-select {
+  appearance:none; background:var(--surface2); color:var(--text);
+  border:1px solid var(--border); border-radius:5px;
+  padding:4px 24px 4px 8px; font-size:11px; cursor:pointer; outline:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E");
+  background-repeat:no-repeat; background-position:right 7px center;
+}
+.legend { display:flex; align-items:center; gap:10px; flex-shrink:0; }
+.legend-item { display:flex; align-items:center; gap:4px; font-size:11px; color:var(--text-sub); }
+.legend-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+
+/* ---- Sidebar ---- */
+#sidebar {
+  grid-area: sidebar; background:var(--surface);
+  border-right:1px solid var(--border);
+  display:flex; flex-direction:column; overflow:hidden;
+}
+
+/* アコーディオン共通 */
+.accordion-header {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:11px 16px; cursor:pointer; user-select:none;
+  font-size:11px; font-weight:700; color:var(--text-sub);
+  letter-spacing:.08em; text-transform:uppercase;
+  border-bottom:1px solid var(--border);
+  background:var(--surface); transition:background .12s;
+  flex-shrink:0;
+}
+.accordion-header:hover { background:var(--surface2); }
+.accordion-arrow { font-size:10px; transition:transform .2s; }
+.accordion-arrow.open { transform:rotate(180deg); }
+.accordion-body { overflow:hidden; transition:max-height .25s ease; max-height:0; }
+.accordion-body.open { max-height:600px; }
+
+/* 都道府県リスト */
+#pref-list-wrap { flex:1; overflow:hidden; display:flex; flex-direction:column; }
+#pref-list-body { overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--border) transparent; }
+.pref-item {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:8px 16px; cursor:pointer;
+  border-left:2px solid transparent; transition:background .12s; gap:8px;
+}
+.pref-item:hover { background:rgba(0,112,74,.05); }
+.pref-item.active { background:rgba(0,112,74,.08); border-left-color:var(--accent); }
+.pref-name { font-size:13px; flex:1; }
+.pref-freshness {
+  font-family:'DM Mono',monospace; font-size:10px;
+  white-space:nowrap; padding:2px 5px; background:var(--surface2);
+  border-radius:3px; color:var(--text-sub);
+}
+.pref-freshness.fresh { color:#00704A; background:rgba(0,112,74,.1); }
+.pref-freshness.stale { color:#C4960A; background:rgba(196,150,10,.1); }
+.pref-freshness.old   { color:#B03A20; background:rgba(176,58,32,.1); }
+
+/* フィルターパネル */
+#filter-body { padding:12px 16px; background:var(--surface2); border-bottom:1px solid var(--border); }
+.filter-group { margin-bottom:10px; }
+.filter-group:last-child { margin-bottom:0; }
+.filter-group-label { font-size:10px; color:var(--text-sub); margin-bottom:5px; letter-spacing:.05em; }
+.filter-row { display:flex; flex-wrap:wrap; gap:5px; }
+.filter-chip {
+  display:flex; align-items:center; gap:4px;
+  padding:3px 8px; border-radius:12px; font-size:11px;
+  border:1px solid var(--border); background:var(--surface);
+  cursor:pointer; user-select:none; transition:all .15s; color:var(--text);
+}
+.filter-chip:hover { border-color:var(--accent); }
+.filter-chip.active { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
+.chip-dot { width:7px; height:7px; border-radius:50%; }
+
+/* アクティブフィルターインジケーター（地図側） */
+#filter-indicator {
+  position:absolute; top:12px; left:12px; z-index:900;
+  background:var(--surface); border:1px solid var(--accent);
+  border-radius:20px; padding:4px 10px; font-size:11px;
+  color:var(--accent); cursor:pointer; display:none;
+  box-shadow:var(--shadow); white-space:nowrap;
+}
+#filter-indicator.visible { display:block; }
+
+/* リストパネル */
+#list-panel {
+  flex-shrink:0; border-top:1px solid var(--border);
+  display:flex; flex-direction:column;
+  max-height:40vh;
+}
+#list-header {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:9px 16px; border-bottom:1px solid var(--border);
+  flex-shrink:0; background:var(--surface);
+}
+#list-header-title { font-size:11px; font-weight:700; color:var(--text-sub); letter-spacing:.08em; text-transform:uppercase; }
+#list-header-count { font-family:'DM Mono',monospace; font-size:10px; color:var(--text-sub); }
+#store-list { overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--border) transparent; flex:1; }
+.store-item {
+  display:flex; align-items:flex-start; gap:10px;
+  padding:9px 16px; border-bottom:1px solid var(--border);
+  cursor:pointer; transition:background .12s;
+}
+.store-item:hover { background:var(--surface2); }
+.store-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; margin-top:4px; }
+.store-info { flex:1; min-width:0; }
+.store-name { font-size:12px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.store-sub { font-size:10px; color:var(--text-sub); margin-top:2px; }
+.store-badges { display:flex; gap:3px; flex-wrap:wrap; margin-top:3px; }
+.store-badge { font-size:9px; padding:1px 4px; border-radius:8px; }
+.store-dist { font-family:'DM Mono',monospace; font-size:11px; color:var(--accent); flex-shrink:0; margin-top:3px; }
+#list-empty { padding:20px 16px; font-size:12px; color:var(--text-sub); text-align:center; }
+
+/* 広告・フッター */
+.ad-sidebar {
+  margin:8px 12px; min-height:70px;
+  background:var(--bg); border:1px dashed var(--border); border-radius:4px;
+  display:flex; align-items:center; justify-content:center;
+  flex-direction:column; gap:4px; flex-shrink:0;
+}
+.ad-label { font-size:9px; color:var(--text-sub); letter-spacing:.08em; text-transform:uppercase; }
+#sidebar-footer { padding:8px 16px; font-size:10px; color:var(--text-sub); border-top:1px solid var(--border); line-height:1.6; flex-shrink:0; }
+
+/* ============================================================
+   Main: map + (mobile) list
+============================================================ */
+#main { grid-area:main; display:flex; flex-direction:column; overflow:hidden; }
+
+/* 地図ラッパー */
+#map-wrap { flex:1; position:relative; min-height:0; }
+#map { width:100%; height:100%; }
+
+/* 地図折りたたみハンドル（スマホ） */
+#map-collapse-btn {
+  display:none; position:absolute; bottom:0; left:50%; transform:translateX(-50%);
+  z-index:800; background:var(--surface); border:1px solid var(--border);
+  border-radius:8px 8px 0 0; padding:3px 20px; font-size:12px; color:var(--text-sub);
+  cursor:pointer; box-shadow:var(--shadow);
+}
+
+/* モバイルリストエリア */
+#mobile-list-area {
+  display:none; flex-direction:column;
+  background:var(--surface); border-top:2px solid var(--border);
+  overflow:hidden; transition:height .25s ease;
+}
+#mobile-list-area.collapsed { height:0; }
+#mobile-list-top {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:8px 14px; border-bottom:1px solid var(--border); flex-shrink:0;
+}
+#mobile-list-title { font-size:11px; font-weight:700; color:var(--text-sub); letter-spacing:.06em; }
+#mobile-list-count { font-family:'DM Mono',monospace; font-size:10px; color:var(--text-sub); }
+
+/* モバイルフィルター（リストエリア内） */
+#mobile-filter-area { padding:10px 14px; background:var(--surface2); border-bottom:1px solid var(--border); flex-shrink:0; }
+#mobile-store-list { overflow-y:auto; -webkit-overflow-scrolling:touch; flex:1; }
+
+/* FAB */
+#locate-btn {
+  position:absolute; bottom:32px; right:12px; z-index:900;
+  width:48px; height:48px; border-radius:50%; border:none;
+  background:var(--accent); color:var(--accent-fg);
+  font-size:20px; cursor:pointer;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 3px 14px rgba(0,0,0,.2);
+  transition:transform .15s,box-shadow .15s;
+}
+#locate-btn:hover { transform:scale(1.08); }
+#locate-btn:active { transform:scale(.95); }
+
+/* カスタムピンマーカー */
+#custom-pin-btn {
+  position:absolute; bottom:90px; right:12px; z-index:900;
+  width:40px; height:40px; border-radius:50%; border:2px solid var(--accent);
+  background:var(--surface); color:var(--accent);
+  font-size:18px; cursor:pointer;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:var(--shadow); transition:all .15s;
+  title:"任意地点から近い順";
+}
+#custom-pin-btn:hover { background:var(--accent); color:var(--accent-fg); }
+#custom-pin-btn.active { background:var(--accent); color:var(--accent-fg); }
+
+/* モバイル上部バー */
+#mobile-bar {
+  display:none; position:absolute; top:10px; left:10px; right:10px;
+  z-index:900; gap:6px;
+}
+#pref-select-mobile {
+  flex:1; appearance:none; background:var(--surface); color:var(--text);
+  border:1px solid var(--border); border-radius:6px; padding:8px 12px;
+  font-family:'Noto Sans JP',sans-serif; font-size:13px;
+  outline:none; cursor:pointer; box-shadow:var(--shadow);
+}
+
+/* スマホ下部広告 */
+#ad-bottom {
+  display:none; position:fixed; bottom:0; left:0; right:0;
+  height:var(--ad-bottom-h); background:var(--surface); border-top:1px solid var(--border);
+  z-index:1000; align-items:center; justify-content:center; flex-direction:column; gap:2px;
+}
+
+/* Loading */
+#loading {
+  display:none; position:absolute; inset:0;
+  background:rgba(128,128,100,.15); z-index:1100;
+  align-items:center; justify-content:center; flex-direction:column; gap:10px;
+  font-size:13px; color:var(--text-sub);
+}
+#loading.active { display:flex; }
+.spinner { width:28px; height:28px; border:2px solid var(--border); border-top-color:var(--accent); border-radius:50%; animation:spin .7s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+
+/* ============================================================
+   Popup
+============================================================ */
+.stb-popup { font-family:'Noto Sans JP',sans-serif; min-width:200px; color:#1c1a16; }
+.stb-popup .p-name { font-size:13px; font-weight:700; margin-bottom:5px; line-height:1.4; }
+.stb-popup .p-badges { display:flex; gap:4px; flex-wrap:wrap; margin-bottom:6px; }
+.p-badge { font-size:10px; padding:2px 6px; border-radius:10px; font-weight:700; white-space:nowrap; }
+.badge-reserve  { background:rgba(196,150,10,.15); color:#7a5e00; }
+.badge-teavana  { background:rgba(0,112,74,.12);   color:#00704A; }
+.badge-dt       { background:rgba(60,100,180,.12); color:#3060b0; }
+.badge-roastery { background:#1a1a1a; color:#fff; }
+.badge-merge    { background:rgba(120,80,160,.12); color:#6040a0; }
+.stb-popup .p-rank { display:inline-flex; align-items:center; gap:5px; font-size:12px; font-weight:700; margin-bottom:6px; }
+.rank-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+.stb-popup .p-price { font-size:18px; font-weight:700; margin-bottom:2px; }
+.stb-popup .p-price-note { font-size:10px; color:#999; margin-bottom:6px; }
+.stb-popup .p-meta { font-size:11px; color:#888; line-height:1.6; margin-bottom:8px; }
+.merge-tabs { display:flex; gap:1px; margin-bottom:8px; }
+.merge-tab { flex:1; padding:4px 6px; font-size:11px; font-weight:700; border:1px solid #ddd; border-radius:4px 4px 0 0; cursor:pointer; background:#f5f5f0; color:#888; text-align:center; transition:all .15s; }
+.merge-tab.active { background:#00704A; color:#fff; border-color:#00704A; }
+.merge-pane { display:none; }
+.merge-pane.active { display:block; }
+.p-affiliate { display:block; width:100%; padding:8px 10px; border-radius:5px; background:#00704A; color:#fff; font-size:11px; font-weight:700; text-align:center; text-decoration:none; line-height:1.4; transition:background .15s; }
+.p-affiliate:hover { background:#005a3c; }
+.p-affiliate-note { font-size:9px; color:#aaa; text-align:center; margin-top:3px; }
+
+/* ============================================================
+   Responsive
+============================================================ */
+@media (max-width:700px) {
+  #app {
+    grid-template-columns:1fr;
+    grid-template-areas:"header" "main";
+    grid-template-rows:var(--header-h) 1fr;
+  }
+  #sidebar { display:none; }
+  #mobile-bar { display:flex; }
+  #mobile-list-area { display:flex; height:45vh; }
+  #map-collapse-btn { display:block; }
+  #ad-bottom { display:flex; }
+  #locate-btn { bottom:calc(var(--ad-bottom-h) + 14px); }
+  #custom-pin-btn { bottom:calc(var(--ad-bottom-h) + 72px); }
+  #map-wrap { flex:1; }
+  .legend { display:none; }
+}
+@media (max-width:960px) { .tagline { display:none; } }
+</style>
+</head>
+<body data-theme="light">
+<div id="app">
+
+  <!-- Header -->
+  <header id="header">
+    <span class="logo">Starbucks Price Map</span>
+    <span class="tagline">全国スターバックス ラテ価格帯マップ</span>
+    <div class="spacer"></div>
+    <select id="theme-select">
+      <option value="light">🌤 Light</option>
+      <option value="dark">🌙 Dark</option>
+      <option value="standard">🗺 Standard</option>
+    </select>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-normal)"></div>通常</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-b)"></div>Bランク</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-a)"></div>Aランク</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-roastery)"></div>ROASTERY</div>
+    </div>
+  </header>
+
+  <!-- Sidebar (PC) -->
+  <aside id="sidebar">
+
+    <!-- 都道府県アコーディオン -->
+    <div class="accordion-header" id="pref-accordion-header" onclick="toggleAccordion('pref')">
+      <span>都道府県</span>
+      <span class="accordion-arrow open" id="pref-arrow">▼</span>
+    </div>
+    <div class="accordion-body open" id="pref-accordion-body">
+      <div id="pref-list-body"></div>
+    </div>
+
+    <!-- 絞り込みアコーディオン -->
+    <div class="accordion-header" id="filter-accordion-header" onclick="toggleAccordion('filter')">
+      <span>絞り込み</span>
+      <span class="accordion-arrow" id="filter-arrow">▼</span>
+    </div>
+    <div class="accordion-body" id="filter-accordion-body">
+      <div id="filter-body">
+        <div class="filter-group">
+          <div class="filter-group-label">価格帯</div>
+          <div class="filter-row">
+            <div class="filter-chip active" data-filter="rank" data-value="all">すべて</div>
+            <div class="filter-chip" data-filter="rank" data-value="normal"><span class="chip-dot" style="background:var(--rank-normal)"></span>通常</div>
+            <div class="filter-chip" data-filter="rank" data-value="B"><span class="chip-dot" style="background:var(--rank-b)"></span>Bランク</div>
+            <div class="filter-chip" data-filter="rank" data-value="A"><span class="chip-dot" style="background:var(--rank-a)"></span>Aランク</div>
+          </div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group-label">設備・業態</div>
+          <div class="filter-row">
+            <div class="filter-chip" data-filter="option" data-value="drive_thru">🚗 ドライブスルー</div>
+            <div class="filter-chip" data-filter="option" data-value="reserve">★ リザーブ</div>
+            <div class="filter-chip" data-filter="option" data-value="teavana">🍃 ティバーナ</div>
+            <div class="filter-chip" data-filter="option" data-value="special">🏢 特殊施設</div>
+          </div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group-label">営業状況</div>
+          <div class="filter-row">
+            <div class="filter-chip" data-filter="hours" data-value="open_now">🕐 今営業中</div>
+            <div class="filter-chip" data-filter="hours" data-value="open_at" id="chip-open-at">🕐 時刻指定...</div>
+          </div>
+          <div id="time-picker-wrap" style="display:none;margin-top:6px;">
+            <input type="time" id="time-picker" style="padding:4px 8px;border:1px solid var(--border);border-radius:5px;background:var(--surface);color:var(--text);font-size:12px;outline:none;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 広告枠 -->
+    <div class="ad-sidebar">
+      <div class="ad-label">Advertisement</div>
+      <div style="font-size:11px;color:#bbb;">広告枠（234×60）</div>
+    </div>
+
+    <!-- 近い順リスト -->
+    <div id="list-panel">
+      <div id="list-header">
+        <span id="list-header-title">近くの店舗</span>
+        <span id="list-header-count"></span>
+      </div>
+      <div id="list-empty" style="display:none;">現在地または地点を指定すると<br>近い順にリストが並びます</div>
+      <div id="store-list"></div>
+    </div>
+
+    <div id="sidebar-footer">
+      ※ 全国店舗を約16日で巡回調査。<br>
+      掲載価格はスタバラテ（Tall）の調査時点の価格です。
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <div id="main">
+    <div id="map-wrap">
+      <!-- モバイル上部バー -->
+      <div id="mobile-bar">
+        <select id="pref-select-mobile"><option value="">── 都道府県を選択 ──</option></select>
+      </div>
+
+      <!-- アクティブフィルターインジケーター -->
+      <div id="filter-indicator" onclick="scrollToFilter()"></div>
+
+      <div id="map"></div>
+
+      <!-- 地図折りたたみハンドル -->
+      <div id="map-collapse-btn" onclick="toggleMapCollapse()">▲ リスト</div>
+
+      <button id="locate-btn" title="現在地から近い順">⊕</button>
+      <button id="custom-pin-btn" title="任意地点から近い順" onclick="toggleCustomPin()">📍</button>
+      <div id="loading"><div class="spinner"></div><span id="loading-text">読み込み中...</span></div>
+    </div>
+
+    <!-- モバイルリストエリア -->
+    <div id="mobile-list-area">
+      <div id="mobile-list-top">
+        <span id="mobile-list-title">近くの店舗</span>
+        <span id="mobile-list-count"></span>
+      </div>
+      <!-- モバイルフィルター（リストと同じ枠内） -->
+      <div id="mobile-filter-area">
+        <div class="filter-row" style="margin-bottom:5px;">
+          <div class="filter-chip active" data-filter="rank" data-value="all">すべて</div>
+          <div class="filter-chip" data-filter="rank" data-value="normal"><span class="chip-dot" style="background:var(--rank-normal)"></span>通常</div>
+          <div class="filter-chip" data-filter="rank" data-value="B"><span class="chip-dot" style="background:var(--rank-b)"></span>B</div>
+          <div class="filter-chip" data-filter="rank" data-value="A"><span class="chip-dot" style="background:var(--rank-a)"></span>A</div>
+        </div>
+        <div class="filter-row">
+          <div class="filter-chip" data-filter="option" data-value="drive_thru">🚗 DT</div>
+          <div class="filter-chip" data-filter="option" data-value="reserve">★ リザーブ</div>
+          <div class="filter-chip" data-filter="option" data-value="teavana">🍃 ティバーナ</div>
+          <div class="filter-chip" data-filter="hours" data-value="open_now">🕐 今営業中</div>
+        </div>
+      </div>
+      <div id="mobile-store-list"
+           ontouchstart="disableMapDrag()"
+           ontouchend="enableMapDrag()"></div>
+    </div>
+  </div>
+
+</div>
+
+<div id="ad-bottom">
+  <div class="ad-label">Advertisement</div>
+  <div style="font-size:11px;color:#aaa;">広告枠（320×50）</div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+// ============================================================
+// 設定
+// ============================================================
+const TILE_LAYERS = {
+  light:    { url:'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',  attr:'© OSM © CARTO' },
+  dark:     { url:'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',   attr:'© OSM © CARTO' },
+  standard: { url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',              attr:'© OpenStreetMap contributors' },
+};
+const AFFILIATE = {
+  url:  'https://example.com/affiliate-link',
+  text: '☕ スタバをもっとお得に使う方法（PR）',
+  note: '※ 対象カード利用時。条件あり。',
+};
+const MERGE_IDS  = new Set(['197', '4507']);
+const MERGE_LABEL = '銀座マロニエ通り（リザーブ＋ティバーナ）';
+const RANK_COLORS  = { normal:'#00704A', B:'#C4960A', A:'#B03A20', roastery:'#1a1a1a' };
+const RANK_LABELS  = { normal:'通常', B:'Bランク', A:'Aランク', roastery:'ROASTERY' };
+const PRICE_TABLE  = {
+  normal: { takeout:491, instore:500 },
+  B:      { takeout:501, instore:510 },
+  A:      { takeout:510, instore:520 },
+};
+const DAYS = ['sun','mon','tue','wed','thu','fri','sat'];
+
+const PREFECTURE_CONFIG = {
+  "01":{"name":"北海道","bounds":[[41.35,139.30],[45.55,145.85]]},
+  "02":{"name":"青森県","bounds":[[40.20,139.75],[41.55,141.70]]},
+  "03":{"name":"岩手県","bounds":[[38.75,140.65],[40.45,142.10]]},
+  "04":{"name":"宮城県","bounds":[[37.75,140.25],[39.00,141.70]]},
+  "05":{"name":"秋田県","bounds":[[39.00,139.70],[40.50,141.20]]},
+  "06":{"name":"山形県","bounds":[[37.75,139.55],[39.00,140.80]]},
+  "07":{"name":"福島県","bounds":[[36.75,139.10],[37.95,141.05]]},
+  "08":{"name":"茨城県","bounds":[[35.70,139.65],[36.80,140.85]]},
+  "09":{"name":"栃木県","bounds":[[36.20,139.35],[37.15,140.30]]},
+  "10":{"name":"群馬県","bounds":[[36.10,138.40],[37.00,139.70]]},
+  "11":{"name":"埼玉県","bounds":[[35.75,138.70],[36.25,139.90]]},
+  "12":{"name":"千葉県","bounds":[[34.90,139.70],[35.95,140.90]]},
+  "13":{"name":"東京都","bounds":[[35.50,139.55],[35.85,139.90]]},
+  "14":{"name":"神奈川県","bounds":[[35.15,139.10],[35.60,139.75]]},
+  "15":{"name":"新潟県","bounds":[[36.75,137.65],[38.55,139.60]]},
+  "16":{"name":"富山県","bounds":[[36.40,136.80],[37.00,137.70]]},
+  "17":{"name":"石川県","bounds":[[36.10,136.20],[37.55,137.35]]},
+  "18":{"name":"福井県","bounds":[[35.45,135.65],[36.30,136.80]]},
+  "19":{"name":"山梨県","bounds":[[35.25,138.35],[35.95,139.25]]},
+  "20":{"name":"長野県","bounds":[[35.15,137.30],[37.00,138.85]]},
+  "21":{"name":"岐阜県","bounds":[[35.10,136.20],[36.45,137.70]]},
+  "22":{"name":"静岡県","bounds":[[34.55,137.45],[35.70,139.15]]},
+  "23":{"name":"愛知県","bounds":[[34.75,136.70],[35.35,137.20]]},
+  "24":{"name":"三重県","bounds":[[33.75,135.85],[35.00,136.90]]},
+  "25":{"name":"滋賀県","bounds":[[34.80,135.85],[35.65,136.35]]},
+  "26":{"name":"京都府","bounds":[[34.65,135.05],[35.80,135.95]]},
+  "27":{"name":"大阪府","bounds":[[34.55,135.35],[34.85,135.65]]},
+  "28":{"name":"兵庫県","bounds":[[34.15,134.25],[35.70,135.55]]},
+  "29":{"name":"奈良県","bounds":[[33.85,135.60],[34.75,136.25]]},
+  "30":{"name":"和歌山県","bounds":[[33.40,135.05],[34.30,135.95]]},
+  "31":{"name":"鳥取県","bounds":[[35.00,133.20],[35.60,134.30]]},
+  "32":{"name":"島根県","bounds":[[34.20,131.65],[35.55,133.45]]},
+  "33":{"name":"岡山県","bounds":[[34.45,133.20],[35.20,134.30]]},
+  "34":{"name":"広島県","bounds":[[34.05,131.85],[35.20,133.35]]},
+  "35":{"name":"山口県","bounds":[[33.70,130.85],[34.75,132.25]]},
+  "36":{"name":"徳島県","bounds":[[33.50,133.65],[34.35,134.80]]},
+  "37":{"name":"香川県","bounds":[[34.00,133.45],[34.45,134.35]]},
+  "38":{"name":"愛媛県","bounds":[[32.85,132.15],[34.20,133.70]]},
+  "39":{"name":"高知県","bounds":[[32.70,132.55],[33.90,134.30]]},
+  "40":{"name":"福岡県","bounds":[[33.00,130.10],[34.25,131.20]]},
+  "41":{"name":"佐賀県","bounds":[[33.00,129.65],[33.60,130.55]]},
+  "42":{"name":"長崎県","bounds":[[32.55,128.55],[34.75,130.30]]},
+  "43":{"name":"熊本県","bounds":[[32.05,130.05],[33.20,131.35]]},
+  "44":{"name":"大分県","bounds":[[32.75,130.90],[33.70,132.10]]},
+  "45":{"name":"宮崎県","bounds":[[31.35,130.65],[32.85,132.00]]},
+  "46":{"name":"鹿児島県","bounds":[[30.00,129.25],[32.30,131.25]]},
+  "47":{"name":"沖縄県","bounds":[[24.00,122.90],[27.10,131.35]]},
+};
+
+// ============================================================
+// 状態
+// ============================================================
+const state = {
+  currentPref:   null,
+  tileLayer:     null,
+  summaryGroup:  null,
+  detailGroup:   null,
+  detailCache:   {},
+  prefetchQueue: [],
+  prefetching:   false,
+  originLat:     null,   // 距離計算の基点（現在地 or カスタムピン）
+  originLng:     null,
+  originMarker:  null,
+  customPinMode: false,
+  filters: { rank:'all', options:new Set(), hours:null, timeVal:null },
+  markerMap: {},  // store id → Leaflet marker（リスト→地図連動用）
+};
+
+// ============================================================
+// 地図初期化
+// ============================================================
+const map = L.map('map', { center:[36.5,137.5], zoom:5, zoomControl:true });
+map.scrollWheelZoom.disable();
+map.on('focus', () => map.scrollWheelZoom.enable());
+map.on('blur',  () => map.scrollWheelZoom.disable());
+
+function applyTheme(theme) {
+  document.body.setAttribute('data-theme', theme);
+  if (state.tileLayer) map.removeLayer(state.tileLayer);
+  const cfg = TILE_LAYERS[theme];
+  state.tileLayer = L.tileLayer(cfg.url, { attribution:cfg.attr, maxZoom:19 }).addTo(map);
+}
+applyTheme('light');
+document.getElementById('theme-select').addEventListener('change', e => applyTheme(e.target.value));
+
+// ============================================================
+// アコーディオン
+// ============================================================
+function toggleAccordion(id) {
+  const body  = document.getElementById(`${id}-accordion-body`);
+  const arrow = document.getElementById(`${id}-arrow`);
+  const isOpen = body.classList.toggle('open');
+  arrow.classList.toggle('open', isOpen);
+}
+window.scrollToFilter = function() {
+  document.getElementById('filter-accordion-body').classList.add('open');
+  document.getElementById('filter-arrow').classList.add('open');
+  document.getElementById('filter-accordion-header').scrollIntoView({ behavior:'smooth' });
+};
+
+// ============================================================
+// 地図折りたたみ（スマホ）
+// ============================================================
+let mapCollapsed = false;
+window.toggleMapCollapse = function() {
+  mapCollapsed = !mapCollapsed;
+  const btn = document.getElementById('map-collapse-btn');
+  if (mapCollapsed) {
+    document.getElementById('map-wrap').style.flex = '0';
+    document.getElementById('map-wrap').style.height = '0';
+    document.getElementById('mobile-list-area').style.height = 'calc(100vh - var(--header-h) - var(--ad-bottom-h))';
+    btn.textContent = '▼ 地図';
+  } else {
+    document.getElementById('map-wrap').style.flex = '1';
+    document.getElementById('map-wrap').style.height = '';
+    document.getElementById('mobile-list-area').style.height = '45vh';
+    btn.textContent = '▲ リスト';
+  }
+  setTimeout(() => map.invalidateSize(), 300);
+};
+
+// スマホ：リストスクロール中の地図ドラッグ防止
+window.disableMapDrag  = () => map.dragging.disable();
+window.enableMapDrag   = () => map.dragging.enable();
+
+// ============================================================
+// ユーティリティ
+// ============================================================
+function getFreshnessLabel(iso) {
+  if (!iso) return { label:'データなし', cls:'no-data' };
+  const h = (Date.now() - new Date(iso)) / 3600000, d = h / 24;
+  if (h < 1)  return { label:'1時間以内', cls:'fresh' };
+  if (h < 24) return { label:`${Math.floor(h)}時間前`, cls:'fresh' };
+  if (d < 3)  return { label:`${Math.floor(d)}日前`, cls:'fresh' };
+  if (d < 14) return { label:`${Math.floor(d)}日前`, cls:'stale' };
+  return { label:`${Math.floor(d)}日前`, cls:'old' };
+}
+
+// Haversine距離（km）
+function distKm(lat1, lng1, lat2, lng2) {
+  const R=6371, dLat=(lat2-lat1)*Math.PI/180, dLng=(lng2-lng1)*Math.PI/180;
+  const a=Math.sin(dLat/2)**2+Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLng/2)**2;
+  return R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));
+}
+
+// 営業時間チェック（Optional Chaining で安全に）
+function isOpenAt(shop, checkDate) {
+  const day  = DAYS[checkDate.getDay()];
+  const open  = shop.hours?.[day]?.open;
+  const close = shop.hours?.[day]?.close;
+  if (!open || !close) return null; // データなし→不明
+  const hm = t => { const [h,m] = t.split(':').map(Number); return h*60+m; };
+  const now = checkDate.getHours()*60 + checkDate.getMinutes();
+  const o = hm(open), c = hm(close);
+  return c > o ? (now >= o && now < c) : (now >= o || now < c); // 日跨ぎ対応
+}
+
+function getRankColor(rank, storeType) {
+  if (storeType === '11') return RANK_COLORS.roastery;
+  return RANK_COLORS[rank] || RANK_COLORS.normal;
+}
+function getRankLabel(rank, storeType) {
+  if (storeType === '11') return RANK_LABELS.roastery;
+  return RANK_LABELS[rank] || '通常';
+}
+
+function clusterIcon(cluster) {
+  const n  = cluster.getChildCount();
+  const bg = getComputedStyle(document.body).getPropertyValue('--cluster-bg').trim();
+  const fg = getComputedStyle(document.body).getPropertyValue('--cluster-fg').trim();
+  return L.divIcon({
+    html:`<div style="background:${bg};color:${fg};font-family:'DM Mono',monospace;font-weight:500;font-size:${n>99?11:13}px;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.2)">${n}</div>`,
+    className:'', iconSize:[36,36], iconAnchor:[18,18],
+  });
+}
+
+function makeIcon(rank, storeType, options={}, merged=false) {
+  const color  = merged ? '#5a3aaa' : getRankColor(rank, storeType);
+  const badge  = merged ? '✦' : (storeType==='11' ? 'R' : (options.reserve ? '★' : (options.teavana ? '🍃' : '')));
+  const big    = storeType==='11' || merged;
+  const [w,h,cx,cy,r2] = big ? [26,36,13,12,5] : [20,28,10,10,4];
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+    <path d="M${cx} 0C${cx*.45} 0 0 ${cx*.45} 0 ${cx}c0 ${cx*.75} ${cx} ${cx*1.8} ${cx} ${cx*1.8}s${cx}-${cx*1.05} ${cx}-${cx*1.8}C${w} ${cx*.45} ${cx*1.55} 0 ${cx} 0z" fill="${color}" opacity=".93"/>
+    <circle cx="${cx}" cy="${cy}" r="${r2}" fill="white" opacity=".92"/>
+    ${badge?`<text x="${cx}" y="${cy+3.5}" text-anchor="middle" font-size="6" fill="${color}">${badge}</text>`:''}
+    ${options.drive_thru&&!merged?`<circle cx="${w-3}" cy="3" r="3" fill="#3060b0" opacity=".9"/>`:''}
+  </svg>`;
+  return L.divIcon({ html:svg, className:'', iconSize:[w,h], iconAnchor:[w/2,h], popupAnchor:[0,-h] });
+}
+
+function showLoading(t='読み込み中...') { document.getElementById('loading-text').textContent=t; document.getElementById('loading').classList.add('active'); }
+function hideLoading() { document.getElementById('loading').classList.remove('active'); }
+
+// ============================================================
+// フィルター判定
+// ============================================================
+function getCheckTime() {
+  if (state.filters.hours === 'open_now')  return new Date();
+  if (state.filters.hours === 'open_at' && state.filters.timeVal) {
+    const d = new Date();
+    const [h,m] = state.filters.timeVal.split(':').map(Number);
+    d.setHours(h,m,0,0);
+    return d;
+  }
+  return null;
+}
+
+function passesFilter(shop) {
+  if (state.filters.rank !== 'all' && shop.price_rank !== state.filters.rank) return false;
+  for (const opt of state.filters.options) {
+    if (opt === 'special') { if (shop.store_type !== '2') return false; }
+    else if (!shop.options?.[opt]) return false;
+  }
+  const checkTime = getCheckTime();
+  if (checkTime) {
+    const result = isOpenAt(shop, checkTime);
+    if (result === false) return false; // nullは不明なのでフィルターしない
+  }
+  return true;
+}
+
+// ============================================================
+// フィルターUI
+// ============================================================
+function updateFilterIndicator() {
+  const ind = document.getElementById('filter-indicator');
+  const parts = [];
+  if (state.filters.rank !== 'all') parts.push(RANK_LABELS[state.filters.rank] || state.filters.rank);
+  state.filters.options.forEach(o => parts.push({drive_thru:'DT',reserve:'リザーブ',teavana:'ティバーナ',special:'特殊施設'}[o]||o));
+  if (state.filters.hours === 'open_now') parts.push('営業中');
+  if (state.filters.hours === 'open_at')  parts.push(`${state.filters.timeVal}時点`);
+  if (parts.length > 0) {
+    ind.textContent = `🔍 ${parts.join(' · ')}`;
+    ind.classList.add('visible');
+  } else {
+    ind.classList.remove('visible');
+  }
+}
+
+function initFilters() {
+  document.querySelectorAll('.filter-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const ft = chip.dataset.filter, val = chip.dataset.value;
+      if (ft === 'rank') {
+        state.filters.rank = val;
+        document.querySelectorAll('[data-filter="rank"]').forEach(c => c.classList.toggle('active', c.dataset.value===val));
+      } else if (ft === 'option') {
+        if (state.filters.options.has(val)) {
+          state.filters.options.delete(val);
+          document.querySelectorAll(`[data-filter="option"][data-value="${val}"]`).forEach(c => c.classList.remove('active'));
+        } else {
+          state.filters.options.add(val);
+          document.querySelectorAll(`[data-filter="option"][data-value="${val}"]`).forEach(c => c.classList.add('active'));
+        }
+      } else if (ft === 'hours') {
+        if (state.filters.hours === val) {
+          // 同じボタンで解除
+          state.filters.hours = null;
+          state.filters.timeVal = null;
+          document.querySelectorAll('[data-filter="hours"]').forEach(c => c.classList.remove('active'));
+          document.getElementById('time-picker-wrap').style.display = 'none';
+        } else {
+          state.filters.hours = val;
+          document.querySelectorAll('[data-filter="hours"]').forEach(c => c.classList.toggle('active', c.dataset.value===val));
+          if (val === 'open_at') {
+            document.getElementById('time-picker-wrap').style.display = 'block';
+            document.getElementById('time-picker').focus();
+          } else {
+            document.getElementById('time-picker-wrap').style.display = 'none';
+          }
+        }
+      }
+      updateFilterIndicator();
+      redrawAfterFilter();
+    });
+  });
+
+  document.getElementById('time-picker').addEventListener('change', e => {
+    state.filters.timeVal = e.target.value;
+    updateFilterIndicator();
+    redrawAfterFilter();
+  });
+}
+
+function redrawAfterFilter() {
+  if (state.currentPref && state.detailCache[state.currentPref]) {
+    renderDetailMarkers(state.detailCache[state.currentPref]);
+  }
+  // リストも再描画
+  if (state.originLat !== null) {
+    renderList(getAllCachedShops());
+  }
+}
+
+// ============================================================
+// データ読み込み
+// ============================================================
+async function fetchDetail(code) {
+  if (state.detailCache[code]) return state.detailCache[code];
+  try {
+    const res = await fetch(`data/shops_${code}.json`);
+    if (!res.ok) throw new Error(res.status);
+    const shops = await res.json();
+    state.detailCache[code] = shops;
+    return shops;
+  } catch(e) { console.warn(`shops_${code}.json 失敗`, e); return null; }
+}
+
+function getAllCachedShops() {
+  return Object.values(state.detailCache).flat();
+}
+
+// マロニエマージ
+function applyMerge(shops) {
+  const mergeShops = shops.filter(s => MERGE_IDS.has(s.id));
+  if (mergeShops.length < 2) return shops;
+  const merged = {
+    ...mergeShops[0], id:'merged_marronnier', name:MERGE_LABEL,
+    _merged:true, _mergeData:mergeShops,
+    options: {
+      reserve:    mergeShops.some(s => s.options?.reserve),
+      teavana:    mergeShops.some(s => s.options?.teavana),
+      drive_thru: mergeShops.some(s => s.options?.drive_thru),
+      wifi:       mergeShops.some(s => s.options?.wifi),
+    },
+  };
+  return [...shops.filter(s => !MERGE_IDS.has(s.id)), merged];
+}
+
+// ============================================================
+// サマリー初期表示
+// ============================================================
+async function loadSummary() {
+  showLoading('全国データを読み込み中...');
+  try {
+    const res = await fetch('data/all_summary.json');
+    if (!res.ok) throw new Error('not found');
+    const shops = await res.json();
+    state.summaryGroup = L.markerClusterGroup({
+      maxClusterRadius:60, spiderfyOnMaxZoom:true,
+      showCoverageOnHover:false, iconCreateFunction:clusterIcon,
+    });
+    for (const s of shops) {
+      if (!s.coords) continue;
+      const m = L.circleMarker(s.coords, {
+        radius:5, color:'rgba(0,0,0,.15)', weight:1,
+        fillColor:getRankColor(s.price_rank, s.store_type), fillOpacity:.88,
+      });
+      m.on('click', () => selectPref(String(s.prefecture_code).padStart(2,'0')));
+      state.summaryGroup.addLayer(m);
+    }
+    map.addLayer(state.summaryGroup);
+  } catch(e) { console.warn('summary なし', e); }
+  finally { hideLoading(); }
+}
+
+// ============================================================
+// 詳細マーカー描画
+// ============================================================
+function renderDetailMarkers(shops) {
+  if (state.detailGroup) map.removeLayer(state.detailGroup);
+  state.markerMap = {};
+
+  const processed = applyMerge(shops).filter(passesFilter);
+
+  state.detailGroup = L.markerClusterGroup({
+    maxClusterRadius:50, spiderfyOnMaxZoom:true,
+    showCoverageOnHover:false, iconCreateFunction:clusterIcon,
+  });
+
+  for (const shop of processed) {
+    if (!shop.coords?.length) continue;
+    const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, !!shop._merged) });
+    marker.bindPopup(buildPopup(shop), { maxWidth:280 });
+    state.detailGroup.addLayer(marker);
+    state.markerMap[shop.id] = marker;
+  }
+  map.addLayer(state.detailGroup);
+}
+
+// ============================================================
+// 近い順リスト描画
+// ============================================================
+function renderList(allShops) {
+  if (state.originLat === null) return;
+
+  const filtered = applyMerge(allShops)
+    .filter(passesFilter)
+    .filter(s => s.coords?.length)
+    .map(s => ({ ...s, _dist: distKm(state.originLat, state.originLng, s.coords[0], s.coords[1]) }))
+    .sort((a,b) => a._dist - b._dist)
+    .slice(0, 100); // 上限100件
+
+  const listEl   = document.getElementById('store-list');
+  const listElM  = document.getElementById('mobile-store-list');
+  const countEl  = document.getElementById('list-header-count');
+  const countElM = document.getElementById('mobile-list-count');
+  const emptyEl  = document.getElementById('list-empty');
+
+  const html = filtered.length === 0
+    ? ''
+    : filtered.map(shop => {
+        const rank  = shop.store_type==='11' ? 'roastery' : (shop.price_rank||'normal');
+        const color = getRankColor(rank, shop.store_type);
+        const prices = PRICE_TABLE[rank] || PRICE_TABLE.normal;
+        const dist  = shop._dist < 1 ? `${Math.round(shop._dist*1000)}m` : `${shop._dist.toFixed(1)}km`;
+        const badges = [
+          shop.options?.reserve    ? `<span class="store-badge badge-reserve">★</span>` : '',
+          shop.options?.teavana    ? `<span class="store-badge badge-teavana">🍃</span>` : '',
+          shop.options?.drive_thru ? `<span class="store-badge badge-dt">🚗</span>` : '',
+          shop._merged             ? `<span class="store-badge badge-merge">✦</span>` : '',
+        ].join('');
+        return `<div class="store-item" onclick="focusStore('${shop.id}', ${shop.coords[0]}, ${shop.coords[1]})">
+          <div class="store-dot" style="background:${color}"></div>
+          <div class="store-info">
+            <div class="store-name">${shop.name}</div>
+            <div class="store-sub">¥${prices.takeout} テイクアウト / ¥${prices.instore} 店内</div>
+            ${badges ? `<div class="store-badges">${badges}</div>` : ''}
+          </div>
+          <div class="store-dist">${dist}</div>
+        </div>`;
+      }).join('');
+
+  listEl.innerHTML  = html;
+  listElM.innerHTML = html;
+
+  const countStr = `${filtered.length}件`;
+  countEl.textContent  = countStr;
+  countElM.textContent = countStr;
+  emptyEl.style.display = filtered.length ? 'none' : 'block';
+}
+
+// リストアイテムクリック → 地図でそのピンを開く
+window.focusStore = function(id, lat, lng) {
+  map.setView([lat, lng], 15);
+  const marker = state.markerMap[id];
+  if (marker) {
+    // クラスター内にあれば展開してからopenPopup
+    if (state.detailGroup) state.detailGroup.zoomToShowLayer(marker, () => marker.openPopup());
+    else marker.openPopup();
+  }
+};
+
+// ============================================================
+// 基点設定（現在地 or カスタムピン）
+// ============================================================
+function setOrigin(lat, lng, label='📍 基点') {
+  state.originLat = lat;
+  state.originLng = lng;
+  if (state.originMarker) map.removeLayer(state.originMarker);
+  const accentColor = getComputedStyle(document.body).getPropertyValue('--accent').trim();
+  state.originMarker = L.circleMarker([lat,lng], {
+    radius:8, color:'#fff', fillColor:accentColor, fillOpacity:1, weight:2,
+  }).addTo(map).bindPopup(label).openPopup();
+
+  // リスト更新
+  renderList(getAllCachedShops());
+
+  // 近くの県を自動先読み
+  const code = detectPrefFromCoords(lat, lng);
+  if (code) {
+    fetchDetail(code).then(shops => {
+      if (shops) { renderDetailMarkers(shops); selectPrefUI(code); }
+      renderList(getAllCachedShops());
+    });
+    prefetchNeighbors(code);
+  }
+}
+
+// 現在地ボタン
+document.getElementById('locate-btn').addEventListener('click', () => {
+  if (!navigator.geolocation) { alert('位置情報に対応していません。'); return; }
+  showLoading('現在地を取得中...');
+  navigator.geolocation.getCurrentPosition(
+    pos => { hideLoading(); setOrigin(pos.coords.latitude, pos.coords.longitude, '📍 現在地'); map.setView([pos.coords.latitude, pos.coords.longitude], 13); },
+    err => { hideLoading(); alert({1:'位置情報の利用が許可されていません。',2:'位置情報を取得できませんでした。',3:'タイムアウト'}[err.code]||'取得失敗'); },
+    { timeout:10000, maximumAge:60000 }
+  );
+});
+
+// カスタムピンモード
+window.toggleCustomPin = function() {
+  state.customPinMode = !state.customPinMode;
+  document.getElementById('custom-pin-btn').classList.toggle('active', state.customPinMode);
+  map.getContainer().style.cursor = state.customPinMode ? 'crosshair' : '';
+};
+map.on('click', e => {
+  if (!state.customPinMode) return;
+  setOrigin(e.latlng.lat, e.latlng.lng, '📍 指定地点');
+  map.setView(e.latlng, Math.max(map.getZoom(), 12));
+  state.customPinMode = false;
+  document.getElementById('custom-pin-btn').classList.remove('active');
+  map.getContainer().style.cursor = '';
+});
+
+// ============================================================
+// ポップアップ
+// ============================================================
+function buildPopup(shop) {
+  const isMerged = !!shop._merged;
+  const rank     = shop.store_type==='11' ? 'roastery' : (shop.price_rank||'normal');
+  const color    = getRankColor(rank, shop.store_type);
+  const prices   = PRICE_TABLE[rank] || PRICE_TABLE.normal;
+
+  if (isMerged) {
+    const tabs  = shop._mergeData.map((s,i) => `<div class="merge-tab${i===0?' active':''}" onclick="switchMergeTab(this,${i})">${s.options?.reserve?'リザーブ':s.options?.teavana?'ティバーナ':s.name}</div>`).join('');
+    const panes = shop._mergeData.map((s,i) => {
+      const p = PRICE_TABLE[s.price_rank]||PRICE_TABLE.normal;
+      return `<div class="merge-pane${i===0?' active':''}" data-pane="${i}">
+        <div class="p-price">¥${p.takeout} <span style="font-size:11px;color:#888">/ ¥${p.instore}(店内)</span></div>
+        <div class="p-price-note">スタバラテ Tall</div>
+        <div class="p-meta">${s.address||''}<br>🕐 ${getFreshnessLabel(s.scraped_at).label}</div>
+      </div>`;
+    }).join('');
+    return `<div class="stb-popup">
+      <div class="p-name">✦ ${shop.name}</div>
+      <div class="p-badges"><span class="p-badge badge-merge">マージ店舗</span><span class="p-badge badge-reserve">★ リザーブ</span><span class="p-badge badge-teavana">🍃 ティバーナ</span></div>
+      <div class="merge-tabs">${tabs}</div>${panes}
+      <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
+      <div class="p-affiliate-note">${AFFILIATE.note}</div>
+    </div>`;
+  }
+
+  const f = getFreshnessLabel(shop.scraped_at);
+  const badges = [
+    shop.store_type==='11'        ? `<span class="p-badge badge-roastery">ROASTERY</span>`:'',
+    shop.options?.reserve         ? `<span class="p-badge badge-reserve">★ リザーブ</span>`:'',
+    shop.options?.teavana         ? `<span class="p-badge badge-teavana">🍃 ティバーナ</span>`:'',
+    shop.options?.drive_thru      ? `<span class="p-badge badge-dt">🚗 ドライブスルー</span>`:'',
+  ].join('');
+  return `<div class="stb-popup">
+    <div class="p-name">${shop.name}</div>
+    ${badges?`<div class="p-badges">${badges}</div>`:''}
+    <div class="p-rank"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)}</div>
+    <div class="p-price">¥${prices.takeout} <span style="font-size:11px;color:#888">/ ¥${prices.instore}(店内)</span></div>
+    <div class="p-price-note">スタバラテ Tall</div>
+    <div class="p-meta">${shop.address||''}<br>🕐 ${f.label}</div>
+    <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
+    <div class="p-affiliate-note">${AFFILIATE.note}</div>
+  </div>`;
+}
+
+window.switchMergeTab = function(tabEl, idx) {
+  const popup = tabEl.closest('.stb-popup');
+  popup.querySelectorAll('.merge-tab').forEach((t,i)  => t.classList.toggle('active',i===idx));
+  popup.querySelectorAll('.merge-pane').forEach((p,i) => p.classList.toggle('active',i===idx));
+};
+
+// ============================================================
+// 都道府県選択
+// ============================================================
+function updateFreshness(code, iso) {
+  const { label, cls } = getFreshnessLabel(iso);
+  const el  = document.getElementById(`fresh-${code}`);
+  if (el)  { el.textContent=label; el.className=`pref-freshness ${cls}`; }
+  const opt = document.getElementById(`opt-${code}`);
+  if (opt) opt.textContent = `${PREFECTURE_CONFIG[code].name}  [${label}]`;
+}
+
+function selectPrefUI(code) {
+  state.currentPref = code;
+  document.querySelectorAll('.pref-item').forEach(el => el.classList.toggle('active', el.dataset.code===code));
+  document.getElementById('pref-select-mobile').value = code;
+}
+
+async function selectPref(code) {
+  if (!PREFECTURE_CONFIG[code]) return;
+  selectPrefUI(code);
+  showLoading(`${PREFECTURE_CONFIG[code].name}を読み込み中...`);
+  const shops = await fetchDetail(code);
+  hideLoading();
+  if (!shops) return;
+  renderDetailMarkers(shops);
+  map.fitBounds(PREFECTURE_CONFIG[code].bounds, { padding:[20,20] });
+  const iso = shops.reduce((l,s) => (!l||s.scraped_at>l)?s.scraped_at:l, null);
+  updateFreshness(code, iso);
+  prefetchNeighbors(code);
+  if (state.originLat !== null) renderList(getAllCachedShops());
+}
+
+// ============================================================
+// バックグラウンド先読み
+// ============================================================
+async function prefetchNeighbors(code) {
+  const codes = Object.keys(PREFECTURE_CONFIG).sort();
+  const idx   = codes.indexOf(code);
+  const targets = [codes[idx-2],codes[idx-1],codes[idx+1],codes[idx+2]]
+    .filter(Boolean).filter(c => !state.detailCache[c] && !state.prefetchQueue.includes(c));
+  state.prefetchQueue.push(...targets);
+  if (state.prefetching) return;
+  state.prefetching = true;
+  while (state.prefetchQueue.length > 0) {
+    const c = state.prefetchQueue.shift();
+    if (!state.detailCache[c]) { await fetchDetail(c); await new Promise(r=>setTimeout(r,600)); }
+  }
+  state.prefetching = false;
+}
+
+map.on('zoomend', () => {
+  if (map.getZoom() < 9) return;
+  const code = detectPrefFromCoords(map.getCenter().lat, map.getCenter().lng);
+  if (code && !state.detailCache[code]) fetchDetail(code);
+});
+
+function detectPrefFromCoords(lat, lng) {
+  for (const [code, cfg] of Object.entries(PREFECTURE_CONFIG)) {
+    const [[s,w],[n,e]] = cfg.bounds;
+    if (lat>=s && lat<=n && lng>=w && lng<=e) return code;
+  }
+  return null;
+}
+
+// ============================================================
+// サイドバー生成
+// ============================================================
+function buildSidebar() {
+  const list = document.getElementById('pref-list-body');
+  const sel  = document.getElementById('pref-select-mobile');
+  const codes = Object.keys(PREFECTURE_CONFIG).sort();
+
+  codes.forEach(code => {
+    const item = document.createElement('div');
+    item.className = 'pref-item'; item.dataset.code = code;
+    item.innerHTML = `<span class="pref-name">${PREFECTURE_CONFIG[code].name}</span><span class="pref-freshness no-data" id="fresh-${code}">…</span>`;
+    item.addEventListener('click', () => selectPref(code));
+    list.appendChild(item);
+
+    const opt = document.createElement('option');
+    opt.value=code; opt.id=`opt-${code}`;
+    opt.textContent=PREFECTURE_CONFIG[code].name;
+    sel.appendChild(opt);
+  });
+}
+
+document.getElementById('pref-select-mobile').addEventListener('change', e => {
+  if (e.target.value) selectPref(e.target.value);
+});
+
+// 初期状態でリストエリアに「説明」表示
+document.getElementById('list-empty').style.display = 'block';
+
+// ============================================================
+// 起動
+// ============================================================
+buildSidebar();
+initFilters();
+loadSummary();
+</script>
+</body>
+</html>
