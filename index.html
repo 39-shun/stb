@@ -101,7 +101,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 #sidebar {
   grid-area: sidebar; background:var(--surface);
   border-right:1px solid var(--border);
-  display:flex; flex-direction:column; overflow:hidden;
+  display:flex; flex-direction:column; overflow:hidden; height:100%;
 }
 
 /* アコーディオン共通 */
@@ -117,8 +117,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 .accordion-header:hover { background:var(--surface2); }
 .accordion-arrow { font-size:10px; transition:transform .2s; }
 .accordion-arrow.open { transform:rotate(180deg); }
-.accordion-body { overflow:hidden; transition:max-height .25s ease; max-height:0; }
-.accordion-body.open { max-height:600px; }
+.accordion-body { overflow:hidden; transition:max-height .3s ease; max-height:0; }
+.accordion-body.open { max-height:42vh; overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--border) transparent; }
 
 /* 都道府県リスト */
 #pref-list-wrap { flex:1; overflow:hidden; display:flex; flex-direction:column; }
@@ -158,7 +158,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
 /* アクティブフィルターインジケーター（地図側） */
 #filter-indicator {
-  position:absolute; top:12px; left:12px; z-index:900;
+  position:absolute; bottom:80px; left:12px; z-index:900;
   background:var(--surface); border:1px solid var(--accent);
   border-radius:20px; padding:4px 10px; font-size:11px;
   color:var(--accent); cursor:pointer; display:none;
@@ -170,7 +170,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 #list-panel {
   flex-shrink:0; border-top:1px solid var(--border);
   display:flex; flex-direction:column;
-  max-height:40vh;
+  max-height:28vh;
 }
 #list-header {
   display:flex; align-items:center; justify-content:space-between;
@@ -336,8 +336,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   #mobile-list-area { display:flex; height:45vh; }
   #map-collapse-btn { display:block; }
   #ad-bottom { display:flex; }
-  #locate-btn { bottom:calc(var(--ad-bottom-h) + 14px); }
-  #custom-pin-btn { bottom:calc(var(--ad-bottom-h) + 72px); }
+  #locate-btn { bottom:calc(var(--ad-bottom-h) + 16px) !important; }
+  #custom-pin-btn { bottom:calc(var(--ad-bottom-h) + 74px) !important; }
   #map-wrap { flex:1; }
   .legend { display:none; }
 }
