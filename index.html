@@ -642,9 +642,7 @@ const state = {
 // 地図初期化
 // ============================================================
 const map = L.map('map', { center:[36.5,137.5], zoom:5, zoomControl:true });
-map.scrollWheelZoom.disable();
-map.on('focus', () => map.scrollWheelZoom.enable());
-map.on('blur',  () => map.scrollWheelZoom.disable());
+map.scrollWheelZoom.enable();
 
 function applyTheme(theme) {
   document.body.setAttribute('data-theme', theme);
@@ -875,7 +873,11 @@ function redrawAfterFilter() {
         radius:5, color:'rgba(0,0,0,.15)', weight:1,
         fillColor:getRankColor(s.price_rank, s.store_type), fillOpacity:.88,
       });
-      m.on('click', () => selectPref(String(s.prefecture_code).padStart(2,'0')));
+      m.on('click', () => {
+        const code = String(s.prefecture_code).padStart(2,'0');
+        if (state.currentPref) return;
+        selectPref(code);
+      });
       state.summaryGroup.addLayer(m);
     }
     map.addLayer(state.summaryGroup);
@@ -947,7 +949,12 @@ async function loadSummary() {
         radius:5, color:'rgba(0,0,0,.15)', weight:1,
         fillColor:getRankColor(s.price_rank, s.store_type), fillOpacity:.88,
       });
-      m.on('click', () => selectPref(String(s.prefecture_code).padStart(2,'0')));
+      m.on('click', () => {
+        const code = String(s.prefecture_code).padStart(2,'0');
+        // 既に詳細表示中なら何もしない
+        if (state.currentPref) return;
+        selectPref(code);
+      });
       state.summaryGroup.addLayer(m);
     }
     map.addLayer(state.summaryGroup);
@@ -1162,6 +1169,8 @@ function selectPrefUI(code) {
   state.currentPref = code;
   document.querySelectorAll('.pref-item').forEach(el => el.classList.toggle('active', el.dataset.code===code));
   document.getElementById('pref-select-mobile').value = code;
+  // 詳細表示に切り替えるのでサマリーレイヤーを隠す
+  if (state.summaryGroup) map.removeLayer(state.summaryGroup);
 }
 
 async function selectPref(code) {
