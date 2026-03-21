@@ -625,6 +625,7 @@ const state = {
   currentPref:   null,
   tileLayer:     null,
   summaryGroup:  null,
+  summaryData:   null,
   detailGroup:   null,
   detailCache:   {},
   prefetchQueue: [],
@@ -782,7 +783,8 @@ function getCheckTime() {
 }
 
 function passesFilter(shop) {
-  if (state.filters.rank !== 'all' && shop.price_rank !== state.filters.rank) return false;
+  const shopRank = shop.price_rank;
+  if (state.filters.rank !== 'all' && shopRank !== state.filters.rank) return false;
   for (const opt of state.filters.options) {
     if (opt === 'special') { if (shop.store_type !== '2') return false; }
     else if (!shop.options?.[opt]) return false;
@@ -859,6 +861,26 @@ function initFilters() {
 }
 
 function redrawAfterFilter() {
+  // サマリーを再描画（都道府県未選択時）
+  if (state.summaryData && !state.currentPref) {
+    if (state.summaryGroup) map.removeLayer(state.summaryGroup);
+    state.summaryGroup = L.markerClusterGroup({
+      maxClusterRadius:60, spiderfyOnMaxZoom:true,
+      showCoverageOnHover:false, iconCreateFunction:clusterIcon,
+    });
+    for (const s of state.summaryData) {
+      if (!s.coords) continue;
+      if (!passesFilter(s)) continue;
+      const m = L.circleMarker(s.coords, {
+        radius:5, color:'rgba(0,0,0,.15)', weight:1,
+        fillColor:getRankColor(s.price_rank, s.store_type), fillOpacity:.88,
+      });
+      m.on('click', () => selectPref(String(s.prefecture_code).padStart(2,'0')));
+      state.summaryGroup.addLayer(m);
+    }
+    map.addLayer(state.summaryGroup);
+  }
+  // 都道府県選択済みの場合は詳細マーカーを再描画
   if (state.currentPref && state.detailCache[state.currentPref]) {
     renderDetailMarkers(state.detailCache[state.currentPref]);
   }
@@ -916,8 +938,11 @@ async function loadSummary() {
       maxClusterRadius:60, spiderfyOnMaxZoom:true,
       showCoverageOnHover:false, iconCreateFunction:clusterIcon,
     });
+    // サマリーデータを保持しておき、フィルター再描画に使う
+    state.summaryData = shops;
     for (const s of shops) {
       if (!s.coords) continue;
+      if (!passesFilter(s)) continue;
       const m = L.circleMarker(s.coords, {
         radius:5, color:'rgba(0,0,0,.15)', weight:1,
         fillColor:getRankColor(s.price_rank, s.store_type), fillOpacity:.88,
