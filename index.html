@@ -130,6 +130,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 }
 .pref-item:hover { background:rgba(0,112,74,.05); }
 .pref-item.active { background:rgba(0,112,74,.08); border-left-color:var(--accent); }
+.pref-item.selected { background:rgba(0,112,74,.12); border-left-color:var(--accent); }
+.pref-item.selected .pref-name::after { content:' ✓'; font-size:10px; color:var(--accent); }
 .pref-name { font-size:13px; flex:1; }
 .pref-freshness {
   font-family:'DM Mono',monospace; font-size:10px;
@@ -417,7 +419,10 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     <!-- 都道府県アコーディオン -->
     <div class="accordion-header" id="pref-accordion-header" onclick="toggleAccordion('pref')">
       <span>都道府県</span>
-      <span class="accordion-arrow open" id="pref-arrow">▼</span>
+      <div style="display:flex;align-items:center;gap:6px;">
+        <span id="pref-clear-btn" onclick="event.stopPropagation();clearPrefSelection()" style="display:none;font-size:10px;padding:2px 7px;border-radius:10px;background:var(--accent);color:var(--accent-fg);cursor:pointer;font-weight:700;letter-spacing:.03em;">解除</span>
+        <span class="accordion-arrow open" id="pref-arrow">▼</span>
+      </div>
     </div>
     <div class="accordion-body open" id="pref-accordion-body">
       <div id="pref-list-body"></div>
@@ -491,7 +496,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     <div id="map-wrap">
       <!-- モバイル上部バー -->
       <div id="mobile-bar">
-        <select id="pref-select-mobile"><option value="">── 都道府県を選択 ──</option></select>
+        <!-- スマホは現在地ボタン・ズーム自動読み込みで対応 -->
       </div>
 
       <!-- アクティブフィルターインジケーター -->
@@ -622,11 +627,12 @@ const PREFECTURE_CONFIG = {
 // 状態
 // ============================================================
 const state = {
-  currentPref:   null,
-  tileLayer:     null,
-  summaryGroup:  null,
-  summaryData:   null,
-  detailGroup:   null,
+  currentPref:    null,
+  selectedPrefs:  new Set(),
+  tileLayer:      null,
+  summaryGroup:   null,
+  summaryData:    null,
+  detailGroup:    null,
   detailCache:   {},
   prefetchQueue: [],
   prefetching:   false,
@@ -883,8 +889,8 @@ function redrawAfterFilter() {
     map.addLayer(state.summaryGroup);
   }
   // 都道府県選択済みの場合は詳細マーカーを再描画
-  if (state.currentPref && state.detailCache[state.currentPref]) {
-    renderDetailMarkers(state.detailCache[state.currentPref]);
+  if (state.selectedPrefs.size > 0) {
+    renderAllSelectedPrefs();
   }
   // リストも再描画
   if (state.originLat !== null) {
@@ -966,10 +972,22 @@ async function loadSummary() {
 // 詳細マーカー描画
 // ============================================================
 function renderDetailMarkers(shops) {
+  // 単一県のshopsを渡された場合は複数県モードに統合
+  renderAllSelectedPrefs();
+}
+
+function renderAllSelectedPrefs() {
   if (state.detailGroup) map.removeLayer(state.detailGroup);
   state.markerMap = {};
 
-  const processed = applyMerge(shops).filter(passesFilter);
+  // 選択中の全県のデータを結合
+  let allShops = [];
+  for (const code of state.selectedPrefs) {
+    const shops = state.detailCache[code];
+    if (shops) allShops = allShops.concat(shops);
+  }
+
+  const processed = applyMerge(allShops).filter(passesFilter);
 
   state.detailGroup = L.markerClusterGroup({
     maxClusterRadius:50, spiderfyOnMaxZoom:true,
@@ -1159,34 +1177,64 @@ window.switchMergeTab = function(tabEl, idx) {
 // ============================================================
 function updateFreshness(code, iso) {
   const { label, cls } = getFreshnessLabel(iso);
-  const el  = document.getElementById(`fresh-${code}`);
-  if (el)  { el.textContent=label; el.className=`pref-freshness ${cls}`; }
-  const opt = document.getElementById(`opt-${code}`);
-  if (opt) opt.textContent = `${PREFECTURE_CONFIG[code].name}  [${label}]`;
+  const el = document.getElementById(`fresh-${code}`);
+  if (el) { el.textContent=label; el.className=`pref-freshness ${cls}`; }
 }
 
 function selectPrefUI(code) {
   state.currentPref = code;
-  document.querySelectorAll('.pref-item').forEach(el => el.classList.toggle('active', el.dataset.code===code));
-  document.getElementById('pref-select-mobile').value = code;
-  // 詳細表示に切り替えるのでサマリーレイヤーを隠す
-  if (state.summaryGroup) map.removeLayer(state.summaryGroup);
 }
 
+// 都道府県トグル選択
 async function selectPref(code) {
   if (!PREFECTURE_CONFIG[code]) return;
-  selectPrefUI(code);
-  showLoading(`${PREFECTURE_CONFIG[code].name}を読み込み中...`);
-  const shops = await fetchDetail(code);
-  hideLoading();
-  if (!shops) return;
-  renderDetailMarkers(shops);
-  map.fitBounds(PREFECTURE_CONFIG[code].bounds, { padding:[20,20] });
-  const iso = shops.reduce((l,s) => (!l||s.scraped_at>l)?s.scraped_at:l, null);
-  updateFreshness(code, iso);
-  prefetchNeighbors(code);
+
+  if (state.selectedPrefs.has(code)) {
+    // 解除
+    state.selectedPrefs.delete(code);
+    document.querySelector(`.pref-item[data-code="${code}"]`)?.classList.remove('selected','active');
+  } else {
+    // 追加選択
+    state.selectedPrefs.add(code);
+    document.querySelector(`.pref-item[data-code="${code}"]`)?.classList.add('selected','active');
+    showLoading(`${PREFECTURE_CONFIG[code].name}を読み込み中...`);
+    await fetchDetail(code);
+    hideLoading();
+    const shops = state.detailCache[code];
+    if (shops) {
+      const iso = shops.reduce((l,s) => (!l||s.scraped_at>l)?s.scraped_at:l, null);
+      updateFreshness(code, iso);
+    }
+    prefetchNeighbors(code);
+  }
+
+  // 解除ボタンの表示制御
+  document.getElementById('pref-clear-btn').style.display = state.selectedPrefs.size > 0 ? 'inline' : 'none';
+
+  // サマリーの表示・非表示制御
+  if (state.selectedPrefs.size > 0) {
+    if (state.summaryGroup) map.removeLayer(state.summaryGroup);
+  } else {
+    if (state.summaryGroup) map.addLayer(state.summaryGroup);
+  }
+
+  // 選択中の全県を再描画
+  renderAllSelectedPrefs();
+
   if (state.originLat !== null) renderList(getAllCachedShops());
 }
+
+// 全解除
+window.clearPrefSelection = function() {
+  state.selectedPrefs.clear();
+  state.currentPref = null;
+  document.querySelectorAll('.pref-item').forEach(el => el.classList.remove('selected','active'));
+  document.getElementById('pref-clear-btn').style.display = 'none';
+  // サマリーを再表示
+  if (state.summaryGroup) map.addLayer(state.summaryGroup);
+  if (state.detailGroup) map.removeLayer(state.detailGroup);
+  state.detailGroup = null;
+};
 
 // ============================================================
 // バックグラウンド先読み
@@ -1207,9 +1255,50 @@ async function prefetchNeighbors(code) {
 }
 
 map.on('zoomend', () => {
-  if (map.getZoom() < 9) return;
-  const code = detectPrefFromCoords(map.getCenter().lat, map.getCenter().lng);
-  if (code && !state.detailCache[code]) fetchDetail(code);
+  const zoom = map.getZoom();
+  // 未選択状態でズーム9以上になったら表示範囲内の県を自動読み込み
+  if (state.selectedPrefs.size === 0 && zoom >= 9) {
+    const bounds = map.getBounds();
+    const codesToLoad = [];
+    for (const [code, cfg] of Object.entries(PREFECTURE_CONFIG)) {
+      const [[s,w],[n,e]] = cfg.bounds;
+      // 地図の表示範囲と県のboundsが重なっているか
+      if (bounds.getSouth() <= n && bounds.getNorth() >= s &&
+          bounds.getWest()  <= e && bounds.getEast()  >= w) {
+        codesToLoad.push(code);
+      }
+    }
+    if (codesToLoad.length > 0) {
+      // サマリーを非表示にして詳細を表示
+      if (state.summaryGroup) map.removeLayer(state.summaryGroup);
+      Promise.all(codesToLoad.map(c => fetchDetail(c))).then(() => {
+        // 一時的な自動表示用レイヤー（selectedPrefsには追加しない）
+        if (state.detailGroup) map.removeLayer(state.detailGroup);
+        state.markerMap = {};
+        let allShops = [];
+        for (const code of codesToLoad) {
+          if (state.detailCache[code]) allShops = allShops.concat(state.detailCache[code]);
+        }
+        const processed = applyMerge(allShops).filter(passesFilter);
+        state.detailGroup = L.markerClusterGroup({
+          maxClusterRadius:50, spiderfyOnMaxZoom:true,
+          showCoverageOnHover:false, iconCreateFunction:clusterIcon,
+        });
+        for (const shop of processed) {
+          if (!shop.coords?.length) continue;
+          const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, !!shop._merged) });
+          marker.bindPopup(buildPopup(shop), { maxWidth:280 });
+          state.detailGroup.addLayer(marker);
+          state.markerMap[shop.id] = marker;
+        }
+        map.addLayer(state.detailGroup);
+      });
+    }
+  } else if (state.selectedPrefs.size === 0 && zoom < 9) {
+    // ズームアウト時はサマリーに戻す
+    if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; }
+    if (state.summaryGroup) map.addLayer(state.summaryGroup);
+  }
 });
 
 function detectPrefFromCoords(lat, lng) {
@@ -1225,26 +1314,15 @@ function detectPrefFromCoords(lat, lng) {
 // ============================================================
 function buildSidebar() {
   const list = document.getElementById('pref-list-body');
-  const sel  = document.getElementById('pref-select-mobile');
   const codes = Object.keys(PREFECTURE_CONFIG).sort();
-
   codes.forEach(code => {
     const item = document.createElement('div');
     item.className = 'pref-item'; item.dataset.code = code;
     item.innerHTML = `<span class="pref-name">${PREFECTURE_CONFIG[code].name}</span><span class="pref-freshness no-data" id="fresh-${code}">…</span>`;
     item.addEventListener('click', () => selectPref(code));
     list.appendChild(item);
-
-    const opt = document.createElement('option');
-    opt.value=code; opt.id=`opt-${code}`;
-    opt.textContent=PREFECTURE_CONFIG[code].name;
-    sel.appendChild(opt);
   });
 }
-
-document.getElementById('pref-select-mobile').addEventListener('change', e => {
-  if (e.target.value) selectPref(e.target.value);
-});
 
 // 初期状態でリストエリアに「説明」表示
 document.getElementById('list-empty').style.display = 'block';
