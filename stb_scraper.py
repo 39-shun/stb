@@ -549,6 +549,7 @@ def generate_summary():
                 "price_rank":      s.get("price_rank"),
                 "store_type":      s.get("store_type"),
                 "options":         s.get("options", {}),
+                "hours":           s.get("hours", {}),
             })
     out_path = DATA_DIR / "all_summary.json"
     out_path.write_text(json.dumps(summary, ensure_ascii=False, separators=(",",":")))
