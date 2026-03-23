@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "4376",
+    "api_id": "2001000014376",
+    "name": "宇都宮八幡台店",
+    "address": "栃木県 宇都宮市 八幡台2-16",
+    "coords": [
+      36.57191,
+      139.889636389
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:13:03.677239"
+  },
+  {
+    "id": "773",
+    "api_id": "200100001773",
+    "name": "宇都宮上戸祭店",
+    "address": "栃木県 宇都宮市 上戸祭町欠ノ上366-7",
+    "coords": [
+      36.5846675,
+      139.868360278
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:13:12.525039"
+  },
+  {
+    "id": "4371",
+    "api_id": "2001000014371",
+    "name": "宇都宮鹿沼インター通り店",
+    "address": "栃木県 宇都宮市 鶴田町1311-1",
+    "coords": [
+      36.5466966667,
+      139.857189722
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:13:20.716040"
+  },
+  {
+    "id": "1468",
+    "api_id": "2001000011468",
+    "name": "宇都宮鶴田店",
+    "address": "栃木県 宇都宮市 鶴田2-12-12",
+    "coords": [
+      36.5594444444,
+      139.858611111
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:13:34.441396"
+  },
+  {
+    "id": "510",
+    "api_id": "200100001510",
+    "name": "ＦＫＤ宇都宮インターパーク店",
+    "address": "栃木県 宇都宮市 インターパーク6-1-1 FKDショッピングモール宇都宮インターパーク",
+    "coords": [
+      36.4878827778,
+      139.909475556
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:13:43.034168"
+  },
+  {
+    "id": "1159",
+    "api_id": "2001000011159",
+    "name": "宇都宮インターパークステージ店",
+    "address": "栃木県 宇都宮市 インターパーク4-2-3 インターパークステージ",
+    "coords": [
+      36.490685,
+      139.912330556
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:13:57.072654"
+  },
+  {
+    "id": "4215",
+    "api_id": "2001000014215",
+    "name": "宇都宮西川田店",
+    "address": "栃木県 宇都宮市 西川田本町3-4-3",
+    "coords": [
+      36.5119469444,
+      139.848292222
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:14:05.777840"
+  },
+  {
+    "id": "4149",
+    "api_id": "2001000014149",
+    "name": "カインズ壬生店",
+    "address": "栃木県 下都賀郡 壬生町安塚3376-21",
+    "coords": [
+      36.4590863889,
+      139.842528056
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:14:19.043952"
+  },
+  {
+    "id": "688",
+    "api_id": "200100001688",
+    "name": "獨協医科大学病院店",
+    "address": "栃木県 下都賀郡 壬生町北小林880",
+    "coords": [
+      36.4691666667,
+      139.828472222
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "18:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "17:30"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "17:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:14:34.072603"
+  },
+  {
+    "id": "1174",
+    "api_id": "2001000011174",
+    "name": "宇都宮城東店",
+    "address": "栃木県 宇都宮市 城東2-24-11",
+    "coords": [
+      36.5464472222,
+      139.908287778
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:14:42.675596"
+  },
+  {
+    "id": "217",
+    "api_id": "200100001217",
+    "name": "宇都宮福田屋店",
+    "address": "栃木県 宇都宮市 今泉町237 福田屋ショッピングプラザ宇都宮店",
+    "coords": [
+      36.5704333333,
+      139.903461111
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:14:52.265747"
+  },
+  {
+    "id": "522",
+    "api_id": "200100001522",
+    "name": "宇都宮パセオ店",
+    "address": "栃木県 宇都宮市 川向町1-23 パセオ　1F",
+    "coords": [
+      36.5557208333,
+      139.901227778
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "06:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:15:05.980073"
+  },
+  {
+    "id": "1434",
+    "api_id": "2001000011434",
+    "name": "済生会宇都宮病院店",
+    "address": "栃木県 宇都宮市 竹林町911-1 恩賜財団　済生会宇都宮病院",
+    "coords": [
+      36.5759925,
+      139.900715556
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:15:19.231617"
+  },
+  {
+    "id": "1278",
+    "api_id": "2001000011278",
+    "name": "宇都宮ゆいの杜店",
+    "address": "栃木県 宇都宮市 ゆいの杜4-12-17",
+    "coords": [
+      36.5649152778,
+      139.9952175
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:15:31.780339"
+  },
+  {
+    "id": "1435",
+    "api_id": "2001000011435",
+    "name": "真岡店",
+    "address": "栃木県 真岡市 下高間木1-14-4",
+    "coords": [
+      36.429435,
+      139.9896825
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:15:42.437540"
+  },
+  {
+    "id": "574",
+    "api_id": "200100001574",
+    "name": "宇都宮イトーヨーカドー店",
+    "address": "栃木県 宇都宮市 陽東6-2-1 イトーヨーカドー宇都宮店",
+    "coords": [
+      36.5520175,
+      139.931441667
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:15:50.754727"
+  },
+  {
+    "id": "1334",
+    "api_id": "2001000011334",
+    "name": "鹿沼店",
+    "address": "栃木県 鹿沼市 西茂呂3-12-3",
+    "coords": [
+      36.5477461111,
+      139.7700675
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:16:05.867291"
+  },
+  {
+    "id": "755",
+    "api_id": "200100001755",
+    "name": "おやまゆうえんハーヴェストウォーク店",
+    "address": "栃木県 小山市 喜沢1475 おやまゆうえんハーヴェストウォーク",
+    "coords": [
+      36.3320280556,
+      139.811348889
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:16:16.881701"
+  },
+  {
+    "id": "4271",
+    "api_id": "2001000014271",
+    "name": "小山宮本店",
+    "address": "栃木県 小山市 宮本町2-8-21",
+    "coords": [
+      36.3079769444,
+      139.802671111
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:16:31.094727"
+  },
+  {
+    "id": "1053",
+    "api_id": "2001000011053",
+    "name": "ヴァル小山店",
+    "address": "栃木県 小山市 城山町3-3-22 VAL小山",
+    "coords": [
+      36.3094536111,
+      139.809268889
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:16:44.080628"
+  },
+  {
+    "id": "4480",
+    "api_id": "2001000014480",
+    "name": "小山雨ケ谷店",
+    "address": "栃木県 小山市 雨ケ谷463-2",
+    "coords": [
+      36.2801716667,
+      139.816779722
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:16:57.373561"
+  },
+  {
+    "id": "992",
+    "api_id": "200100001992",
+    "name": "小山店",
+    "address": "栃木県 小山市 東城南1-27-１",
+    "coords": [
+      36.293785,
+      139.811554722
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:17:05.756681"
+  },
+  {
+    "id": "1746",
+    "api_id": "2001000011746",
+    "name": "大田原美原店",
+    "address": "栃木県 大田原市 美原2-3232-7",
+    "coords": [
+      36.8639130556,
+      140.005784167
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:17:20.377183"
+  },
+  {
+    "id": "4422",
+    "api_id": "2001000014422",
+    "name": "アシコタウンあしかが店",
+    "address": "栃木県 足利市 大月町3-2",
+    "coords": [
+      36.3325588889,
+      139.479163611
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:17:33.413115"
+  },
+  {
+    "id": "1856",
+    "api_id": "2001000011856",
+    "name": "足利福居町店",
+    "address": "栃木県 足利市 福居町254-6",
+    "coords": [
+      36.3081161111,
+      139.449548056
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:17:42.206732"
+  },
+  {
+    "id": "2111",
+    "api_id": "2001000012111",
+    "name": "TSUTAYA 佐野店",
+    "address": "栃木県 佐野市 田島町51",
+    "coords": [
+      36.2965816667,
+      139.569611389
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:17:52.203458"
+  },
+  {
+    "id": "4196",
+    "api_id": "2001000014196",
+    "name": "佐野サービスエリア（下り線）店",
+    "address": "栃木県 佐野市 黒袴町東山1021 佐野サービスエリア（下り線）",
+    "coords": [
+      36.313305,
+      139.622155278
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:18:02.004715"
+  },
+  {
+    "id": "491",
+    "api_id": "200100001491",
+    "name": "イオンモール佐野新都市店",
+    "address": "栃木県 佐野市 高萩町1324-1 イオンモール佐野新都市",
+    "coords": [
+      36.2958758333,
+      139.6095775
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:18:16.868648"
+  },
+  {
+    "id": "458",
+    "api_id": "200100001458",
+    "name": "佐野プレミアム・アウトレット 370区店",
+    "address": "栃木県 佐野市 越名町2058番地 佐野プレミアム・アウトレット 370区",
+    "coords": [
+      36.2891375,
+      139.607929444
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "20:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:18:29.569000"
+  },
+  {
+    "id": "4546",
+    "api_id": "2001000014546",
+    "name": "佐野プレミアム・アウトレット 1125区店",
+    "address": "栃木県 佐野市 越名町2058番地 佐野プレミアム・アウトレット 1125区",
+    "coords": [
+      36.2914641667,
+      139.607304722
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "20:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:18:37.885862"
+  },
+  {
+    "id": "1482",
+    "api_id": "2001000011482",
+    "name": "栃木倭町店",
+    "address": "栃木県 栃木市 倭町7-1 TS-TOWN Tochigi",
+    "coords": [
+      36.3752711111,
+      139.736455
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:18:51.807557"
+  },
+  {
+    "id": "4294",
+    "api_id": "2001000014294",
+    "name": "栃木箱森店",
+    "address": "栃木県 栃木市 箱森町38-5",
+    "coords": [
+      36.3891333333,
+      139.727626667
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:19:06.034141"
+  },
+  {
+    "id": "1689",
+    "api_id": "2001000011689",
+    "name": "道の駅しもつけ店",
+    "address": "栃木県 下野市 薬師寺3720-1 道の駅しもつけ",
+    "coords": [
+      36.3929636111,
+      139.886709722
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:19:17.090138"
+  },
+  {
+    "id": "874",
+    "api_id": "200100001874",
+    "name": "自治医科大学附属病院店",
+    "address": "栃木県 下野市 薬師寺3311-1 自治医科大学附属病院",
+    "coords": [
+      36.3953041667,
+      139.863031111
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "19:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "19:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "19:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "19:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "19:30"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "17:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:19:32.075448"
+  },
+  {
+    "id": "1462",
+    "api_id": "2001000011462",
+    "name": "西那須野店",
+    "address": "栃木県 那須塩原市 五軒町5-19",
+    "coords": [
+      36.8891847222,
+      139.981951667
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:19:41.312191"
+  },
+  {
+    "id": "1732",
+    "api_id": "2001000011732",
+    "name": "那須ガーデンアウトレット店",
+    "address": "栃木県 那須塩原市 塩野崎184-7 那須ガーデンアウトレット",
+    "coords": [
+      36.9636038889,
+      139.993316111
+    ],
+    "prefecture_code": 9,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-22T14:19:53.397520"
+  }
+]
