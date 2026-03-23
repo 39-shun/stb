@@ -1,0 +1,5588 @@
+[
+  {
+    "id": "1616",
+    "api_id": "2001000011616",
+    "name": "浦和パルコ店",
+    "address": "埼玉県 さいたま市浦和区 東高砂町11-1 浦和パルコ　1階",
+    "coords": [
+      35.8550183333,
+      139.662269167
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:06:55.336606"
+  },
+  {
+    "id": "1882",
+    "api_id": "2001000011882",
+    "name": "浦和西口店",
+    "address": "埼玉県 さいたま市浦和区 高砂2-5-1 KOMON",
+    "coords": [
+      35.8543447222,
+      139.657140833
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:07:06.740771"
+  },
+  {
+    "id": "2071",
+    "api_id": "2001000012071",
+    "name": "浦和 蔦屋書店",
+    "address": "埼玉県 さいたま市浦和区 高砂1-16-12 アトレ浦和",
+    "coords": [
+      35.8562191667,
+      139.660232222
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:07:15.243044"
+  },
+  {
+    "id": "1411",
+    "api_id": "2001000011411",
+    "name": "さいたま新都心店",
+    "address": "埼玉県 さいたま市中央区 新都心10 けやきひろば(013区画）",
+    "coords": [
+      35.8904213889,
+      139.634580556
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:07:30.214922"
+  },
+  {
+    "id": "1270",
+    "api_id": "2001000011270",
+    "name": "さいたま新都心 コクーンシティ コクーン2店",
+    "address": "埼玉県 さいたま市大宮区 吉敷町4-263-1 コクーンシティ",
+    "coords": [
+      35.8930788889,
+      139.638128333
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:07:44.967150"
+  },
+  {
+    "id": "1898",
+    "api_id": "2001000011898",
+    "name": "さいたま新都心 コクーンシティ コクーン1店",
+    "address": "埼玉県 さいたま市大宮区 吉敷町4-267-2 コクーンシティ",
+    "coords": [
+      35.8910119444,
+      139.637983333
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:07:57.495660"
+  },
+  {
+    "id": "261",
+    "api_id": "200100001261",
+    "name": "ルミネ大宮 LUMINE2店",
+    "address": "埼玉県 さいたま市大宮区 錦町630 ルミネ大宮 LUMINE2 3F",
+    "coords": [
+      35.9030555556,
+      139.627791667
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:08:08.295286"
+  },
+  {
+    "id": "1589",
+    "api_id": "2001000011589",
+    "name": "ルミネ大宮 LUMINE1店",
+    "address": "埼玉県 さいたま市大宮区 錦町630 ルミネ大宮 LUMINE1 B1F",
+    "coords": [
+      35.9040611111,
+      139.627833333
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "20:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:08:21.477264"
+  },
+  {
+    "id": "2212",
+    "api_id": "2001000012212",
+    "name": "エキュート大宮ノース店",
+    "address": "埼玉県 さいたま市大宮区 錦町630 エキュート大宮ノース",
+    "coords": [
+      35.9034413889,
+      139.626642778
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "06:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "06:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:08:30.048559"
+  },
+  {
+    "id": "402",
+    "api_id": "200100001402",
+    "name": "大宮西口店",
+    "address": "埼玉県 さいたま市大宮区 桜木町1-1-12 NYビル",
+    "coords": [
+      35.9023916667,
+      139.624694444
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:08:40.468159"
+  },
+  {
+    "id": "1104",
+    "api_id": "2001000011104",
+    "name": "大宮マルイ店",
+    "address": "埼玉県 さいたま市大宮区 桜木町2-3 大宮マルイ",
+    "coords": [
+      35.9034527778,
+      139.625376389
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:08:53.181332"
+  },
+  {
+    "id": "4124",
+    "api_id": "2001000014124",
+    "name": "さいたま土呂店",
+    "address": "埼玉県 さいたま市北区 土呂町2-45-15",
+    "coords": [
+      35.9272786111,
+      139.638111111
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:09:02.616243"
+  },
+  {
+    "id": "557",
+    "api_id": "200100001557",
+    "name": "大宮宮原ステラタウン店",
+    "address": "埼玉県 さいたま市北区 宮原町1-854-1 ステラタウン",
+    "coords": [
+      35.9300252778,
+      139.625790556
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:09:12.817460"
+  },
+  {
+    "id": "4522",
+    "api_id": "2001000014522",
+    "name": "ららテラス川口店",
+    "address": "埼玉県 川口市 栄町3-5-1 ららテラス川口4階",
+    "coords": [
+      35.7996138889,
+      139.721856667
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:09:23.468149"
+  },
+  {
+    "id": "872",
+    "api_id": "200100001872",
+    "name": "ララガーデン川口店",
+    "address": "埼玉県 川口市 宮町18-9 ララガーデン川口",
+    "coords": [
+      35.8026202778,
+      139.701920833
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:09:37.306954"
+  },
+  {
+    "id": "1490",
+    "api_id": "2001000011490",
+    "name": "アリオ川口店",
+    "address": "埼玉県 川口市 並木元町1-79 アリオ川口1F",
+    "coords": [
+      35.8037097222,
+      139.717556667
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:09:52.549983"
+  },
+  {
+    "id": "4012",
+    "api_id": "2001000014012",
+    "name": "イオンモール川口店",
+    "address": "埼玉県 川口市 安行領根岸3180 イオンモール川口",
+    "coords": [
+      35.8346255556,
+      139.727672778
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:10:04.410653"
+  },
+  {
+    "id": "164",
+    "api_id": "200100001164",
+    "name": "イオンモール川口前川 1階店",
+    "address": "埼玉県 川口市 前川1-1-11 イオンモール川口前川 1階",
+    "coords": [
+      35.8293025,
+      139.709751389
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:10:17.779911"
+  },
+  {
+    "id": "4575",
+    "api_id": "2001000014575",
+    "name": "イオンモール川口前川 3階店",
+    "address": "埼玉県 川口市 前川1-1-11 イオンモール川口前川 3階",
+    "coords": [
+      35.8298811111,
+      139.710347778
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:10:28.117838"
+  },
+  {
+    "id": "1360",
+    "api_id": "2001000011360",
+    "name": "ビーンズ戸田公園店",
+    "address": "埼玉県 戸田市 本町4-15-1 ビーンズ戸田公園",
+    "coords": [
+      35.8045277778,
+      139.6816925
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:10:40.784090"
+  },
+  {
+    "id": "581",
+    "api_id": "200100001581",
+    "name": "イオンモール北戸田店",
+    "address": "埼玉県 戸田市 美女木東1-3-1 イオンモール北戸田",
+    "coords": [
+      35.8230661111,
+      139.656691944
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:10:51.891323"
+  },
+  {
+    "id": "251",
+    "api_id": "200100001251",
+    "name": "武蔵浦和ＢＥＡＮＳ店",
+    "address": "埼玉県 さいたま市南区 別所7-12-1 武蔵浦和ビーンズ 1F",
+    "coords": [
+      35.8425075,
+      139.650132778
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:11:05.655109"
+  },
+  {
+    "id": "821",
+    "api_id": "200100001821",
+    "name": "浦和別所店",
+    "address": "埼玉県 さいたま市南区 別所3-2-2",
+    "coords": [
+      35.8517916667,
+      139.650623333
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:11:17.932532"
+  },
+  {
+    "id": "668",
+    "api_id": "200100001668",
+    "name": "イオンモール浦和美園店",
+    "address": "埼玉県 さいたま市緑区 美園5-50-1 イオンモール浦和美園",
+    "coords": [
+      35.8887194444,
+      139.733855
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:11:26.345046"
+  },
+  {
+    "id": "2106",
+    "api_id": "2001000012106",
+    "name": "TSUTAYA ハレノテラス東大宮店",
+    "address": "埼玉県 さいたま市見沼区 島町393",
+    "coords": [
+      35.942515,
+      139.654431944
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:11:40.324622"
+  },
+  {
+    "id": "1398",
+    "api_id": "2001000011398",
+    "name": "さいたま大和田店",
+    "address": "埼玉県 さいたま市見沼区 大和田町1-1931",
+    "coords": [
+      35.9204991667,
+      139.659123889
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:11:54.759224"
+  },
+  {
+    "id": "588",
+    "api_id": "200100001588",
+    "name": "イオンモール与野店",
+    "address": "埼玉県 さいたま市中央区 本町西5-2-9 イオンモール与野",
+    "coords": [
+      35.8878705556,
+      139.618136667
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:12:03.424507"
+  },
+  {
+    "id": "1575",
+    "api_id": "2001000011575",
+    "name": "さいたま南与野店",
+    "address": "埼玉県 さいたま市中央区 鈴谷5-3-18",
+    "coords": [
+      35.8673030556,
+      139.632924722
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:12:14.674456"
+  },
+  {
+    "id": "4578",
+    "api_id": "2001000014578",
+    "name": "草加ヴァリエ店",
+    "address": "埼玉県 草加市 氷川町1970 草加ヴァリエ1階",
+    "coords": [
+      35.8254419444,
+      139.807064167
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:12:25.048769"
+  },
+  {
+    "id": "1615",
+    "api_id": "2001000011615",
+    "name": "ららぽーと新三郷店",
+    "address": "埼玉県 三郷市 新三郷ららシティ3-1-1 ららぽーと新三郷 2階",
+    "coords": [
+      35.8555961111,
+      139.869470556
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:12:36.797336"
+  },
+  {
+    "id": "1868",
+    "api_id": "2001000011868",
+    "name": "三郷中央店",
+    "address": "埼玉県 三郷市 中央4-11-3",
+    "coords": [
+      35.8290425,
+      139.882335278
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:12:45.861411"
+  },
+  {
+    "id": "617",
+    "api_id": "200100001617",
+    "name": "三郷イトーヨーカドー店",
+    "address": "埼玉県 三郷市 ピアラシティ1-1-1 イトーヨーカドー三郷店",
+    "coords": [
+      35.8400941667,
+      139.857286111
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:13:00.237394"
+  },
+  {
+    "id": "4579",
+    "api_id": "2001000014579",
+    "name": "エキア越谷店",
+    "address": "埼玉県 越谷市 弥生町4-11 EQUiA越谷1階",
+    "coords": [
+      35.8851233333,
+      139.789325
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:13:09.615258"
+  },
+  {
+    "id": "864",
+    "api_id": "200100001864",
+    "name": "越谷イオンレイクタウン mori 1階店",
+    "address": "埼玉県 越谷市 レイクタウン3-1-1 イオンレイクタウン mori",
+    "coords": [
+      35.8788388889,
+      139.831887222
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:13:18.054969"
+  },
+  {
+    "id": "865",
+    "api_id": "200100001865",
+    "name": "越谷イオンレイクタウン mori ガーデンウォーク店",
+    "address": "埼玉県 越谷市 レイクタウン3-1-1 イオンレイクタウン mori",
+    "coords": [
+      35.8778675,
+      139.831055278
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:13:32.146556"
+  },
+  {
+    "id": "866",
+    "api_id": "200100001866",
+    "name": "越谷イオンレイクタウン mori 3階店",
+    "address": "埼玉県 越谷市 レイクタウン3-1-1 イオンレイクタウン mori",
+    "coords": [
+      35.8770175,
+      139.831238333
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:13:47.280675"
+  },
+  {
+    "id": "867",
+    "api_id": "200100001867",
+    "name": "越谷イオンレイクタウン kaze 1階店",
+    "address": "埼玉県 越谷市 レイクタウン4-2-2 イオンレイクタウン kaze 1F",
+    "coords": [
+      35.8738077778,
+      139.827650278
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:13:56.946178"
+  },
+  {
+    "id": "1026",
+    "api_id": "2001000011026",
+    "name": "越谷レイクタウン アウトレット店",
+    "address": "埼玉県 越谷市 レイクタウン4-1-1 レイクタウンアウトレット",
+    "coords": [
+      35.8769919444,
+      139.828404722
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:14:09.276924"
+  },
+  {
+    "id": "4115",
+    "api_id": "2001000014115",
+    "name": "越谷イオンレイクタウン kaze 2階レイクタウンゲート店",
+    "address": "埼玉県 越谷市 レイクタウン4-2-2 イオンレイクタウン kaze　2F",
+    "coords": [
+      35.8733352778,
+      139.826090556
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:14:22.564245"
+  },
+  {
+    "id": "4329",
+    "api_id": "2001000014329",
+    "name": "越谷イオンレイクタウン kaze 2階カフェプラザ店",
+    "address": "埼玉県 越谷市 レイクタウン4-2-2 イオンレイクタウン kaze 2F",
+    "coords": [
+      35.8747686111,
+      139.828038333
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": true,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:14:34.385679"
+  },
+  {
+    "id": "4391",
+    "api_id": "2001000014391",
+    "name": "新越谷ヴァリエ店",
+    "address": "埼玉県 越谷市 南越谷1-11-4 新越谷ヴァリエ2階",
+    "coords": [
+      35.8725125,
+      139.793122222
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:14:45.255395"
+  },
+  {
+    "id": "823",
+    "api_id": "200100001823",
+    "name": "獨協医科大学埼玉医療センター店",
+    "address": "埼玉県 越谷市 南越谷2-1-50 獨協医科大学埼玉医療センター",
+    "coords": [
+      35.8745369444,
+      139.793198056
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "19:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "17:00"
+      },
+      "sun": {
+        "open": "12:00",
+        "close": "17:00"
+      },
+      "hol": {
+        "open": "12:00",
+        "close": "17:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:14:55.816304"
+  },
+  {
+    "id": "768",
+    "api_id": "200100001768",
+    "name": "ララガーデン春日部店",
+    "address": "埼玉県 春日部市 南1-1-1(店舗番号1230) ララガーデン春日部",
+    "coords": [
+      35.9743802778,
+      139.758344444
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:15:06.942470"
+  },
+  {
+    "id": "1128",
+    "api_id": "2001000011128",
+    "name": "イオンモール春日部店",
+    "address": "埼玉県 春日部市 下柳420-1",
+    "coords": [
+      35.984625,
+      139.791028889
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:15:20.966210"
+  },
+  {
+    "id": "682",
+    "api_id": "200100001682",
+    "name": "東武久喜駅店",
+    "address": "埼玉県 久喜市 中央2-1-1 東武久喜駅",
+    "coords": [
+      36.0623322222,
+      139.680928056
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:15:35.124582"
+  },
+  {
+    "id": "1036",
+    "api_id": "2001000011036",
+    "name": "モラージュ菖蒲1階店",
+    "address": "埼玉県 久喜市 菖蒲町菖蒲6005-1 モラージュ菖蒲1階",
+    "coords": [
+      36.0719972222,
+      139.614864167
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:15:48.081617"
+  },
+  {
+    "id": "4160",
+    "api_id": "2001000014160",
+    "name": "モラージュ菖蒲122号バイパス店",
+    "address": "埼玉県 久喜市 菖蒲町菖蒲6005-1 モラージュ菖蒲",
+    "coords": [
+      36.07253,
+      139.613533056
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:16:00.138008"
+  },
+  {
+    "id": "951",
+    "api_id": "200100001951",
+    "name": "羽生パーキングエリア（下り線）店",
+    "address": "埼玉県 羽生市 弥勒三新田824 Pasar羽生",
+    "coords": [
+      36.17717,
+      139.588454444
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "06:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "06:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:16:10.294836"
+  },
+  {
+    "id": "1883",
+    "api_id": "2001000011883",
+    "name": "カインズ羽生店",
+    "address": "埼玉県 羽生市 小松514-1",
+    "coords": [
+      36.1529488889,
+      139.536755278
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:16:21.831369"
+  },
+  {
+    "id": "790",
+    "api_id": "200100001790",
+    "name": "イオンモール羽生1階店",
+    "address": "埼玉県 羽生市 川崎2-281-3 イオンモール羽生1階",
+    "coords": [
+      36.1402111111,
+      139.544149444
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:16:36.473131"
+  },
+  {
+    "id": "4364",
+    "api_id": "2001000014364",
+    "name": "イオンモール羽生3階店",
+    "address": "埼玉県 羽生市 川崎2-281-3 イオンモール羽生3階",
+    "coords": [
+      36.1396894444,
+      139.545034444
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:16:50.542811"
+  },
+  {
+    "id": "1648",
+    "api_id": "2001000011648",
+    "name": "蓮田サービスエリア（上り線）店",
+    "address": "埼玉県 蓮田市 川島370 Pasar蓮田（上り線）",
+    "coords": [
+      35.9746516667,
+      139.670386944
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:17:04.496687"
+  },
+  {
+    "id": "2142",
+    "api_id": "2001000012142",
+    "name": "TSUTAYA 南古谷店",
+    "address": "埼玉県 川越市 泉町3-1 ウニクス南古谷",
+    "coords": [
+      35.9027861111,
+      139.515515833
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:17:13.965112"
+  },
+  {
+    "id": "281",
+    "api_id": "200100001281",
+    "name": "西武本川越駅店",
+    "address": "埼玉県 川越市 新富町1-22 本川越駅構内",
+    "coords": [
+      35.9113844444,
+      139.484860833
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:17:27.180318"
+  },
+  {
+    "id": "1554",
+    "api_id": "2001000011554",
+    "name": "川越鐘つき通り店",
+    "address": "埼玉県 川越市 幸町15-18",
+    "coords": [
+      35.9204741667,
+      139.487041944
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:17:36.032384"
+  },
+  {
+    "id": "720",
+    "api_id": "200100001720",
+    "name": "カインズスーパーモールかわじま店",
+    "address": "埼玉県 比企郡 川島町上伊草210 カインズスーパーモールかわじま",
+    "coords": [
+      35.9740183333,
+      139.470095833
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:17:50.095882"
+  },
+  {
+    "id": "2074",
+    "api_id": "2001000012074",
+    "name": "TSUTAYA 坂戸八幡店",
+    "address": "埼玉県 坂戸市 八幡1-3-21",
+    "coords": [
+      35.9551033333,
+      139.4062725
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:18:04.155566"
+  },
+  {
+    "id": "1635",
+    "api_id": "2001000011635",
+    "name": "川越伊勢原店",
+    "address": "埼玉県 川越市 伊勢原町3-2-3",
+    "coords": [
+      35.9185397222,
+      139.431026389
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:18:18.886041"
+  },
+  {
+    "id": "4210",
+    "api_id": "2001000014210",
+    "name": "エキア川越店",
+    "address": "埼玉県 川越市 脇田町24-9 EQUiA川越",
+    "coords": [
+      35.9040541667,
+      139.486420278
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:18:33.452504"
+  },
+  {
+    "id": "537",
+    "api_id": "200100001537",
+    "name": "ルミネ川越店",
+    "address": "埼玉県 川越市 脇田本町39-19 ルミネ川越",
+    "coords": [
+      35.9038158333,
+      139.486044444
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:18:47.960150"
+  },
+  {
+    "id": "752",
+    "api_id": "200100001752",
+    "name": "埼玉医科大学国際医療センター店",
+    "address": "埼玉県 日高市 山根稲荷山1397-1 埼玉医科大学国際医療センター",
+    "coords": [
+      35.9180555556,
+      139.325555556
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "18:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "17:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:18:57.676811"
+  },
+  {
+    "id": "1869",
+    "api_id": "2001000011869",
+    "name": "狭山市入間川にこにこテラス店",
+    "address": "埼玉県 狭山市 柏原2910-1",
+    "coords": [
+      35.8614566667,
+      139.407546389
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:19:11.146402"
+  },
+  {
+    "id": "1710",
+    "api_id": "2001000011710",
+    "name": "鶴ヶ島若葉店",
+    "address": "埼玉県 鶴ヶ島市 富士見2-2-8",
+    "coords": [
+      35.9483361111,
+      139.415585
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:19:21.227650"
+  },
+  {
+    "id": "667",
+    "api_id": "200100001667",
+    "name": "カインズホーム鶴ヶ島店",
+    "address": "埼玉県 鶴ヶ島市 三ツ木奥仲580-1",
+    "coords": [
+      35.9239322222,
+      139.395250833
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:19:30.626350"
+  },
+  {
+    "id": "471",
+    "api_id": "200100001471",
+    "name": "朝霞駅前店",
+    "address": "埼玉県 朝霞市 本町2-4-18 バモスビル",
+    "coords": [
+      35.7934213889,
+      139.602716944
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:19:43.059427"
+  },
+  {
+    "id": "1794",
+    "api_id": "2001000011794",
+    "name": "エキア プレミエ 和光店",
+    "address": "埼玉県 和光市 本町4-6",
+    "coords": [
+      35.7850752778,
+      139.616349444
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:19:53.423363"
+  },
+  {
+    "id": "162",
+    "api_id": "200100001162",
+    "name": "志木駅前店",
+    "address": "埼玉県 新座市 東北2-39-1 井下田第２ビル 1F",
+    "coords": [
+      35.8195866667,
+      139.578008611
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:20:01.716640"
+  },
+  {
+    "id": "1587",
+    "api_id": "2001000011587",
+    "name": "エキア志木店",
+    "address": "埼玉県 新座市 東北2-38-1 EQUiA志木",
+    "coords": [
+      35.8191902778,
+      139.578356667
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:20:13.525357"
+  },
+  {
+    "id": "1598",
+    "api_id": "2001000011598",
+    "name": "くみまちMALL新座店",
+    "address": "埼玉県 新座市 大和田2-6-28 くみまちMALL新座",
+    "coords": [
+      35.8021561111,
+      139.549980278
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:20:28.103909"
+  },
+  {
+    "id": "4374",
+    "api_id": "2001000014374",
+    "name": "新座野火止店",
+    "address": "埼玉県 新座市 野火止7-11-42",
+    "coords": [
+      35.8016294444,
+      139.5724775
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:20:37.241829"
+  },
+  {
+    "id": "1246",
+    "api_id": "2001000011246",
+    "name": "ららぽーと富士見2階店",
+    "address": "埼玉県 富士見市 山室1-1313 ららぽーと富士見2階",
+    "coords": [
+      35.8553841667,
+      139.551781111
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:20:49.300733"
+  },
+  {
+    "id": "799",
+    "api_id": "200100001799",
+    "name": "三芳パーキングエリア(下り線)店",
+    "address": "埼玉県 入間郡 三芳町上富2218-1 三芳パーキングエリア(下り線)",
+    "coords": [
+      35.8384505556,
+      139.505520833
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:21:02.511305"
+  },
+  {
+    "id": "4366",
+    "api_id": "2001000014366",
+    "name": "ららぽーと富士見3階店",
+    "address": "埼玉県 富士見市 山室1-1313 ららぽーと富士見3階",
+    "coords": [
+      35.8566825,
+      139.551073056
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:21:16.450401"
+  },
+  {
+    "id": "953",
+    "api_id": "200100001953",
+    "name": "ピオニウォーク東松山店",
+    "address": "埼玉県 東松山市 あずま町4-3",
+    "coords": [
+      36.0018963889,
+      139.413088056
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:21:31.652921"
+  },
+  {
+    "id": "687",
+    "api_id": "200100001687",
+    "name": "なめがわ森林モール店",
+    "address": "埼玉県 比企郡 滑川町羽尾2806－1",
+    "coords": [
+      36.0552777778,
+      139.373333333
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:21:43.443228"
+  },
+  {
+    "id": "4096",
+    "api_id": "2001000014096",
+    "name": "ふじみ野清見店",
+    "address": "埼玉県 ふじみ野市 清見2-1-7",
+    "coords": [
+      35.8786155556,
+      139.523804722
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:21:53.570152"
+  },
+  {
+    "id": "971",
+    "api_id": "200100001971",
+    "name": "ふじみ野店",
+    "address": "埼玉県 ふじみ野市 ふじみ野4-9-1",
+    "coords": [
+      35.8545216667,
+      139.519626389
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:22:05.662306"
+  },
+  {
+    "id": "4243",
+    "api_id": "2001000014243",
+    "name": "ふじみ野亀久保店",
+    "address": "埼玉県 ふじみ野市 亀久保4-9-27",
+    "coords": [
+      35.8541738889,
+      139.516873333
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:22:20.001236"
+  },
+  {
+    "id": "1673",
+    "api_id": "2001000011673",
+    "name": "飯能メッツァビレッジ店",
+    "address": "埼玉県 飯能市 宮沢327-6 メッツァ",
+    "coords": [
+      35.8690788889,
+      139.333175278
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:22:28.526219"
+  },
+  {
+    "id": "240",
+    "api_id": "200100001240",
+    "name": "飯能ＰｅＰｅ店",
+    "address": "埼玉県 飯能市 仲町11-21 飯能ＰｅＰｅ 2F",
+    "coords": [
+      35.8477316667,
+      139.322865278
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:22:41.225715"
+  },
+  {
+    "id": "4367",
+    "api_id": "2001000014367",
+    "name": "入間下藤沢店",
+    "address": "埼玉県 入間市 下藤沢2-34-3",
+    "coords": [
+      35.8158430556,
+      139.410732222
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:22:54.302698"
+  },
+  {
+    "id": "501",
+    "api_id": "200100001501",
+    "name": "イオン入間店",
+    "address": "埼玉県 入間市 上藤沢下原462 イオン入間ショッピングセンター",
+    "coords": [
+      35.8181708333,
+      139.398336944
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:23:06.944975"
+  },
+  {
+    "id": "4409",
+    "api_id": "2001000014409",
+    "name": "三井アウトレットパーク入間店",
+    "address": "埼玉県 入間市 宮寺3169-1 三井アウトレットパーク入間",
+    "coords": [
+      35.8070405556,
+      139.384845
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:23:16.552693"
+  },
+  {
+    "id": "1531",
+    "api_id": "2001000011531",
+    "name": "グランエミオ所沢東口2階店",
+    "address": "埼玉県 所沢市 くすのき台1-14-5 グランエミオ所沢",
+    "coords": [
+      35.7838211111,
+      139.477343889
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:23:25.074598"
+  },
+  {
+    "id": "1585",
+    "api_id": "2001000011585",
+    "name": "グランエミオ所沢西口1階店",
+    "address": "埼玉県 所沢市 くすのき台1-14-5 グランエミオ所沢",
+    "coords": [
+      35.7836266667,
+      139.476206667
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:23:39.181017"
+  },
+  {
+    "id": "1152",
+    "api_id": "2001000011152",
+    "name": "所沢けやき台店",
+    "address": "埼玉県 所沢市 けやき台2-17-10",
+    "coords": [
+      35.7931705556,
+      139.458828889
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:23:48.475120"
+  },
+  {
+    "id": "1437",
+    "api_id": "2001000011437",
+    "name": "所沢小手指バイパス店",
+    "address": "埼玉県 所沢市 北野1-2-67",
+    "coords": [
+      35.7934788889,
+      139.431630833
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:23:59.583643"
+  },
+  {
+    "id": "298",
+    "api_id": "200100001298",
+    "name": "アズ熊谷店",
+    "address": "埼玉県 熊谷市 筑波2-115 熊谷駅ビルＡＺ２",
+    "coords": [
+      36.1363869444,
+      139.392606389
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:24:13.032908"
+  },
+  {
+    "id": "1597",
+    "api_id": "2001000011597",
+    "name": "カインズ熊谷籠原店",
+    "address": "埼玉県 熊谷市 新堀952-11 カインズ熊谷籠原",
+    "coords": [
+      36.1765108333,
+      139.331554722
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:24:27.023613"
+  },
+  {
+    "id": "1447",
+    "api_id": "2001000011447",
+    "name": "上尾二ツ宮店",
+    "address": "埼玉県 上尾市 二ツ宮957-1",
+    "coords": [
+      35.9782161111,
+      139.606128056
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:24:39.110585"
+  },
+  {
+    "id": "1874",
+    "api_id": "2001000011874",
+    "name": "イオンモール上尾店",
+    "address": "埼玉県 上尾市 愛宕3-8-1 イオンモール上尾1階",
+    "coords": [
+      35.9621813889,
+      139.603723889
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:24:49.318629"
+  },
+  {
+    "id": "4005",
+    "api_id": "2001000014005",
+    "name": "上尾壱丁目店",
+    "address": "埼玉県 上尾市 壱丁目北6-12",
+    "coords": [
+      35.9576894444,
+      139.573844722
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:25:00.991097"
+  },
+  {
+    "id": "1481",
+    "api_id": "2001000011481",
+    "name": "桶川下日出谷店",
+    "address": "埼玉県 桶川市 下日出谷東3-2",
+    "coords": [
+      35.9955775,
+      139.555404722
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:25:15.024436"
+  },
+  {
+    "id": "4161",
+    "api_id": "2001000014161",
+    "name": "深谷国済寺店",
+    "address": "埼玉県 深谷市 国済寺町26-5",
+    "coords": [
+      36.1861216667,
+      139.310375556
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:25:27.923550"
+  },
+  {
+    "id": "4574",
+    "api_id": "2001000014574",
+    "name": "ウニクス上里店",
+    "address": "埼玉県 児玉郡 上里町七本木2272-1",
+    "coords": [
+      36.2349588889,
+      139.155261667
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:25:36.728262"
+  },
+  {
+    "id": "800",
+    "api_id": "200100001800",
+    "name": "上里サービスエリア(上り線)店",
+    "address": "埼玉県 児玉郡 上里町五明849-1 上里サービスエリア(上り線)",
+    "coords": [
+      36.2528405556,
+      139.122976111
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:25:49.670355"
+  },
+  {
+    "id": "815",
+    "api_id": "200100001815",
+    "name": "上里サービスエリア（下り線）店",
+    "address": "埼玉県 児玉郡 上里町五明820 上里サービスエリア（下り線）",
+    "coords": [
+      36.2515377778,
+      139.122283056
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:26:01.338943"
+  },
+  {
+    "id": "4148",
+    "api_id": "2001000014148",
+    "name": "ふかや花園プレミアム・アウトレット店",
+    "address": "埼玉県 深谷市 花園１番地 ふかや花園プレミアム・アウトレット",
+    "coords": [
+      36.1295463889,
+      139.253691944
+    ],
+    "prefecture_code": 11,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "20:30"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "20:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-23T14:26:11.871671"
+  }
+]
