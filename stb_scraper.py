@@ -293,6 +293,7 @@ def fetch_detail_html(store_id: str) -> tuple[str | None, str | None]:
         try:
             resp = requests.get(url, headers=HEADERS_HTML, timeout=20)
             if resp.status_code == 200:
+                resp.encoding = 'utf-8'  # ← ★この1行を追加！
                 return resp.text, None
             if resp.status_code == 404:
                 return None, FailureReason.NOT_SUPPORTED
