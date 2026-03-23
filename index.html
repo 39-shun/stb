@@ -217,15 +217,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 #map { width:100%; height:100%; }
 
 /* 地図折りたたみハンドル（スマホ） */
-#map-collapse-btn {
-  display:none; position:absolute; bottom:0; left:0; right:0;
-  z-index:800; background:var(--surface); border-top:1px solid var(--border);
-  padding:6px 16px; text-align:center; font-size:12px; color:var(--text-sub);
-  cursor:pointer; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
-}
-#map-collapse-btn.list-mode {
-  position:relative; bottom:auto; border-top:none; border-bottom:1px solid var(--border);
-}
+/* map-collapse-btn: mobile-list-area内に常に配置。スマホのみ表示 */
+#map-collapse-btn{display:none;width:100%;background:var(--surface);border-bottom:1px solid var(--border);padding:8px 16px;text-align:center;font-size:12px;color:var(--text-sub);cursor:pointer;flex-shrink:0;}
 
 /* モバイルリストエリア */
 #mobile-list-area {
@@ -508,7 +501,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       <div id="map"></div>
 
       <!-- 地図折りたたみハンドル -->
-      <div id="map-collapse-btn" onclick="toggleMapCollapse()" title="リストを広げる">▲ リストを広げる</div>
+      
 
       <button id="locate-btn" title="現在地から近い順">⊕</button>
       <button id="custom-pin-btn" title="任意地点から近い順" onclick="toggleCustomPin()">📍</button>
@@ -517,6 +510,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
     <!-- モバイルリストエリア -->
     <div id="mobile-list-area">
+      <div id="map-collapse-btn" onclick="toggleMapCollapse()">▲ リストを広げる</div>
       <div id="mobile-list-top">
         <span id="mobile-list-title">近くの店舗</span>
         <span id="mobile-list-count"></span>
@@ -691,12 +685,10 @@ window.toggleMapCollapse = function() {
     mapWrap.classList.add('map-hidden');
     mobileBar.classList.add('hidden');
     btn.textContent = '▼ 地図を表示';
-    btn.classList.add('list-mode');
   } else {
     mapWrap.classList.remove('map-hidden');
     mobileBar.classList.remove('hidden');
     btn.textContent = '▲ リストを広げる';
-    btn.classList.remove('list-mode');
   }
   setTimeout(() => map.invalidateSize(), 350);
 };
