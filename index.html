@@ -218,10 +218,13 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
 /* 地図折りたたみハンドル（スマホ） */
 #map-collapse-btn {
-  display:none; position:absolute; bottom:0; left:50%; transform:translateX(-50%);
-  z-index:800; background:var(--surface); border:1px solid var(--border);
-  border-radius:8px 8px 0 0; padding:3px 20px; font-size:12px; color:var(--text-sub);
-  cursor:pointer; box-shadow:var(--shadow);
+  display:none; position:absolute; bottom:0; left:0; right:0;
+  z-index:800; background:var(--surface); border-top:1px solid var(--border);
+  padding:6px 16px; text-align:center; font-size:12px; color:var(--text-sub);
+  cursor:pointer; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+#map-collapse-btn.list-mode {
+  position:relative; bottom:auto; border-top:none; border-bottom:1px solid var(--border);
 }
 
 /* モバイルリストエリア */
@@ -688,14 +691,12 @@ window.toggleMapCollapse = function() {
     mapWrap.classList.add('map-hidden');
     mobileBar.classList.add('hidden');
     btn.textContent = '▼ 地図を表示';
-    // ボタンをリストエリア上部に移動
-    document.getElementById('mobile-list-top').after(btn);
+    btn.classList.add('list-mode');
   } else {
     mapWrap.classList.remove('map-hidden');
     mobileBar.classList.remove('hidden');
     btn.textContent = '▲ リストを広げる';
-    // ボタンを地図内に戻す
-    mapWrap.appendChild(btn);
+    btn.classList.remove('list-mode');
   }
   setTimeout(() => map.invalidateSize(), 350);
 };
@@ -865,8 +866,40 @@ function initFilters() {
 }
 
 function redrawAfterFilter() {
-  // サマリーを再描画（都道府県未選択時）
-  if (state.summaryData && !state.currentPref) {
+  if (state.selectedPrefs.size > 0) {
+    // 都道府県選択中: 選択県を再描画
+    renderAllSelectedPrefs();
+  } else if (map.getZoom() >= 9) {
+    // ズーム自動表示中: 現在のbounds内の店舗を再描画
+    const bounds = map.getBounds();
+    const visibleCodes = [];
+    for (const [code, cfg] of Object.entries(PREFECTURE_CONFIG)) {
+      const [[s,w],[n,e]] = cfg.bounds;
+      if (bounds.getSouth()<=n && bounds.getNorth()>=s &&
+          bounds.getWest()<=e && bounds.getEast()>=w)
+        visibleCodes.push(code);
+    }
+    if (state.detailGroup) map.removeLayer(state.detailGroup);
+    state.markerMap = {};
+    let allShops = [];
+    for (const c of visibleCodes) {
+      if (state.detailCache[c]) allShops = allShops.concat(state.detailCache[c]);
+    }
+    const processed = applyMerge(allShops).filter(passesFilter);
+    state.detailGroup = L.markerClusterGroup({
+      maxClusterRadius:50, spiderfyOnMaxZoom:true,
+      showCoverageOnHover:false, iconCreateFunction:clusterIcon,
+    });
+    for (const shop of processed) {
+      if (!shop.coords?.length) continue;
+      const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, !!shop._merged) });
+      marker.bindPopup(buildPopup(shop), { maxWidth:280 });
+      state.detailGroup.addLayer(marker);
+      state.markerMap[shop.id] = marker;
+    }
+    map.addLayer(state.detailGroup);
+  } else if (state.summaryData) {
+    // サマリー表示中: サマリーを再描画
     if (state.summaryGroup) map.removeLayer(state.summaryGroup);
     state.summaryGroup = L.markerClusterGroup({
       maxClusterRadius:60, spiderfyOnMaxZoom:true,
@@ -881,21 +914,14 @@ function redrawAfterFilter() {
       });
       m.on('click', () => {
         const code = String(s.prefecture_code).padStart(2,'0');
-        if (state.currentPref) return;
+        if (state.selectedPrefs.size > 0) return;
         selectPref(code);
       });
       state.summaryGroup.addLayer(m);
     }
     map.addLayer(state.summaryGroup);
   }
-  // 都道府県選択済みの場合は詳細マーカーを再描画
-  if (state.selectedPrefs.size > 0) {
-    renderAllSelectedPrefs();
-  }
-  // リストも再描画
-  if (state.originLat !== null) {
-    renderList(getAllCachedShops());
-  }
+  if (state.originLat !== null) renderList(getAllCachedShops());
 }
 
 // ============================================================
@@ -1085,10 +1111,8 @@ function setOrigin(lat, lng, label='📍 基点') {
   // 近くの県を自動先読み
   const code = detectPrefFromCoords(lat, lng);
   if (code) {
-    fetchDetail(code).then(shops => {
-      if (shops) { renderDetailMarkers(shops); selectPrefUI(code); }
-      renderList(getAllCachedShops());
-    });
+    // 近隣県を先読みするがselectPrefUIは呼ばない（ズーム自動読み込みに任せる）
+    fetchDetail(code).then(() => renderList(getAllCachedShops()));
     prefetchNeighbors(code);
   }
 }
@@ -1286,12 +1310,15 @@ map.on('zoomend', () => {
         });
         for (const shop of processed) {
           if (!shop.coords?.length) continue;
-          const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, !!shop._merged) });
+          const isMerged = !!shop._merged;
+          const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, isMerged) });
           marker.bindPopup(buildPopup(shop), { maxWidth:280 });
           state.detailGroup.addLayer(marker);
           state.markerMap[shop.id] = marker;
         }
         map.addLayer(state.detailGroup);
+        // ズーム自動読み込み時のフィルターインジケーター更新
+        updateFilterIndicator();
       });
     }
   } else if (state.selectedPrefs.size === 0 && zoom < 9) {
