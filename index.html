@@ -123,16 +123,18 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 .accordion-arrow { font-size:10px; transition:transform .2s; }
 .accordion-arrow.open { transform:rotate(180deg); }
 .accordion-body { overflow:hidden; transition:max-height .3s ease; max-height:0; }
-.accordion-body.open { max-height:600px; overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--border) transparent; }
+.accordion-body.open { max-height:800px; overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--border) transparent; }
 
 /* 検索欄 */
 #search-wrap {
-  padding:10px 12px; border-bottom:1px solid var(--border);
-  background:var(--surface); flex-shrink:0;
-  display:flex; gap:6px; align-items:center;
+  padding:0; border-bottom:1px solid var(--border);
+  background:var(--surface); flex-shrink:0; position:relative;
+}
+#search-wrap > div:first-child {
+  display:flex; gap:6px; padding:10px 12px; align-items:center;
 }
 #search-input {
-  flex:1; padding:6px 10px; border:1px solid var(--border); border-radius:6px;
+  flex:1; min-width:0; padding:6px 10px; border:1px solid var(--border); border-radius:6px;
   background:var(--surface2); color:var(--text); font-size:13px;
   font-family:'Noto Sans JP',sans-serif; outline:none; transition:border-color .15s;
 }
@@ -366,19 +368,19 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     flex:0 0 0%;
   }
 
-  /* 現在地ボタン: 地図内右下 */
+  /* 現在地ボタン: 地図内右下（広告の上） */
   #locate-btn { bottom:16px !important; right:12px !important; }
-  /* 検索FAB: 地図右上、ズームコントロール(左上)と被らないよう右上に */
+  /* 検索FAB: 地図右上（ズームコントロールは左上なので右上は安全） */
   #mobile-search-fab { display:flex; top:10px; right:10px; left:auto; }
 
-  /* 3ステート用クラス */
-  #map-wrap.state-map  { flex:0 0 100%; }
-  #map-wrap.state-list { flex:0 0 0%; }
-  /* デフォルトは35% */
-  #map-wrap { flex:0 0 35%; }
+  /* デフォルト35:65 */
+  #map-wrap { flex:0 0 35%; transition:flex-basis .3s ease; }
 
-  /* 地図最大時のリストエリア縮小 */
-  #mobile-list-area.state-map { flex:0 0 auto; }
+  /* 地図最大 */
+  #map-wrap.state-map  { flex:0 0 calc(100% - 36px); }
+  /* リスト最大 */
+  #map-wrap.state-list { flex:0 0 36px; overflow:visible; }
+
   /* map-toggle-barは常時表示 */
   #map-toggle-bar { display:flex; }
 
@@ -398,9 +400,17 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 }
 @media (max-width:960px) { .tagline { display:none; } }
 
-/* 地図最大時：リストエリアはトグルバーのみ表示 */
+/* 地図最大時：リストエリアはトグルバーのみ */
 #mobile-list-area.state-map > *:not(#map-toggle-bar) { display:none !important; }
-#mobile-list-area.state-map { flex:0 0 auto !important; overflow:visible; }
+#mobile-list-area.state-map { flex:0 0 auto !important; overflow:visible; border-top:none; }
+/* リスト最大時：地図は細帯（トグルバー兼用） */
+#map-wrap.state-list #map,
+#map-wrap.state-list #locate-btn,
+#map-wrap.state-list #mobile-search-fab,
+#map-wrap.state-list #mobile-search-overlay,
+#map-wrap.state-list #loading,
+#map-wrap.state-list #filter-indicator { display:none !important; }
+/* map-toggle-barはmap-wrapにも複製しない—代わりにJS側でラベル変更 */
 #mobile-search-fab {
   display:none;
   position:absolute; top:10px; left:10px; z-index:900;
@@ -574,15 +584,15 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     <div id="mobile-list-area">
       <!-- 地図/リスト 3ステートボタン -->
       <div id="map-toggle-bar">
-        <button id="map-expand-btn" onclick="setMapState('map')" title="地図を広げる">▲ 地図</button>
-        <button id="list-expand-btn" onclick="setMapState('list')" title="リストを広げる">▼ リスト</button>
+        <button id="map-expand-btn" onclick="setMapState('map')" title="地図を広げる">▼ 地図を広げる</button>
+        <button id="list-expand-btn" onclick="setMapState('list')" title="リストを広げる">▲ リストを広げる</button>
       </div>
       <!-- 絞り込みアコーディオン -->
       <div class="accordion-header" id="mobile-filter-header" onclick="toggleMobileFilter()" style="padding:8px 14px;font-size:11px;">
         <span>絞り込み</span>
         <span class="accordion-arrow open" id="mobile-filter-arrow">▼</span>
       </div>
-      <div id="mobile-filter-body" class="accordion-body open" style="max-height:none;overflow:visible;">
+      <div id="mobile-filter-body" class="accordion-body open">
         <div id="mobile-filter-area">
           <div class="filter-group">
             <div class="filter-group-label">価格帯</div>
@@ -763,30 +773,37 @@ window.scrollToFilter = function() {
 let mapState = 'default'; // 'default' | 'map' | 'list'
 
 window.setMapState = function(target) {
+  // 端からは必ずdefaultに戻る
+  if (mapState !== 'default') target = 'default';
+  mapState = target;
+
   const mapWrap  = document.getElementById('map-wrap');
   const listArea = document.getElementById('mobile-list-area');
   const mapBtn   = document.getElementById('map-expand-btn');
   const listBtn  = document.getElementById('list-expand-btn');
-  const fab      = document.getElementById('mobile-search-fab');
-
-  // 同じボタンをもう一度押したらdefaultに戻る
-  if (mapState === target) target = 'default';
-  mapState = target;
 
   mapWrap.classList.remove('state-map','state-list');
   listArea.classList.remove('state-map','state-list');
-  mapBtn.classList.remove('active');
-  listBtn.classList.remove('active');
 
   if (target === 'map') {
     mapWrap.classList.add('state-map');
     listArea.classList.add('state-map');
-    mapBtn.classList.add('active');
-    if (fab) fab.style.display = 'flex';
+    // トグルバーは1ボタン：戻る
+    mapBtn.style.display  = 'none';
+    listBtn.style.display = 'block';
+    listBtn.textContent   = '▲ 戻る';
   } else if (target === 'list') {
     mapWrap.classList.add('state-list');
-    listBtn.classList.add('active');
-    if (fab) fab.style.display = 'none';
+    // トグルバーは1ボタン：戻る
+    mapBtn.style.display  = 'block';
+    listBtn.style.display = 'none';
+    mapBtn.textContent    = '▼ 戻る';
+  } else {
+    // default：ラベルをリセット
+    mapBtn.style.display  = 'block';
+    listBtn.style.display = 'block';
+    mapBtn.textContent    = '▼ 地図を広げる';
+    listBtn.textContent   = '▲ リストを広げる';
   }
   setTimeout(() => map.invalidateSize(), 320);
 };
