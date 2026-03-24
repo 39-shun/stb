@@ -93,9 +93,12 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E");
   background-repeat:no-repeat; background-position:right 7px center;
 }
-.legend { display:flex; align-items:center; gap:10px; flex-shrink:0; }
-.legend-item { display:flex; align-items:center; gap:4px; font-size:11px; color:var(--text-sub); }
+.legend { display:flex; align-items:center; gap:12px; flex-shrink:0; }
+.legend-item { display:flex; align-items:center; gap:5px; }
 .legend-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+.legend-text { display:flex; flex-direction:column; }
+.legend-name { font-size:11px; color:var(--text-sub); line-height:1.3; }
+.legend-price { font-family:'DM Mono',monospace; font-size:9px; color:var(--text-sub); opacity:.8; line-height:1.3; white-space:nowrap; }
 
 /* ---- Sidebar ---- */
 #sidebar {
@@ -103,6 +106,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   border-right:1px solid var(--border);
   display:flex; flex-direction:column; overflow:hidden; height:100%;
 }
+/* フッターは常に最下部 */
+#sidebar-footer { padding:8px 16px; font-size:10px; color:var(--text-sub); border-top:1px solid var(--border); line-height:1.6; flex-shrink:0; margin-top:auto; }
 
 /* アコーディオン共通 */
 .accordion-header {
@@ -118,29 +123,43 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 .accordion-arrow { font-size:10px; transition:transform .2s; }
 .accordion-arrow.open { transform:rotate(180deg); }
 .accordion-body { overflow:hidden; transition:max-height .3s ease; max-height:0; }
-.accordion-body.open { max-height:42vh; overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--border) transparent; }
+.accordion-body.open { max-height:600px; overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--border) transparent; }
 
-/* 都道府県リスト */
-#pref-list-wrap { flex:1; overflow:hidden; display:flex; flex-direction:column; }
-#pref-list-body { overflow-y:auto; scrollbar-width:thin; scrollbar-color:var(--border) transparent; }
-.pref-item {
-  display:flex; align-items:center; justify-content:space-between;
-  padding:8px 16px; cursor:pointer;
-  border-left:2px solid transparent; transition:background .12s; gap:8px;
+/* 検索欄 */
+#search-wrap {
+  padding:10px 12px; border-bottom:1px solid var(--border);
+  background:var(--surface); flex-shrink:0;
+  display:flex; gap:6px; align-items:center;
 }
-.pref-item:hover { background:rgba(0,112,74,.05); }
-.pref-item.active { background:rgba(0,112,74,.08); border-left-color:var(--accent); }
-.pref-item.selected { background:rgba(0,112,74,.12); border-left-color:var(--accent); }
-.pref-item.selected .pref-name::after { content:' ✓'; font-size:10px; color:var(--accent); }
-.pref-name { font-size:13px; flex:1; }
-.pref-freshness {
-  font-family:'DM Mono',monospace; font-size:10px;
-  white-space:nowrap; padding:2px 5px; background:var(--surface2);
-  border-radius:3px; color:var(--text-sub);
+#search-input {
+  flex:1; padding:6px 10px; border:1px solid var(--border); border-radius:6px;
+  background:var(--surface2); color:var(--text); font-size:13px;
+  font-family:'Noto Sans JP',sans-serif; outline:none; transition:border-color .15s;
 }
-.pref-freshness.fresh { color:#00704A; background:rgba(0,112,74,.1); }
-.pref-freshness.stale { color:#C4960A; background:rgba(196,150,10,.1); }
-.pref-freshness.old   { color:#B03A20; background:rgba(176,58,32,.1); }
+#search-input:focus { border-color:var(--accent); }
+#search-input::placeholder { color:var(--text-sub); }
+.search-toggle {
+  display:flex; border:1px solid var(--border); border-radius:6px; overflow:hidden; flex-shrink:0;
+}
+.search-toggle-btn {
+  padding:5px 8px; font-size:10px; background:var(--surface2); color:var(--text-sub);
+  cursor:pointer; user-select:none; transition:all .12s; border:none; white-space:nowrap;
+}
+.search-toggle-btn.active { background:var(--accent); color:var(--accent-fg); }
+#search-results {
+  position:absolute; top:100%; left:0; right:0; z-index:2000;
+  background:var(--surface); border:1px solid var(--border); border-top:none;
+  border-radius:0 0 6px 6px; box-shadow:var(--shadow); max-height:200px; overflow-y:auto;
+  display:none;
+}
+#search-results.open { display:block; }
+.search-result-item {
+  padding:8px 12px; cursor:pointer; font-size:12px; border-bottom:1px solid var(--border);
+  transition:background .1s; display:flex; align-items:center; gap:8px;
+}
+.search-result-item:last-child { border-bottom:none; }
+.search-result-item:hover, .search-result-item.focused { background:var(--surface2); }
+.search-result-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
 
 /* フィルターパネル */
 #filter-body { padding:12px 16px; background:var(--surface2); border-bottom:1px solid var(--border); }
@@ -170,9 +189,11 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
 /* リストパネル */
 #list-panel {
-  flex-shrink:0; border-top:1px solid var(--border);
+  border-top:1px solid var(--border);
   display:flex; flex-direction:column;
-  max-height:28vh;
+  flex:1; overflow:hidden; min-height:0;
+  /* 現在地未設定時はリストが空なのでadとfooterを下に押す必要なし。
+     代わりにlist-panelがflexで伸びるので自然に下に詰まる */
 }
 #list-header {
   display:flex; align-items:center; justify-content:space-between;
@@ -205,7 +226,6 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   flex-direction:column; gap:4px; flex-shrink:0;
 }
 .ad-label { font-size:9px; color:var(--text-sub); letter-spacing:.08em; text-transform:uppercase; }
-#sidebar-footer { padding:8px 16px; font-size:10px; color:var(--text-sub); border-top:1px solid var(--border); line-height:1.6; flex-shrink:0; }
 
 /* ============================================================
    Main: map + (mobile) list
@@ -226,15 +246,17 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   overflow:hidden; transition:height .25s ease;
 }
 #mobile-list-area.collapsed { height:0; }
-#mobile-list-top {
-  display:flex; align-items:center; justify-content:space-between;
-  padding:8px 14px; border-bottom:1px solid var(--border); flex-shrink:0;
-}
-#mobile-list-title { font-size:11px; font-weight:700; color:var(--text-sub); letter-spacing:.06em; }
-#mobile-list-count { font-family:'DM Mono',monospace; font-size:10px; color:var(--text-sub); }
 
 /* モバイルフィルター（リストエリア内） */
-#mobile-filter-area { padding:10px 14px; background:var(--surface2); border-bottom:1px solid var(--border); flex-shrink:0; }
+#mobile-filter-area {
+  padding:10px 14px; background:var(--surface2); border-bottom:1px solid var(--border);
+  flex-shrink:0;
+}
+#mobile-filter-area .filter-group-label {
+  font-size:10px; color:var(--text-sub); margin-bottom:5px; letter-spacing:.05em;
+}
+#mobile-filter-area .filter-group { margin-bottom:8px; }
+#mobile-filter-area .filter-group:last-child { margin-bottom:0; }
 #mobile-store-list { overflow-y:auto; -webkit-overflow-scrolling:touch; flex:1; padding-bottom:var(--ad-bottom-h); }
 
 /* FAB */
@@ -258,7 +280,6 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   font-size:18px; cursor:pointer;
   display:flex; align-items:center; justify-content:center;
   box-shadow:var(--shadow); transition:all .15s;
-  title:"任意地点から近い順";
 }
 #custom-pin-btn:hover { background:var(--accent); color:var(--accent-fg); }
 #custom-pin-btn.active { background:var(--accent); color:var(--accent-fg); }
@@ -268,13 +289,6 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   display:none; position:absolute; top:10px; left:10px; right:10px;
   z-index:900; gap:6px;
 }
-#pref-select-mobile {
-  flex:1; appearance:none; background:var(--surface); color:var(--text);
-  border:1px solid var(--border); border-radius:6px; padding:8px 12px;
-  font-family:'Noto Sans JP',sans-serif; font-size:13px;
-  outline:none; cursor:pointer; box-shadow:var(--shadow);
-}
-
 /* スマホ下部広告 */
 #ad-bottom {
   display:none; position:fixed; bottom:0; left:0; right:0;
@@ -305,7 +319,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 .badge-dt       { background:rgba(60,100,180,.12); color:#3060b0; }
 .badge-roastery { background:#1a1a1a; color:#fff; }
 .badge-merge    { background:rgba(120,80,160,.12); color:#6040a0; }
-.stb-popup .p-rank { display:inline-flex; align-items:center; gap:5px; font-size:12px; font-weight:700; margin-bottom:6px; }
+.stb-popup .p-rank { display:inline-flex; align-items:center; gap:5px; font-size:13px; font-weight:700; margin-bottom:4px; flex-wrap:wrap; }
 .rank-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
 .stb-popup .p-price { font-size:18px; font-weight:700; margin-bottom:2px; }
 .stb-popup .p-price-note { font-size:10px; color:#999; margin-bottom:6px; }
@@ -340,9 +354,9 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     overflow:hidden;
   }
 
-  /* 地図: デフォルト50%、畳んだら0 */
+  /* 地図: デフォルト40%、畳んだら0 */
   #map-wrap {
-    flex:0 0 50%;
+    flex:0 0 40%;
     position:relative;
     transition:flex-basis .3s ease;
     overflow:hidden;
@@ -377,6 +391,18 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   }
 }
 @media (max-width:960px) { .tagline { display:none; } }
+
+/* スマホ検索 */
+#mobile-search-expand { align-items:center; }
+#mobile-search-expand input { padding-right:110px; }
+#mobile-search-results { display:none; }
+#mobile-search-results.open { display:block; }
+@media (max-width:700px) {
+  #mobile-search-expand .search-toggle {
+    position:absolute; right:4px; top:50%; transform:translateY(-50%);
+    margin-left:0;
+  }
+}
 </style>
 </head>
 <body data-theme="light">
@@ -385,7 +411,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   <!-- Header -->
   <header id="header">
     <span class="logo">Starbucks Price Map</span>
-    <span class="tagline">全国スターバックス ラテ価格帯マップ</span>
+    <span class="tagline">全国スターバックスラテ価格帯マップ</span>
     <div class="spacer"></div>
     <select id="theme-select">
       <option value="light">🌤 Light</option>
@@ -393,34 +419,32 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       <option value="standard">🗺 Standard</option>
     </select>
     <div class="legend">
-      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-normal)"></div>通常</div>
-      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-b)"></div>Bランク</div>
-      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-a)"></div>Aランク</div>
-      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-roastery)"></div>ROASTERY</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-normal)"></div><div class="legend-text"><span class="legend-name">通常</span><span class="legend-price">¥491 / 店内¥500</span></div></div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-b)"></div><div class="legend-text"><span class="legend-name">Bランク</span><span class="legend-price">¥501 / 店内¥510</span></div></div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-a)"></div><div class="legend-text"><span class="legend-name">Aランク</span><span class="legend-price">¥510 / 店内¥520</span></div></div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--rank-roastery)"></div><div class="legend-text"><span class="legend-name">ROASTERY</span></div></div>
     </div>
   </header>
 
   <!-- Sidebar (PC) -->
   <aside id="sidebar">
 
-    <!-- 都道府県アコーディオン -->
-    <div class="accordion-header" id="pref-accordion-header" onclick="toggleAccordion('pref')">
-      <span>都道府県</span>
-      <div style="display:flex;align-items:center;gap:6px;">
-        <span id="pref-clear-btn" onclick="event.stopPropagation();clearPrefSelection()" style="display:none;font-size:10px;padding:2px 7px;border-radius:10px;background:var(--accent);color:var(--accent-fg);cursor:pointer;font-weight:700;letter-spacing:.03em;">解除</span>
-        <span class="accordion-arrow open" id="pref-arrow">▼</span>
+    <!-- 検索欄 -->
+    <div id="search-wrap" style="position:relative;">
+      <input type="text" id="search-input" placeholder="店舗名・地名で検索..." autocomplete="off">
+      <div class="search-toggle">
+        <div class="search-toggle-btn active" id="search-mode-store" onclick="setSearchMode('store')">店舗名</div>
+        <div class="search-toggle-btn" id="search-mode-place" onclick="setSearchMode('place')">地名</div>
       </div>
-    </div>
-    <div class="accordion-body open" id="pref-accordion-body">
-      <div id="pref-list-body"></div>
+      <div id="search-results"></div>
     </div>
 
     <!-- 絞り込みアコーディオン -->
     <div class="accordion-header" id="filter-accordion-header" onclick="toggleAccordion('filter')">
       <span>絞り込み</span>
-      <span class="accordion-arrow" id="filter-arrow">▼</span>
+      <span class="accordion-arrow open" id="filter-arrow">▼</span>
     </div>
-    <div class="accordion-body" id="filter-accordion-body">
+    <div class="accordion-body open" id="filter-accordion-body">
       <div id="filter-body">
         <div class="filter-group">
           <div class="filter-group-label">価格帯</div>
@@ -453,12 +477,6 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       </div>
     </div>
 
-    <!-- 広告枠 -->
-    <div class="ad-sidebar">
-      <div class="ad-label">Advertisement</div>
-      <div style="font-size:11px;color:#bbb;">広告枠（234×60）</div>
-    </div>
-
     <!-- 近い順リスト -->
     <div id="list-panel">
       <div id="list-header">
@@ -469,9 +487,15 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       <div id="store-list"></div>
     </div>
 
+    <!-- 広告枠 -->
+    <div class="ad-sidebar">
+      <div class="ad-label">Advertisement</div>
+      <div style="font-size:11px;color:#bbb;">広告枠（234×60）</div>
+    </div>
+
     <div id="sidebar-footer">
       ※ 全国店舗を約16日で巡回調査。<br>
-      掲載価格はスタバラテ（Tall）の調査時点の価格です。<br>
+      掲載価格はスターバックスラテ（Tall）の調査時点の価格です。<br>
       <a href="/privacy.html" style="color:var(--text-sub);text-decoration:underline;font-size:10px;">プライバシーポリシー</a>
       ／
       <a href="/disclaimer.html" style="color:var(--text-sub);text-decoration:underline;font-size:10px;">免責事項</a>
@@ -487,7 +511,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       </div>
 
       <!-- アクティブフィルターインジケーター -->
-      <div id="filter-indicator" onclick="scrollToFilter()"></div>
+      <div id="filter-indicator" onclick="document.getElementById('filter-accordion-body').classList.add('open');document.getElementById('filter-arrow').classList.add('open');"></div>
 
       <div id="map"></div>
 
@@ -502,25 +526,51 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     <!-- モバイルリストエリア -->
     <div id="mobile-list-area">
       <div id="map-collapse-btn" onclick="toggleMapCollapse()">▲ リストを広げる</div>
-      <div id="mobile-list-top">
-        <span id="mobile-list-title">近くの店舗</span>
-        <span id="mobile-list-count"></span>
+      <!-- モバイル検索バー -->
+      <div id="mobile-search-bar" style="display:flex;align-items:center;gap:6px;padding:7px 12px;background:var(--surface);border-bottom:1px solid var(--border);flex-shrink:0;">
+        <button id="mobile-search-btn" onclick="toggleMobileSearch()" style="width:34px;height:34px;border-radius:50%;border:1px solid var(--border);background:var(--surface2);color:var(--text-sub);font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;">🔍</button>
+        <div id="mobile-search-expand" style="display:none;flex:1;position:relative;">
+          <input type="text" id="mobile-search-input" placeholder="店舗名・地名で検索..." autocomplete="off"
+            style="width:100%;padding:6px 10px;border:1px solid var(--accent);border-radius:6px;background:var(--surface2);color:var(--text);font-size:13px;font-family:'Noto Sans JP',sans-serif;outline:none;">
+          <div class="search-toggle" style="position:absolute;right:-2px;top:50%;transform:translateY(-50%) translateX(100%);margin-left:4px;display:flex;">
+            <div class="search-toggle-btn active" id="msearch-mode-store" onclick="setMobileSearchMode('store')">店舗名</div>
+            <div class="search-toggle-btn" id="msearch-mode-place" onclick="setMobileSearchMode('place')">地名</div>
+          </div>
+          <div id="mobile-search-results" class="search-results-mobile"></div>
+        </div>
+        <div id="mobile-list-top-inline" style="flex:1;display:flex;align-items:center;justify-content:space-between;">
+          <span id="mobile-list-title" style="font-size:11px;font-weight:700;color:var(--text-sub);letter-spacing:.06em;">近くの店舗</span>
+          <span id="mobile-list-count" style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text-sub);"></span>
+        </div>
       </div>
-      <!-- モバイルフィルター（リストと同じ枠内） -->
+      <!-- モバイルフィルター（リストより上） -->
       <div id="mobile-filter-area">
-        <div class="filter-row" style="margin-bottom:5px;">
-          <div class="filter-chip active" data-filter="rank" data-value="all">すべて</div>
-          <div class="filter-chip" data-filter="rank" data-value="normal"><span class="chip-dot" style="background:var(--rank-normal)"></span>通常</div>
-          <div class="filter-chip" data-filter="rank" data-value="B"><span class="chip-dot" style="background:var(--rank-b)"></span>B</div>
-          <div class="filter-chip" data-filter="rank" data-value="A"><span class="chip-dot" style="background:var(--rank-a)"></span>A</div>
+        <div class="filter-group">
+          <div class="filter-group-label">価格帯</div>
+          <div class="filter-row">
+            <div class="filter-chip active" data-filter="rank" data-value="all">すべて</div>
+            <div class="filter-chip" data-filter="rank" data-value="normal"><span class="chip-dot" style="background:var(--rank-normal)"></span>通常</div>
+            <div class="filter-chip" data-filter="rank" data-value="B"><span class="chip-dot" style="background:var(--rank-b)"></span>Bランク</div>
+            <div class="filter-chip" data-filter="rank" data-value="A"><span class="chip-dot" style="background:var(--rank-a)"></span>Aランク</div>
+          </div>
         </div>
-        <div class="filter-row">
-          <div class="filter-chip" data-filter="option" data-value="drive_thru">🚗 DT</div>
-          <div class="filter-chip" data-filter="option" data-value="reserve">★ リザーブ</div>
-          <div class="filter-chip" data-filter="option" data-value="teavana">🍃 ティバーナ</div>
-          <div class="filter-chip" data-filter="hours" data-value="open_now">🕐 今営業中</div>
+        <div class="filter-group">
+          <div class="filter-group-label">設備・業態</div>
+          <div class="filter-row">
+            <div class="filter-chip" data-filter="option" data-value="drive_thru">🚗 ドライブスルー</div>
+            <div class="filter-chip" data-filter="option" data-value="reserve">★ リザーブ</div>
+            <div class="filter-chip" data-filter="option" data-value="teavana">🍃 ティバーナ</div>
+          </div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group-label">営業状況</div>
+          <div class="filter-row">
+            <div class="filter-chip" data-filter="hours" data-value="open_now">🕐 今営業中</div>
+            <div class="filter-chip" data-filter="hours" data-value="open_at">🕐 時刻指定...</div>
+          </div>
         </div>
       </div>
+      <div id="mobile-list-empty" style="display:none;padding:20px 16px;font-size:12px;color:var(--text-sub);text-align:center;">現在地または地点を指定すると<br>近い順にリストが並びます</div>
       <div id="mobile-store-list"
            ontouchstart="disableMapDrag()"
            ontouchend="enableMapDrag()"></div>
@@ -876,7 +926,7 @@ function redrawAfterFilter() {
     for (const shop of processed) {
       if (!shop.coords?.length) continue;
       const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, !!shop._merged) });
-      marker.bindPopup(buildPopup(shop), { maxWidth:280 });
+      marker.bindPopup(buildPopup(shop), { maxWidth:300 });
       state.detailGroup.addLayer(marker);
       state.markerMap[shop.id] = marker;
     }
@@ -1006,7 +1056,7 @@ function renderAllSelectedPrefs() {
   for (const shop of processed) {
     if (!shop.coords?.length) continue;
     const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, !!shop._merged) });
-    marker.bindPopup(buildPopup(shop), { maxWidth:280 });
+    marker.bindPopup(buildPopup(shop), { maxWidth:300 });
     state.detailGroup.addLayer(marker);
     state.markerMap[shop.id] = marker;
   }
@@ -1031,6 +1081,7 @@ function renderList(allShops) {
   const countEl  = document.getElementById('list-header-count');
   const countElM = document.getElementById('mobile-list-count');
   const emptyEl  = document.getElementById('list-empty');
+  const emptyElM = document.getElementById('mobile-list-empty');
 
   const html = filtered.length === 0
     ? ''
@@ -1062,7 +1113,8 @@ function renderList(allShops) {
   const countStr = `${filtered.length}件`;
   countEl.textContent  = countStr;
   countElM.textContent = countStr;
-  emptyEl.style.display = filtered.length ? 'none' : 'block';
+  emptyEl.style.display  = filtered.length ? 'none' : 'block';
+  if (emptyElM) emptyElM.style.display = filtered.length ? 'none' : 'block';
 }
 
 // リストアイテムクリック → 地図でそのピンを開く
@@ -1135,14 +1187,35 @@ function buildPopup(shop) {
   const color    = getRankColor(rank, shop.store_type);
   const prices   = PRICE_TABLE[rank] || PRICE_TABLE.normal;
 
+  function buildHoursHtml(s) {
+    const today = new Date();
+    const dayNames = ['日','月','火','水','木','金','土'];
+    const rows = DAYS.map((d,i) => {
+      const h = s.hours?.[d];
+      const isToday = i === today.getDay();
+      const openNow = isOpenAt(s, today);
+      let timeStr = h?.open && h?.close ? `${h.open}–${h.close}` : '–';
+      if (h?.open && h?.close && isToday && openNow === true)  timeStr = `<span style="color:#00704A;font-weight:700;">${timeStr}</span>`;
+      if (h?.open && h?.close && isToday && openNow === false) timeStr = `<span style="color:#B03A20;">${timeStr}</span>`;
+      return `<tr style="font-size:10px;${isToday?'font-weight:700;color:var(--text);':'color:#aaa;'}">
+        <td style="padding:1px 4px 1px 0;white-space:nowrap;">${dayNames[i]}${isToday?'(今日)':''}</td>
+        <td style="font-family:'DM Mono',monospace;">${timeStr}</td>
+      </tr>`;
+    }).join('');
+    const hasHours = DAYS.some(d => s.hours?.[d]?.open);
+    if (!hasHours) return '<div style="font-size:10px;color:#aaa;">営業時間データなし</div>';
+    return `<table style="border-collapse:collapse;margin-top:3px;">${rows}</table>`;
+  }
+
   if (isMerged) {
     const tabs  = shop._mergeData.map((s,i) => `<div class="merge-tab${i===0?' active':''}" onclick="switchMergeTab(this,${i})">${s.options?.reserve?'リザーブ':s.options?.teavana?'ティバーナ':s.name}</div>`).join('');
     const panes = shop._mergeData.map((s,i) => {
       const p = PRICE_TABLE[s.price_rank]||PRICE_TABLE.normal;
+      const rLabel = getRankLabel(s.price_rank||'normal', s.store_type);
       return `<div class="merge-pane${i===0?' active':''}" data-pane="${i}">
-        <div class="p-price">¥${p.takeout} <span style="font-size:11px;color:#888">/ ¥${p.instore}(店内)</span></div>
-        <div class="p-price-note">スタバラテ Tall</div>
-        <div class="p-meta">${s.address||''}<br>🕐 ${getFreshnessLabel(s.scraped_at).label}</div>
+        <div class="p-rank"><span class="rank-dot" style="background:${getRankColor(s.price_rank||'normal',s.store_type)}"></span>${rLabel} ¥${p.takeout}<span style="font-size:10px;color:#999"> / ¥${p.instore}(店内)</span></div>
+        <div class="p-meta" style="margin-bottom:4px;">${s.address||''}<br>🕐 ${getFreshnessLabel(s.scraped_at).label}</div>
+        ${buildHoursHtml(s)}
       </div>`;
     }).join('');
     return `<div class="stb-popup">
@@ -1164,10 +1237,10 @@ function buildPopup(shop) {
   return `<div class="stb-popup">
     <div class="p-name">${shop.name}</div>
     ${badges?`<div class="p-badges">${badges}</div>`:''}
-    <div class="p-rank"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)}</div>
-    <div class="p-price">¥${prices.takeout} <span style="font-size:11px;color:#888">/ ¥${prices.instore}(店内)</span></div>
+    <div class="p-rank"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)} ¥${prices.takeout}<span style="font-size:10px;color:#999"> / ¥${prices.instore}(店内)</span></div>
     <div class="p-price-note">スタバラテ Tall</div>
-    <div class="p-meta">${shop.address||''}<br>🕐 ${f.label}</div>
+    <div class="p-meta" style="margin-bottom:4px;">${shop.address||''}<br>🕐 ${f.label}</div>
+    ${buildHoursHtml(shop)}
     <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
     <div class="p-affiliate-note">${AFFILIATE.note}</div>
   </div>`;
@@ -1180,14 +1253,197 @@ window.switchMergeTab = function(tabEl, idx) {
 };
 
 // ============================================================
-// 都道府県選択
+// 検索機能
 // ============================================================
-function updateFreshness(code, iso) {
-  const { label, cls } = getFreshnessLabel(iso);
-  const el = document.getElementById(`fresh-${code}`);
-  if (el) { el.textContent=label; el.className=`pref-freshness ${cls}`; }
+let searchMode = 'store'; // 'store' or 'place'
+let mobileSearchMode = 'store';
+let geocodeTimer = null;
+
+window.setSearchMode = function(mode) {
+  searchMode = mode;
+  document.getElementById('search-mode-store').classList.toggle('active', mode==='store');
+  document.getElementById('search-mode-place').classList.toggle('active', mode==='place');
+  document.getElementById('search-input').value = '';
+  document.getElementById('search-results').classList.remove('open');
+  document.getElementById('search-results').innerHTML = '';
+};
+
+window.setMobileSearchMode = function(mode) {
+  mobileSearchMode = mode;
+  document.getElementById('msearch-mode-store').classList.toggle('active', mode==='store');
+  document.getElementById('msearch-mode-place').classList.toggle('active', mode==='place');
+  document.getElementById('mobile-search-input').value = '';
+  const res = document.getElementById('mobile-search-results');
+  if (res) { res.classList.remove('open'); res.innerHTML = ''; }
+};
+
+window.toggleMobileSearch = function() {
+  const expand = document.getElementById('mobile-search-expand');
+  const top    = document.getElementById('mobile-list-top-inline');
+  const btn    = document.getElementById('mobile-search-btn');
+  const open   = expand.style.display === 'none';
+  expand.style.display = open ? 'flex' : 'none';
+  expand.style.flex = '1';
+  top.style.display = open ? 'none' : 'flex';
+  btn.style.background = open ? 'var(--accent)' : '';
+  btn.style.color = open ? 'var(--accent-fg)' : '';
+  if (open) document.getElementById('mobile-search-input').focus();
+};
+
+function getAllShopsForSearch() {
+  return Object.values(state.detailCache).flat();
 }
 
+function searchStores(query) {
+  if (!query.trim()) return [];
+  const q = query.trim().toLowerCase();
+  const all = getAllShopsForSearch();
+  return all.filter(s => s.name && s.name.toLowerCase().includes(q)).slice(0, 15);
+}
+
+async function searchPlace(query) {
+  if (!query.trim()) return [];
+  try {
+    const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=5&countrycodes=jp&accept-language=ja`;
+    const res = await fetch(url, { headers:{ 'Accept-Language':'ja' } });
+    const data = await res.json();
+    return data.map(d => ({ display_name: d.display_name.split(',')[0], lat: parseFloat(d.lat), lng: parseFloat(d.lon) }));
+  } catch(e) { return []; }
+}
+
+function renderSearchResults(results, mode, containerEl) {
+  if (!results.length) {
+    containerEl.innerHTML = '<div style="padding:8px 12px;font-size:12px;color:var(--text-sub);">見つかりませんでした</div>';
+    containerEl.classList.add('open');
+    return;
+  }
+  if (mode === 'store') {
+    containerEl.innerHTML = results.map(s => {
+      const color = getRankColor(s.price_rank||'normal', s.store_type);
+      return `<div class="search-result-item" onclick="focusSearchStore('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
+        <div class="search-result-dot" style="background:${color}"></div>
+        <div>
+          <div style="font-size:12px;font-weight:700;">${s.name}</div>
+          <div style="font-size:10px;color:var(--text-sub);">${s.address||''}</div>
+        </div>
+      </div>`;
+    }).join('');
+  } else {
+    containerEl.innerHTML = results.map(p => `
+      <div class="search-result-item" onclick="flyToPlace(${p.lat},${p.lng})">
+        <div style="font-size:16px;line-height:1;">📍</div>
+        <div style="font-size:12px;">${p.display_name}</div>
+      </div>`).join('');
+  }
+  containerEl.classList.add('open');
+}
+
+window.focusSearchStore = function(id, lat, lng) {
+  document.getElementById('search-results').classList.remove('open');
+  document.getElementById('mobile-search-results')?.classList.remove('open');
+  if (!lat) return;
+  map.setView([lat, lng], 16);
+  // キャッシュになければ周辺を読み込んで表示
+  const code = detectPrefFromCoords(lat, lng);
+  if (code) {
+    fetchDetail(code).then(() => {
+      redrawAfterFilter();
+      setTimeout(() => {
+        const marker = state.markerMap[id];
+        if (marker) {
+          if (state.detailGroup) state.detailGroup.zoomToShowLayer(marker, () => marker.openPopup());
+          else marker.openPopup();
+        }
+      }, 400);
+    });
+  }
+};
+
+window.flyToPlace = function(lat, lng) {
+  document.getElementById('search-results').classList.remove('open');
+  document.getElementById('mobile-search-results')?.classList.remove('open');
+  map.setView([lat, lng], 13);
+};
+
+function handleSearchInput(query, mode, containerEl) {
+  if (!query.trim()) { containerEl.classList.remove('open'); containerEl.innerHTML=''; return; }
+  if (mode === 'store') {
+    const results = searchStores(query);
+    renderSearchResults(results, 'store', containerEl);
+  } else {
+    clearTimeout(geocodeTimer);
+    geocodeTimer = setTimeout(async () => {
+      const results = await searchPlace(query);
+      renderSearchResults(results, 'place', containerEl);
+    }, 400);
+  }
+}
+
+function initSearch() {
+  // PC検索
+  const input = document.getElementById('search-input');
+  const resultsEl = document.getElementById('search-results');
+
+  // 入力中はリアルタイム候補表示（店舗名）、地名は少し待つ
+  input.addEventListener('input', e => handleSearchInput(e.target.value, searchMode, resultsEl));
+  input.addEventListener('focus', () => { if (input.value) handleSearchInput(input.value, searchMode, resultsEl); });
+
+  // Enterキー：先頭の候補を即実行
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      const first = resultsEl.querySelector('.search-result-item');
+      if (first) { first.click(); return; }
+      // 候補がまだなければ検索を即時実行
+      handleSearchInput(input.value, searchMode, resultsEl);
+    }
+    // ↑↓キーで候補を選択
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      const items = [...resultsEl.querySelectorAll('.search-result-item')];
+      if (!items.length) return;
+      const current = resultsEl.querySelector('.search-result-item.focused');
+      const idx = current ? items.indexOf(current) : -1;
+      const next = e.key === 'ArrowDown' ? Math.min(idx+1, items.length-1) : Math.max(idx-1, 0);
+      items.forEach(it => it.classList.remove('focused'));
+      items[next].classList.add('focused');
+      items[next].scrollIntoView({ block:'nearest' });
+    }
+    if (e.key === 'Escape') { resultsEl.classList.remove('open'); input.blur(); }
+  });
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#search-wrap')) resultsEl.classList.remove('open');
+  });
+
+  // スマホ検索
+  const mInput = document.getElementById('mobile-search-input');
+  if (mInput) {
+    const mResults = document.createElement('div');
+    mResults.id = 'mobile-search-results';
+    mResults.style.cssText = 'position:absolute;top:calc(100% + 4px);left:0;right:0;background:var(--surface);border:1px solid var(--border);border-radius:6px;box-shadow:var(--shadow);max-height:200px;overflow-y:auto;z-index:2000;';
+    mInput.parentNode.appendChild(mResults);
+    mInput.addEventListener('input', e => handleSearchInput(e.target.value, mobileSearchMode, mResults));
+    mInput.addEventListener('keydown', e => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const first = mResults.querySelector('.search-result-item');
+        if (first) first.click();
+        else handleSearchInput(mInput.value, mobileSearchMode, mResults);
+      }
+      if (e.key === 'Escape') { mResults.classList.remove('open'); mInput.blur(); }
+    });
+    document.addEventListener('click', e => {
+      if (!e.target.closest('#mobile-search-bar')) mResults.classList.remove('open');
+    });
+  }
+
+  document.getElementById('list-empty').style.display = 'block';
+}
+
+// ============================================================
+// 都道府県関連（UI削除後も内部ロジックは維持）
+// ============================================================
 function selectPrefUI(code) {
   state.currentPref = code;
 }
@@ -1199,24 +1455,14 @@ async function selectPref(code) {
   if (state.selectedPrefs.has(code)) {
     // 解除
     state.selectedPrefs.delete(code);
-    document.querySelector(`.pref-item[data-code="${code}"]`)?.classList.remove('selected','active');
   } else {
     // 追加選択
     state.selectedPrefs.add(code);
-    document.querySelector(`.pref-item[data-code="${code}"]`)?.classList.add('selected','active');
     showLoading(`${PREFECTURE_CONFIG[code].name}を読み込み中...`);
     await fetchDetail(code);
     hideLoading();
-    const shops = state.detailCache[code];
-    if (shops) {
-      const iso = shops.reduce((l,s) => (!l||s.scraped_at>l)?s.scraped_at:l, null);
-      updateFreshness(code, iso);
-    }
     prefetchNeighbors(code);
   }
-
-  // 解除ボタンの表示制御
-  document.getElementById('pref-clear-btn').style.display = state.selectedPrefs.size > 0 ? 'inline' : 'none';
 
   // サマリーの表示・非表示制御
   if (state.selectedPrefs.size > 0) {
@@ -1235,8 +1481,6 @@ async function selectPref(code) {
 window.clearPrefSelection = function() {
   state.selectedPrefs.clear();
   state.currentPref = null;
-  document.querySelectorAll('.pref-item').forEach(el => el.classList.remove('selected','active'));
-  document.getElementById('pref-clear-btn').style.display = 'none';
   // サマリーを再表示
   if (state.summaryGroup) map.addLayer(state.summaryGroup);
   if (state.detailGroup) map.removeLayer(state.detailGroup);
@@ -1295,7 +1539,7 @@ map.on('zoomend', () => {
           if (!shop.coords?.length) continue;
           const isMerged = !!shop._merged;
           const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, isMerged) });
-          marker.bindPopup(buildPopup(shop), { maxWidth:280 });
+          marker.bindPopup(buildPopup(shop), { maxWidth:300 });
           state.detailGroup.addLayer(marker);
           state.markerMap[shop.id] = marker;
         }
@@ -1320,28 +1564,14 @@ function detectPrefFromCoords(lat, lng) {
 }
 
 // ============================================================
-// サイドバー生成
+// サイドバー生成（都道府県リスト廃止のため不要）
 // ============================================================
-function buildSidebar() {
-  const list = document.getElementById('pref-list-body');
-  const codes = Object.keys(PREFECTURE_CONFIG).sort();
-  codes.forEach(code => {
-    const item = document.createElement('div');
-    item.className = 'pref-item'; item.dataset.code = code;
-    item.innerHTML = `<span class="pref-name">${PREFECTURE_CONFIG[code].name}</span><span class="pref-freshness no-data" id="fresh-${code}">…</span>`;
-    item.addEventListener('click', () => selectPref(code));
-    list.appendChild(item);
-  });
-}
-
-// 初期状態でリストエリアに「説明」表示
-document.getElementById('list-empty').style.display = 'block';
 
 // ============================================================
 // 起動
 // ============================================================
-buildSidebar();
 initFilters();
+initSearch();
 loadSummary();
 </script>
 </body>
