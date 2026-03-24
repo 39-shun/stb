@@ -236,8 +236,19 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 #map-wrap { flex:1; position:relative; min-height:0; }
 #map { width:100%; height:100%; }
 
-/* map-collapse-btn: mobile-list-area内に常に配置（スマホのみ） */
-#map-collapse-btn{display:block;width:100%;background:var(--surface);border-bottom:1px solid var(--border);padding:8px 16px;text-align:center;font-size:12px;color:var(--text-sub);cursor:pointer;flex-shrink:0;box-sizing:border-box;}
+/* 地図/リスト分割バー（スマホのみ） */
+#map-toggle-bar {
+  display:none; flex-shrink:0;
+  background:var(--surface); border-bottom:1px solid var(--border);
+}
+#map-toggle-bar button {
+  flex:1; padding:7px 0; border:none; background:none;
+  font-size:12px; color:var(--text-sub); cursor:pointer;
+  font-family:'Noto Sans JP',sans-serif; transition:background .12s;
+}
+#map-toggle-bar button:first-child { border-right:1px solid var(--border); }
+#map-toggle-bar button.active { background:var(--surface2); color:var(--accent); font-weight:700; }
+#map-toggle-bar { display:none; }
 
 /* モバイルリストエリア */
 #mobile-list-area {
@@ -271,18 +282,6 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 }
 #locate-btn:hover { transform:scale(1.08); }
 #locate-btn:active { transform:scale(.95); }
-
-/* カスタムピンマーカー */
-#custom-pin-btn {
-  position:absolute; bottom:90px; right:12px; z-index:900;
-  width:40px; height:40px; border-radius:50%; border:2px solid var(--accent);
-  background:var(--surface); color:var(--accent);
-  font-size:18px; cursor:pointer;
-  display:flex; align-items:center; justify-content:center;
-  box-shadow:var(--shadow); transition:all .15s;
-}
-#custom-pin-btn:hover { background:var(--accent); color:var(--accent-fg); }
-#custom-pin-btn.active { background:var(--accent); color:var(--accent-fg); }
 
 /* モバイル上部バー */
 #mobile-bar {
@@ -333,9 +332,11 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 .p-affiliate:hover { background:#005a3c; }
 .p-affiliate-note { font-size:9px; color:#aaa; text-align:center; margin-top:3px; }
 
-/* ============================================================
-   Responsive
-============================================================ */
+/* ポップアップ最大高さ制限（スマホで地図に収まるよう） */
+@media (max-width:700px) {
+  .leaflet-popup-content-wrapper { max-height:52vh; overflow-y:auto; }
+  .leaflet-popup-content { max-height:50vh; overflow-y:auto; }
+}
 @media (max-width:700px) {
   #app {
     grid-template-columns:1fr;
@@ -365,19 +366,26 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     flex:0 0 0%;
   }
 
-  /* 現在地ボタン: 地図内下部固定 */
-  #locate-btn   { bottom:16px !important; }
-  #custom-pin-btn { bottom:66px !important; }
+  /* 現在地ボタン: 地図内右下 */
+  #locate-btn { bottom:16px !important; right:12px !important; }
+  /* 検索FAB: 地図右上、ズームコントロール(左上)と被らないよう右上に */
+  #mobile-search-fab { display:flex; top:10px; right:10px; left:auto; }
 
+  /* 3ステート用クラス */
+  #map-wrap.state-map  { flex:0 0 100%; }
+  #map-wrap.state-list { flex:0 0 0%; }
+  /* デフォルトは35% */
+  #map-wrap { flex:0 0 35%; }
 
+  /* 地図最大時のリストエリア縮小 */
+  #mobile-list-area.state-map { flex:0 0 auto; }
+  /* map-toggle-barは常時表示 */
+  #map-toggle-bar { display:flex; }
 
   /* リストエリア: 残りスペースを全部使う */
   #mobile-list-area {
-    display:flex;
-    flex:1;
-    flex-direction:column;
-    overflow:hidden;
-    background:var(--surface);
+    display:flex; flex:1; flex-direction:column;
+    overflow:hidden; background:var(--surface);
     border-top:2px solid var(--border);
   }
 
@@ -386,13 +394,13 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   #mobile-bar.hidden { opacity:0; pointer-events:none; }
 
   /* 広告: 固定下部 */
-  #mobile-store-list {
-    padding-bottom:var(--ad-bottom-h);
-  }
+  #mobile-store-list { padding-bottom:var(--ad-bottom-h); }
 }
 @media (max-width:960px) { .tagline { display:none; } }
 
-/* スマホ検索FAB（地図上） */
+/* 地図最大時：リストエリアはトグルバーのみ表示 */
+#mobile-list-area.state-map > *:not(#map-toggle-bar) { display:none !important; }
+#mobile-list-area.state-map { flex:0 0 auto !important; overflow:visible; }
 #mobile-search-fab {
   display:none;
   position:absolute; top:10px; left:10px; z-index:900;
@@ -456,10 +464,12 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
     <!-- 検索欄 -->
     <div id="search-wrap" style="position:relative;">
-      <input type="text" id="search-input" placeholder="店舗名・地名で検索..." autocomplete="off">
-      <div class="search-toggle">
-        <div class="search-toggle-btn active" id="search-mode-store" onclick="setSearchMode('store')">店舗名</div>
-        <div class="search-toggle-btn" id="search-mode-place" onclick="setSearchMode('place')">地名</div>
+      <div style="display:flex;gap:6px;padding:10px 12px;border-bottom:1px solid var(--border);">
+        <input type="text" id="search-input" placeholder="店舗名で検索..." autocomplete="off">
+        <div class="search-toggle" style="flex-shrink:0;">
+          <div class="search-toggle-btn active" id="search-mode-store" onclick="setSearchMode('store')">店舗名</div>
+          <div class="search-toggle-btn" id="search-mode-place" onclick="setSearchMode('place')">地名</div>
+        </div>
       </div>
       <div id="search-results"></div>
     </div>
@@ -507,6 +517,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       <div id="list-header">
         <span id="list-header-title">近くの店舗</span>
         <span id="list-header-count"></span>
+        <button id="search-clear-btn" onclick="clearSearchOverride()" style="display:none;font-size:10px;padding:2px 7px;border-radius:10px;background:var(--accent);color:var(--accent-fg);border:none;cursor:pointer;font-weight:700;margin-left:6px;">✕ クリア</button>
       </div>
       <div id="list-empty" style="display:none;">現在地または地点を指定すると<br>近い順にリストが並びます</div>
       <div id="store-list"></div>
@@ -544,18 +555,13 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       
 
       <button id="locate-btn" title="現在地から近い順">⊕</button>
-      <button id="custom-pin-btn" title="任意地点から近い順" onclick="toggleCustomPin()">📍</button>
       <!-- スマホ検索ボタン（地図上） -->
       <button id="mobile-search-fab" onclick="toggleMobileSearch()" title="検索">🔍</button>
       <!-- スマホ検索オーバーレイ -->
       <div id="mobile-search-overlay">
         <div id="mobile-search-inner">
           <div style="display:flex;gap:6px;align-items:center;">
-            <input type="text" id="mobile-search-input" placeholder="店舗名・地名で検索..." autocomplete="off">
-            <div class="search-toggle" style="flex-shrink:0;">
-              <div class="search-toggle-btn active" id="msearch-mode-store" onclick="setMobileSearchMode('store')">店舗名</div>
-              <div class="search-toggle-btn" id="msearch-mode-place" onclick="setMobileSearchMode('place')">地名</div>
-            </div>
+            <input type="text" id="mobile-search-input" placeholder="店舗名で検索..." autocomplete="off">
             <button onclick="toggleMobileSearch()" style="background:none;border:none;color:var(--text-sub);font-size:18px;cursor:pointer;padding:0 4px;flex-shrink:0;">✕</button>
           </div>
           <div id="mobile-search-results"></div>
@@ -566,31 +572,41 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
     <!-- モバイルリストエリア -->
     <div id="mobile-list-area">
-      <div id="map-collapse-btn" onclick="toggleMapCollapse()">▲ リストを広げる</div>
-      <!-- モバイルフィルター -->
-      <div id="mobile-filter-area">
-        <div class="filter-group">
-          <div class="filter-group-label">価格帯</div>
-          <div class="filter-row">
-            <div class="filter-chip active" data-filter="rank" data-value="all">すべて</div>
-            <div class="filter-chip" data-filter="rank" data-value="normal"><span class="chip-dot" style="background:var(--rank-normal)"></span>通常</div>
-            <div class="filter-chip" data-filter="rank" data-value="B"><span class="chip-dot" style="background:var(--rank-b)"></span>Bランク</div>
-            <div class="filter-chip" data-filter="rank" data-value="A"><span class="chip-dot" style="background:var(--rank-a)"></span>Aランク</div>
+      <!-- 地図/リスト 3ステートボタン -->
+      <div id="map-toggle-bar">
+        <button id="map-expand-btn" onclick="setMapState('map')" title="地図を広げる">▲ 地図</button>
+        <button id="list-expand-btn" onclick="setMapState('list')" title="リストを広げる">▼ リスト</button>
+      </div>
+      <!-- 絞り込みアコーディオン -->
+      <div class="accordion-header" id="mobile-filter-header" onclick="toggleMobileFilter()" style="padding:8px 14px;font-size:11px;">
+        <span>絞り込み</span>
+        <span class="accordion-arrow open" id="mobile-filter-arrow">▼</span>
+      </div>
+      <div id="mobile-filter-body" class="accordion-body open" style="max-height:none;overflow:visible;">
+        <div id="mobile-filter-area">
+          <div class="filter-group">
+            <div class="filter-group-label">価格帯</div>
+            <div class="filter-row">
+              <div class="filter-chip active" data-filter="rank" data-value="all">すべて</div>
+              <div class="filter-chip" data-filter="rank" data-value="normal"><span class="chip-dot" style="background:var(--rank-normal)"></span>通常</div>
+              <div class="filter-chip" data-filter="rank" data-value="B"><span class="chip-dot" style="background:var(--rank-b)"></span>Bランク</div>
+              <div class="filter-chip" data-filter="rank" data-value="A"><span class="chip-dot" style="background:var(--rank-a)"></span>Aランク</div>
+            </div>
           </div>
-        </div>
-        <div class="filter-group">
-          <div class="filter-group-label">設備・業態</div>
-          <div class="filter-row">
-            <div class="filter-chip" data-filter="option" data-value="drive_thru">🚗 ドライブスルー</div>
-            <div class="filter-chip" data-filter="option" data-value="reserve">★ リザーブ</div>
-            <div class="filter-chip" data-filter="option" data-value="teavana">🍃 ティバーナ</div>
+          <div class="filter-group">
+            <div class="filter-group-label">設備・業態</div>
+            <div class="filter-row">
+              <div class="filter-chip" data-filter="option" data-value="drive_thru">🚗 ドライブスルー</div>
+              <div class="filter-chip" data-filter="option" data-value="reserve">★ リザーブ</div>
+              <div class="filter-chip" data-filter="option" data-value="teavana">🍃 ティバーナ</div>
+            </div>
           </div>
-        </div>
-        <div class="filter-group">
-          <div class="filter-group-label">営業状況</div>
-          <div class="filter-row">
-            <div class="filter-chip" data-filter="hours" data-value="open_now">🕐 今営業中</div>
-            <div class="filter-chip" data-filter="hours" data-value="open_at">🕐 時刻指定...</div>
+          <div class="filter-group">
+            <div class="filter-group-label">営業状況</div>
+            <div class="filter-row">
+              <div class="filter-chip" data-filter="hours" data-value="open_now">🕐 今営業中</div>
+              <div class="filter-chip" data-filter="hours" data-value="open_at">🕐 時刻指定...</div>
+            </div>
           </div>
         </div>
       </div>
@@ -653,8 +669,8 @@ const PREFECTURE_CONFIG = {
   "10":{"name":"群馬県","bounds":[[36.10,138.40],[37.00,139.70]]},
   "11":{"name":"埼玉県","bounds":[[35.75,138.70],[36.25,139.90]]},
   "12":{"name":"千葉県","bounds":[[34.90,139.70],[35.95,140.90]]},
-  "13":{"name":"東京都","bounds":[[35.50,139.55],[35.85,139.90]]},
-  "14":{"name":"神奈川県","bounds":[[35.15,139.10],[35.60,139.75]]},
+  "13":{"name":"東京都","bounds":[[35.50,138.94],[35.90,139.92]]},
+  "14":{"name":"神奈川県","bounds":[[35.12,138.92],[35.67,139.78]]},
   "15":{"name":"新潟県","bounds":[[36.75,137.65],[38.55,139.60]]},
   "16":{"name":"富山県","bounds":[[36.40,136.80],[37.00,137.70]]},
   "17":{"name":"石川県","bounds":[[36.10,136.20],[37.55,137.35]]},
@@ -742,25 +758,45 @@ window.scrollToFilter = function() {
 };
 
 // ============================================================
-// 地図折りたたみ（スマホ）
+// スマホ 3ステート地図/リスト
 // ============================================================
-let mapCollapsed = false;
-window.toggleMapCollapse = function() {
-  mapCollapsed = !mapCollapsed;
-  const btn     = document.getElementById('map-collapse-btn');
-  const mapWrap = document.getElementById('map-wrap');
-  const mobileBar = document.getElementById('mobile-bar');
+let mapState = 'default'; // 'default' | 'map' | 'list'
 
-  if (mapCollapsed) {
-    mapWrap.classList.add('map-hidden');
-    mobileBar.classList.add('hidden');
-    btn.textContent = '▼ 地図を表示';
-  } else {
-    mapWrap.classList.remove('map-hidden');
-    mobileBar.classList.remove('hidden');
-    btn.textContent = '▲ リストを広げる';
+window.setMapState = function(target) {
+  const mapWrap  = document.getElementById('map-wrap');
+  const listArea = document.getElementById('mobile-list-area');
+  const mapBtn   = document.getElementById('map-expand-btn');
+  const listBtn  = document.getElementById('list-expand-btn');
+  const fab      = document.getElementById('mobile-search-fab');
+
+  // 同じボタンをもう一度押したらdefaultに戻る
+  if (mapState === target) target = 'default';
+  mapState = target;
+
+  mapWrap.classList.remove('state-map','state-list');
+  listArea.classList.remove('state-map','state-list');
+  mapBtn.classList.remove('active');
+  listBtn.classList.remove('active');
+
+  if (target === 'map') {
+    mapWrap.classList.add('state-map');
+    listArea.classList.add('state-map');
+    mapBtn.classList.add('active');
+    if (fab) fab.style.display = 'flex';
+  } else if (target === 'list') {
+    mapWrap.classList.add('state-list');
+    listBtn.classList.add('active');
+    if (fab) fab.style.display = 'none';
   }
-  setTimeout(() => map.invalidateSize(), 350);
+  setTimeout(() => map.invalidateSize(), 320);
+};
+
+// モバイルフィルターアコーディオン
+window.toggleMobileFilter = function() {
+  const body  = document.getElementById('mobile-filter-body');
+  const arrow = document.getElementById('mobile-filter-arrow');
+  const isOpen = body.classList.toggle('open');
+  arrow.classList.toggle('open', isOpen);
 };
 
 // スマホ：リストスクロール中の地図ドラッグ防止
@@ -1169,15 +1205,16 @@ function setOrigin(lat, lng, label='📍 基点') {
     radius:8, color:'#fff', fillColor:accentColor, fillOpacity:1, weight:2,
   }).addTo(map).bindPopup(label).openPopup();
 
-  // リスト更新
-  renderList(getAllCachedShops());
-
-  // 近くの県を自動先読み
+  // 現在地の県を先に確実に読み込んでからリスト更新
   const code = detectPrefFromCoords(lat, lng);
   if (code) {
-    // 近隣県を先読みするがselectPrefUIは呼ばない（ズーム自動読み込みに任せる）
-    fetchDetail(code).then(() => renderList(getAllCachedShops()));
-    prefetchNeighbors(code);
+    fetchDetail(code).then(() => {
+      renderList(getAllCachedShops());
+      prefetchNeighbors(code); // 隣県のプリフェッチはリスト表示後
+    });
+  } else {
+    // 県が特定できない場合（海上など）は既存キャッシュで表示
+    renderList(getAllCachedShops());
   }
 }
 
@@ -1192,21 +1229,6 @@ document.getElementById('locate-btn').addEventListener('click', () => {
   );
 });
 
-// カスタムピンモード
-window.toggleCustomPin = function() {
-  state.customPinMode = !state.customPinMode;
-  document.getElementById('custom-pin-btn').classList.toggle('active', state.customPinMode);
-  map.getContainer().style.cursor = state.customPinMode ? 'crosshair' : '';
-};
-map.on('click', e => {
-  if (!state.customPinMode) return;
-  setOrigin(e.latlng.lat, e.latlng.lng, '📍 指定地点');
-  map.setView(e.latlng, Math.max(map.getZoom(), 12));
-  state.customPinMode = false;
-  document.getElementById('custom-pin-btn').classList.remove('active');
-  map.getContainer().style.cursor = '';
-});
-
 // ============================================================
 // ポップアップ
 // ============================================================
@@ -1218,38 +1240,64 @@ function buildPopup(shop) {
 
   function buildHoursHtml(s) {
     const today = new Date();
-    const dayNames = ['日','月','火','水','木','金','土'];
-    const hasHours = DAYS.some(d => s.hours?.[d]?.open);
+    // 日本語順：月火水木金土日
+    const JP_ORDER = ['mon','tue','wed','thu','fri','sat','sun'];
+    const JP_NAMES = ['月','火','水','木','金','土','日'];
+    const todayKey = DAYS[today.getDay()]; // DAYS=['sun','mon',...,'sat']
+
+    const hasHours = JP_ORDER.some(d => s.hours?.[d]?.open);
     if (!hasHours) return '<div style="font-size:10px;color:#aaa;margin-bottom:4px;">営業時間データなし</div>';
 
-    // 全曜日同じ時間かチェック
-    const times = DAYS.map(d => s.hours?.[d]?.open && s.hours?.[d]?.close ? `${s.hours[d].open}–${s.hours[d].close}` : '–');
-    const allSame = times.every(t => t === times[0]);
+    const getTime = d => s.hours?.[d]?.open && s.hours?.[d]?.close
+      ? `${s.hours[d].open}–${s.hours[d].close}` : null;
+
+    // 全曜日同じかチェック
+    const allTimes = JP_ORDER.map(getTime);
+    const allSame = allTimes.every(t => t !== null && t === allTimes[0]);
     if (allSame) {
       const openNow = isOpenAt(s, today);
-      const color = openNow === true ? '#00704A' : openNow === false ? '#B03A20' : '#888';
-      const label = openNow === true ? '営業中' : openNow === false ? '営業時間外' : '';
+      const col = openNow===true?'#00704A':openNow===false?'#B03A20':'#888';
+      const lbl = openNow===true?'営業中':openNow===false?'営業時間外':'';
       return `<div style="font-size:10px;margin-bottom:4px;">
         <span style="color:#888;">毎日 </span>
-        <span style="font-family:'DM Mono',monospace;font-weight:700;color:${color};">${times[0]}</span>
-        ${label ? `<span style="font-size:9px;color:${color};margin-left:4px;">(${label})</span>` : ''}
+        <span style="font-family:'DM Mono',monospace;font-weight:700;color:${col};">${allTimes[0]}</span>
+        ${lbl?`<span style="font-size:9px;color:${col};margin-left:4px;">(${lbl})</span>`:''}
       </div>`;
     }
 
-    // 曜日ごとに異なる場合はテーブル
-    const rows = DAYS.map((d,i) => {
-      const h = s.hours?.[d];
-      const isToday = i === today.getDay();
-      const openNow = isOpenAt(s, today);
-      let timeStr = h?.open && h?.close ? `${h.open}–${h.close}` : '–';
-      if (h?.open && h?.close && isToday && openNow === true)  timeStr = `<span style="color:#00704A;font-weight:700;">${timeStr}</span>`;
-      if (h?.open && h?.close && isToday && openNow === false) timeStr = `<span style="color:#B03A20;">${timeStr}</span>`;
-      return `<tr style="font-size:10px;${isToday?'font-weight:700;color:var(--text);':'color:#aaa;'}">
-        <td style="padding:1px 4px 1px 0;white-space:nowrap;">${dayNames[i]}${isToday?'(今日)':''}</td>
-        <td style="font-family:'DM Mono',monospace;">${timeStr}</td>
-      </tr>`;
-    }).join('');
-    return `<table style="border-collapse:collapse;margin-bottom:4px;">${rows}</table>`;
+    // 月〜金が同じかチェック
+    const weekdayKeys  = ['mon','tue','wed','thu','fri'];
+    const weekdayTimes = weekdayKeys.map(getTime);
+    const weekdaySame  = weekdayTimes.every(t => t !== null && t === weekdayTimes[0]);
+
+    // 土曜と日曜
+    const satTime = getTime('sat');
+    const sunTime = getTime('sun');
+
+    // テーブル行生成
+    const rows = [];
+    const addRow = (label, timeStr, isToday) => {
+      const openNow = isToday ? isOpenAt(s, today) : null;
+      let display = timeStr || '–';
+      if (timeStr && isToday && openNow===true)  display = `<span style="color:#00704A;font-weight:700;">${timeStr}</span>`;
+      if (timeStr && isToday && openNow===false) display = `<span style="color:#B03A20;">${timeStr}</span>`;
+      rows.push(`<tr style="font-size:10px;${isToday?'font-weight:700;color:var(--text);':'color:#aaa;'}">
+        <td style="padding:1px 4px 1px 0;white-space:nowrap;">${label}${isToday?' <span style="font-size:9px;">(今日)</span>':''}</td>
+        <td style="font-family:'DM Mono',monospace;">${display}</td>
+      </tr>`);
+    };
+
+    const isTodayIn = (keys) => keys.includes(todayKey);
+
+    if (weekdaySame) {
+      addRow('月〜金', weekdayTimes[0], isTodayIn(weekdayKeys));
+      addRow('土', satTime, todayKey==='sat');
+      addRow('日', sunTime, todayKey==='sun');
+    } else {
+      JP_ORDER.forEach((d,i) => addRow(JP_NAMES[i], getTime(d), d===todayKey));
+    }
+
+    return `<table style="border-collapse:collapse;margin-bottom:4px;">${rows.join('')}</table>`;
   }
 
   if (isMerged) {
@@ -1301,75 +1349,95 @@ window.switchMergeTab = function(tabEl, idx) {
 // ============================================================
 // 検索機能
 // ============================================================
-let searchMode = 'store'; // 'store' or 'place'
-let mobileSearchMode = 'store';
+let searchMode = 'store'; // 'store' | 'place'
 let geocodeTimer = null;
+let searchOverrideActive = false;
 
 window.setSearchMode = function(mode) {
   searchMode = mode;
   document.getElementById('search-mode-store').classList.toggle('active', mode==='store');
   document.getElementById('search-mode-place').classList.toggle('active', mode==='place');
+  const input = document.getElementById('search-input');
+  input.placeholder = mode === 'store' ? '店舗名で検索...' : '地名で地図移動...';
+  input.value = '';
+  document.getElementById('search-results').classList.remove('open');
+  if (searchOverrideActive) clearSearchOverride();
+};
+
+// PCリストを検索結果で上書き
+function showSearchOverride(shops) {
+  searchOverrideActive = true;
+  document.getElementById('search-clear-btn').style.display = 'inline';
+  document.getElementById('list-header-title').textContent = '検索結果';
+  document.getElementById('list-empty').style.display = 'none';
+
+  const listEl  = document.getElementById('store-list');
+  const countEl = document.getElementById('list-header-count');
+  if (!shops.length) {
+    listEl.innerHTML = '<div style="padding:16px;font-size:12px;color:var(--text-sub);text-align:center;">見つかりませんでした</div>';
+    countEl.textContent = '0件';
+    return;
+  }
+  countEl.textContent = `${shops.length}件`;
+  listEl.innerHTML = shops.map(s => {
+    const rank  = s.store_type==='11' ? 'roastery' : (s.price_rank||'normal');
+    const color = getRankColor(rank, s.store_type);
+    const prices = PRICE_TABLE[rank] || PRICE_TABLE.normal;
+    return `<div class="store-item" onclick="focusSearchStore('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
+      <div class="store-dot" style="background:${color}"></div>
+      <div class="store-info">
+        <div class="store-name">${s.name}</div>
+        <div class="store-sub">¥${prices.takeout} テイクアウト / ¥${prices.instore} 店内</div>
+        <div class="store-sub" style="color:var(--text-sub);font-size:9px;">${s.address||''}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+window.clearSearchOverride = function() {
+  searchOverrideActive = false;
+  document.getElementById('search-clear-btn').style.display = 'none';
+  document.getElementById('list-header-title').textContent = '近くの店舗';
   document.getElementById('search-input').value = '';
   document.getElementById('search-results').classList.remove('open');
-  document.getElementById('search-results').innerHTML = '';
-};
-
-window.setMobileSearchMode = function(mode) {
-  mobileSearchMode = mode;
-  document.getElementById('msearch-mode-store').classList.toggle('active', mode==='store');
-  document.getElementById('msearch-mode-place').classList.toggle('active', mode==='place');
-  document.getElementById('mobile-search-input').value = '';
-  const res = document.getElementById('mobile-search-results');
-  if (res) { res.classList.remove('open'); res.innerHTML = ''; }
-};
-
-window.toggleMobileSearch = function() {
-  const overlay = document.getElementById('mobile-search-overlay');
-  const isOpen = overlay.classList.toggle('open');
-  if (isOpen) {
-    document.getElementById('mobile-search-input').focus();
-  } else {
-    document.getElementById('mobile-search-results').classList.remove('open');
+  // 近い順リストを再描画
+  renderList(getAllCachedShops());
+  if (state.originLat === null) {
+    document.getElementById('list-empty').style.display = 'block';
+    document.getElementById('store-list').innerHTML = '';
+    document.getElementById('list-header-count').textContent = '';
   }
 };
-
-function getAllShopsForSearch() {
-  return Object.values(state.detailCache).flat();
-}
 
 function searchStores(query) {
   if (!query.trim()) return [];
   const q = query.trim().toLowerCase();
-  const all = getAllShopsForSearch();
-  return all.filter(s => s.name && s.name.toLowerCase().includes(q)).slice(0, 15);
+  return Object.values(state.detailCache).flat()
+    .filter(s => s.name && s.name.toLowerCase().includes(q))
+    .slice(0, 50);
 }
 
 async function searchPlace(query) {
   if (!query.trim()) return [];
   try {
-    // Nominatim利用規約: email パラメータで識別 (User-Agentはブラウザfetchでは設定不可)
     const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=5&countrycodes=jp&accept-language=ja&email=starbucks-price-map@example.com`;
     const res = await fetch(url);
     if (!res.ok) throw new Error(res.status);
     const data = await res.json();
     return data.map(d => ({
       display_name: d.display_name.split(',').slice(0,2).join(', '),
-      lat: parseFloat(d.lat),
-      lng: parseFloat(d.lon)
+      lat: parseFloat(d.lat), lng: parseFloat(d.lon)
     }));
   } catch(e) { console.warn('Nominatim error:', e); return []; }
 }
 
-function renderSearchResults(results, mode, containerEl) {
+function renderDropdown(results, mode, containerEl) {
   if (!results.length) {
     containerEl.innerHTML = '<div style="padding:8px 12px;font-size:12px;color:var(--text-sub);">見つかりませんでした</div>';
-    containerEl.classList.add('open');
-    return;
-  }
-  if (mode === 'store') {
-    containerEl.innerHTML = results.map(s => {
+  } else if (mode === 'store') {
+    containerEl.innerHTML = results.slice(0,8).map(s => {
       const color = getRankColor(s.price_rank||'normal', s.store_type);
-      return `<div class="search-result-item" onclick="focusSearchStore('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
+      return `<div class="search-result-item" onclick="selectSearchResult('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
         <div class="search-result-dot" style="background:${color}"></div>
         <div>
           <div style="font-size:12px;font-weight:700;">${s.name}</div>
@@ -1378,24 +1446,54 @@ function renderSearchResults(results, mode, containerEl) {
       </div>`;
     }).join('');
   } else {
-    containerEl.innerHTML = results.map(p => `
-      <div class="search-result-item" onclick="flyToPlace(${p.lat},${p.lng})">
-        <div style="font-size:16px;line-height:1;">📍</div>
-        <div style="font-size:12px;">${p.display_name}</div>
+    containerEl.innerHTML = results.map(p =>
+      `<div class="search-result-item" onclick="flyToPlace(${p.lat},${p.lng})">
+        <span style="font-size:14px;">📍</span>
+        <span style="font-size:12px;">${p.display_name}</span>
       </div>`).join('');
   }
   containerEl.classList.add('open');
 }
 
-window.focusSearchStore = function(id, lat, lng) {
-  document.getElementById('search-results').classList.remove('open');
-  document.getElementById('mobile-search-overlay')?.classList.remove('open');
-  if (!lat) return;
-  map.setView([lat, lng], 16);
-  // キャッシュになければ周辺を読み込んで表示
-  const code = detectPrefFromCoords(lat, lng);
-  if (code) {
-    fetchDetail(code).then(() => {
+// PC：入力→ドロップダウン（店舗名）or 地名飛び
+function handlePCSearchInput(query) {
+  const resultsEl = document.getElementById('search-results');
+  if (!query.trim()) { resultsEl.classList.remove('open'); return; }
+  if (searchMode === 'store') {
+    renderDropdown(searchStores(query), 'store', resultsEl);
+  } else {
+    clearTimeout(geocodeTimer);
+    geocodeTimer = setTimeout(async () => {
+      renderDropdown(await searchPlace(query), 'place', resultsEl);
+    }, 400);
+  }
+}
+
+// PC：Enterで全件リスト上書き（店舗名モードのみ）
+function executePCSearch(query) {
+  const resultsEl = document.getElementById('search-results');
+  resultsEl.classList.remove('open');
+  if (searchMode === 'store') {
+    showSearchOverride(searchStores(query));
+  } else {
+    // 地名モードはEnterでも先頭を選択して地図移動
+    const first = resultsEl.querySelector('.search-result-item');
+    if (first) first.click();
+  }
+}
+
+// リスト上書き後にピンをフォーカス
+window.selectSearchResult = function(id, lat, lng) {
+  const resultsEl = document.getElementById('search-results');
+  resultsEl.classList.remove('open');
+  // store-listをまず上書き（全件）
+  const q = document.getElementById('search-input').value;
+  showSearchOverride(searchStores(q));
+  // 地図も移動
+  if (lat) {
+    map.setView([lat, lng], 16);
+    const code = detectPrefFromCoords(lat, lng);
+    if (code) fetchDetail(code).then(() => {
       redrawAfterFilter();
       setTimeout(() => {
         const marker = state.markerMap[id];
@@ -1408,51 +1506,49 @@ window.focusSearchStore = function(id, lat, lng) {
   }
 };
 
+window.focusSearchStore = function(id, lat, lng) {
+  document.getElementById('mobile-search-overlay')?.classList.remove('open');
+  if (!lat) return;
+  map.setView([lat, lng], 16);
+  const code = detectPrefFromCoords(lat, lng);
+  if (code) fetchDetail(code).then(() => {
+    redrawAfterFilter();
+    setTimeout(() => {
+      const marker = state.markerMap[id];
+      if (marker) {
+        if (state.detailGroup) state.detailGroup.zoomToShowLayer(marker, () => marker.openPopup());
+        else marker.openPopup();
+      }
+    }, 400);
+  });
+};
+
 window.flyToPlace = function(lat, lng) {
   document.getElementById('search-results').classList.remove('open');
   document.getElementById('mobile-search-overlay')?.classList.remove('open');
   map.setView([lat, lng], 13);
 };
 
-function handleSearchInput(query, mode, containerEl) {
-  if (!query.trim()) { containerEl.classList.remove('open'); containerEl.innerHTML=''; return; }
-  if (mode === 'store') {
-    const results = searchStores(query);
-    renderSearchResults(results, 'store', containerEl);
-  } else {
-    clearTimeout(geocodeTimer);
-    geocodeTimer = setTimeout(async () => {
-      const results = await searchPlace(query);
-      renderSearchResults(results, 'place', containerEl);
-    }, 400);
-  }
-}
-
 function initSearch() {
   // PC検索
   const input = document.getElementById('search-input');
   const resultsEl = document.getElementById('search-results');
-
-  // 入力中はリアルタイム候補表示（店舗名）、地名は少し待つ
-  input.addEventListener('input', e => handleSearchInput(e.target.value, searchMode, resultsEl));
-  input.addEventListener('focus', () => { if (input.value) handleSearchInput(input.value, searchMode, resultsEl); });
-
-  // Enterキー：先頭の候補を即実行
+  input.addEventListener('input', e => handlePCSearchInput(e.target.value));
+  input.addEventListener('focus', () => { if (input.value) handlePCSearchInput(input.value); });
   input.addEventListener('keydown', e => {
     if (e.key === 'Enter') {
       e.preventDefault();
+      const focused = resultsEl.querySelector('.search-result-item.focused');
+      if (focused) { focused.click(); return; }
       const first = resultsEl.querySelector('.search-result-item');
-      if (first) { first.click(); return; }
-      // 候補がまだなければ検索を即時実行
-      handleSearchInput(input.value, searchMode, resultsEl);
+      if (first && searchMode === 'place') { first.click(); return; }
+      executePCSearch(input.value);
     }
-    // ↑↓キーで候補を選択
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       e.preventDefault();
       const items = [...resultsEl.querySelectorAll('.search-result-item')];
       if (!items.length) return;
-      const current = resultsEl.querySelector('.search-result-item.focused');
-      const idx = current ? items.indexOf(current) : -1;
+      const idx = items.indexOf(resultsEl.querySelector('.search-result-item.focused'));
       const next = e.key === 'ArrowDown' ? Math.min(idx+1, items.length-1) : Math.max(idx-1, 0);
       items.forEach(it => it.classList.remove('focused'));
       items[next].classList.add('focused');
@@ -1460,24 +1556,26 @@ function initSearch() {
     }
     if (e.key === 'Escape') { resultsEl.classList.remove('open'); input.blur(); }
   });
-
   document.addEventListener('click', e => {
     if (!e.target.closest('#search-wrap')) resultsEl.classList.remove('open');
   });
 
-  // スマホ検索（オーバーレイ内の要素）
+  // スマホ検索（オーバーレイ）
   const mInput = document.getElementById('mobile-search-input');
   if (mInput) {
     const mResults = document.getElementById('mobile-search-results');
-    mInput.addEventListener('input', e => handleSearchInput(e.target.value, mobileSearchMode, mResults));
+    mInput.addEventListener('input', e => {
+      const q = e.target.value;
+      if (!q.trim()) { mResults.classList.remove('open'); return; }
+      renderDropdown(searchStores(q), 'store', mResults);
+    });
     mInput.addEventListener('keydown', e => {
       if (e.key === 'Enter') {
         e.preventDefault();
         const first = mResults.querySelector('.search-result-item');
         if (first) first.click();
-        else handleSearchInput(mInput.value, mobileSearchMode, mResults);
       }
-      if (e.key === 'Escape') { toggleMobileSearch(); }
+      if (e.key === 'Escape') toggleMobileSearch();
     });
     document.getElementById('mobile-search-overlay').addEventListener('click', e => {
       if (e.target === document.getElementById('mobile-search-overlay')) toggleMobileSearch();
@@ -1602,11 +1700,16 @@ map.on('zoomend', () => {
 });
 
 function detectPrefFromCoords(lat, lng) {
+  // 複数の県のboundsに含まれる場合は面積が最小のものを優先（境界付近の誤判定防止）
+  let best = null, bestArea = Infinity;
   for (const [code, cfg] of Object.entries(PREFECTURE_CONFIG)) {
     const [[s,w],[n,e]] = cfg.bounds;
-    if (lat>=s && lat<=n && lng>=w && lng<=e) return code;
+    if (lat>=s && lat<=n && lng>=w && lng<=e) {
+      const area = (n-s)*(e-w);
+      if (area < bestArea) { bestArea = area; best = code; }
+    }
   }
-  return null;
+  return best;
 }
 
 // ============================================================
