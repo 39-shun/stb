@@ -383,8 +383,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     flex:0 0 0%;
   }
 
-  /* 現在地ボタン: 地図内右下 */
-  #locate-btn { bottom:16px !important; right:12px !important; }
+  /* 現在地ボタン: 地図内右下（広告枠60pxの上に確実に出す） */
+  #locate-btn { bottom:calc(var(--ad-bottom-h) + 12px) !important; right:12px !important; }
   /* 検索FAB: スマホのみ表示 */
   #mobile-search-fab { display:flex; }
 
@@ -583,7 +583,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       <!-- 地図折りたたみハンドル -->
       
 
-      <button id="locate-btn" title="現在地から近い順">⊕</button>
+      <button id="locate-btn" title="現在地から近い順"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L4.5 20.3l.7.7L12 18l6.8 3 .7-.7z"/></svg></button>
       <!-- スマホ検索ボタン（地図上） -->
       <button id="mobile-search-fab" onclick="toggleMobileSearch()" title="検索">🔍</button>
       <!-- スマホ検索オーバーレイ -->
@@ -929,16 +929,30 @@ function getCheckTime() {
 }
 
 function passesFilter(shop) {
+  const isRoastery = shop.store_type === '11';
   const shopRank = shop.price_rank;
-  if (state.filters.rank !== 'all' && shopRank !== state.filters.rank) return false;
-  for (const opt of state.filters.options) {
-    if (opt === 'special') { if (shop.store_type !== '2') return false; }
-    else if (!shop.options?.[opt]) return false;
+
+  // 価格帯フィルター：ロースタリーはrankフィルタ選択時は除外（allのみ表示）
+  if (state.filters.rank !== 'all') {
+    if (isRoastery) return false;
+    if (shopRank !== state.filters.rank) return false;
   }
+
+  // 設備フィルター
+  for (const opt of state.filters.options) {
+    if (opt === 'special') {
+      // ロースタリー(11)か特殊施設(2)のどちらかならOK
+      if (shop.store_type !== '2' && !isRoastery) return false;
+    } else if (opt === 'reserve') {
+      // ロースタリーはリザーブとして扱う
+      if (!shop.options?.reserve && !isRoastery) return false;
+    } else if (!shop.options?.[opt]) return false;
+  }
+
   const checkTime = getCheckTime();
   if (checkTime) {
     const result = isOpenAt(shop, checkTime);
-    if (result === false) return false; // nullは不明なのでフィルターしない
+    if (result === false) return false;
   }
   return true;
 }
@@ -1274,9 +1288,18 @@ function setOrigin(lat, lng, label='📍 基点') {
   state.originLng = lng;
   if (state.originMarker) map.removeLayer(state.originMarker);
   const accentColor = getComputedStyle(document.body).getPropertyValue('--accent').trim();
-  state.originMarker = L.circleMarker([lat,lng], {
-    radius:8, color:'#fff', fillColor:accentColor, fillOpacity:1, weight:2,
-  }).addTo(map).bindPopup(label).openPopup();
+  // ナビ風三角アイコン
+  const navSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <filter id="navshadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="rgba(0,0,0,0.35)"/>
+    </filter>
+    <g filter="url(#navshadow)">
+      <polygon points="14,3 24,23 14,19 4,23" fill="${accentColor}" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+  </svg>`;
+  const navIcon = L.divIcon({ html:navSvg, className:'', iconSize:[28,28], iconAnchor:[14,14], popupAnchor:[0,-14] });
+  state.originMarker = L.marker([lat,lng], { icon:navIcon })
+    .addTo(map).bindPopup(label).openPopup();
 
   // 現在地の県を先に確実に読み込んでからリスト更新
   const code = detectPrefFromCoords(lat, lng);
