@@ -293,7 +293,7 @@ def fetch_detail_html(store_id: str) -> tuple[str | None, str | None]:
         try:
             resp = requests.get(url, headers=HEADERS_HTML, timeout=20)
             if resp.status_code == 200:
-                resp.encoding = 'utf-8'  # ← ★この1行を追加！
+                resp.encoding = 'utf-8'
                 return resp.text, None
             if resp.status_code == 404:
                 return None, FailureReason.NOT_SUPPORTED
@@ -312,16 +312,54 @@ def fetch_detail_html(store_id: str) -> tuple[str | None, str | None]:
     return None, FailureReason.TEMP_ERROR
 
 def parse_detail(html: str) -> dict:
-    """詳細HTMLから価格ランクとティバーナフラグを抽出"""
+    """詳細HTMLから価格ランク・ティバーナ・座標を抽出"""
     soup = BeautifulSoup(html, "html.parser")
+
+    # 価格ランク
     price_rank = "normal"
     for notice in soup.find_all("div", class_="notice-text"):
         m = re.search(r"特定立地価格\s*([A-Z])", notice.get_text())
         if m:
             price_rank = m.group(1)
             break
+
+    # ティバーナ
     is_teavana = bool(soup.find("a", class_="tea-logo"))
-    return {"price_rank": price_rank, "is_teavana": is_teavana}
+
+    # 座標（JSON-LDのlatitude/longitudeを優先、次にZenrin初期化変数）
+    lat = lng = None
+    # JSON-LD（構造化データ）から取得
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(script.string or "")
+            if isinstance(data, dict) and "latitude" in data:
+                lat = float(data["latitude"])
+                lng = float(data["longitude"])
+                break
+            # @graphの中にある場合
+            for item in (data if isinstance(data, list) else []):
+                if "latitude" in item:
+                    lat = float(item["latitude"])
+                    lng = float(item["longitude"])
+                    break
+        except Exception:
+            pass
+
+    # JSON-LDになければregexでHTMLからパース
+    if lat is None:
+        m = re.search(r'"latitude"\s*:\s*([\d.]+)', html)
+        if m:
+            lat = float(m.group(1))
+        m = re.search(r'"longitude"\s*:\s*([\d.]+)', html)
+        if m:
+            lng = float(m.group(1))
+
+    # 座標の妥当性チェック（日本の範囲内か）
+    coords = None
+    if lat and lng and (24.0 <= lat <= 46.0) and (122.0 <= lng <= 154.0):
+        coords = [lat, lng]
+
+    return {"price_rank": price_rank, "is_teavana": is_teavana, "coords": coords}
 
 # ============================================================
 # データ変換
@@ -333,15 +371,17 @@ def build_shop_record(raw: dict, pref_code: str, detail: dict) -> dict:
     rank       = detail.get("price_rank", "normal") or "normal"
     prices     = PRICE_TABLE.get(rank, PRICE_TABLE["normal"])
 
-    # 座標
-    coords = None
-    loc_str = fields.get("location_jp") or fields.get("location")
-    if loc_str:
-        try:
-            lat, lng = [float(x) for x in loc_str.split(",")]
-            coords = [lat, lng]
-        except ValueError:
-            pass
+    # 座標：詳細HTMLのlatitude/longitudeを優先、なければAPIのlocation_jpをフォールバック
+    coords = detail.get("coords")
+    if not coords:
+        loc_str = fields.get("location_jp") or fields.get("location")
+        if loc_str:
+            try:
+                lat, lng = [float(x) for x in loc_str.split(",")]
+                if (24.0 <= lat <= 46.0) and (122.0 <= lng <= 154.0):
+                    coords = [lat, lng]
+            except ValueError:
+                pass
 
     # 営業時間
     hours = {}
@@ -471,10 +511,12 @@ def retry_failed_stores(failed: dict):
                 updated = False
                 for j, s in enumerate(shops):
                     if s["id"] == store_id:
-                        shops[j]["price_rank"]     = detail["price_rank"]
-                        shops[j]["price_takeout"]  = PRICE_TABLE.get(detail["price_rank"], PRICE_TABLE["normal"])["takeout"]
-                        shops[j]["price_instore"]  = PRICE_TABLE.get(detail["price_rank"], PRICE_TABLE["normal"])["in_store"]
+                        shops[j]["price_rank"]        = detail["price_rank"]
+                        shops[j]["price_takeout"]     = PRICE_TABLE.get(detail["price_rank"], PRICE_TABLE["normal"])["takeout"]
+                        shops[j]["price_instore"]     = PRICE_TABLE.get(detail["price_rank"], PRICE_TABLE["normal"])["in_store"]
                         shops[j]["options"]["teavana"] = detail["is_teavana"]
+                        if detail.get("coords"):
+                            shops[j]["coords"] = detail["coords"]
                         shops[j]["detail_fetched"] = True
                         shops[j]["scraped_at"]     = datetime.now().isoformat()
                         updated = True
