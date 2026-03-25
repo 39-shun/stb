@@ -22,7 +22,7 @@ from datetime import datetime
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
+import re
 
 # ============================================================
 # 設定
@@ -80,34 +80,16 @@ def fetch_coords_from_html(store_id: str) -> list | None:
     return None
 
 def parse_coords(html: str) -> list | None:
-    """HTMLからlatitude/longitudeを抽出してWGS84座標を返す"""
-    soup = BeautifulSoup(html, "html.parser")
+    """HTMLからlatitude/longitudeをregexで抽出"""
     lat = lng = None
 
-    # JSON-LD（構造化データ）から取得
-    for script in soup.find_all("script", type="application/ld+json"):
-        try:
-            data = json.loads(script.string or "")
-            if isinstance(data, dict) and "latitude" in data:
-                lat = float(data["latitude"])
-                lng = float(data["longitude"])
-                break
-            for item in (data if isinstance(data, list) else []):
-                if isinstance(item, dict) and "latitude" in item:
-                    lat = float(item["latitude"])
-                    lng = float(item["longitude"])
-                    break
-        except Exception:
-            pass
-
-    # JSON-LDになければregexでHTMLからパース
-    if lat is None:
-        m = re.search(r'"latitude"\s*:\s*([\d.]+)', html)
-        if m:
-            lat = float(m.group(1))
-        m = re.search(r'"longitude"\s*:\s*([\d.]+)', html)
-        if m:
-            lng = float(m.group(1))
+    # "latitude": 35.648... 形式（JSON-LDやインラインJSON）
+    m = re.search(r'"latitude"\s*:\s*([\d.]+)', html)
+    if m:
+        lat = float(m.group(1))
+    m = re.search(r'"longitude"\s*:\s*([\d.]+)', html)
+    if m:
+        lng = float(m.group(1))
 
     # 日本の範囲内かチェック
     if lat and lng and (24.0 <= lat <= 46.0) and (122.0 <= lng <= 154.0):
