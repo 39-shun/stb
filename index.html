@@ -297,7 +297,14 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   z-index:1000; align-items:center; justify-content:center; flex-direction:column; gap:2px;
 }
 
-/* Loading */
+/* トースト通知 */
+#toast {
+  position:fixed; bottom:calc(var(--ad-bottom-h) + 12px); left:50%; transform:translateX(-50%);
+  background:rgba(28,26,22,.85); color:#fff; font-size:12px;
+  padding:7px 16px; border-radius:20px; z-index:2000;
+  opacity:0; transition:opacity .3s; pointer-events:none; white-space:nowrap;
+}
+#toast.show { opacity:1; }
 #loading {
   display:none; position:absolute; inset:0;
   background:rgba(128,128,100,.15); z-index:1100;
@@ -336,8 +343,16 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
 /* ポップアップ最大高さ制限（スマホで地図に収まるよう） */
 @media (max-width:700px) {
-  .leaflet-popup-content-wrapper { max-height:52vh; overflow-y:auto; }
-  .leaflet-popup-content { max-height:50vh; overflow-y:auto; }
+  .leaflet-popup-content-wrapper {
+    max-height:26vh;
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+  .leaflet-popup-content {
+    max-height:24vh;
+    overflow-y:auto;
+    margin:8px 12px;
+  }
 }
 @media (max-width:700px) {
   #app {
@@ -638,6 +653,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
 </div>
 
+<div id="toast"></div>
+
 <div id="ad-bottom">
   <div class="ad-label">Advertisement</div>
   <div style="font-size:11px;color:#aaa;">広告枠（320×50）</div>
@@ -746,6 +763,11 @@ const state = {
 // ============================================================
 const map = L.map('map', { center:[36.5,137.5], zoom:5, zoomControl:true });
 map.scrollWheelZoom.enable();
+
+// スマホではポップアップの自動パンを無効（地図が小さいと閉じてしまうため）
+if (window.innerWidth <= 700) {
+  L.Popup.prototype.options.autoPan = false;
+}
 
 function applyTheme(theme) {
   document.body.setAttribute('data-theme', theme);
@@ -984,9 +1006,16 @@ function initFilters() {
   });
 }
 
+function showToast(msg, duration=2500) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(el._timer);
+  el._timer = setTimeout(() => el.classList.remove('show'), duration);
+}
+
 function redrawAfterFilter() {
   if (state.selectedPrefs.size > 0) {
-    // 都道府県選択中: 選択県を再描画
     renderAllSelectedPrefs();
   } else if (map.getZoom() >= 9) {
     // ズーム自動表示中: 現在のbounds内の店舗を再描画
@@ -1018,7 +1047,30 @@ function redrawAfterFilter() {
     }
     map.addLayer(state.detailGroup);
   } else if (state.summaryData) {
-    // サマリー表示中: サマリーを再描画
+    // サマリー表示中（広域）
+    // 営業時間フィルターが有効なら表示範囲の県を自動fetch
+    const needsDetail = state.filters.hours !== null;
+    const bounds = map.getBounds();
+    const visibleCodes = Object.entries(PREFECTURE_CONFIG)
+      .filter(([, cfg]) => {
+        const [[s,w],[n,e]] = cfg.bounds;
+        return bounds.getSouth()<=n && bounds.getNorth()>=s &&
+               bounds.getWest()<=e  && bounds.getEast()>=w;
+      })
+      .map(([code]) => code);
+    const uncached = visibleCodes.filter(c => !state.detailCache[c]);
+
+    if (needsDetail && uncached.length > 0 && uncached.length <= 10) {
+      // 10県以内なら自動fetch（それ以上はズームアウトしすぎ）
+      showToast(`📡 ${uncached.length}県のデータを読み込んでいます...`, 4000);
+      Promise.all(uncached.map(c => fetchDetail(c))).then(() => {
+        showToast('✓ 詳細データに切り替えました');
+        redrawAfterFilter(); // 再帰でdetail表示に切り替わる
+      });
+      return; // fetch完了後に再描画するのでここではサマリーをそのまま残す
+    }
+
+    // サマリーを再描画（price_rank・optionsはサマリーに含まれているのでフィルター有効）
     if (state.summaryGroup) map.removeLayer(state.summaryGroup);
     state.summaryGroup = L.markerClusterGroup({
       maxClusterRadius:60, spiderfyOnMaxZoom:true,
@@ -1709,8 +1761,8 @@ map.on('zoomend', () => {
           state.markerMap[shop.id] = marker;
         }
         map.addLayer(state.detailGroup);
-        // ズーム自動読み込み時のフィルターインジケーター更新
         updateFilterIndicator();
+        showToast('✓ 詳細データに切り替えました');
       });
     }
   } else if (state.selectedPrefs.size === 0 && zoom < 9) {
