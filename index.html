@@ -1289,6 +1289,7 @@ window.focusStore = async function(id, lat, lng) {
     await buildDetailLayer(allCodes.filter(c => state.detailCache[c]));
   }
   if (map.getZoom() < 13) {
+    skipNextMoveend = true;
     map.setView([lat, lng], 12, { animate:true });
     await new Promise(r => setTimeout(r, 350));
   }
@@ -1400,6 +1401,7 @@ document.getElementById('locate-btn').addEventListener('click', () => {
     pos => {
       hideLoading();
       setOrigin(pos.coords.latitude, pos.coords.longitude, '📍 現在地');
+      skipNextMoveend = true;
       map.setView([pos.coords.latitude, pos.coords.longitude], 13);
       updateLocateBtnStyle();
     },
@@ -2056,9 +2058,12 @@ function updateCenterList() {
 }
 
 let mapMoveTimer = null;
+let skipNextMoveend = false; // focusStoreのsetViewによるmoveendを無視するフラグ
+
 map.on('zoomend moveend', () => {
   clearTimeout(mapMoveTimer);
   mapMoveTimer = setTimeout(async () => {
+    if (skipNextMoveend) { skipNextMoveend = false; updateCenterList(); return; }
     // 現在地モード中、地図中央が10km以上離れたら自動で地図中央モードに戻す
     if (!state.mapCenterMode && state.originLat !== null) {
       const c = map.getCenter();
