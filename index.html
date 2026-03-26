@@ -1082,7 +1082,7 @@ function redrawAfterFilter() {
       m.on('click', () => {
         const code = String(s.prefecture_code).padStart(2,'0');
         if (state.selectedPrefs.size > 0) return;
-        if (map.getZoom() < 10) map.setView(s.coords, 12, { animate:true });
+        if (map.getZoom() < 10) map.setView(s.coords, 10, { animate:true });
         selectPref(code);
       });
       state.summaryGroup.addLayer(m);
@@ -1153,7 +1153,7 @@ async function loadSummary() {
         const code = String(s.prefecture_code).padStart(2,'0');
         // 既に詳細表示中なら何もしない
         if (state.currentPref) return;
-        if (map.getZoom() < 10) map.setView(s.coords, 12, { animate:true });
+        if (map.getZoom() < 10) map.setView(s.coords, 10, { animate:true });
         selectPref(code);
       });
       state.summaryGroup.addLayer(m);
@@ -2074,7 +2074,11 @@ map.on('zoomend moveend', () => {
         showToast('📍 現在地モードを解除しました');
       }
     }
-    if (state.selectedPrefs.size > 0) { updateCenterList(); return; }
+    if (state.selectedPrefs.size > 0) {
+      // selectedPrefsがある場合もgetVisibleCodesベースで処理（早期returnしない）
+      state.selectedPrefs.clear();
+      state._displayedCodes = [];
+    }
     const zoom = map.getZoom();
     if (zoom >= 9) {
       const codes = getVisibleCodes();
