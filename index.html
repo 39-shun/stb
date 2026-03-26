@@ -654,7 +654,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     </div>
 
     <!-- 近くの店舗ヘッダー（フィルターより下） -->
-      <div style="display:flex;align-items:center;justify-content:space-between;padding:7px 14px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--surface);">
+      <div id="mobile-list-header-row" style="display:flex;align-items:center;justify-content:space-between;padding:7px 14px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--surface);">
         <span id="mobile-list-title" style="font-size:11px;font-weight:700;color:var(--text-sub);letter-spacing:.06em;">近くの店舗</span>
         <span id="mobile-list-count" style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text-sub);"></span>
       </div>
@@ -1226,28 +1226,18 @@ function addMarkerToGroup(shop, group) {
   const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, isMerged) });
 
   if (window.innerWidth <= 700) {
-    // スマホ：ポップアップなし、タップで詳細パネル
+    // スマホ：タップでミニポップアップ→詳細パネル
     marker.on('click', () => {
       const isStatemap = mapState === 'map';
-      if (isStatemap) {
-        // state-map中：別ピンなら強調そのまま、新ピンにポップアップ
-        if (state.activeDetailId && state.activeDetailId !== shop.id) {
-          window._miniPopupShop = shop;
-          marker.bindPopup(buildMiniPopup(shop), { maxWidth:240, autoPan:false }).openPopup();
-          return;
-        }
+      if (isStatemap && state.activeDetailId && state.activeDetailId !== shop.id) {
+        // state-map中に別ピン：強調そのまま、新ピンにミニポップアップ
+        window._miniPopupShop = shop;
+        marker.bindPopup(buildMiniPopup(shop), { maxWidth:240, autoPan:false }).openPopup();
+        return;
       }
-      // default中、またはstate-map中で詳細を見るを押した場合
-      // 前の強調を解除
-      if (state.highlightedMarker && state.highlightedMarker !== marker) {
-        const s = state.highlightedShop;
-        state.highlightedMarker.setIcon(makeIcon(s.price_rank, s.store_type, s.options||{}, !!s._merged));
-      }
-      // 新しいピンを強調
-      marker.setIcon(makeHighlightIcon(shop.price_rank, shop.store_type, shop.options||{}, isMerged));
-      state.highlightedMarker = marker;
-      state.highlightedShop = shop;
-      openMobileDetail(shop);
+      // default中 or state-map中で同じピン or 詳細なし：ミニポップアップを出す
+      window._miniPopupShop = shop;
+      marker.bindPopup(buildMiniPopup(shop), { maxWidth:240, autoPan:false }).openPopup();
     });
   } else {
     // PC：従来通りポップアップ
@@ -1299,7 +1289,7 @@ window.focusStore = async function(id, lat, lng) {
     await buildDetailLayer(allCodes.filter(c => state.detailCache[c]));
   }
   if (map.getZoom() < 13) {
-    map.setView([lat, lng], 14, { animate:true });
+    map.setView([lat, lng], 12, { animate:true });
     await new Promise(r => setTimeout(r, 350));
   }
 
@@ -1453,7 +1443,7 @@ document.getElementById('map-select-cancel').addEventListener('click', closeMapS
   el.addEventListener('mouseleave', () => el.style.background = '');
 });
 
-// state-map中のミニポップアップ「詳細を見る」から呼ばれる
+// ミニポップアップの「詳細を見る」から呼ばれる
 window._openMobileDetailFromPopup = function(shop) {
   // 前の強調を解除
   if (state.highlightedMarker && state.highlightedShop) {
@@ -1468,6 +1458,8 @@ window._openMobileDetailFromPopup = function(shop) {
     state.highlightedShop = shop;
   }
   map.closePopup();
+  // state-mapならdefaultに戻す
+  if (mapState === 'map') setMapState('default');
   openMobileDetail(shop);
 };
 
@@ -1504,15 +1496,11 @@ window.closeMobileDetail = function() {
   if (window.innerWidth > 700) return;
   clearHighlight();
   document.getElementById('mobile-detail-panel').style.display = 'none';
-
-  // フィルター+リストを戻す
   document.getElementById('mobile-filter-body').style.display = '';
   document.getElementById('mobile-filter-header').style.display = '';
-  document.querySelector('#mobile-list-area > div:nth-child(4)').style.display = ''; // リストヘッダー
+  document.getElementById('mobile-list-header-row').style.display = '';
   document.getElementById('mobile-list-empty').style.display = '';
   document.getElementById('mobile-store-list').style.display = '';
-
-  // トグルバー文言を戻す
   document.getElementById('list-expand-btn').textContent = '▲ リストを広げる';
 };
 
@@ -1525,7 +1513,7 @@ function openMobileDetail(shop) {
   // フィルター・リストを隠す
   document.getElementById('mobile-filter-body').style.display = 'none';
   document.getElementById('mobile-filter-header').style.display = 'none';
-  document.querySelector('#mobile-list-area > div:nth-child(4)').style.display = 'none'; // リストヘッダー
+  document.getElementById('mobile-list-header-row').style.display = 'none';
   document.getElementById('mobile-list-empty').style.display = 'none';
   document.getElementById('mobile-store-list').style.display = 'none';
 
@@ -2080,7 +2068,8 @@ map.on('zoomend moveend', () => {
         await Promise.all(uncached.map(c => fetchDetail(c)));
         await buildDetailLayer(codes.filter(c => state.detailCache[c]));
         showToast('✓ 詳細データに切り替えました');
-      } else if (!state.detailGroup) {
+      } else {
+        // キャッシュ済みでもdetailGroupが範囲外を含む可能性があるので再構築
         await buildDetailLayer(codes.filter(c => state.detailCache[c]));
       }
     } else {
