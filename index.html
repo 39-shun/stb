@@ -657,6 +657,16 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
 </div>
 
+<!-- マップ選択モーダル -->
+<div id="map-select-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:3000;align-items:center;justify-content:center;">
+  <div style="background:var(--surface);border-radius:14px;overflow:hidden;width:280px;box-shadow:0 8px 32px rgba(0,0,0,.25);">
+    <div style="padding:14px 16px 10px;font-size:13px;font-weight:700;color:var(--text-sub);text-align:center;border-bottom:1px solid var(--border);">マップで開く</div>
+    <div id="map-select-google" style="padding:14px 16px;font-size:14px;font-weight:700;color:var(--text);cursor:pointer;text-align:center;border-bottom:1px solid var(--border);transition:background .12s;">🗺 Google Maps</div>
+    <div id="map-select-apple" style="padding:14px 16px;font-size:14px;font-weight:700;color:var(--text);cursor:pointer;text-align:center;border-bottom:1px solid var(--border);transition:background .12s;">🍎 Apple Maps</div>
+    <div id="map-select-cancel" style="padding:14px 16px;font-size:14px;color:var(--text-sub);cursor:pointer;text-align:center;transition:background .12s;">キャンセル</div>
+  </div>
+</div>
+
 <div id="toast"></div>
 
 <div id="ad-bottom">
@@ -786,12 +796,12 @@ document.getElementById('theme-select').addEventListener('change', e => applyThe
 // ============================================================
 // アコーディオン
 // ============================================================
-function toggleAccordion(id) {
+window.toggleAccordion = function(id) {
   const body  = document.getElementById(`${id}-accordion-body`);
   const arrow = document.getElementById(`${id}-arrow`);
   const isOpen = body.classList.toggle('open');
   arrow.classList.toggle('open', isOpen);
-}
+};
 window.scrollToFilter = function() {
   document.getElementById('filter-accordion-body').classList.add('open');
   document.getElementById('filter-arrow').classList.add('open');
@@ -1340,6 +1350,41 @@ document.getElementById('locate-btn').addEventListener('click', () => {
 });
 
 // ============================================================
+// マップ選択モーダル
+// ============================================================
+let _mapSelectLat = 0, _mapSelectLng = 0;
+
+function openMapSelect(lat, lng) {
+  _mapSelectLat = lat; _mapSelectLng = lng;
+  const overlay = document.getElementById('map-select-overlay');
+  overlay.style.display = 'flex';
+}
+
+function closeMapSelect() {
+  document.getElementById('map-select-overlay').style.display = 'none';
+}
+
+document.getElementById('map-select-overlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('map-select-overlay')) closeMapSelect();
+});
+document.getElementById('map-select-google').addEventListener('click', () => {
+  window.open(`https://www.google.com/maps/search/?api=1&query=${_mapSelectLat},${_mapSelectLng}`, '_blank');
+  closeMapSelect();
+});
+document.getElementById('map-select-apple').addEventListener('click', () => {
+  window.open(`https://maps.apple.com/?q=${_mapSelectLat},${_mapSelectLng}`, '_blank');
+  closeMapSelect();
+});
+document.getElementById('map-select-cancel').addEventListener('click', closeMapSelect);
+
+// ホバーエフェクト
+['map-select-google','map-select-apple','map-select-cancel'].forEach(id => {
+  const el = document.getElementById(id);
+  el.addEventListener('mouseenter', () => el.style.background = 'var(--surface2)');
+  el.addEventListener('mouseleave', () => el.style.background = '');
+});
+
+// ============================================================
 // ポップアップ
 // ============================================================
 function buildPopup(shop) {
@@ -1421,14 +1466,12 @@ function buildPopup(shop) {
         ${buildHoursHtml(s)}
       </div>`;
     }).join('');
-    const mapUrl = shop.coords ? `geo:${shop.coords[0]},${shop.coords[1]}?q=${shop.coords[0]},${shop.coords[1]}(${encodeURIComponent(shop.name||'スターバックス')})` : '#';
+    const mapBtn = shop.coords ? `<button onclick="openMapSelect(${shop.coords[0]},${shop.coords[1]})" style="flex:1;padding:7px 6px;border-radius:5px;background:#4285F4;color:#fff;font-size:11px;font-weight:700;text-align:center;border:none;cursor:pointer;">🗺 マップで開く</button>` : '';
     return `<div class="stb-popup">
       <div class="p-name">✦ ${shop.name}</div>
       <div class="p-badges"><span class="p-badge badge-merge">マージ店舗</span><span class="p-badge badge-reserve">★ リザーブ</span><span class="p-badge badge-teavana">🍃 ティバーナ</span></div>
       <div class="merge-tabs">${tabs}</div>${panes}
-      <div style="display:flex;gap:6px;margin-bottom:6px;">
-        <a href="${mapUrl}" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:#4285F4;color:#fff;font-size:11px;font-weight:700;text-align:center;text-decoration:none;">🗺 マップで開く</a>
-      </div>
+      <div style="display:flex;gap:6px;margin-bottom:6px;">${mapBtn}</div>
       <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
       <div class="p-affiliate-note">${AFFILIATE.note}</div>
     </div>`;
@@ -1441,7 +1484,7 @@ function buildPopup(shop) {
     shop.options?.teavana         ? `<span class="p-badge badge-teavana">🍃 ティバーナ</span>`:'',
     shop.options?.drive_thru      ? `<span class="p-badge badge-dt">🚗 ドライブスルー</span>`:'',
   ].join('');
-  const mapUrl = shop.coords ? `geo:${shop.coords[0]},${shop.coords[1]}?q=${shop.coords[0]},${shop.coords[1]}(${encodeURIComponent(shop.name||'スターバックス')})` : '#';
+  const mapBtn = shop.coords ? `<button onclick="openMapSelect(${shop.coords[0]},${shop.coords[1]})" style="flex:1;padding:7px 6px;border-radius:5px;background:#4285F4;color:#fff;font-size:11px;font-weight:700;text-align:center;border:none;cursor:pointer;">🗺 マップで開く</button>` : '';
   const stbUrl = `https://store.starbucks.co.jp/detail-${shop.id}/`;
   return `<div class="stb-popup">
     <div class="p-name">${shop.name}</div>
@@ -1452,7 +1495,7 @@ function buildPopup(shop) {
     ${buildHoursHtml(shop)}
     <div style="font-size:10px;color:#aaa;margin-bottom:8px;">🕐 ${f.label}</div>
     <div style="display:flex;gap:6px;margin-bottom:6px;">
-      <a href="${mapUrl}" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:#4285F4;color:#fff;font-size:11px;font-weight:700;text-align:center;text-decoration:none;">🗺 マップで開く</a>
+      ${mapBtn}
       <a href="${stbUrl}" target="_blank" rel="noopener" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:var(--surface2);color:var(--text);font-size:11px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);">🔗 公式ページ</a>
     </div>
     <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
@@ -1738,6 +1781,19 @@ let mapMoveTimer = null;
 map.on('zoomend moveend', () => {
   clearTimeout(mapMoveTimer);
   mapMoveTimer = setTimeout(async () => {
+    // 現在地モード中、地図中央が10km以上離れたら自動で地図中央モードに戻す
+    if (!state.mapCenterMode && state.originLat !== null) {
+      const c = map.getCenter();
+      if (distKm(state.originLat, state.originLng, c.lat, c.lng) > 10) {
+        state.mapCenterMode = true;
+        if (state.originMarker) { map.removeLayer(state.originMarker); state.originMarker = null; }
+        state.originLat = null; state.originLng = null;
+        document.getElementById('list-header-title').textContent = '地図中央から近い順';
+        document.getElementById('mobile-list-title').textContent = '地図中央から近い順';
+        updateLocateBtnStyle();
+        showToast('📍 現在地モードを解除しました');
+      }
+    }
     if (state.selectedPrefs.size > 0) { updateCenterList(); return; }
     const zoom = map.getZoom();
     if (zoom >= 9) {
@@ -1773,6 +1829,7 @@ function detectPrefFromCoords(lat, lng) {
 // ============================================================
 // 起動
 // ============================================================
+updateLocateBtnStyle();
 initFilters();
 initSearch();
 loadSummary();
