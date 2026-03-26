@@ -1005,15 +1005,15 @@ function initFilters() {
           state.filters.hours = null;
           state.filters.timeVal = null;
           document.querySelectorAll('[data-filter="hours"]').forEach(c => c.classList.remove('active'));
-          document.getElementById('time-picker-wrap').style.display = 'none';
+          document.getElementById('time-picker-wrap')?.style && (document.getElementById('time-picker-wrap').style.display = 'none');
         } else {
           state.filters.hours = val;
           document.querySelectorAll('[data-filter="hours"]').forEach(c => c.classList.toggle('active', c.dataset.value===val));
           if (val === 'open_at') {
-            document.getElementById('time-picker-wrap').style.display = 'block';
-            document.getElementById('time-picker').focus();
+            document.getElementById('time-picker-wrap')?.style && (document.getElementById('time-picker-wrap').style.display = 'block');
+            document.getElementById('time-picker')?.focus();
           } else {
-            document.getElementById('time-picker-wrap').style.display = 'none';
+            document.getElementById('time-picker-wrap')?.style && (document.getElementById('time-picker-wrap').style.display = 'none');
           }
         }
       }
@@ -1022,7 +1022,7 @@ function initFilters() {
     });
   });
 
-  document.getElementById('time-picker').addEventListener('change', e => {
+  document.getElementById('time-picker')?.addEventListener('change', e => {
     state.filters.timeVal = e.target.value;
     updateFilterIndicator();
     redrawAfterFilter();
@@ -1202,6 +1202,8 @@ function addMarkerToGroup(shop, group) {
   group.addLayer(marker);
   return marker;
 }
+
+function renderAllSelectedPrefs() {
   if (state.detailGroup) map.removeLayer(state.detailGroup);
   state.markerMap = {};
 
@@ -1220,7 +1222,6 @@ function addMarkerToGroup(shop, group) {
   });
 
   for (const shop of processed) {
-    if (!shop.coords?.length) continue;
     const marker = addMarkerToGroup(shop, state.detailGroup);
     if (marker) state.markerMap[shop.id] = marker;
   }
@@ -1281,15 +1282,16 @@ function renderList(allShops) {
   if (emptyElM) emptyElM.style.display = filtered.length ? 'none' : 'block';
 }
 
-// マーカークリック時に画面下1/3にピンが来るよう地図をパン
+// マーカークリック時に画面下寄りにピンが来るよう地図をパン
 function panToMarker(lat, lng) {
   const isMobile = window.innerWidth <= 700;
   if (isMobile) {
-    // スマホ：地図の高さの1/4分上にオフセット（ピンを下寄りに）
+    // スマホ：地図の高さの1/5分、ピンを画面下寄りにオフセット
     const mapHeight = document.getElementById('map-wrap').offsetHeight;
-    const offset = mapHeight / 4;
-    const targetPoint = map.project([lat, lng], map.getZoom()).subtract([0, -offset]);
-    const targetLatLng = map.unproject(targetPoint, map.getZoom());
+    const offset = mapHeight / 5;
+    const currentZoom = map.getZoom();
+    const targetPoint = map.project([lat, lng], currentZoom).add([0, offset]);
+    const targetLatLng = map.unproject(targetPoint, currentZoom);
     map.panTo(targetLatLng, { animate: true, duration: 0.3 });
   } else {
     map.panTo([lat, lng], { animate: true, duration: 0.3 });
@@ -1298,10 +1300,22 @@ function panToMarker(lat, lng) {
 
 // リストアイテムクリック → 地図でそのピンを開く
 window.focusStore = function(id, lat, lng) {
+  // スマホ時はstate-mapに切り替えてから地図移動
+  if (window.innerWidth <= 700 && mapState !== 'map') {
+    setMapState('map');
+    setTimeout(() => {
+      panToMarker(lat, lng);
+      const marker = state.markerMap[id];
+      if (marker) {
+        if (state.detailGroup) state.detailGroup.zoomToShowLayer(marker, () => marker.openPopup());
+        else marker.openPopup();
+      }
+    }, 350);
+    return;
+  }
   map.setView([lat, lng], 15);
   const marker = state.markerMap[id];
   if (marker) {
-    // クラスター内にあれば展開してからopenPopup
     if (state.detailGroup) state.detailGroup.zoomToShowLayer(marker, () => marker.openPopup());
     else marker.openPopup();
   }
@@ -1648,6 +1662,8 @@ window.selectSearchResult = function(id, lat, lng) {
 window.focusSearchStore = function(id, lat, lng) {
   document.getElementById('mobile-search-overlay')?.classList.remove('open');
   if (!lat) return;
+  // スマホ時はstate-mapに切り替え
+  if (window.innerWidth <= 700 && mapState !== 'map') setMapState('map');
   map.setView([lat, lng], 16);
   const code = detectPrefFromCoords(lat, lng);
   if (code) fetchDetail(code).then(() => {
