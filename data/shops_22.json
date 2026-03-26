@@ -1,0 +1,3080 @@
+[
+  {
+    "id": "1765",
+    "api_id": "2001000011765",
+    "name": "沼津花園店",
+    "address": "静岡県 沼津市 花園町10-15",
+    "coords": [
+      35.1211597226,
+      138.869411963
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:00:03.275205"
+  },
+  {
+    "id": "1691",
+    "api_id": "2001000011691",
+    "name": "ららぽーと沼津店",
+    "address": "静岡県 沼津市 東椎路東荒301-3 ららぽーと沼津",
+    "coords": [
+      35.1186386519,
+      138.84038199
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:00:13.296627"
+  },
+  {
+    "id": "4378",
+    "api_id": "2001000014378",
+    "name": "裾野伊豆島田店",
+    "address": "静岡県 裾野市 伊豆島田830-2",
+    "coords": [
+      35.1502569439,
+      138.904411605
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:00:22.275716"
+  },
+  {
+    "id": "954",
+    "api_id": "200100001954",
+    "name": "EXPASA足柄サービスエリア（下り線）店",
+    "address": "静岡県 駿東郡 小山町桑木599 東名高速道路　EXPASA足柄（下り線）",
+    "coords": [
+      35.3135158589,
+      138.967352472
+    ],
+    "prefecture_code": 22,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "06:30",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:00:34.075429"
+  },
+  {
+    "id": "2260",
+    "api_id": "2001000012260",
+    "name": "JR三島駅 南口店",
+    "address": "静岡県 三島市 一番町16-1",
+    "coords": [
+      35.1258966172,
+      138.911465475
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:00:43.447803"
+  },
+  {
+    "id": "4226",
+    "api_id": "2001000014226",
+    "name": "三島安久店",
+    "address": "静岡県 三島市 安久144-3",
+    "coords": [
+      35.0881981895,
+      138.929658755
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:00:56.687835"
+  },
+  {
+    "id": "1397",
+    "api_id": "2001000011397",
+    "name": "三島玉川店",
+    "address": "静岡県 三島市 玉川247-1",
+    "coords": [
+      35.1094959152,
+      138.913972688
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:01:06.770783"
+  },
+  {
+    "id": "955",
+    "api_id": "200100001955",
+    "name": "EXPASA足柄サービスエリア（上り線）店",
+    "address": "静岡県 御殿場市 深沢1801-1 東名高速道路　EXPASA足柄（上り線）",
+    "coords": [
+      35.3142993104,
+      138.963016685
+    ],
+    "prefecture_code": 22,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:01:15.215293"
+  },
+  {
+    "id": "1867",
+    "api_id": "2001000011867",
+    "name": "御殿場プレミアム・アウトレット店",
+    "address": "静岡県 御殿場市 深沢1312 御殿場プレミアム・アウトレット EAST ZONE 2920区",
+    "coords": [
+      35.3068993097,
+      138.965370163
+    ],
+    "prefecture_code": 22,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:01:25.530313"
+  },
+  {
+    "id": "1751",
+    "api_id": "2001000011751",
+    "name": "御殿場萩原店",
+    "address": "静岡県 御殿場市 萩原226-1",
+    "coords": [
+      35.3114296131,
+      138.930963645
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:01:36.625168"
+  },
+  {
+    "id": "2320",
+    "api_id": "2001000012320",
+    "name": "ラスカ熱海店",
+    "address": "静岡県 熱海市 田原本町11-1 ラスカ熱海2階",
+    "coords": [
+      35.1033891541,
+      139.077904355
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:01:45.012564"
+  },
+  {
+    "id": "810",
+    "api_id": "200100001810",
+    "name": "イオンタウン富士南店",
+    "address": "静岡県 富士市 鮫島118-10 イオンタウン富士南",
+    "coords": [
+      35.1405742536,
+      138.67519331
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:01:56.283267"
+  },
+  {
+    "id": "1403",
+    "api_id": "2001000011403",
+    "name": "富士高島店",
+    "address": "静岡県 富士市 高島町68",
+    "coords": [
+      35.1580076339,
+      138.673319885
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:02:05.764523"
+  },
+  {
+    "id": "959",
+    "api_id": "200100001959",
+    "name": "イオンモール富士宮店",
+    "address": "静岡県 富士宮市 浅間町1-8　 イオンモール富士宮",
+    "coords": [
+      35.2209634271,
+      138.611250474
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:02:19.632384"
+  },
+  {
+    "id": "4090",
+    "api_id": "2001000014090",
+    "name": "アクロスプラザ富士宮店",
+    "address": "静岡県 富士宮市 弓沢町499 アクロスプラザ富士宮",
+    "coords": [
+      35.2180600766,
+      138.624298969
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:02:31.088656"
+  },
+  {
+    "id": "4139",
+    "api_id": "2001000014139",
+    "name": "富士入山瀬店",
+    "address": "静岡県 富士市 入山瀬503-3",
+    "coords": [
+      35.1957709148,
+      138.647117267
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:02:39.639152"
+  },
+  {
+    "id": "1396",
+    "api_id": "2001000011396",
+    "name": "TSUTAYA BOOKSTORE 静岡店",
+    "address": "静岡県 静岡市葵区 呉服町1-20",
+    "coords": [
+      34.9755939779,
+      138.380685087
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:02:50.659140"
+  },
+  {
+    "id": "1116",
+    "api_id": "2001000011116",
+    "name": "MARK IS 静岡店",
+    "address": "静岡県 静岡市葵区 柚木1026 MARK IS 静岡",
+    "coords": [
+      34.9844324197,
+      138.409208701
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:03:05.900328"
+  },
+  {
+    "id": "2010",
+    "api_id": "2001000012010",
+    "name": "静岡駅 新幹線ラチ内店",
+    "address": "静岡県 静岡市葵区 黒金町47 ASTY静岡",
+    "coords": [
+      34.9715748345,
+      138.389208176
+    ],
+    "prefecture_code": 22,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:03:18.998291"
+  },
+  {
+    "id": "2119",
+    "api_id": "2001000012119",
+    "name": "ASTY静岡 西館店",
+    "address": "静岡県 静岡市葵区 黒金町47 ASTY静岡",
+    "coords": [
+      34.9716281575,
+      138.388947917
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:03:29.806117"
+  },
+  {
+    "id": "4508",
+    "api_id": "2001000014508",
+    "name": "静岡御幸町店",
+    "address": "静岡県 静岡市葵区 御幸町20 M20 2階",
+    "coords": [
+      34.9735071019,
+      138.387724599
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:03:43.247967"
+  },
+  {
+    "id": "4036",
+    "api_id": "2001000014036",
+    "name": "静岡南瀬名店",
+    "address": "静岡県 静岡市葵区 南瀬名町5-37",
+    "coords": [
+      35.002743445,
+      138.421006044
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:03:58.327037"
+  },
+  {
+    "id": "733",
+    "api_id": "200100001733",
+    "name": "富士川サービスエリア（下り線）店",
+    "address": "静岡県 富士市 岩淵1348-3 東名高速道路 富士川サービスエリア（下り線）",
+    "coords": [
+      35.1591557492,
+      138.620158969
+    ],
+    "prefecture_code": 22,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:04:08.597268"
+  },
+  {
+    "id": "1637",
+    "api_id": "2001000011637",
+    "name": "静岡草薙店",
+    "address": "静岡県 静岡市駿河区 中吉田43-27",
+    "coords": [
+      34.9965963346,
+      138.437474682
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:04:22.308001"
+  },
+  {
+    "id": "642",
+    "api_id": "200100001642",
+    "name": "イオンセントラルスクエア静岡店",
+    "address": "静岡県 静岡市駿河区 石田1-5-1 イオンセントラルスクエア静岡",
+    "coords": [
+      34.9594769023,
+      138.401705751
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:04:34.839540"
+  },
+  {
+    "id": "1593",
+    "api_id": "2001000011593",
+    "name": "静岡中原店",
+    "address": "静岡県 静岡市駿河区 中原430-1",
+    "coords": [
+      34.9580804229,
+      138.387971955
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:04:48.394989"
+  },
+  {
+    "id": "4472",
+    "api_id": "2001000014472",
+    "name": "清水梅が岡店",
+    "address": "静岡県 静岡市清水区 梅が岡6-7",
+    "coords": [
+      35.0036705233,
+      138.482059264
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:05:03.642820"
+  },
+  {
+    "id": "4205",
+    "api_id": "2001000014205",
+    "name": "エスパルスドリームプラザ店",
+    "address": "静岡県 静岡市清水区 入船町13-15 エスパルスドリームプラザ パークサイド2階",
+    "coords": [
+      35.0093140117,
+      138.49368915
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "20:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:05:17.245860"
+  },
+  {
+    "id": "4277",
+    "api_id": "2001000014277",
+    "name": "焼津祢宜島店",
+    "address": "静岡県 焼津市 東祢宜島5-27",
+    "coords": [
+      34.8396403608,
+      138.311164621
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:05:25.753635"
+  },
+  {
+    "id": "1779",
+    "api_id": "2001000011779",
+    "name": "焼津八楠店",
+    "address": "静岡県 焼津市 八楠2-1-1",
+    "coords": [
+      34.8777871287,
+      138.312007517
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:05:38.504674"
+  },
+  {
+    "id": "1249",
+    "api_id": "2001000011249",
+    "name": "藤枝蓮華寺池公園店",
+    "address": "静岡県 藤枝市 本町1-2",
+    "coords": [
+      34.8741421451,
+      138.25881988
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:05:48.585209"
+  },
+  {
+    "id": "1624",
+    "api_id": "2001000011624",
+    "name": "藤枝高柳店",
+    "address": "静岡県 藤枝市 高柳1-8-42",
+    "coords": [
+      34.8500962031,
+      138.26438247
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:05:58.836615"
+  },
+  {
+    "id": "4299",
+    "api_id": "2001000014299",
+    "name": "島田中河町店",
+    "address": "静岡県 島田市 中河町8966-5",
+    "coords": [
+      34.8372591816,
+      138.181364122
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:06:09.232336"
+  },
+  {
+    "id": "1133",
+    "api_id": "2001000011133",
+    "name": "浜松新津町店",
+    "address": "静岡県 浜松市中央区 新津町682-1",
+    "coords": [
+      34.7201173272,
+      137.739552319
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:06:18.756339"
+  },
+  {
+    "id": "2079",
+    "api_id": "2001000012079",
+    "name": "浜松 メイワン エキマチウエスト店",
+    "address": "静岡県 浜松市中央区 砂山町6-2 EKIMACHI WEST",
+    "coords": [
+      34.7037078822,
+      137.734451832
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:06:32.282031"
+  },
+  {
+    "id": "2237",
+    "api_id": "2001000012237",
+    "name": "浜松駅 新幹線ラチ内店",
+    "address": "静岡県 浜松市中央区 砂山町6-2 EKIMACHI WEST（浜松 メイワン エキマチウエスト店）",
+    "coords": [
+      34.7039848092,
+      137.735149816
+    ],
+    "prefecture_code": 22,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:06:44.908381"
+  },
+  {
+    "id": "4544",
+    "api_id": "2001000014544",
+    "name": "浜松 メイワン 2階店",
+    "address": "静岡県 浜松市中央区 砂山町6-1",
+    "coords": [
+      34.704197553,
+      137.734510138
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:06:56.079208"
+  },
+  {
+    "id": "172",
+    "api_id": "200100001172",
+    "name": "ザザシティ浜松店",
+    "address": "静岡県 浜松市中央区 鍛冶町15 ザザシティ浜松 西館",
+    "coords": [
+      34.7051212553,
+      137.729482179
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:07:08.853402"
+  },
+  {
+    "id": "1565",
+    "api_id": "2001000011565",
+    "name": "浜松城公園店",
+    "address": "静岡県 浜松市中央区 元城町100-2",
+    "coords": [
+      34.7132225521,
+      137.726112364
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:07:22.339432"
+  },
+  {
+    "id": "731",
+    "api_id": "200100001731",
+    "name": "浜名湖サービスエリア店",
+    "address": "静岡県 浜松市浜名区 三ケ日町佐久米61-2 東名高速道路 浜名湖サービスエリア内",
+    "coords": [
+      34.7815384589,
+      137.607955142
+    ],
+    "prefecture_code": 22,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:07:34.708944"
+  },
+  {
+    "id": "1409",
+    "api_id": "2001000011409",
+    "name": "浜松半田山店",
+    "address": "静岡県 浜松市中央区 半田山4-4-25",
+    "coords": [
+      34.7729095344,
+      137.743907304
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:07:49.448443"
+  },
+  {
+    "id": "1304",
+    "api_id": "2001000011304",
+    "name": "浜松佐鳴台店",
+    "address": "静岡県 浜松市中央区 佐鳴台3-52-34",
+    "coords": [
+      34.7096921442,
+      137.697039941
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:08:00.910372"
+  },
+  {
+    "id": "4292",
+    "api_id": "2001000014292",
+    "name": "そよら浜松西伊場店",
+    "address": "静岡県 浜松市中央区 西伊場町78-1 そよら浜松西伊場",
+    "coords": [
+      34.6985926307,
+      137.704637043
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:08:14.125172"
+  },
+  {
+    "id": "2030",
+    "api_id": "2001000012030",
+    "name": "TSUTAYA 佐鳴台店",
+    "address": "静岡県 浜松市中央区 入野町621-1",
+    "coords": [
+      34.7006295347,
+      137.698886871
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:08:29.209193"
+  },
+  {
+    "id": "567",
+    "api_id": "200100001567",
+    "name": "イオンモール浜松志都呂店",
+    "address": "静岡県 浜松市中央区 志都呂2-37-1",
+    "coords": [
+      34.6964916628,
+      137.652259268
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:08:39.941671"
+  },
+  {
+    "id": "4281",
+    "api_id": "2001000014281",
+    "name": "浜松葵東店",
+    "address": "静岡県 浜松市中央区 葵東2-24-51",
+    "coords": [
+      34.7576582755,
+      137.721570695
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:08:52.873946"
+  },
+  {
+    "id": "1303",
+    "api_id": "2001000011303",
+    "name": "プレ葉ウォーク浜北店",
+    "address": "静岡県 浜松市浜名区 貴布祢1200",
+    "coords": [
+      34.7990954016,
+      137.778976242
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:09:06.624943"
+  },
+  {
+    "id": "620",
+    "api_id": "200100001620",
+    "name": "イオンモール浜松市野1階店",
+    "address": "静岡県 浜松市中央区 天王町諏訪1981-3 イオンモール浜松市野1階",
+    "coords": [
+      34.740295305,
+      137.763245533
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:09:17.307184"
+  },
+  {
+    "id": "4442",
+    "api_id": "2001000014442",
+    "name": "イオンモール浜松市野2階店",
+    "address": "静岡県 浜松市中央区 天王町諏訪1981-3 イオンモール浜松市野2階",
+    "coords": [
+      34.7386538122,
+      137.763144506
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:09:29.033690"
+  },
+  {
+    "id": "4251",
+    "api_id": "2001000014251",
+    "name": "掛川大池店",
+    "address": "静岡県 掛川市 大池3028-1",
+    "coords": [
+      34.7726064317,
+      137.993799065
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:09:38.993176"
+  },
+  {
+    "id": "4056",
+    "api_id": "2001000014056",
+    "name": "掛川細田店",
+    "address": "静岡県 掛川市 細田280-1",
+    "coords": [
+      34.7724101402,
+      137.982266143
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:09:51.870546"
+  },
+  {
+    "id": "1863",
+    "api_id": "2001000011863",
+    "name": "ノブレスパルク袋井店",
+    "address": "静岡県 袋井市 高尾3000",
+    "coords": [
+      34.7391932608,
+      137.925712091
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:10:04.371320"
+  },
+  {
+    "id": "1524",
+    "api_id": "2001000011524",
+    "name": "磐田見付店",
+    "address": "静岡県 磐田市 見付6039-2",
+    "coords": [
+      34.7361274166,
+      137.858611139
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:10:13.317413"
+  },
+  {
+    "id": "923",
+    "api_id": "200100001923",
+    "name": "ららぽーと磐田店",
+    "address": "静岡県 磐田市 高見丘1200 ららぽーと磐田",
+    "coords": [
+      34.7499522959,
+      137.840938081
+    ],
+    "prefecture_code": 22,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:10:26.979278"
+  }
+]
