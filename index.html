@@ -1625,17 +1625,25 @@ function buildMiniPopup(shop) {
   const rank   = shop.store_type==='11' ? 'roastery' : (shop.price_rank||'normal');
   const color  = getRankColor(rank, shop.store_type);
   const prices = PRICE_TABLE[rank] || PRICE_TABLE.normal;
-  const emoji  = shop.store_type==='11' ? ' ★' : (shop.options?.teavana ? ' 🍃' : '');
+  const rankLabel = getRankLabel(rank, shop.store_type);
+  const emoji  = shop.store_type==='11' ? '★ ' : (shop.options?.teavana ? '🍃 ' : '');
   const openNow = isOpenAt(shop, new Date());
-  const openBadge = openNow===true ? '<span style="font-size:9px;color:#00704A;font-weight:700;margin-left:4px;">● 営業中</span>'
-                  : openNow===false ? '<span style="font-size:9px;color:#B03A20;margin-left:4px;">● 営業時間外</span>' : '';
-  return `<div style="font-family:'Noto Sans JP',sans-serif;min-width:160px;">
-    <div style="font-size:12px;font-weight:700;margin-bottom:4px;color:#1c1a16;">${shop.name||''}${emoji}</div>
-    <div style="display:flex;align-items:center;gap:4px;margin-bottom:6px;">
-      <span style="width:8px;height:8px;border-radius:50%;background:${color};display:inline-block;"></span>
-      <span style="font-size:11px;font-weight:700;color:#1c1a16;">¥${prices.takeout}</span>${openBadge}
+  const openBadge = openNow===true
+    ? '<div style="font-size:11px;color:#00704A;font-weight:700;margin-bottom:6px;">🟢 営業中</div>'
+    : openNow===false
+    ? '<div style="font-size:11px;color:#B03A20;margin-bottom:6px;">🔴 営業時間外</div>'
+    : '';
+  return `<div style="font-family:'Noto Sans JP',sans-serif;min-width:180px;">
+    <div style="font-size:13px;font-weight:700;margin-bottom:5px;color:#1c1a16;">${emoji}${shop.name||''}</div>
+    <div style="display:flex;align-items:center;gap:5px;margin-bottom:5px;">
+      <span style="width:9px;height:9px;border-radius:50%;background:${color};display:inline-block;flex-shrink:0;"></span>
+      <span style="font-size:12px;font-weight:700;color:#1c1a16;">${rankLabel} ¥${prices.takeout}</span>
     </div>
-    <button onclick="(function(){if(window.mapState==='map')window.setMapState('default');var s=window._miniPopupShop;if(s)window._openMobileDetailFromPopup(s);})()" style="width:100%;padding:7px;border-radius:6px;background:#00704A;color:#fff;font-size:11px;font-weight:700;border:none;cursor:pointer;">詳細を見る</button>
+    ${openBadge}
+    <div style="display:flex;gap:6px;">
+      <button onclick="(function(){var s=window._miniPopupShop;if(s)window._openMobileDetailFromPopup(s);})()" style="flex:1;padding:8px 4px;border-radius:6px;background:#00704A;color:#fff;font-size:11px;font-weight:700;border:none;cursor:pointer;">詳細を見る</button>
+      <a href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored" style="flex:1;padding:8px 4px;border-radius:6px;background:#f0ede6;color:#1c1a16;font-size:10px;font-weight:700;text-align:center;text-decoration:none;display:flex;align-items:center;justify-content:center;line-height:1.2;">PR</a>
+    </div>
   </div>`;
 }
 
@@ -2004,7 +2012,12 @@ function getVisibleCodes() {
 
 // 詳細レイヤーを構築（キャッシュ済みコードを受け取り、差分のみ追加）
 async function buildDetailLayer(codes) {
-  if (!codes.length) return;
+  if (!codes.length) {
+    // 表示できる詳細がない場合はsummaryGroupに戻す
+    if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
+    if (state.summaryGroup) map.addLayer(state.summaryGroup);
+    return;
+  }
   if (state.summaryGroup) map.removeLayer(state.summaryGroup);
   if (state.detailGroup) map.removeLayer(state.detailGroup);
   state.markerMap = {};
@@ -2066,12 +2079,10 @@ map.on('zoomend moveend', () => {
       const uncached = codes.filter(c => !state.detailCache[c]);
       if (uncached.length > 0) {
         await Promise.all(uncached.map(c => fetchDetail(c)));
-        await buildDetailLayer(codes.filter(c => state.detailCache[c]));
         showToast('✓ 詳細データに切り替えました');
-      } else {
-        // キャッシュ済みでもdetailGroupが範囲外を含む可能性があるので再構築
-        await buildDetailLayer(codes.filter(c => state.detailCache[c]));
       }
+      // 未キャッシュの有無に関わらず常に再描画（範囲変化に対応）
+      await buildDetailLayer(codes.filter(c => state.detailCache[c]));
     } else {
       if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
       if (state.summaryGroup) map.addLayer(state.summaryGroup);
