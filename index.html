@@ -1176,7 +1176,7 @@ function renderList(allShops) {
         return `<div class="store-item" onclick="focusStore('${shop.id}', ${shop.coords[0]}, ${shop.coords[1]})">
           <div class="store-dot" style="background:${color}"></div>
           <div class="store-info">
-            <div class="store-name">${shop.name}</div>
+            <div class="store-name">${shop.name||'（店舗名未取得）'}</div>
             <div class="store-sub">¥${prices.takeout} テイクアウト / ¥${prices.instore} 店内</div>
             ${badges ? `<div class="store-badges">${badges}</div>` : ''}
           </div>
@@ -1202,7 +1202,7 @@ function addMarkerToGroup(shop, group) {
   const isMerged = !!shop._merged;
   const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, isMerged) });
   marker.bindPopup(buildPopup(shop), { maxWidth:300, autoPan:false });
-  marker.on('popupopen', () => panToMarker(shop.coords[0], shop.coords[1]));
+  // pan制御はfocusStore側で行う
   group.addLayer(marker);
   return marker;
 }
@@ -1231,9 +1231,9 @@ function renderAllSelectedPrefs() {
 function panToMarker(lat, lng) {
   if (window.innerWidth > 700) { map.panTo([lat, lng], { animate:true, duration:0.25 }); return; }
   const mapH = document.getElementById('map-wrap').offsetHeight;
-  const offsetPx = mapH * 0.30; // ピンを下30%位置に → ポップアップが上に収まる
+  const offsetPx = mapH * 0.25; // ピンを下25%位置に
   const z = map.getZoom();
-  const pt = map.project([lat, lng], z).add([0, offsetPx]);
+  const pt = map.project([lat, lng], z).subtract([0, offsetPx]); // subtractで地図中心を上に → ピンが下寄りに
   map.panTo(map.unproject(pt, z), { animate:true, duration:0.25 });
 }
 
@@ -1295,12 +1295,45 @@ function setOrigin(lat, lng, label='📍 現在地') {
   }
 }
 
-// 現在地ボタン
+// 現在地ボタン（トグル：1回目→現在地基点 / 2回目→地図中央基点に戻す）
+function updateLocateBtnStyle() {
+  const btn = document.getElementById('locate-btn');
+  if (state.mapCenterMode) {
+    // 地図中央モード：白抜きアイコン
+    btn.style.background = 'var(--surface)';
+    btn.style.color = 'var(--accent)';
+    btn.style.border = '2px solid var(--accent)';
+  } else {
+    // 現在地モード：塗りつぶし
+    btn.style.background = 'var(--accent)';
+    btn.style.color = 'var(--accent-fg)';
+    btn.style.border = 'none';
+  }
+}
+
 document.getElementById('locate-btn').addEventListener('click', () => {
+  // 現在地モード中なら地図中央モードに戻す
+  if (!state.mapCenterMode) {
+    state.mapCenterMode = true;
+    if (state.originMarker) { map.removeLayer(state.originMarker); state.originMarker = null; }
+    state.originLat = null;
+    state.originLng = null;
+    document.getElementById('list-header-title').textContent = '地図中央から近い順';
+    document.getElementById('mobile-list-title').textContent = '地図中央から近い順';
+    updateLocateBtnStyle();
+    updateCenterList();
+    return;
+  }
+  // 地図中央モード → 現在地取得
   if (!navigator.geolocation) { alert('位置情報に対応していません。'); return; }
   showLoading('現在地を取得中...');
   navigator.geolocation.getCurrentPosition(
-    pos => { hideLoading(); setOrigin(pos.coords.latitude, pos.coords.longitude, '📍 現在地'); map.setView([pos.coords.latitude, pos.coords.longitude], 13); },
+    pos => {
+      hideLoading();
+      setOrigin(pos.coords.latitude, pos.coords.longitude, '📍 現在地');
+      map.setView([pos.coords.latitude, pos.coords.longitude], 13);
+      updateLocateBtnStyle();
+    },
     err => { hideLoading(); alert({1:'位置情報の利用が許可されていません。',2:'位置情報を取得できませんでした。',3:'タイムアウト'}[err.code]||'取得失敗'); },
     { timeout:10000, maximumAge:0 }
   );
@@ -1388,7 +1421,7 @@ function buildPopup(shop) {
         ${buildHoursHtml(s)}
       </div>`;
     }).join('');
-    const mapUrl = shop.coords ? `geo:${shop.coords[0]},${shop.coords[1]}?q=${shop.coords[0]},${shop.coords[1]}(${encodeURIComponent(shop.name)})` : '#';
+    const mapUrl = shop.coords ? `geo:${shop.coords[0]},${shop.coords[1]}?q=${shop.coords[0]},${shop.coords[1]}(${encodeURIComponent(shop.name||'スターバックス')})` : '#';
     return `<div class="stb-popup">
       <div class="p-name">✦ ${shop.name}</div>
       <div class="p-badges"><span class="p-badge badge-merge">マージ店舗</span><span class="p-badge badge-reserve">★ リザーブ</span><span class="p-badge badge-teavana">🍃 ティバーナ</span></div>
@@ -1408,7 +1441,7 @@ function buildPopup(shop) {
     shop.options?.teavana         ? `<span class="p-badge badge-teavana">🍃 ティバーナ</span>`:'',
     shop.options?.drive_thru      ? `<span class="p-badge badge-dt">🚗 ドライブスルー</span>`:'',
   ].join('');
-  const mapUrl = shop.coords ? `geo:${shop.coords[0]},${shop.coords[1]}?q=${shop.coords[0]},${shop.coords[1]}(${encodeURIComponent(shop.name)})` : '#';
+  const mapUrl = shop.coords ? `geo:${shop.coords[0]},${shop.coords[1]}?q=${shop.coords[0]},${shop.coords[1]}(${encodeURIComponent(shop.name||'スターバックス')})` : '#';
   const stbUrl = `https://store.starbucks.co.jp/detail-${shop.id}/`;
   return `<div class="stb-popup">
     <div class="p-name">${shop.name}</div>
