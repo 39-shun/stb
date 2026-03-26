@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>スターバックス価格マップ｜全国ラテ価格帯マップ</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
@@ -405,7 +405,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   }
 
   /* 地図最大時：locate-btnをトグルバー(約36px)+広告(60px)の上に出す */
-  #map-wrap.state-map #locate-btn { bottom:calc(var(--ad-bottom-h) + 48px) !important; }
+  #map-wrap.state-map #locate-btn { bottom:calc(var(--ad-bottom-h) + 44px) !important; }
 
   /* リスト最大：地図を0に、map-wrapは消す */
   #map-wrap.state-list { flex:0 0 0%; overflow:hidden; }
@@ -461,7 +461,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 }
 #mobile-search-input {
   flex:1; padding:8px 10px; border:1px solid var(--accent); border-radius:6px;
-  background:var(--surface2); color:var(--text); font-size:14px;
+  background:var(--surface2); color:var(--text); font-size:16px;
   font-family:'Noto Sans JP',sans-serif; outline:none; min-width:0;
 }
 #mobile-search-results {
@@ -503,10 +503,6 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     <div id="search-wrap" style="position:relative;">
       <div style="display:flex;gap:6px;padding:10px 12px;border-bottom:1px solid var(--border);">
         <input type="text" id="search-input" placeholder="店舗名で検索..." autocomplete="off">
-        <div class="search-toggle" style="flex-shrink:0;">
-          <div class="search-toggle-btn active" id="search-mode-store" onclick="setSearchMode('store')">店舗名</div>
-          <div class="search-toggle-btn" id="search-mode-place" onclick="setSearchMode('place')">地名</div>
-        </div>
       </div>
       <div id="search-results"></div>
     </div>
@@ -556,7 +552,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
         <span id="list-header-count"></span>
         <button id="search-clear-btn" onclick="clearSearchOverride()" style="display:none;font-size:10px;padding:2px 7px;border-radius:10px;background:var(--accent);color:var(--accent-fg);border:none;cursor:pointer;font-weight:700;margin-left:6px;">✕ クリア</button>
       </div>
-      <div id="list-empty" style="display:none;">現在地または地点を指定すると<br>近い順にリストが並びます</div>
+      <div id="list-empty" style="display:none;">地図を動かすと周辺の店舗が<br>近い順に並びます</div>
       <div id="store-list"></div>
     </div>
 
@@ -758,12 +754,13 @@ const state = {
   detailCache:   {},
   prefetchQueue: [],
   prefetching:   false,
-  originLat:     null,   // 距離計算の基点（現在地 or カスタムピン）
+  originLat:     null,
   originLng:     null,
   originMarker:  null,
+  mapCenterMode: true,   // trueのとき地図中央を基点にリスト更新
   customPinMode: false,
   filters: { rank:'all', options:new Set(), hours:null, timeVal:null },
-  markerMap: {},  // store id → Leaflet marker（リスト→地図連動用）
+  markerMap: {},
 };
 
 // ============================================================
@@ -1001,7 +998,6 @@ function initFilters() {
         }
       } else if (ft === 'hours') {
         if (state.filters.hours === val) {
-          // 同じボタンで解除
           state.filters.hours = null;
           state.filters.timeVal = null;
           document.querySelectorAll('[data-filter="hours"]').forEach(c => c.classList.remove('active'));
@@ -1014,6 +1010,9 @@ function initFilters() {
             document.getElementById('time-picker')?.focus();
           } else {
             document.getElementById('time-picker-wrap')?.style && (document.getElementById('time-picker-wrap').style.display = 'none');
+          }
+          if (val === 'open_now' && map.getZoom() < 9) {
+            showToast('📡 もう少し拡大すると営業中フィルターが使えます', 3000);
           }
         }
       }
@@ -1106,6 +1105,7 @@ function redrawAfterFilter() {
       m.on('click', () => {
         const code = String(s.prefecture_code).padStart(2,'0');
         if (state.selectedPrefs.size > 0) return;
+        if (map.getZoom() < 10) map.setView(s.coords, 12, { animate:true });
         selectPref(code);
       });
       state.summaryGroup.addLayer(m);
@@ -1174,13 +1174,15 @@ async function loadSummary() {
       });
       m.on('click', () => {
         const code = String(s.prefecture_code).padStart(2,'0');
-        // 既に詳細表示中なら何もしない
         if (state.currentPref) return;
+        if (map.getZoom() < 10) map.setView(s.coords, 12, { animate:true });
         selectPref(code);
       });
       state.summaryGroup.addLayer(m);
     }
     map.addLayer(state.summaryGroup);
+    // 初期表示：地図中央から近い順リストをsummaryデータで構築
+    updateCenterList();
   } catch(e) { console.warn('summary なし', e); }
   finally { hideLoading(); }
 }
@@ -1188,11 +1190,6 @@ async function loadSummary() {
 // ============================================================
 // 詳細マーカー描画
 // ============================================================
-function renderDetailMarkers(shops) {
-  // 単一県のshopsを渡された場合は複数県モードに統合
-  renderAllSelectedPrefs();
-}
-
 function addMarkerToGroup(shop, group) {
   if (!shop.coords?.length) return null;
   const isMerged = !!shop._merged;
@@ -1206,21 +1203,16 @@ function addMarkerToGroup(shop, group) {
 function renderAllSelectedPrefs() {
   if (state.detailGroup) map.removeLayer(state.detailGroup);
   state.markerMap = {};
-
-  // 選択中の全県のデータを結合
   let allShops = [];
   for (const code of state.selectedPrefs) {
     const shops = state.detailCache[code];
     if (shops) allShops = allShops.concat(shops);
   }
-
   const processed = applyMerge(allShops).filter(passesFilter);
-
   state.detailGroup = L.markerClusterGroup({
     maxClusterRadius:50, spiderfyOnMaxZoom:true,
     showCoverageOnHover:false, iconCreateFunction:clusterIcon,
   });
-
   for (const shop of processed) {
     const marker = addMarkerToGroup(shop, state.detailGroup);
     if (marker) state.markerMap[shop.id] = marker;
@@ -1282,43 +1274,46 @@ function renderList(allShops) {
   if (emptyElM) emptyElM.style.display = filtered.length ? 'none' : 'block';
 }
 
-// マーカークリック時に画面下寄りにピンが来るよう地図をパン
+// マーカークリック時：ピンを地図下端ギリギリに、ポップアップが見える位置に
 function panToMarker(lat, lng) {
   const isMobile = window.innerWidth <= 700;
   if (isMobile) {
-    // スマホ：地図の高さの1/5分、ピンを画面下寄りにオフセット
-    const mapHeight = document.getElementById('map-wrap').offsetHeight;
-    const offset = mapHeight / 5;
-    const currentZoom = map.getZoom();
-    const targetPoint = map.project([lat, lng], currentZoom).add([0, offset]);
-    const targetLatLng = map.unproject(targetPoint, currentZoom);
-    map.panTo(targetLatLng, { animate: true, duration: 0.3 });
+    const mapEl = document.getElementById('map-wrap');
+    const mapH = mapEl.offsetHeight;
+    // ピンを下から20%の位置に → ポップアップ(~120px)がその上に収まる
+    const offsetPx = mapH * 0.30;
+    const z = map.getZoom();
+    const pt = map.project([lat, lng], z).add([0, offsetPx]);
+    map.panTo(map.unproject(pt, z), { animate:true, duration:0.25 });
   } else {
-    map.panTo([lat, lng], { animate: true, duration: 0.3 });
+    map.panTo([lat, lng], { animate:true, duration:0.25 });
   }
 }
 
 // リストアイテムクリック → 地図でそのピンを開く
-window.focusStore = function(id, lat, lng) {
-  // スマホ時はstate-mapに切り替えてから地図移動
-  if (window.innerWidth <= 700 && mapState !== 'map') {
-    setMapState('map');
-    setTimeout(() => {
-      panToMarker(lat, lng);
-      const marker = state.markerMap[id];
-      if (marker) {
-        if (state.detailGroup) state.detailGroup.zoomToShowLayer(marker, () => marker.openPopup());
-        else marker.openPopup();
-      }
-    }, 350);
-    return;
+window.focusStore = async function(id, lat, lng) {
+  // 未ロードの県ならfetchしてから表示
+  const code = detectPrefFromCoords(lat, lng);
+  if (code && !state.detailCache[code]) {
+    showLoading('読み込み中...');
+    await fetchDetail(code);
+    hideLoading();
+    redrawAfterFilter();
   }
-  map.setView([lat, lng], 15);
-  const marker = state.markerMap[id];
-  if (marker) {
-    if (state.detailGroup) state.detailGroup.zoomToShowLayer(marker, () => marker.openPopup());
-    else marker.openPopup();
-  }
+  // ズームが低すぎる場合は適度に拡大
+  if (map.getZoom() < 13) map.setView([lat, lng], 14, { animate:true });
+  else panToMarker(lat, lng);
+
+  // markerMapに存在すればすぐ開く、なければ少し待ってから
+  const open = () => {
+    const marker = state.markerMap[id];
+    if (marker) {
+      if (state.detailGroup) state.detailGroup.zoomToShowLayer(marker, () => { panToMarker(lat, lng); marker.openPopup(); });
+      else { panToMarker(lat, lng); marker.openPopup(); }
+    }
+  };
+  if (state.markerMap[id]) open();
+  else setTimeout(open, 350);
 };
 
 // ============================================================
@@ -1327,9 +1322,9 @@ window.focusStore = function(id, lat, lng) {
 function setOrigin(lat, lng, label='📍 基点') {
   state.originLat = lat;
   state.originLng = lng;
+  state.mapCenterMode = false; // 現在地が設定されたら中央モード解除
   if (state.originMarker) map.removeLayer(state.originMarker);
   const accentColor = getComputedStyle(document.body).getPropertyValue('--accent').trim();
-  // ナビ風三角アイコン
   const navSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
     <filter id="navshadow" x="-50%" y="-50%" width="200%" height="200%">
       <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="rgba(0,0,0,0.35)"/>
@@ -1342,15 +1337,17 @@ function setOrigin(lat, lng, label='📍 基点') {
   state.originMarker = L.marker([lat,lng], { icon:navIcon })
     .addTo(map).bindPopup(label).openPopup();
 
-  // 現在地の県を先に確実に読み込んでからリスト更新
+  // リストヘッダーを「現在地から近い順」に変更
+  document.getElementById('list-header-title').textContent = '現在地から近い順';
+  document.getElementById('mobile-list-title').textContent = '現在地から近い順';
+
   const code = detectPrefFromCoords(lat, lng);
   if (code) {
     fetchDetail(code).then(() => {
       renderList(getAllCachedShops());
-      prefetchNeighbors(code); // 隣県のプリフェッチはリスト表示後
+      prefetchNeighbors(code);
     });
   } else {
-    // 県が特定できない場合（海上など）は既存キャッシュで表示
     renderList(getAllCachedShops());
   }
 }
@@ -1448,10 +1445,14 @@ function buildPopup(shop) {
         ${buildHoursHtml(s)}
       </div>`;
     }).join('');
+    const mapUrl = shop.coords ? `geo:${shop.coords[0]},${shop.coords[1]}?q=${shop.coords[0]},${shop.coords[1]}(${encodeURIComponent(shop.name)})` : '#';
     return `<div class="stb-popup">
       <div class="p-name">✦ ${shop.name}</div>
       <div class="p-badges"><span class="p-badge badge-merge">マージ店舗</span><span class="p-badge badge-reserve">★ リザーブ</span><span class="p-badge badge-teavana">🍃 ティバーナ</span></div>
       <div class="merge-tabs">${tabs}</div>${panes}
+      <div style="display:flex;gap:6px;margin-bottom:6px;">
+        <a href="${mapUrl}" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:#4285F4;color:#fff;font-size:11px;font-weight:700;text-align:center;text-decoration:none;">🗺 マップで開く</a>
+      </div>
       <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
       <div class="p-affiliate-note">${AFFILIATE.note}</div>
     </div>`;
@@ -1464,6 +1465,8 @@ function buildPopup(shop) {
     shop.options?.teavana         ? `<span class="p-badge badge-teavana">🍃 ティバーナ</span>`:'',
     shop.options?.drive_thru      ? `<span class="p-badge badge-dt">🚗 ドライブスルー</span>`:'',
   ].join('');
+  const mapUrl = shop.coords ? `geo:${shop.coords[0]},${shop.coords[1]}?q=${shop.coords[0]},${shop.coords[1]}(${encodeURIComponent(shop.name)})` : '#';
+  const stbUrl = `https://store.starbucks.co.jp/detail-${shop.id}/`;
   return `<div class="stb-popup">
     <div class="p-name">${shop.name}</div>
     ${badges?`<div class="p-badges">${badges}</div>`:''}
@@ -1471,7 +1474,11 @@ function buildPopup(shop) {
     <div class="p-price-note">スターバックスラテ Tall</div>
     <div class="p-meta" style="margin-bottom:4px;">${shop.address||''}</div>
     ${buildHoursHtml(shop)}
-    <div style="font-size:10px;color:#aaa;margin-bottom:6px;">🕐 ${f.label}</div>
+    <div style="font-size:10px;color:#aaa;margin-bottom:8px;">🕐 ${f.label}</div>
+    <div style="display:flex;gap:6px;margin-bottom:6px;">
+      <a href="${mapUrl}" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:#4285F4;color:#fff;font-size:11px;font-weight:700;text-align:center;text-decoration:none;">🗺 マップで開く</a>
+      <a href="${stbUrl}" target="_blank" rel="noopener" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:var(--surface2);color:var(--text);font-size:11px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);">🔗 公式ページ</a>
+    </div>
     <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
     <div class="p-affiliate-note">${AFFILIATE.note}</div>
   </div>`;
@@ -1497,20 +1504,36 @@ window.toggleMobileSearch = function() {
 // ============================================================
 // 検索機能
 // ============================================================
-let searchMode = 'store'; // 'store' | 'place'
-let geocodeTimer = null;
 let searchOverrideActive = false;
 
-window.setSearchMode = function(mode) {
-  searchMode = mode;
-  document.getElementById('search-mode-store').classList.toggle('active', mode==='store');
-  document.getElementById('search-mode-place').classList.toggle('active', mode==='place');
-  const input = document.getElementById('search-input');
-  input.placeholder = mode === 'store' ? '店舗名で検索...' : '地名で地図移動...';
-  input.value = '';
-  document.getElementById('search-results').classList.remove('open');
-  if (searchOverrideActive) clearSearchOverride();
-};
+function searchStores(query) {
+  if (!query.trim()) return [];
+  const q = query.trim().toLowerCase();
+  const detailShops = Object.values(state.detailCache).flat();
+  const detailIds = new Set(detailShops.map(s => s.id));
+  const summaryOnly = (state.summaryData || []).filter(s => !detailIds.has(s.id));
+  return [...detailShops, ...summaryOnly]
+    .filter(s => s.name && s.name.toLowerCase().includes(q))
+    .slice(0, 50);
+}
+
+function renderDropdown(results, containerEl) {
+  if (!results.length) {
+    containerEl.innerHTML = '<div style="padding:8px 12px;font-size:12px;color:var(--text-sub);">見つかりませんでした</div>';
+  } else {
+    containerEl.innerHTML = results.slice(0,8).map(s => {
+      const color = getRankColor(s.price_rank||'normal', s.store_type);
+      return `<div class="search-result-item" onclick="selectSearchResult('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
+        <div class="search-result-dot" style="background:${color}"></div>
+        <div>
+          <div style="font-size:12px;font-weight:700;">${s.name}</div>
+          <div style="font-size:10px;color:var(--text-sub);">${s.address||''}</div>
+        </div>
+      </div>`;
+    }).join('');
+  }
+  containerEl.classList.add('open');
+}
 
 // PCリストを検索結果で上書き
 function showSearchOverride(shops) {
@@ -1518,7 +1541,6 @@ function showSearchOverride(shops) {
   document.getElementById('search-clear-btn').style.display = 'inline';
   document.getElementById('list-header-title').textContent = '検索結果';
   document.getElementById('list-empty').style.display = 'none';
-
   const listEl  = document.getElementById('store-list');
   const countEl = document.getElementById('list-header-count');
   if (!shops.length) {
@@ -1545,10 +1567,9 @@ function showSearchOverride(shops) {
 window.clearSearchOverride = function() {
   searchOverrideActive = false;
   document.getElementById('search-clear-btn').style.display = 'none';
-  document.getElementById('list-header-title').textContent = '近くの店舗';
+  document.getElementById('list-header-title').textContent = state.mapCenterMode ? '地図中央から近い順' : '現在地から近い順';
   document.getElementById('search-input').value = '';
   document.getElementById('search-results').classList.remove('open');
-  // 近い順リストを再描画
   renderList(getAllCachedShops());
   if (state.originLat === null) {
     document.getElementById('list-empty').style.display = 'block';
@@ -1557,147 +1578,34 @@ window.clearSearchOverride = function() {
   }
 };
 
-function searchStores(query) {
-  if (!query.trim()) return [];
-  const q = query.trim().toLowerCase();
-  // detailCacheにある店舗（座標・詳細あり）を優先
-  const detailShops = Object.values(state.detailCache).flat();
-  const detailIds = new Set(detailShops.map(s => s.id));
-  // summaryDataにしかない店舗（未ロード県）も検索対象に追加
-  const summaryOnly = (state.summaryData || []).filter(s => !detailIds.has(s.id));
-  return [...detailShops, ...summaryOnly]
-    .filter(s => s.name && s.name.toLowerCase().includes(q))
-    .slice(0, 50);
-}
-
-async function searchPlace(query) {
-  if (!query.trim()) return [];
-  try {
-    const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=5&countrycodes=jp&accept-language=ja&email=starbucks-price-map@example.com`;
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(res.status);
-    const data = await res.json();
-    return data.map(d => ({
-      display_name: d.display_name.split(',').slice(0,2).join(', '),
-      lat: parseFloat(d.lat), lng: parseFloat(d.lon)
-    }));
-  } catch(e) { console.warn('Nominatim error:', e); return []; }
-}
-
-function renderDropdown(results, mode, containerEl) {
-  if (!results.length) {
-    containerEl.innerHTML = '<div style="padding:8px 12px;font-size:12px;color:var(--text-sub);">見つかりませんでした</div>';
-  } else if (mode === 'store') {
-    containerEl.innerHTML = results.slice(0,8).map(s => {
-      const color = getRankColor(s.price_rank||'normal', s.store_type);
-      return `<div class="search-result-item" onclick="selectSearchResult('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
-        <div class="search-result-dot" style="background:${color}"></div>
-        <div>
-          <div style="font-size:12px;font-weight:700;">${s.name}</div>
-          <div style="font-size:10px;color:var(--text-sub);">${s.address||''}</div>
-        </div>
-      </div>`;
-    }).join('');
-  } else {
-    containerEl.innerHTML = results.map(p =>
-      `<div class="search-result-item" onclick="flyToPlace(${p.lat},${p.lng})">
-        <span style="font-size:14px;">📍</span>
-        <span style="font-size:12px;">${p.display_name}</span>
-      </div>`).join('');
-  }
-  containerEl.classList.add('open');
-}
-
-// PC：入力→ドロップダウン（店舗名）or 地名飛び
-function handlePCSearchInput(query) {
-  const resultsEl = document.getElementById('search-results');
-  if (!query.trim()) { resultsEl.classList.remove('open'); return; }
-  if (searchMode === 'store') {
-    renderDropdown(searchStores(query), 'store', resultsEl);
-  } else {
-    clearTimeout(geocodeTimer);
-    geocodeTimer = setTimeout(async () => {
-      renderDropdown(await searchPlace(query), 'place', resultsEl);
-    }, 400);
-  }
-}
-
-// PC：Enterで全件リスト上書き（店舗名モードのみ）
-function executePCSearch(query) {
-  const resultsEl = document.getElementById('search-results');
-  resultsEl.classList.remove('open');
-  if (searchMode === 'store') {
-    showSearchOverride(searchStores(query));
-  } else {
-    // 地名モードはEnterでも先頭を選択して地図移動
-    const first = resultsEl.querySelector('.search-result-item');
-    if (first) first.click();
-  }
-}
-
-// リスト上書き後にピンをフォーカス
 window.selectSearchResult = function(id, lat, lng) {
-  const resultsEl = document.getElementById('search-results');
-  resultsEl.classList.remove('open');
-  // store-listをまず上書き（全件）
-  const q = document.getElementById('search-input').value;
-  showSearchOverride(searchStores(q));
-  // 地図も移動
-  if (lat) {
-    map.setView([lat, lng], 16);
-    const code = detectPrefFromCoords(lat, lng);
-    if (code) fetchDetail(code).then(() => {
-      redrawAfterFilter();
-      setTimeout(() => {
-        const marker = state.markerMap[id];
-        if (marker) {
-          if (state.detailGroup) state.detailGroup.zoomToShowLayer(marker, () => marker.openPopup());
-          else marker.openPopup();
-        }
-      }, 400);
-    });
-  }
+  document.getElementById('search-results').classList.remove('open');
+  showSearchOverride(searchStores(document.getElementById('search-input').value));
+  if (lat) focusStore(id, lat, lng);
 };
 
 window.focusSearchStore = function(id, lat, lng) {
   document.getElementById('mobile-search-overlay')?.classList.remove('open');
   if (!lat) return;
-  // スマホ時はstate-mapに切り替え
-  if (window.innerWidth <= 700 && mapState !== 'map') setMapState('map');
-  map.setView([lat, lng], 16);
-  const code = detectPrefFromCoords(lat, lng);
-  if (code) fetchDetail(code).then(() => {
-    redrawAfterFilter();
-    setTimeout(() => {
-      const marker = state.markerMap[id];
-      if (marker) {
-        if (state.detailGroup) state.detailGroup.zoomToShowLayer(marker, () => marker.openPopup());
-        else marker.openPopup();
-      }
-    }, 400);
-  });
-};
-
-window.flyToPlace = function(lat, lng) {
-  document.getElementById('search-results').classList.remove('open');
-  document.getElementById('mobile-search-overlay')?.classList.remove('open');
-  map.setView([lat, lng], 13);
+  focusStore(id, lat, lng);
 };
 
 function initSearch() {
-  // PC検索
   const input = document.getElementById('search-input');
   const resultsEl = document.getElementById('search-results');
-  input.addEventListener('input', e => handlePCSearchInput(e.target.value));
-  input.addEventListener('focus', () => { if (input.value) handlePCSearchInput(input.value); });
+  input.addEventListener('input', e => {
+    const q = e.target.value;
+    if (!q.trim()) { resultsEl.classList.remove('open'); return; }
+    renderDropdown(searchStores(q), resultsEl);
+  });
+  input.addEventListener('focus', () => { if (input.value) renderDropdown(searchStores(input.value), resultsEl); });
   input.addEventListener('keydown', e => {
     if (e.key === 'Enter') {
       e.preventDefault();
       const focused = resultsEl.querySelector('.search-result-item.focused');
       if (focused) { focused.click(); return; }
-      const first = resultsEl.querySelector('.search-result-item');
-      if (first && searchMode === 'place') { first.click(); return; }
-      executePCSearch(input.value);
+      showSearchOverride(searchStores(input.value));
+      resultsEl.classList.remove('open');
     }
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       e.preventDefault();
@@ -1715,14 +1623,14 @@ function initSearch() {
     if (!e.target.closest('#search-wrap')) resultsEl.classList.remove('open');
   });
 
-  // スマホ検索（オーバーレイ）
+  // スマホ検索
   const mInput = document.getElementById('mobile-search-input');
   if (mInput) {
     const mResults = document.getElementById('mobile-search-results');
     mInput.addEventListener('input', e => {
       const q = e.target.value;
       if (!q.trim()) { mResults.classList.remove('open'); return; }
-      renderDropdown(searchStores(q), 'store', mResults);
+      renderDropdown(searchStores(q), mResults);
     });
     mInput.addEventListener('keydown', e => {
       if (e.key === 'Enter') {
@@ -1737,6 +1645,9 @@ function initSearch() {
     });
   }
 
+  // 初期リストヘッダー
+  document.getElementById('list-header-title').textContent = '地図中央から近い順';
+  document.getElementById('mobile-list-title').textContent = '地図中央から近い順';
   document.getElementById('list-empty').style.display = 'block';
 }
 
@@ -1804,51 +1715,92 @@ async function prefetchNeighbors(code) {
   state.prefetching = false;
 }
 
-map.on('zoomend', () => {
-  const zoom = map.getZoom();
-  // 未選択状態でズーム9以上になったら表示範囲内の県を自動読み込み
-  if (state.selectedPrefs.size === 0 && zoom >= 9) {
-    const bounds = map.getBounds();
-    const codesToLoad = [];
-    for (const [code, cfg] of Object.entries(PREFECTURE_CONFIG)) {
+// ============================================================
+// ズーム・移動イベント
+// ============================================================
+// 詳細レイヤーをfetchして一度だけ構築するヘルパー
+async function buildDetailLayer(codes) {
+  await Promise.all(codes.map(c => fetchDetail(c)));
+  // 既存レイヤーが同じcodes分カバー済みなら再生成しない
+  const newShops = codes.flatMap(c => state.detailCache[c] || []);
+  if (state.detailGroup) map.removeLayer(state.detailGroup);
+  state.markerMap = {};
+  const processed = applyMerge(newShops).filter(passesFilter);
+  state.detailGroup = L.markerClusterGroup({
+    maxClusterRadius:50, spiderfyOnMaxZoom:true,
+    showCoverageOnHover:false, iconCreateFunction:clusterIcon,
+  });
+  for (const shop of processed) {
+    const marker = addMarkerToGroup(shop, state.detailGroup);
+    if (marker) state.markerMap[shop.id] = marker;
+  }
+  map.addLayer(state.detailGroup);
+  updateFilterIndicator();
+}
+
+function getVisibleCodes() {
+  const bounds = map.getBounds();
+  return Object.entries(PREFECTURE_CONFIG)
+    .filter(([, cfg]) => {
       const [[s,w],[n,e]] = cfg.bounds;
-      // 地図の表示範囲と県のboundsが重なっているか
-      if (bounds.getSouth() <= n && bounds.getNorth() >= s &&
-          bounds.getWest()  <= e && bounds.getEast()  >= w) {
-        codesToLoad.push(code);
-      }
-    }
-    if (codesToLoad.length > 0) {
-      // サマリーを非表示にして詳細を表示
+      return bounds.getSouth()<=n && bounds.getNorth()>=s &&
+             bounds.getWest()<=e  && bounds.getEast()>=w;
+    })
+    .map(([code]) => code);
+}
+
+map.on('zoomend moveend', () => {
+  const zoom = map.getZoom();
+  if (state.selectedPrefs.size > 0) return; // 手動選択中は介入しない
+
+  if (zoom >= 9) {
+    const codes = getVisibleCodes();
+    const uncached = codes.filter(c => !state.detailCache[c]);
+    if (uncached.length > 0) {
+      // 未キャッシュ分だけfetchして追記
       if (state.summaryGroup) map.removeLayer(state.summaryGroup);
-      Promise.all(codesToLoad.map(c => fetchDetail(c))).then(() => {
-        // 一時的な自動表示用レイヤー（selectedPrefsには追加しない）
-        if (state.detailGroup) map.removeLayer(state.detailGroup);
-        state.markerMap = {};
-        let allShops = [];
-        for (const code of codesToLoad) {
-          if (state.detailCache[code]) allShops = allShops.concat(state.detailCache[code]);
-        }
-        const processed = applyMerge(allShops).filter(passesFilter);
-        state.detailGroup = L.markerClusterGroup({
-          maxClusterRadius:50, spiderfyOnMaxZoom:true,
-          showCoverageOnHover:false, iconCreateFunction:clusterIcon,
+      Promise.all(uncached.map(c => fetchDetail(c))).then(() => {
+        // 全表示範囲のキャッシュで再描画（既存と合わせる）
+        buildDetailLayer(codes).then(() => {
+          showToast('✓ 詳細データに切り替えました');
+          updateCenterList();
         });
-        for (const shop of processed) {
-          const marker = addMarkerToGroup(shop, state.detailGroup);
-          if (marker) state.markerMap[shop.id] = marker;
-        }
-        map.addLayer(state.detailGroup);
-        updateFilterIndicator();
-        showToast('✓ 詳細データに切り替えました');
       });
+    } else if (!state.detailGroup) {
+      // 全キャッシュ済みだがレイヤーがない場合（ズームアウト後の復帰など）
+      if (state.summaryGroup) map.removeLayer(state.summaryGroup);
+      buildDetailLayer(codes).then(() => updateCenterList());
+    } else {
+      // キャッシュ済み＆レイヤーあり → 再生成不要、リストだけ更新
+      updateCenterList();
     }
-  } else if (state.selectedPrefs.size === 0 && zoom < 9) {
-    // ズームアウト時はサマリーに戻す
-    if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; }
+  } else {
+    // ズームアウト → サマリーに戻す
+    if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
     if (state.summaryGroup) map.addLayer(state.summaryGroup);
+    updateCenterList();
   }
 });
+
+// 今営業中フィルターが広域で効かない場合のトースト
+function checkOpenNowWarning() {
+  if (state.filters.hours && map.getZoom() < 9) {
+    showToast('📡 もう少し拡大すると営業中フィルターが使えます', 3000);
+  }
+}
+
+// 地図中央を基点にリストを更新（mapCenterModeのとき）
+function updateCenterList() {
+  if (!state.mapCenterMode) return;
+  if (searchOverrideActive) return;
+  const center = map.getCenter();
+  state.originLat = center.lat;
+  state.originLng = center.lng;
+  // detailCacheがあればそちら、なければsummaryDataで近い順
+  const detailShops = getAllCachedShops();
+  const shops = detailShops.length > 0 ? detailShops : (state.summaryData || []);
+  renderList(shops);
+}
 
 function detectPrefFromCoords(lat, lng) {
   // 複数の県のboundsに含まれる場合は面積が最小のものを優先（境界付近の誤判定防止）
