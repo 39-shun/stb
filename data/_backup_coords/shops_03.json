@@ -1,14 +1,14 @@
 [
   {
-    "id": "1005",
-    "api_id": "2001000011005",
-    "name": "山形エスパル店",
-    "address": "山形県 山形市 香澄町1-1-1 エスパル山形",
+    "id": "401",
+    "api_id": "200100001401",
+    "name": "盛岡菜園店",
+    "address": "岩手県 盛岡市 菜園1-11-11 ホテルロイヤル盛岡",
     "coords": [
-      38.2487095644,
-      140.327997093
+      39.6987722222,
+      141.150375
     ],
-    "prefecture_code": 6,
+    "prefecture_code": 3,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -21,393 +21,51 @@
     "hours": {
       "mon": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "tue": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "wed": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "thu": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "fri": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "sat": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "sun": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "hol": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:51:15.519824"
+    "scraped_at": "2026-03-21T04:10:05.091599"
   },
   {
-    "id": "1006",
-    "api_id": "2001000011006",
-    "name": "山形馬見ヶ崎店",
-    "address": "山形県 山形市 馬見ヶ崎2-7-28",
+    "id": "1351",
+    "api_id": "2001000011351",
+    "name": "盛岡フェザン店",
+    "address": "岩手県 盛岡市 盛岡駅前通1-44 フェザン本館2FH",
     "coords": [
-      38.2814230685,
-      140.331362529
+      39.6979358333,
+      141.140971111
     ],
-    "prefecture_code": 6,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:51:29.984396"
-  },
-  {
-    "id": "4481",
-    "api_id": "2001000014481",
-    "name": "山形西バイパス店",
-    "address": "山形県 山形市 城西町5-34-9",
-    "coords": [
-      38.2609932425,
-      140.311634553
-    ],
-    "prefecture_code": 6,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:51:39.734138"
-  },
-  {
-    "id": "1077",
-    "api_id": "2001000011077",
-    "name": "山形県立中央病院店",
-    "address": "山形県 山形市 青柳1800 山形県立中央病院",
-    "coords": [
-      38.299998004,
-      140.345992126
-    ],
-    "prefecture_code": 6,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": false
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "20:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "20:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "20:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "20:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "20:00"
-      },
-      "sat": {
-        "open": "09:00",
-        "close": "18:00"
-      },
-      "sun": {
-        "open": "09:00",
-        "close": "18:00"
-      },
-      "hol": {
-        "open": "09:00",
-        "close": "18:00"
-      }
-    },
-    "store_type": "2",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:51:51.630293"
-  },
-  {
-    "id": "1352",
-    "api_id": "2001000011352",
-    "name": "山形白山店",
-    "address": "山形県 山形市 白山3-9-24",
-    "coords": [
-      38.2255010796,
-      140.320335187
-    ],
-    "prefecture_code": 6,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:52:02.398142"
-  },
-  {
-    "id": "1505",
-    "api_id": "2001000011505",
-    "name": "米沢春日店",
-    "address": "山形県 米沢市 春日2-13-27",
-    "coords": [
-      37.9232355122,
-      140.106722679
-    ],
-    "prefecture_code": 6,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:52:11.410269"
-  },
-  {
-    "id": "4168",
-    "api_id": "2001000014168",
-    "name": "天童鎌田店",
-    "address": "山形県 天童市 鎌田2-5-24",
-    "coords": [
-      38.3558913681,
-      140.387864964
-    ],
-    "prefecture_code": 6,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:52:24.731088"
-  },
-  {
-    "id": "1201",
-    "api_id": "2001000011201",
-    "name": "イオンモール天童店",
-    "address": "山形県 天童市 芳賀タウン北4-1-1 イオンモール天童",
-    "coords": [
-      38.3424554211,
-      140.362696839
-    ],
-    "prefecture_code": 6,
+    "prefecture_code": 3,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -420,51 +78,108 @@
     "hours": {
       "mon": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       },
       "tue": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       },
       "wed": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       },
       "thu": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       },
       "fri": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       },
       "sat": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       },
       "sun": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       },
       "hol": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:52:36.600420"
+    "scraped_at": "2026-03-21T04:10:15.106974"
   },
   {
-    "id": "1573",
-    "api_id": "2001000011573",
-    "name": "鶴岡店",
-    "address": "山形県 鶴岡市 上畑町3-30",
+    "id": "516",
+    "api_id": "200100001516",
+    "name": "イオンモール盛岡店",
+    "address": "岩手県 盛岡市 前潟4-7-1",
     "coords": [
-      38.7362434345,
-      139.8296277
+      39.7085011111,
+      141.102669444
     ],
-    "prefecture_code": 6,
+    "prefecture_code": 3,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-21T04:10:26.867411"
+  },
+  {
+    "id": "4358",
+    "api_id": "2001000014358",
+    "name": "盛岡津志田店",
+    "address": "岩手県 盛岡市 津志田26-7-1",
+    "coords": [
+      39.6681822222,
+      141.160061111
+    ],
+    "prefecture_code": 3,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -510,18 +225,18 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:52:49.998247"
+    "scraped_at": "2026-03-21T04:10:36.553515"
   },
   {
-    "id": "1252",
-    "api_id": "2001000011252",
-    "name": "酒田みずほ店",
-    "address": "山形県 酒田市 みずほ1-20-6",
+    "id": "1162",
+    "api_id": "2001000011162",
+    "name": "盛岡西バイパス店",
+    "address": "岩手県 盛岡市 北飯岡4-12-20",
     "coords": [
-      38.9033589731,
-      139.850116358
+      39.6655044444,
+      141.137746667
     ],
-    "prefecture_code": 6,
+    "prefecture_code": 3,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -567,6 +282,234 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:52:58.542491"
+    "scraped_at": "2026-03-21T04:10:46.318686"
+  },
+  {
+    "id": "707",
+    "api_id": "200100001707",
+    "name": "イオンモール盛岡南店",
+    "address": "岩手県 盛岡市 本宮7-1-1 イオンモール盛岡南",
+    "coords": [
+      39.6802777778,
+      141.132222222
+    ],
+    "prefecture_code": 3,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-21T04:10:56.807755"
+  },
+  {
+    "id": "1452",
+    "api_id": "2001000011452",
+    "name": "一関店",
+    "address": "岩手県 一関市 山目泥田55-1",
+    "coords": [
+      38.9349375,
+      141.115408056
+    ],
+    "prefecture_code": 3,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-21T04:11:09.547367"
+  },
+  {
+    "id": "1579",
+    "api_id": "2001000011579",
+    "name": "奥州水沢店",
+    "address": "岩手県 奥州市 水沢佐倉河羽黒田57-2",
+    "coords": [
+      39.1433930556,
+      141.158452222
+    ],
+    "prefecture_code": 3,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-21T04:11:20.731953"
+  },
+  {
+    "id": "1451",
+    "api_id": "2001000011451",
+    "name": "北上店",
+    "address": "岩手県 北上市 北鬼柳18地割96-2",
+    "coords": [
+      39.2908994444,
+      141.103760278
+    ],
+    "prefecture_code": 3,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-21T04:11:35.687043"
   }
 ]

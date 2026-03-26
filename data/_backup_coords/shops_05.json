@@ -1,299 +1,14 @@
 [
   {
-    "id": "1254",
-    "api_id": "2001000011254",
-    "name": "青森中央店",
-    "address": "青森県 青森市 荒川藤戸134-2",
+    "id": "1466",
+    "api_id": "2001000011466",
+    "name": "秋田駅店",
+    "address": "秋田県 秋田市 中通7-1-2",
     "coords": [
-      40.7972322159,
-      140.739483902
+      39.7138725,
+      140.132604722
     ],
-    "prefecture_code": 2,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:39:31.892030"
-  },
-  {
-    "id": "1099",
-    "api_id": "2001000011099",
-    "name": "八戸田向店",
-    "address": "青森県 八戸市 田向2-12-11",
-    "coords": [
-      40.4940989439,
-      141.510717699
-    ],
-    "prefecture_code": 2,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:39:44.235951"
-  },
-  {
-    "id": "1226",
-    "api_id": "2001000011226",
-    "name": "八戸城下店",
-    "address": "青森県 八戸市 城下4-2-1",
-    "coords": [
-      40.5209918109,
-      141.489668764
-    ],
-    "prefecture_code": 2,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:39:57.384512"
-  },
-  {
-    "id": "2169",
-    "api_id": "2001000012169",
-    "name": "TSUTAYA BOOKSTORE 弘前ヒロロ店",
-    "address": "青森県 弘前市 駅前町9-20 ヒロロ",
-    "coords": [
-      40.5974365849,
-      140.481786725
-    ],
-    "prefecture_code": 2,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": false
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:40:08.700450"
-  },
-  {
-    "id": "1520",
-    "api_id": "2001000011520",
-    "name": "弘前さくら野店",
-    "address": "青森県 弘前市 高崎2-17-6 さくら野百貨店",
-    "coords": [
-      40.6092708505,
-      140.496307752
-    ],
-    "prefecture_code": 2,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:40:17.825698"
-  },
-  {
-    "id": "1302",
-    "api_id": "2001000011302",
-    "name": "弘前公園前店",
-    "address": "青森県 弘前市 上白銀町1-1",
-    "coords": [
-      40.6033872912,
-      140.46324688
-    ],
-    "prefecture_code": 2,
+    "prefecture_code": 5,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -306,108 +21,108 @@
     "hours": {
       "mon": {
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       "tue": {
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       "wed": {
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       "thu": {
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       "fri": {
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       "sat": {
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       "sun": {
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       },
       "hol": {
         "open": "07:00",
-        "close": "21:00"
+        "close": "22:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:40:32.156898"
+    "scraped_at": "2026-03-21T14:07:17.887638"
   },
   {
-    "id": "1004",
-    "api_id": "2001000011004",
-    "name": "青森ELM店",
-    "address": "青森県 五所川原市 唐笠柳517-1 ELM",
+    "id": "1236",
+    "api_id": "2001000011236",
+    "name": "秋田東通店",
+    "address": "秋田県 秋田市 東通4-5-20",
     "coords": [
-      40.7982704651,
-      140.454777776
+      39.7100933333,
+      140.146640833
     ],
-    "prefecture_code": 2,
+    "prefecture_code": 5,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
     "options": {
-      "reserve": false,
+      "reserve": true,
       "teavana": false,
-      "drive_thru": false,
+      "drive_thru": true,
       "wifi": true
     },
     "hours": {
       "mon": {
-        "open": "10:00",
-        "close": "20:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "tue": {
-        "open": "10:00",
-        "close": "20:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "wed": {
-        "open": "10:00",
-        "close": "20:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "thu": {
-        "open": "10:00",
-        "close": "20:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "fri": {
-        "open": "10:00",
-        "close": "20:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "sat": {
-        "open": "10:00",
-        "close": "20:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "sun": {
-        "open": "10:00",
-        "close": "20:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "hol": {
-        "open": "10:00",
-        "close": "20:00"
+        "open": "07:00",
+        "close": "23:00"
       }
     },
-    "store_type": "1",
+    "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:40:46.521507"
+    "scraped_at": "2026-03-21T14:07:28.927002"
   },
   {
-    "id": "1401",
-    "api_id": "2001000011401",
-    "name": "青森西バイパス店",
-    "address": "青森県 青森市 三好2-2-36",
+    "id": "1516",
+    "api_id": "2001000011516",
+    "name": "秋田保戸野学園通り店",
+    "address": "秋田県 秋田市 保戸野鉄砲町14-18",
     "coords": [
-      40.8313654457,
-      140.704029719
+      39.7220005556,
+      140.112283889
     ],
-    "prefecture_code": 2,
+    "prefecture_code": 5,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -453,132 +168,18 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:40:56.215574"
+    "scraped_at": "2026-03-21T14:07:37.602601"
   },
   {
-    "id": "4395",
-    "api_id": "2001000014395",
-    "name": "青森 ＆LOVINA店",
-    "address": "青森県 青森市 柳川1-1-5 ＆LOVINA1階",
+    "id": "627",
+    "api_id": "200100001627",
+    "name": "イオンモール秋田店",
+    "address": "秋田県 秋田市 御所野地蔵田1-1-1",
     "coords": [
-      40.8285898906,
-      140.734770349
+      39.6608011111,
+      140.164040833
     ],
-    "prefecture_code": 2,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:41:09.855789"
-  },
-  {
-    "id": "1613",
-    "api_id": "2001000011613",
-    "name": "八戸根城店",
-    "address": "青森県 八戸市 根城7-11-30",
-    "coords": [
-      40.5029402637,
-      141.465485215
-    ],
-    "prefecture_code": 2,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:41:24.534452"
-  },
-  {
-    "id": "1459",
-    "api_id": "2001000011459",
-    "name": "イオンモール下田店",
-    "address": "青森県 上北郡 おいらせ町中野平40-1 イオンモール下田",
-    "coords": [
-      40.6018285718,
-      141.417565474
-    ],
-    "prefecture_code": 2,
+    "prefecture_code": 5,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -624,6 +225,291 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:41:37.047747"
+    "scraped_at": "2026-03-21T14:07:49.814306"
+  },
+  {
+    "id": "486",
+    "api_id": "200100001486",
+    "name": "秋田アルス店",
+    "address": "秋田県 秋田市 中通7-2-1 秋田ステーションビル アルス",
+    "coords": [
+      39.714835,
+      140.132269444
+    ],
+    "prefecture_code": 5,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-21T14:08:04.697182"
+  },
+  {
+    "id": "912",
+    "api_id": "200100001912",
+    "name": "秋田大学医学部附属病院店",
+    "address": "秋田県 秋田市 広面蓮沼44-2 秋田大学医学部附属病院",
+    "coords": [
+      39.7272897222,
+      140.152776944
+    ],
+    "prefecture_code": 5,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "19:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "19:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "19:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-21T14:08:15.572322"
+  },
+  {
+    "id": "1723",
+    "api_id": "2001000011723",
+    "name": "横手店",
+    "address": "秋田県 横手市 条里1-6-21",
+    "coords": [
+      39.30682,
+      140.560036111
+    ],
+    "prefecture_code": 5,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-21T14:08:29.565982"
+  },
+  {
+    "id": "876",
+    "api_id": "200100001876",
+    "name": "イオンモール大曲店",
+    "address": "秋田県 大仙市 和合坪立177 イオンモール大曲",
+    "coords": [
+      39.4344294444,
+      140.513004444
+    ],
+    "prefecture_code": 5,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-21T14:08:40.151099"
+  },
+  {
+    "id": "4198",
+    "api_id": "2001000014198",
+    "name": "イオンタウン能代店",
+    "address": "秋田県 能代市 鰄渕古屋布1-2 イオンタウン能代",
+    "coords": [
+      40.1859247222,
+      140.082780833
+    ],
+    "prefecture_code": 5,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-21T14:08:55.247954"
   }
 ]
