@@ -650,7 +650,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
         <span id="mobile-detail-title" style="font-size:12px;font-weight:700;color:var(--text);flex:1;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0 8px;"></span>
         <div style="width:40px;"></div>
       </div>
-      <div id="mobile-detail-body" style="overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;padding:12px 14px;padding-bottom:calc(var(--ad-bottom-h) + 12px);"></div>
+      <div id="mobile-detail-body" style="overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;padding:12px 14px;padding-bottom:calc(var(--ad-bottom-h) + 32px);"></div>
     </div>
 
     <!-- 近くの店舗ヘッダー（フィルターより下） -->
@@ -784,6 +784,7 @@ const state = {
   activeDetailId:    null,  // 詳細表示中の店舗ID
   highlightedMarker: null,  // 強調中のマーカー
   highlightedShop:   null,  // 強調中の店舗データ
+  _displayedCodes:   [],    // 現在detailLayerに表示中の県コード
 };
 
 // ============================================================
@@ -1238,6 +1239,7 @@ function addMarkerToGroup(shop, group) {
       // default中 or state-map中で同じピン or 詳細なし：ミニポップアップを出す
       window._miniPopupShop = shop;
       marker.bindPopup(buildMiniPopup(shop), { maxWidth:240, autoPan:false }).openPopup();
+      panToMarker(shop.coords[0], shop.coords[1]);
     });
   } else {
     // PC：従来通りポップアップ
@@ -1272,9 +1274,9 @@ function renderAllSelectedPrefs() {
 function panToMarker(lat, lng) {
   if (window.innerWidth > 700) { map.panTo([lat, lng], { animate:true, duration:0.25 }); return; }
   const mapH = document.getElementById('map-wrap').offsetHeight;
-  const offsetPx = mapH * 0.25; // ピンを下25%位置に
+  const offsetPx = mapH * 0.35; // ピンを下35%位置に（地図が小さいので大きめに）
   const z = map.getZoom();
-  const pt = map.project([lat, lng], z).subtract([0, offsetPx]); // subtractで地図中心を上に → ピンが下寄りに
+  const pt = map.project([lat, lng], z).subtract([0, offsetPx]);
   map.panTo(map.unproject(pt, z), { animate:true, duration:0.25 });
 }
 
@@ -2080,14 +2082,21 @@ map.on('zoomend moveend', () => {
       if (uncached.length > 0) {
         // 未キャッシュ県がある → fetch して再描画
         await Promise.all(uncached.map(c => fetchDetail(c)));
-        await buildDetailLayer(codes.filter(c => state.detailCache[c]));
         showToast('✓ 詳細データに切り替えました');
-      } else if (!state.detailGroup) {
-        // detailGroupがまだない（初回ズームイン）→ 描画
-        await buildDetailLayer(codes.filter(c => state.detailCache[c]));
       }
-      // それ以外（キャッシュ済み＆detailGroup存在）→ 何もしない（markerMapを壊さない）
+      // 表示すべきコード一覧
+      const cachedCodes = codes.filter(c => state.detailCache[c]);
+      // detailGroupがない、または表示範囲が変わった場合は再描画
+      const currentCodes = state._displayedCodes || [];
+      const needsRedraw = !state.detailGroup
+        || cachedCodes.length !== currentCodes.length
+        || cachedCodes.some(c => !currentCodes.includes(c));
+      if (needsRedraw) {
+        state._displayedCodes = cachedCodes;
+        await buildDetailLayer(cachedCodes);
+      }
     } else {
+      state._displayedCodes = [];
       if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
       if (state.summaryGroup) map.addLayer(state.summaryGroup);
     }
