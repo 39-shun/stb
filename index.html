@@ -1109,7 +1109,7 @@ function applyMerge(shops) {
 async function loadSummary() {
   showLoading('全国データを読み込み中...');
   try {
-    const res = await fetch('data/all_summary.json');
+    const res = await fetch('data/all_summary.json?v=' + new Date().toISOString().slice(0,10));
     if (!res.ok) throw new Error('not found');
     const shops = await res.json();
     state.summaryGroup = L.markerClusterGroup({
