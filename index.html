@@ -354,6 +354,11 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     margin:8px 12px;
   }
 }
+/* 地図最大時はポップアップをもっと広く */
+@media (max-width:700px) {
+  body.map-state-map .leaflet-popup-content-wrapper { max-height:50vh; }
+  body.map-state-map .leaflet-popup-content { max-height:48vh; }
+}
 @media (max-width:700px) {
   #app {
     grid-template-columns:1fr;
@@ -383,8 +388,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     flex:0 0 0%;
   }
 
-  /* 現在地ボタン: 地図内右下（広告枠60pxの上に確実に出す） */
-  #locate-btn { bottom:calc(var(--ad-bottom-h) + 12px) !important; right:12px !important; }
+  /* 現在地ボタン: デフォルトは地図内右下 */
+  #locate-btn { bottom:16px !important; right:12px !important; }
   /* 検索FAB: スマホのみ表示 */
   #mobile-search-fab { display:flex; }
 
@@ -398,6 +403,9 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     height:auto; flex:none; z-index:950;
     border-top:1px solid var(--border);
   }
+
+  /* 地図最大時：locate-btnをトグルバー(約36px)+広告(60px)の上に出す */
+  #map-wrap.state-map #locate-btn { bottom:calc(var(--ad-bottom-h) + 48px) !important; }
 
   /* リスト最大：地図を0に、map-wrapは消す */
   #map-wrap.state-list { flex:0 0 0%; overflow:hidden; }
@@ -525,7 +533,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
             <div class="filter-chip" data-filter="option" data-value="drive_thru">🚗 ドライブスルー</div>
             <div class="filter-chip" data-filter="option" data-value="reserve">★ リザーブ</div>
             <div class="filter-chip" data-filter="option" data-value="teavana">🍃 ティバーナ</div>
-            <div class="filter-chip" data-filter="option" data-value="special">🏢 特殊施設</div>
+            <!--<div class="filter-chip" data-filter="option" data-value="special">🏢 特殊施設</div>-->
           </div>
         </div>
         <div class="filter-group">
@@ -810,17 +818,18 @@ window.setMapState = function(target) {
 
   mapWrap.classList.remove('state-map','state-list');
   listArea.classList.remove('state-map','state-list');
+  document.body.classList.remove('map-state-map','map-state-list');
 
   if (target === 'map') {
-    // 地図最大：境界が下へ動く → ▼で広げた → ▲で戻す
     mapWrap.classList.add('state-map');
     listArea.classList.add('state-map');
+    document.body.classList.add('map-state-map');
     mapBtn.style.display  = 'none';
     listBtn.style.display = 'block';
     listBtn.textContent   = '▲ 戻す';
   } else if (target === 'list') {
-    // リスト最大：境界が上へ動く → ▲で広げた → ▼で戻す
     mapWrap.classList.add('state-list');
+    document.body.classList.add('map-state-list');
     mapBtn.style.display  = 'block';
     listBtn.style.display = 'none';
     mapBtn.textContent    = '▼ 戻す';
@@ -1053,11 +1062,8 @@ function redrawAfterFilter() {
       showCoverageOnHover:false, iconCreateFunction:clusterIcon,
     });
     for (const shop of processed) {
-      if (!shop.coords?.length) continue;
-      const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, !!shop._merged) });
-      marker.bindPopup(buildPopup(shop), { maxWidth:300 });
-      state.detailGroup.addLayer(marker);
-      state.markerMap[shop.id] = marker;
+      const marker = addMarkerToGroup(shop, state.detailGroup);
+      if (marker) state.markerMap[shop.id] = marker;
     }
     map.addLayer(state.detailGroup);
   } else if (state.summaryData) {
@@ -1187,7 +1193,15 @@ function renderDetailMarkers(shops) {
   renderAllSelectedPrefs();
 }
 
-function renderAllSelectedPrefs() {
+function addMarkerToGroup(shop, group) {
+  if (!shop.coords?.length) return null;
+  const isMerged = !!shop._merged;
+  const marker = L.marker(shop.coords, { icon: makeIcon(shop.price_rank, shop.store_type, shop.options||{}, isMerged) });
+  marker.bindPopup(buildPopup(shop), { maxWidth:300, autoPan:false });
+  marker.on('popupopen', () => panToMarker(shop.coords[0], shop.coords[1]));
+  group.addLayer(marker);
+  return marker;
+}
   if (state.detailGroup) map.removeLayer(state.detailGroup);
   state.markerMap = {};
 
@@ -1207,10 +1221,8 @@ function renderAllSelectedPrefs() {
 
   for (const shop of processed) {
     if (!shop.coords?.length) continue;
-    const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, !!shop._merged) });
-    marker.bindPopup(buildPopup(shop), { maxWidth:300 });
-    state.detailGroup.addLayer(marker);
-    state.markerMap[shop.id] = marker;
+    const marker = addMarkerToGroup(shop, state.detailGroup);
+    if (marker) state.markerMap[shop.id] = marker;
   }
   map.addLayer(state.detailGroup);
 }
@@ -1267,6 +1279,21 @@ function renderList(allShops) {
   countElM.textContent = countStr;
   emptyEl.style.display  = filtered.length ? 'none' : 'block';
   if (emptyElM) emptyElM.style.display = filtered.length ? 'none' : 'block';
+}
+
+// マーカークリック時に画面下1/3にピンが来るよう地図をパン
+function panToMarker(lat, lng) {
+  const isMobile = window.innerWidth <= 700;
+  if (isMobile) {
+    // スマホ：地図の高さの1/4分上にオフセット（ピンを下寄りに）
+    const mapHeight = document.getElementById('map-wrap').offsetHeight;
+    const offset = mapHeight / 4;
+    const targetPoint = map.project([lat, lng], map.getZoom()).subtract([0, -offset]);
+    const targetLatLng = map.unproject(targetPoint, map.getZoom());
+    map.panTo(targetLatLng, { animate: true, duration: 0.3 });
+  } else {
+    map.panTo([lat, lng], { animate: true, duration: 0.3 });
+  }
 }
 
 // リストアイテムクリック → 地図でそのピンを開く
@@ -1442,6 +1469,17 @@ window.switchMergeTab = function(tabEl, idx) {
   popup.querySelectorAll('.merge-pane').forEach((p,i) => p.classList.toggle('active',i===idx));
 };
 
+// スマホ検索オーバーレイ開閉
+window.toggleMobileSearch = function() {
+  const overlay = document.getElementById('mobile-search-overlay');
+  const isOpen = overlay.classList.toggle('open');
+  if (isOpen) {
+    setTimeout(() => document.getElementById('mobile-search-input')?.focus(), 50);
+  } else {
+    document.getElementById('mobile-search-results')?.classList.remove('open');
+  }
+};
+
 // ============================================================
 // 検索機能
 // ============================================================
@@ -1508,7 +1546,12 @@ window.clearSearchOverride = function() {
 function searchStores(query) {
   if (!query.trim()) return [];
   const q = query.trim().toLowerCase();
-  return Object.values(state.detailCache).flat()
+  // detailCacheにある店舗（座標・詳細あり）を優先
+  const detailShops = Object.values(state.detailCache).flat();
+  const detailIds = new Set(detailShops.map(s => s.id));
+  // summaryDataにしかない店舗（未ロード県）も検索対象に追加
+  const summaryOnly = (state.summaryData || []).filter(s => !detailIds.has(s.id));
+  return [...detailShops, ...summaryOnly]
     .filter(s => s.name && s.name.toLowerCase().includes(q))
     .slice(0, 50);
 }
@@ -1776,12 +1819,8 @@ map.on('zoomend', () => {
           showCoverageOnHover:false, iconCreateFunction:clusterIcon,
         });
         for (const shop of processed) {
-          if (!shop.coords?.length) continue;
-          const isMerged = !!shop._merged;
-          const marker = L.marker(shop.coords, { icon:makeIcon(shop.price_rank, shop.store_type, shop.options||{}, isMerged) });
-          marker.bindPopup(buildPopup(shop), { maxWidth:300 });
-          state.detailGroup.addLayer(marker);
-          state.markerMap[shop.id] = marker;
+          const marker = addMarkerToGroup(shop, state.detailGroup);
+          if (marker) state.markerMap[shop.id] = marker;
         }
         map.addLayer(state.detailGroup);
         updateFilterIndicator();
