@@ -587,6 +587,7 @@ def generate_summary():
             if not s.get("coords"): continue
             summary.append({
                 "id":              s["id"],
+                "name":            s.get("name", ""),
                 "coords":          s["coords"],
                 "prefecture_code": s.get("prefecture_code"),
                 "price_rank":      s.get("price_rank"),
