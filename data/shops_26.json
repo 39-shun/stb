@@ -1,0 +1,2673 @@
+[
+  {
+    "id": "1854",
+    "api_id": "2001000011854",
+    "name": "京都信用金庫本店ビル店",
+    "address": "京都府 京都市下京区 四条通柳馬場東入立売東町7 京都信用金庫本店ビル",
+    "coords": [
+      35.0035794514,
+      135.764377747
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:04:37.924359"
+  },
+  {
+    "id": "76",
+    "api_id": "20010000176",
+    "name": "京都四条通ヤサカビル店",
+    "address": "京都府 京都市下京区 四条通柳馬場西入ル 立売中之町106  ヤサカ四条ビル",
+    "coords": [
+      35.0038383044,
+      135.763911663
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:04:49.803328"
+  },
+  {
+    "id": "1318",
+    "api_id": "2001000011318",
+    "name": "ＬＡＱＵＥ四条烏丸店",
+    "address": "京都府 京都市下京区 四条通室町東入函谷鉾町101 アーバンネット四条烏丸ビル",
+    "coords": [
+      35.0039365467,
+      135.759300097
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "08:30",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:05:04.224555"
+  },
+  {
+    "id": "2161",
+    "api_id": "2001000012161",
+    "name": "JR京都駅 新幹線中央口店",
+    "address": "京都府 京都市下京区 東塩小路高倉町8-3 JR東海京都駅構内 ASTY京都 2階",
+    "coords": [
+      34.9848030181,
+      135.758179127
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:05:13.667993"
+  },
+  {
+    "id": "225",
+    "api_id": "200100001225",
+    "name": "京都Porta店",
+    "address": "京都府 京都市下京区 烏丸通塩小路下ル 東塩小路町902  京都ポルタ駅前地下街",
+    "coords": [
+      34.9865303538,
+      135.759352839
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:05:25.983215"
+  },
+  {
+    "id": "547",
+    "api_id": "200100001547",
+    "name": "京都タワー サンド店",
+    "address": "京都府 京都市下京区 烏丸通七条下ル 東塩小路町721-1　京都タワービル",
+    "coords": [
+      34.9874038742,
+      135.759505286
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:05:36.539059"
+  },
+  {
+    "id": "2152",
+    "api_id": "2001000012152",
+    "name": "JR京都駅 新幹線改札内店",
+    "address": "京都府 京都市下京区 東塩小路町680-6 JR-PLUS京都支店",
+    "coords": [
+      34.9845116793,
+      135.75926405
+    ],
+    "prefecture_code": 26,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "06:30",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "06:30",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:05:44.888127"
+  },
+  {
+    "id": "2287",
+    "api_id": "2001000012287",
+    "name": "JR京都駅 西口店",
+    "address": "京都府 京都市下京区 烏丸通塩小路下ル 東塩小路町 JR京都駅2階 橋上南北自由通路",
+    "coords": [
+      34.9849338441,
+      135.758558534
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:05:58.042180"
+  },
+  {
+    "id": "4424",
+    "api_id": "2001000014424",
+    "name": "京都Porta イースト店",
+    "address": "京都府 京都市下京区 烏丸通塩小路下ル 東塩小路町902 京都ポルタ駅前地下街",
+    "coords": [
+      34.9864498267,
+      135.760487193
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": true,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:06:08.571947"
+  },
+  {
+    "id": "283",
+    "api_id": "200100001283",
+    "name": "からすま京都ホテル店",
+    "address": "京都府 京都市下京区 烏丸通綾小路下ル 二帖半敷町652  からすま京都ホテル",
+    "coords": [
+      35.0018962105,
+      135.759365741
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:06:18.508082"
+  },
+  {
+    "id": "993",
+    "api_id": "200100001993",
+    "name": "TSUTAYA 京都リサーチパーク店",
+    "address": "京都府 京都市下京区 中堂寺粟田町91　 京都リサーチパーク 9号館",
+    "coords": [
+      34.9958400873,
+      135.737488948
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:06:29.158060"
+  },
+  {
+    "id": "1827",
+    "api_id": "2001000011827",
+    "name": "ビバスクエア京都 梅小路公園店",
+    "address": "京都府 京都市下京区 観喜寺町 梅小路公園内 JR梅小路京都西駅前",
+    "coords": [
+      34.9880113158,
+      135.74397877
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:06:40.579310"
+  },
+  {
+    "id": "4280",
+    "api_id": "2001000014280",
+    "name": "京都久世店",
+    "address": "京都府 京都市南区 久世殿城町453-2",
+    "coords": [
+      34.9565081049,
+      135.717106619
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:06:49.469198"
+  },
+  {
+    "id": "1439",
+    "api_id": "2001000011439",
+    "name": "イオンモールKYOTO店",
+    "address": "京都府 京都市南区 西九条鳥居口町1",
+    "coords": [
+      34.9829525992,
+      135.754672281
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:07:02.292210"
+  },
+  {
+    "id": "1232",
+    "api_id": "2001000011232",
+    "name": "イオンモール京都桂川1階店",
+    "address": "京都府 京都市南区 久世高田町376-1 イオンモール京都桂川　1階",
+    "coords": [
+      34.9637371728,
+      135.708011485
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:07:10.904931"
+  },
+  {
+    "id": "4018",
+    "api_id": "2001000014018",
+    "name": "イオンモール京都桂川2階店",
+    "address": "京都府 京都市南区 久世高田町376-1 イオンモール京都桂川 2階",
+    "coords": [
+      34.9640888208,
+      135.709094713
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:07:25.576038"
+  },
+  {
+    "id": "1830",
+    "api_id": "2001000011830",
+    "name": "イオンモール北大路店",
+    "address": "京都府 京都市北区 小山北上総町49-1 イオンモール北大路",
+    "coords": [
+      35.0445513524,
+      135.758339418
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:07:37.544626"
+  },
+  {
+    "id": "68",
+    "api_id": "20010000168",
+    "name": "京都三条大橋店",
+    "address": "京都府 京都市中京区 三条通河原町東入ル中島町113 近江屋ビル 1F",
+    "coords": [
+      35.0091242561,
+      135.771249699
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:07:50.869277"
+  },
+  {
+    "id": "1716",
+    "api_id": "2001000011716",
+    "name": "スターバックス カフェ & アートギャラリー 京都BAL",
+    "address": "京都府 京都市中京区 河原町通三条下ル山崎町251 京都BAL　3F",
+    "coords": [
+      35.0069714022,
+      135.76961299
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "11:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:08:05.475098"
+  },
+  {
+    "id": "430",
+    "api_id": "200100001430",
+    "name": "京都新京極店",
+    "address": "京都府 京都市中京区 新京極通三条下ル 桜之町421　小町ビル",
+    "coords": [
+      35.0076407358,
+      135.76736509
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:08:19.494748"
+  },
+  {
+    "id": "880",
+    "api_id": "200100001880",
+    "name": "京都烏丸六角店",
+    "address": "京都府 京都市中京区 六角通東洞院西入 堂之前町254",
+    "coords": [
+      35.0076547699,
+      135.759859602
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:08:33.686690"
+  },
+  {
+    "id": "863",
+    "api_id": "200100001863",
+    "name": "京都錦小路店",
+    "address": "京都府 京都市中京区 東洞院通蛸薬師下ル 元竹田町651",
+    "coords": [
+      35.0050645153,
+      135.761229052
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:08:45.349279"
+  },
+  {
+    "id": "116",
+    "api_id": "200100001116",
+    "name": "京都三条烏丸ビル店",
+    "address": "京都府 京都市中京区 三条通烏丸西入ル 御倉町85-1  ＫＤＸ京都烏丸ビル 1F",
+    "coords": [
+      35.0087357567,
+      135.759362371
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:08:59.208516"
+  },
+  {
+    "id": "1283",
+    "api_id": "2001000011283",
+    "name": "コトチカ烏丸御池店",
+    "address": "京都府 京都市中京区 虎屋町地先",
+    "coords": [
+      35.0108769211,
+      135.759622529
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:09:09.456150"
+  },
+  {
+    "id": "4516",
+    "api_id": "2001000014516",
+    "name": "BiVi二条店",
+    "address": "京都府 京都市中京区 西ノ京栂尾町107 BiVi二条1階",
+    "coords": [
+      35.0104377579,
+      135.741226854
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:09:24.560104"
+  },
+  {
+    "id": "4451",
+    "api_id": "2001000014451",
+    "name": "河原町オーパ店",
+    "address": "京都府 京都市中京区 河原町通四条上ル米屋町385 河原町オーパ地下1階",
+    "coords": [
+      35.0045005432,
+      135.768916217
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:09:32.827449"
+  },
+  {
+    "id": "269",
+    "api_id": "200100001269",
+    "name": "京都祇園ホテル店",
+    "address": "京都府 京都市東山区 祇園町南側555 祇園ホテル 1F",
+    "coords": [
+      35.0036102091,
+      135.776142047
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:09:46.418975"
+  },
+  {
+    "id": "1418",
+    "api_id": "2001000011418",
+    "name": "京阪祇園四条駅店",
+    "address": "京都府 京都市東山区 四条大橋東詰 「京阪祇園四条駅」構内 103区画",
+    "coords": [
+      35.0038034522,
+      135.772159035
+    ],
+    "prefecture_code": 26,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:09:56.252577"
+  },
+  {
+    "id": "1476",
+    "api_id": "2001000011476",
+    "name": "京都二寧坂ヤサカ茶屋店",
+    "address": "京都府 京都市東山区 高台寺南門通下河原東入桝屋町349",
+    "coords": [
+      34.9983080801,
+      135.780814403
+    ],
+    "prefecture_code": 26,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:10:09.693466"
+  },
+  {
+    "id": "201",
+    "api_id": "200100001201",
+    "name": "洛北阪急スクエア店",
+    "address": "京都府 京都市左京区 高野西開町36 洛北阪急スクエア 1F",
+    "coords": [
+      35.0413845529,
+      135.779048677
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:10:21.109085"
+  },
+  {
+    "id": "2075",
+    "api_id": "2001000012075",
+    "name": "京都岡崎 蔦屋書店",
+    "address": "京都府 京都市左京区 岡崎最勝寺町13 ロームシアター京都",
+    "coords": [
+      35.0139833513,
+      135.781011443
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:10:32.036463"
+  },
+  {
+    "id": "386",
+    "api_id": "200100001386",
+    "name": "山科駅前店",
+    "address": "京都府 京都市山科区 安朱中小路町5 山科駅NKビル",
+    "coords": [
+      34.9923371295,
+      135.817055835
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:10:42.566225"
+  },
+  {
+    "id": "742",
+    "api_id": "200100001742",
+    "name": "松井山手店",
+    "address": "京都府 京田辺市 松井ケ丘3-2-1",
+    "coords": [
+      34.8321610573,
+      135.729000801
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:10:55.165667"
+  },
+  {
+    "id": "1443",
+    "api_id": "2001000011443",
+    "name": "京都宇治平等院表参道店",
+    "address": "京都府 宇治市 宇治蓮華21-18",
+    "coords": [
+      34.8906739402,
+      135.807069123
+    ],
+    "prefecture_code": 26,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:11:07.654460"
+  },
+  {
+    "id": "4501",
+    "api_id": "2001000014501",
+    "name": "伏見桃山店",
+    "address": "京都府 京都市伏見区 京町4-155-1 京阪桃山ビル1階",
+    "coords": [
+      34.9330633946,
+      135.765056771
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:11:16.263650"
+  },
+  {
+    "id": "4547",
+    "api_id": "2001000014547",
+    "name": "京都伏見国道1号店",
+    "address": "京都府 京都市伏見区 中島前山町35",
+    "coords": [
+      34.9477750849,
+      135.745178856
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:11:31.051557"
+  },
+  {
+    "id": "2059",
+    "api_id": "2001000012059",
+    "name": "龍谷大学店",
+    "address": "京都府 京都市伏見区 深草塚本町67",
+    "coords": [
+      34.9645234155,
+      135.768070073
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:11:41.012489"
+  },
+  {
+    "id": "1072",
+    "api_id": "2001000011072",
+    "name": "イオンモール久御山店",
+    "address": "京都府 久世郡 久御山町森南大内156-1",
+    "coords": [
+      34.8928679179,
+      135.746077421
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:11:51.307524"
+  },
+  {
+    "id": "1668",
+    "api_id": "2001000011668",
+    "name": "松井山手欽明台店",
+    "address": "京都府 八幡市 欽明台西21-1",
+    "coords": [
+      34.8346681137,
+      135.718957353
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:12:01.350461"
+  },
+  {
+    "id": "539",
+    "api_id": "200100001539",
+    "name": "イオンモール京都五条店",
+    "address": "京都府 京都市右京区 西院追分町25-1-043",
+    "coords": [
+      34.9975555548,
+      135.727053069
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:12:10.507712"
+  },
+  {
+    "id": "4216",
+    "api_id": "2001000014216",
+    "name": "京都西大路店",
+    "address": "京都府 京都市右京区 西院中水町21",
+    "coords": [
+      34.9939324175,
+      135.731990604
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:12:19.139290"
+  },
+  {
+    "id": "4207",
+    "api_id": "2001000014207",
+    "name": "A PIT京都四条店",
+    "address": "京都府 京都市右京区 西院安塚町1 A PIT AUTOBACS KYOTO SHIJO2階",
+    "coords": [
+      35.0032487133,
+      135.72010144
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:12:31.127429"
+  },
+  {
+    "id": "1153",
+    "api_id": "2001000011153",
+    "name": "京都四条葛野大路店",
+    "address": "京都府 京都市右京区 山ノ内池尻町8-2",
+    "coords": [
+      35.0042916549,
+      135.719960848
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:12:43.494447"
+  },
+  {
+    "id": "764",
+    "api_id": "200100001764",
+    "name": "イオンモール高の原店",
+    "address": "京都府 木津川市 相楽台1-1-1 イオンモール高の原",
+    "coords": [
+      34.7258365566,
+      135.790326437
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:12:58.635143"
+  },
+  {
+    "id": "4359",
+    "api_id": "2001000014359",
+    "name": "京都精華台店",
+    "address": "京都府 相楽郡 精華町精華台3-12-5",
+    "coords": [
+      34.7476946107,
+      135.780964541
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:13:13.329933"
+  },
+  {
+    "id": "2096",
+    "api_id": "2001000012096",
+    "name": "TSUTAYA 福知山店",
+    "address": "京都府 福知山市 東羽合町149 アビタウン福知山",
+    "coords": [
+      35.2943514401,
+      135.114331955
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:13:21.626236"
+  },
+  {
+    "id": "4020",
+    "api_id": "2001000014020",
+    "name": "京都亀岡店",
+    "address": "京都府 亀岡市 亀岡駅北1-9-1",
+    "coords": [
+      35.0181750433,
+      135.585491098
+    ],
+    "prefecture_code": 26,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:13:32.002636"
+  }
+]

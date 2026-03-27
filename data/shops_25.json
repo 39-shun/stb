@@ -1,14 +1,71 @@
 [
   {
-    "id": "1862",
-    "api_id": "2001000011862",
-    "name": "クロスゲート金沢店",
-    "address": "石川県 金沢市 広岡1-5-3 クロスゲ－ト金沢 1階",
+    "id": "1735",
+    "api_id": "2001000011735",
+    "name": "ブランチ大津京店",
+    "address": "滋賀県 大津市 二本松1-1 ブランチ大津京",
     "coords": [
-      36.5799812719,
-      136.647941225
+      35.0294589794,
+      135.864026613
     ],
-    "prefecture_code": 17,
+    "prefecture_code": 25,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:00:02.625015"
+  },
+  {
+    "id": "1299",
+    "api_id": "2001000011299",
+    "name": "ビエラ大津店",
+    "address": "滋賀県 大津市 春日町1-3",
+    "coords": [
+      35.003421495,
+      135.864506661
+    ],
+    "prefecture_code": 25,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -40,32 +97,260 @@
         "close": "22:00"
       },
       "sat": {
-        "open": "07:00",
+        "open": "08:00",
         "close": "22:00"
       },
       "sun": {
-        "open": "07:00",
+        "open": "08:00",
         "close": "22:00"
       },
       "hol": {
-        "open": "07:00",
+        "open": "08:00",
         "close": "22:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:55:22.824501"
+    "scraped_at": "2026-03-27T14:00:15.108986"
   },
   {
-    "id": "4103",
-    "api_id": "2001000014103",
-    "name": "金沢藤江店",
-    "address": "石川県 金沢市 藤江北4-475",
+    "id": "4559",
+    "api_id": "2001000014559",
+    "name": "大津堅田店",
+    "address": "滋賀県 大津市 今堅田3-11-1 レイクウェル堅田",
     "coords": [
-      36.5910637678,
-      136.620151356
+      35.1258988481,
+      135.922266503
     ],
-    "prefecture_code": 17,
+    "prefecture_code": 25,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:00:27.441768"
+  },
+  {
+    "id": "4466",
+    "api_id": "2001000014466",
+    "name": "フォレオ大津一里山店",
+    "address": "滋賀県 大津市 一里山7-1-1 フォレオ大津一里山1階",
+    "coords": [
+      34.9746643888,
+      135.933596414
+    ],
+    "prefecture_code": 25,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:00:41.885501"
+  },
+  {
+    "id": "1145",
+    "api_id": "2001000011145",
+    "name": "三井アウトレットパーク滋賀竜王店",
+    "address": "滋賀県 蒲生郡 竜王町薬師砂山1178-694 三井アウトレットパーク滋賀竜王",
+    "coords": [
+      35.0613797022,
+      136.100868252
+    ],
+    "prefecture_code": 25,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:00:54.703121"
+  },
+  {
+    "id": "4361",
+    "api_id": "2001000014361",
+    "name": "ビバシティ彦根1階 ビバマルシェ店",
+    "address": "滋賀県 彦根市 竹ヶ鼻町43-1 ビバシティ彦根1階",
+    "coords": [
+      35.2442955132,
+      136.249606921
+    ],
+    "prefecture_code": 25,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:01:04.696985"
+  },
+  {
+    "id": "693",
+    "api_id": "200100001693",
+    "name": "カインズモール彦根店",
+    "address": "滋賀県 彦根市 馬場2-1-1",
+    "coords": [
+      35.280611808,
+      136.243963773
+    ],
+    "prefecture_code": 25,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -77,451 +362,52 @@
     },
     "hours": {
       "mon": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       "tue": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       "wed": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       "thu": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       "fri": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       "sat": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       "sun": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "08:00",
+        "close": "23:00"
       },
       "hol": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "08:00",
+        "close": "23:00"
       }
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:55:31.673337"
+    "scraped_at": "2026-03-27T14:01:16.885177"
   },
   {
-    "id": "1089",
-    "api_id": "2001000011089",
-    "name": "金沢フォーラス6階クーゴ店",
-    "address": "石川県 金沢市 堀川新町3-1 金沢フォーラス 6F",
+    "id": "4043",
+    "api_id": "2001000014043",
+    "name": "ビバシティ彦根店",
+    "address": "滋賀県 彦根市 高宮町1330-2 ビバシティ彦根",
     "coords": [
-      36.5792849882,
-      136.649699999
+      35.243264296,
+      136.253123621
     ],
-    "prefecture_code": 17,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:55:44.070953"
-  },
-  {
-    "id": "4186",
-    "api_id": "2001000014186",
-    "name": "金沢フォーラス1階店",
-    "address": "石川県 金沢市 堀川新町3-1 金沢フォーラス 1F",
-    "coords": [
-      36.5790955598,
-      136.649455862
-    ],
-    "prefecture_code": 17,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "20:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "20:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "20:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "20:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "20:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "20:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "20:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "20:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:55:57.282026"
-  },
-  {
-    "id": "1844",
-    "api_id": "2001000011844",
-    "name": "金沢Rinto西口店",
-    "address": "石川県 金沢市 木ノ新保町1-1 金沢百番街Rinto 1階",
-    "coords": [
-      36.5786316927,
-      136.647864349
-    ],
-    "prefecture_code": 17,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:56:07.350640"
-  },
-  {
-    "id": "4591",
-    "api_id": "2001000014591",
-    "name": "金沢Rinto東口店",
-    "address": "石川県 金沢市 木ノ新保町1-1 金沢百番街Rinto 1階",
-    "coords": [
-      36.5784997728,
-      136.648459583
-    ],
-    "prefecture_code": 17,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:56:17.426993"
-  },
-  {
-    "id": "358",
-    "api_id": "200100001358",
-    "name": "香林坊店",
-    "address": "石川県 金沢市 香林坊2-1-1 クラソ・プレイス香林坊",
-    "coords": [
-      36.562770707,
-      136.653334902
-    ],
-    "prefecture_code": 17,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:56:26.522556"
-  },
-  {
-    "id": "1336",
-    "api_id": "2001000011336",
-    "name": "金沢鞍月店",
-    "address": "石川県 金沢市 戸水1-429",
-    "coords": [
-      36.6020298236,
-      136.620526653
-    ],
-    "prefecture_code": 17,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:56:38.074475"
-  },
-  {
-    "id": "1261",
-    "api_id": "2001000011261",
-    "name": "金沢エムザ店",
-    "address": "石川県 金沢市 武蔵町15-1 金沢エムザ",
-    "coords": [
-      36.5719844772,
-      136.655256263
-    ],
-    "prefecture_code": 17,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:56:48.205857"
-  },
-  {
-    "id": "1023",
-    "api_id": "2001000011023",
-    "name": "金沢大桑店",
-    "address": "石川県 金沢市 大桑2-394",
-    "coords": [
-      36.5346013367,
-      136.675919324
-    ],
-    "prefecture_code": 17,
+    "prefecture_code": 25,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -567,18 +453,360 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:03.257219"
+    "scraped_at": "2026-03-27T14:01:28.125390"
   },
   {
-    "id": "4114",
-    "api_id": "2001000014114",
-    "name": "金沢有松店",
-    "address": "石川県 金沢市 有松3-3-36",
+    "id": "932",
+    "api_id": "200100001932",
+    "name": "多賀サービスエリア（上り線）店",
+    "address": "滋賀県 犬上郡 多賀町敏満寺62-2 多賀サービスエリア（上り線）",
     "coords": [
-      36.5412730487,
-      136.639853123
+      35.2183838714,
+      136.283192269
     ],
-    "prefecture_code": 17,
+    "prefecture_code": 25,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:01:43.302858"
+  },
+  {
+    "id": "980",
+    "api_id": "200100001980",
+    "name": "EXPASA多賀サービスエリア（下り線）店",
+    "address": "滋賀県 犬上郡 多賀町敏満寺66-11 名神高速道路　EXPASA多賀（下り線）",
+    "coords": [
+      35.219620165,
+      136.285309537
+    ],
+    "prefecture_code": 25,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:01:52.486829"
+  },
+  {
+    "id": "728",
+    "api_id": "200100001728",
+    "name": "近江八幡店",
+    "address": "滋賀県 近江八幡市 鷹飼町北2-3-11",
+    "coords": [
+      35.1276154769,
+      136.105538425
+    ],
+    "prefecture_code": 25,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:02:03.035726"
+  },
+  {
+    "id": "1473",
+    "api_id": "2001000011473",
+    "name": "草津駒井沢店",
+    "address": "滋賀県 草津市 駒井沢町18",
+    "coords": [
+      35.0396871001,
+      135.962189101
+    ],
+    "prefecture_code": 25,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:02:12.885638"
+  },
+  {
+    "id": "1433",
+    "api_id": "2001000011433",
+    "name": "草津A・SQUARE店",
+    "address": "滋賀県 草津市 西渋川1-23-23",
+    "coords": [
+      35.0254494066,
+      135.959344715
+    ],
+    "prefecture_code": 25,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:02:22.399484"
+  },
+  {
+    "id": "639",
+    "api_id": "200100001639",
+    "name": "草津国道１号店",
+    "address": "滋賀県 草津市 草津1-20-20",
+    "coords": [
+      35.0150628524,
+      135.965793547
+    ],
+    "prefecture_code": 25,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:02:32.963494"
+  },
+  {
+    "id": "4303",
+    "api_id": "2001000014303",
+    "name": "南草津駅西口店",
+    "address": "滋賀県 草津市 南草津2-1-25",
+    "coords": [
+      35.0053976704,
+      135.943899421
+    ],
+    "prefecture_code": 25,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -624,75 +852,18 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:14.729923"
+    "scraped_at": "2026-03-27T14:02:46.577110"
   },
   {
-    "id": "746",
-    "api_id": "200100001746",
-    "name": "野々市市役所前店",
-    "address": "石川県 野々市市 三納1-46",
+    "id": "4349",
+    "api_id": "2001000014349",
+    "name": "南草津かがやき通り店",
+    "address": "滋賀県 草津市 野路6-6-5",
     "coords": [
-      36.5184168884,
-      136.608396788
+      35.0026934056,
+      135.953527913
     ],
-    "prefecture_code": 17,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:23.965867"
-  },
-  {
-    "id": "4410",
-    "api_id": "2001000014410",
-    "name": "野々市堀内店",
-    "address": "石川県 野々市市 堀内5-241",
-    "coords": [
-      36.5321094335,
-      136.599408848
-    ],
-    "prefecture_code": 17,
+    "prefecture_code": 25,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -705,108 +876,51 @@
     "hours": {
       "mon": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "22:30"
       },
       "tue": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "22:30"
       },
       "wed": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "22:30"
       },
       "thu": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "22:30"
       },
       "fri": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "22:30"
       },
       "sat": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "22:30"
       },
       "sun": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "22:30"
       },
       "hol": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "22:30"
       }
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:33.540010"
+    "scraped_at": "2026-03-27T14:02:58.688897"
   },
   {
-    "id": "4284",
-    "api_id": "2001000014284",
-    "name": "小松打越店",
-    "address": "石川県 小松市 打越町い201",
+    "id": "890",
+    "api_id": "200100001890",
+    "name": "イオンモール草津店",
+    "address": "滋賀県 草津市 新浜町300 イオンモール草津",
     "coords": [
-      36.4008668758,
-      136.476262897
+      34.9975999228,
+      135.913779504
     ],
-    "prefecture_code": 17,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:44.421634"
-  },
-  {
-    "id": "1460",
-    "api_id": "2001000011460",
-    "name": "イオンモール新小松店",
-    "address": "石川県 小松市 清六町315",
-    "coords": [
-      36.3944648879,
-      136.466379568
-    ],
-    "prefecture_code": 17,
+    "prefecture_code": 25,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -852,18 +966,18 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:55.070814"
+    "scraped_at": "2026-03-27T14:03:07.940916"
   },
   {
-    "id": "4034",
-    "api_id": "2001000014034",
-    "name": "イオンモール白山店",
-    "address": "石川県 白山市 横江町5001",
+    "id": "1614",
+    "api_id": "2001000011614",
+    "name": "近鉄草津店",
+    "address": "滋賀県 草津市 渋川1-1-50 近鉄百貨店草津店2階",
     "coords": [
-      36.5441889622,
-      136.582788006
+      35.0223972897,
+      135.962590142
     ],
-    "prefecture_code": 17,
+    "prefecture_code": 25,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -875,109 +989,166 @@
     },
     "hours": {
       "mon": {
-        "open": "10:00",
+        "open": "07:00",
         "close": "21:00"
       },
       "tue": {
-        "open": "10:00",
+        "open": "07:00",
         "close": "21:00"
       },
       "wed": {
-        "open": "10:00",
+        "open": "07:00",
         "close": "21:00"
       },
       "thu": {
-        "open": "10:00",
+        "open": "07:00",
         "close": "21:00"
       },
       "fri": {
-        "open": "10:00",
+        "open": "07:00",
         "close": "21:00"
       },
       "sat": {
-        "open": "10:00",
+        "open": "07:00",
         "close": "21:00"
       },
       "sun": {
-        "open": "10:00",
+        "open": "07:00",
         "close": "21:00"
       },
       "hol": {
-        "open": "10:00",
+        "open": "07:00",
         "close": "21:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:58:08.534003"
+    "scraped_at": "2026-03-27T14:03:16.820598"
   },
   {
-    "id": "4035",
-    "api_id": "2001000014035",
-    "name": "TSUTAYA BOOKSTORE イオンモール白山店",
-    "address": "石川県 白山市 横江町5001",
+    "id": "1294",
+    "api_id": "2001000011294",
+    "name": "滋賀長浜店",
+    "address": "滋賀県 長浜市 川崎町265",
     "coords": [
-      36.5455279667,
-      136.581703034
+      35.3934892931,
+      136.282303447
     ],
-    "prefecture_code": 17,
+    "prefecture_code": 25,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
     "options": {
       "reserve": false,
       "teavana": false,
-      "drive_thru": false,
+      "drive_thru": true,
       "wifi": true
     },
     "hours": {
       "mon": {
-        "open": "10:00",
-        "close": "21:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "tue": {
-        "open": "10:00",
-        "close": "21:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "wed": {
-        "open": "10:00",
-        "close": "21:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "thu": {
-        "open": "10:00",
-        "close": "21:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "fri": {
-        "open": "10:00",
-        "close": "21:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "sat": {
-        "open": "10:00",
-        "close": "21:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "sun": {
-        "open": "10:00",
-        "close": "21:00"
+        "open": "07:00",
+        "close": "23:00"
       },
       "hol": {
-        "open": "10:00",
-        "close": "21:00"
+        "open": "07:00",
+        "close": "23:00"
       }
     },
-    "store_type": "1",
+    "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:58:17.909631"
+    "scraped_at": "2026-03-27T14:03:29.358392"
   },
   {
-    "id": "500",
-    "api_id": "200100001500",
-    "name": "フェアモール松任店",
-    "address": "石川県 白山市 幸明町232-1 フェアモール松任",
+    "id": "1440",
+    "api_id": "2001000011440",
+    "name": "東近江八日市店",
+    "address": "滋賀県 東近江市 八日市上之町7-40",
     "coords": [
-      36.517682817,
-      136.57755355
+      35.1133603767,
+      136.203345125
     ],
-    "prefecture_code": 17,
+    "prefecture_code": 25,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-27T14:03:41.446395"
+  },
+  {
+    "id": "1390",
+    "api_id": "2001000011390",
+    "name": "甲賀水口店",
+    "address": "滋賀県 甲賀市 水口町水口6004-1",
+    "coords": [
+      34.9663148743,
+      136.164704828
+    ],
+    "prefecture_code": 25,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -1023,63 +1194,6 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:58:28.448389"
-  },
-  {
-    "id": "883",
-    "api_id": "200100001883",
-    "name": "イオンモールかほく店",
-    "address": "石川県 かほく市 内日角タ25 イオンモールかほく",
-    "coords": [
-      36.7091395209,
-      136.702486581
-    ],
-    "prefecture_code": 17,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:58:36.838048"
+    "scraped_at": "2026-03-27T14:03:50.937348"
   }
 ]

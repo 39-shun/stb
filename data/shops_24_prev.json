@@ -1,128 +1,14 @@
 [
   {
-    "id": "1378",
-    "api_id": "2001000011378",
-    "name": "みんなの森 ぎふメディアコスモス店",
-    "address": "岐阜県 岐阜市 司町40-5 みんなの森 ぎふメディアコスモス",
+    "id": "599",
+    "api_id": "200100001599",
+    "name": "アピタ四日市店",
+    "address": "三重県 四日市市 安島1-3-31 トナリエ四日市",
     "coords": [
-      35.4271182006,
-      136.759638367
+      34.9681175844,
+      136.617146059
     ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:09:19.219956"
-  },
-  {
-    "id": "1200",
-    "api_id": "2001000011200",
-    "name": "岐阜茜部店",
-    "address": "岐阜県 岐阜市 茜部野瀬2-14-1",
-    "coords": [
-      35.3769383358,
-      136.746351781
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:09:29.799691"
-  },
-  {
-    "id": "2056",
-    "api_id": "2001000012056",
-    "name": "ASTY岐阜店",
-    "address": "岐阜県 岐阜市 橋本町1-10-1 ASTY岐阜3F",
-    "coords": [
-      35.4095519905,
-      136.757722391
-    ],
-    "prefecture_code": 21,
+    "prefecture_code": 24,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -168,132 +54,18 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:09:40.465345"
+    "scraped_at": "2026-03-26T14:44:24.808716"
   },
   {
-    "id": "1841",
-    "api_id": "2001000011841",
-    "name": "本巣北方店",
-    "address": "岐阜県 本巣郡 北方町平成8-1",
+    "id": "1764",
+    "api_id": "2001000011764",
+    "name": "イオンタウン四日市泊店",
+    "address": "三重県 四日市市 泊小柳町4-5 イオンタウン四日市泊",
     "coords": [
-      35.4335433233,
-      136.678787008
+      34.9381649551,
+      136.601256813
     ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:09:50.029805"
-  },
-  {
-    "id": "678",
-    "api_id": "200100001678",
-    "name": "モレラ岐阜店",
-    "address": "岐阜県 本巣市 三橋1100 モレラ岐阜",
-    "coords": [
-      35.4549056677,
-      136.673468688
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "09:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "09:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "09:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:10:00.585099"
-  },
-  {
-    "id": "2263",
-    "api_id": "2001000012263",
-    "name": "TSUTAYA BOOKSTORE モレラ岐阜店",
-    "address": "岐阜県 本巣市 三橋1100 モレラ岐阜2階",
-    "coords": [
-      35.4568171157,
-      136.672654779
-    ],
-    "prefecture_code": 21,
+    "prefecture_code": 24,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -339,18 +111,132 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:10:09.696615"
+    "scraped_at": "2026-03-26T14:44:39.062294"
   },
   {
-    "id": "532",
-    "api_id": "200100001532",
-    "name": "関 マーゴ店",
-    "address": "岐阜県 関市 倉知516 サンサンシティ　マーゴ",
+    "id": "4039",
+    "api_id": "2001000014039",
+    "name": "四日市中央緑地店",
+    "address": "三重県 四日市市 日永東1-3-21 中央緑地",
     "coords": [
-      35.478092976,
-      136.899897427
+      34.952301962,
+      136.61188639
     ],
-    "prefecture_code": 21,
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:44:50.698149"
+  },
+  {
+    "id": "4321",
+    "api_id": "2001000014321",
+    "name": "菰野町店",
+    "address": "三重県 三重郡 菰野町宿野神明田325-2",
+    "coords": [
+      35.0066560902,
+      136.529054656
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:45:03.054795"
+  },
+  {
+    "id": "1100",
+    "api_id": "2001000011100",
+    "name": "イオンモール四日市北店",
+    "address": "三重県 四日市市 富州原町2-40 イオンモール四日市北",
+    "coords": [
+      35.0074235249,
+      136.657236197
+    ],
+    "prefecture_code": 24,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -396,75 +282,18 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:10:24.603985"
+    "scraped_at": "2026-03-26T14:45:15.663904"
   },
   {
-    "id": "4220",
-    "api_id": "2001000014220",
-    "name": "関倉知店",
-    "address": "岐阜県 関市 倉知627",
+    "id": "1178",
+    "api_id": "2001000011178",
+    "name": "イオンモール東員店",
+    "address": "三重県 員弁郡 東員町長深510-1 イオンモール東員",
     "coords": [
-      35.4794947617,
-      136.899394349
+      35.0631131514,
+      136.579298994
     ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:10:36.548730"
-  },
-  {
-    "id": "4063",
-    "api_id": "2001000014063",
-    "name": "TSUTAYA BOOKSTORE カラフルタウン岐阜店",
-    "address": "岐阜県 岐阜市 柳津町丸野3-3-6 カラフルタウン岐阜1階",
-    "coords": [
-      35.3646129312,
-      136.72722727
-    ],
-    "prefecture_code": 21,
+    "prefecture_code": 24,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -477,19 +306,19 @@
     "hours": {
       "mon": {
         "open": "10:00",
-        "close": "21:00"
+        "close": "20:00"
       },
       "tue": {
         "open": "10:00",
-        "close": "21:00"
+        "close": "20:00"
       },
       "wed": {
         "open": "10:00",
-        "close": "21:00"
+        "close": "20:00"
       },
       "thu": {
         "open": "10:00",
-        "close": "21:00"
+        "close": "20:00"
       },
       "fri": {
         "open": "10:00",
@@ -510,417 +339,18 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:10:44.925584"
+    "scraped_at": "2026-03-26T14:45:25.808974"
   },
   {
-    "id": "1404",
-    "api_id": "2001000011404",
-    "name": "羽島福寿店",
-    "address": "岐阜県 羽島市 福寿町千代田3-27",
+    "id": "193",
+    "api_id": "200100001193",
+    "name": "イオンモール桑名店",
+    "address": "三重県 桑名市 新西方1-22 イオンモール桑名",
     "coords": [
-      35.3192123091,
-      136.683952955
+      35.0722183533,
+      136.662512498
     ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:10:59.905354"
-  },
-  {
-    "id": "988",
-    "api_id": "200100001988",
-    "name": "岐阜正木店",
-    "address": "岐阜県 岐阜市 正木中2-3-8",
-    "coords": [
-      35.448958893,
-      136.742189088
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:11:14.089627"
-  },
-  {
-    "id": "4282",
-    "api_id": "2001000014282",
-    "name": "岐阜菅生店",
-    "address": "岐阜県 岐阜市 菅生6-7-16",
-    "coords": [
-      35.4258278195,
-      136.729917006
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:11:22.686767"
-  },
-  {
-    "id": "763",
-    "api_id": "200100001763",
-    "name": "イオンモール大垣店",
-    "address": "岐阜県 大垣市 外野2-100 イオンモール大垣",
-    "coords": [
-      35.3366361655,
-      136.613858252
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:11:33.599404"
-  },
-  {
-    "id": "4140",
-    "api_id": "2001000014140",
-    "name": "大垣島里店",
-    "address": "岐阜県 大垣市 島里2-92",
-    "coords": [
-      35.3244064628,
-      136.619597782
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:11:44.472583"
-  },
-  {
-    "id": "1792",
-    "api_id": "2001000011792",
-    "name": "アクアウォーク大垣店",
-    "address": "岐阜県 大垣市 林町6-80-21 アクアウォーク大垣",
-    "coords": [
-      35.3699246073,
-      136.617171444
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "09:30",
-        "close": "21:30"
-      },
-      "tue": {
-        "open": "09:30",
-        "close": "21:30"
-      },
-      "wed": {
-        "open": "09:30",
-        "close": "21:30"
-      },
-      "thu": {
-        "open": "09:30",
-        "close": "21:30"
-      },
-      "fri": {
-        "open": "09:30",
-        "close": "21:30"
-      },
-      "sat": {
-        "open": "09:30",
-        "close": "21:30"
-      },
-      "sun": {
-        "open": "09:30",
-        "close": "21:30"
-      },
-      "hol": {
-        "open": "09:30",
-        "close": "21:30"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:11:57.128856"
-  },
-  {
-    "id": "1665",
-    "api_id": "2001000011665",
-    "name": "各務原蘇原店",
-    "address": "岐阜県 各務原市 蘇原瑞穂町5-54",
-    "coords": [
-      35.4133562966,
-      136.85261128
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:12:06.148059"
-  },
-  {
-    "id": "782",
-    "api_id": "200100001782",
-    "name": "イオンモール各務原店",
-    "address": "岐阜県 各務原市 那加萱場町3-8 イオンモール各務原",
-    "coords": [
-      35.3917553374,
-      136.824452113
-    ],
-    "prefecture_code": 21,
+    "prefecture_code": 24,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -966,18 +396,18 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:12:15.531953"
+    "scraped_at": "2026-03-26T14:45:34.642075"
   },
   {
-    "id": "1662",
-    "api_id": "2001000011662",
-    "name": "美濃加茂新池店",
-    "address": "岐阜県 美濃加茂市 新池町1-6-35",
+    "id": "691",
+    "api_id": "200100001691",
+    "name": "桑名サンシパーク店",
+    "address": "三重県 桑名市 大仲新田111-1 桑名サンシパーク",
     "coords": [
-      35.4525565041,
-      137.025020712
+      35.0804073341,
+      136.606605097
     ],
-    "prefecture_code": 21,
+    "prefecture_code": 24,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -1023,192 +453,21 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:12:27.792381"
+    "scraped_at": "2026-03-26T14:45:48.128489"
   },
   {
-    "id": "1363",
-    "api_id": "2001000011363",
-    "name": "高山岡本店",
-    "address": "岐阜県 高山市 岡本町2-47",
+    "id": "1881",
+    "api_id": "2001000011881",
+    "name": "ジャズドリーム長島店",
+    "address": "三重県 桑名市 長島町浦安368 三井アウトレットパーク ジャズドリーム長島",
     "coords": [
-      36.142892654,
-      137.247009932
+      35.030463093,
+      136.725882491
     ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:12:41.103119"
-  },
-  {
-    "id": "1484",
-    "api_id": "2001000011484",
-    "name": "多治見光ケ丘店",
-    "address": "岐阜県 多治見市 光ケ丘4-48-2",
-    "coords": [
-      35.3470345417,
-      137.109358844
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:12:51.641215"
-  },
-  {
-    "id": "4087",
-    "api_id": "2001000014087",
-    "name": "ルビットタウン中津川店",
-    "address": "岐阜県 中津川市 淀川町3-8 ルビットタウン中津川",
-    "coords": [
-      35.4971812718,
-      137.507616078
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:13:06.552621"
-  },
-  {
-    "id": "2100",
-    "api_id": "2001000012100",
-    "name": "草叢BOOKS 各務原店",
-    "address": "岐阜県 各務原市 鵜沼各務原町8-7 アピタ各務原",
-    "coords": [
-      35.3980407867,
-      136.904567392
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "prefecture_code": 24,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -1217,166 +476,52 @@
     },
     "hours": {
       "mon": {
-        "open": "09:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "09:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "09:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "09:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "09:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "09:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "09:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "09:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:13:20.185065"
-  },
-  {
-    "id": "1893",
-    "api_id": "2001000011893",
-    "name": "可児広見店",
-    "address": "岐阜県 可児市 広見6-1",
-    "coords": [
-      35.42260343,
-      137.063177533
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:13:30.460195"
-  },
-  {
-    "id": "4132",
-    "api_id": "2001000014132",
-    "name": "イオンモール土岐店",
-    "address": "岐阜県 土岐市 土岐津町土岐口1372-1 イオンモール土岐",
-    "coords": [
-      35.3470731031,
-      137.154457319
-    ],
-    "prefecture_code": 21,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
         "open": "10:00",
-        "close": "21:00"
+        "close": "20:00"
       },
       "tue": {
         "open": "10:00",
-        "close": "21:00"
+        "close": "20:00"
       },
       "wed": {
         "open": "10:00",
-        "close": "21:00"
+        "close": "20:00"
       },
       "thu": {
         "open": "10:00",
-        "close": "21:00"
+        "close": "20:00"
       },
       "fri": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       },
       "sat": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       },
       "sun": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       },
       "hol": {
         "open": "10:00",
-        "close": "22:00"
+        "close": "20:00"
       }
     },
-    "store_type": "1",
+    "store_type": "2",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:13:39.375018"
+    "scraped_at": "2026-03-26T14:46:03.057016"
   },
   {
-    "id": "952",
-    "api_id": "200100001952",
-    "name": "恵那峡サービスエリア（下り線）店",
-    "address": "岐阜県 恵那市 大井町2194-82 恵那峡サービスエリア（下り線）",
+    "id": "981",
+    "api_id": "200100001981",
+    "name": "EXPASA御在所サービスエリア（下り線）店",
+    "address": "三重県 四日市市 山之一色町乱取口1491-2　 東名阪自動車道　EXPASA御在所(下り線）",
     "coords": [
-      35.4541218928,
-      137.438523798
+      35.0186323444,
+      136.594677821
     ],
-    "prefecture_code": 21,
+    "prefecture_code": 24,
     "price_rank": "A",
     "price_takeout": 510,
     "price_instore": 520,
@@ -1409,31 +554,487 @@
       },
       "sat": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "sun": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "hol": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:13:48.324494"
+    "scraped_at": "2026-03-26T14:46:15.036654"
   },
   {
-    "id": "1603",
-    "api_id": "2001000011603",
-    "name": "恵那店",
-    "address": "岐阜県 恵那市 長島町正家3-8-41",
+    "id": "1402",
+    "api_id": "2001000011402",
+    "name": "EXPASA御在所サービスエリア(上り線)店",
+    "address": "三重県 四日市市 山之一色町池の谷口1569-2 東名阪自動車道　EXPASA御在所(上り線)",
     "coords": [
-      35.4463562428,
-      137.417370635
+      35.0189855665,
+      136.590471765
     ],
-    "prefecture_code": 21,
+    "prefecture_code": 24,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:46:24.282456"
+  },
+  {
+    "id": "1063",
+    "api_id": "2001000011063",
+    "name": "四日市尾平店",
+    "address": "三重県 四日市市 尾平町天王川原1863-1",
+    "coords": [
+      34.9764150972,
+      136.589176611
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:46:33.662395"
+  },
+  {
+    "id": "2089",
+    "api_id": "2001000012089",
+    "name": "TSUTAYA 鈴鹿中央通店",
+    "address": "三重県 鈴鹿市 算所町417-1",
+    "coords": [
+      34.8744100839,
+      136.552187435
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:46:45.271220"
+  },
+  {
+    "id": "4339",
+    "api_id": "2001000014339",
+    "name": "鈴鹿平田店",
+    "address": "三重県 鈴鹿市 算所1-3-8",
+    "coords": [
+      34.8740969112,
+      136.543566777
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:47:00.443215"
+  },
+  {
+    "id": "4288",
+    "api_id": "2001000014288",
+    "name": "鈴鹿玉垣店",
+    "address": "三重県 鈴鹿市 北玉垣町細田1681-1",
+    "coords": [
+      34.8670542494,
+      136.58659075
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:47:12.847910"
+  },
+  {
+    "id": "440",
+    "api_id": "200100001440",
+    "name": "イオンモール鈴鹿店",
+    "address": "三重県 鈴鹿市 庄野羽山4-1-2",
+    "coords": [
+      34.8719502682,
+      136.531776743
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:47:25.258589"
+  },
+  {
+    "id": "703",
+    "api_id": "200100001703",
+    "name": "ベイスクエア津店",
+    "address": "三重県 津市 藤方716 BAY SQUARE Tsu",
+    "coords": [
+      34.6834454688,
+      136.518050175
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:47:38.091092"
+  },
+  {
+    "id": "1619",
+    "api_id": "2001000011619",
+    "name": "イオンモール津南店",
+    "address": "三重県 津市 高茶屋小森町145 イオンモール津南",
+    "coords": [
+      34.6710851188,
+      136.517740492
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:47:46.883453"
+  },
+  {
+    "id": "4326",
+    "api_id": "2001000014326",
+    "name": "津高茶屋店",
+    "address": "三重県 津市 高茶屋小森町981-6",
+    "coords": [
+      34.6663267869,
+      136.504587636
+    ],
+    "prefecture_code": 24,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -1479,6 +1080,519 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:13:56.726479"
+    "scraped_at": "2026-03-26T14:47:58.354244"
+  },
+  {
+    "id": "594",
+    "api_id": "200100001594",
+    "name": "久居インターガーデン店",
+    "address": "三重県 津市 久居明神町風早2533 久居インターガーデン",
+    "coords": [
+      34.6833487204,
+      136.46506569
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:48:12.535758"
+  },
+  {
+    "id": "1069",
+    "api_id": "2001000011069",
+    "name": "イオンモール明和店",
+    "address": "三重県 多気郡 明和町中村1223 イオンモール明和",
+    "coords": [
+      34.5809828296,
+      136.614175243
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:48:24.525021"
+  },
+  {
+    "id": "4429",
+    "api_id": "2001000014429",
+    "name": "松阪塚本店",
+    "address": "三重県 松阪市 塚本町28-1",
+    "coords": [
+      34.5943459047,
+      136.522193933
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:48:37.397305"
+  },
+  {
+    "id": "1498",
+    "api_id": "2001000011498",
+    "name": "松阪川井店",
+    "address": "三重県 松阪市 川井町772-31",
+    "coords": [
+      34.579146083,
+      136.518838523
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:48:50.344565"
+  },
+  {
+    "id": "1032",
+    "api_id": "2001000011032",
+    "name": "イオンタウン伊勢ララパーク店",
+    "address": "三重県 伊勢市 小木町538 イオンタウンイセララパーク",
+    "coords": [
+      34.5065115721,
+      136.722272195
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:48:58.911827"
+  },
+  {
+    "id": "1889",
+    "api_id": "2001000011889",
+    "name": "伊勢 内宮前店",
+    "address": "三重県 伊勢市 宇治今在家町中賀集楽37-4",
+    "coords": [
+      34.46100368,
+      136.723305871
+    ],
+    "prefecture_code": 24,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "17:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "17:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:49:07.249706"
+  },
+  {
+    "id": "4363",
+    "api_id": "2001000014363",
+    "name": "伊勢御薗店",
+    "address": "三重県 伊勢市 御薗町長屋2223",
+    "coords": [
+      34.507481263,
+      136.710514793
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:49:20.031299"
+  },
+  {
+    "id": "4527",
+    "api_id": "2001000014527",
+    "name": "名張店",
+    "address": "三重県 名張市 希央台3番町88",
+    "coords": [
+      34.6220470391,
+      136.10475427
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:49:32.710907"
+  },
+  {
+    "id": "4067",
+    "api_id": "2001000014067",
+    "name": "イオンタウン伊賀上野店",
+    "address": "三重県 伊賀市 四十九町1850 イオンタウン伊賀上野",
+    "coords": [
+      34.747852721,
+      136.134926249
+    ],
+    "prefecture_code": 24,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:49:43.214170"
   }
 ]
