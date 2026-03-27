@@ -1,0 +1,9122 @@
+[
+  {
+    "id": "861",
+    "api_id": "200100001861",
+    "name": "豊橋ココラフロント店",
+    "address": "愛知県 豊橋市 駅前大通1-55 ココラフロント",
+    "coords": [
+      34.762960149,
+      137.384215412
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:11:30.308467"
+  },
+  {
+    "id": "1042",
+    "api_id": "2001000011042",
+    "name": "ホリデイ・スクエア豊橋店",
+    "address": "愛知県 豊橋市 藤沢町141",
+    "coords": [
+      34.7448074258,
+      137.371598685
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:11:43.015879"
+  },
+  {
+    "id": "4030",
+    "api_id": "2001000014030",
+    "name": "豊橋柱店",
+    "address": "愛知県 豊橋市 牟呂町扇田53-1",
+    "coords": [
+      34.7503377457,
+      137.376066392
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:11:51.457530"
+  },
+  {
+    "id": "1890",
+    "api_id": "2001000011890",
+    "name": "豊橋曙店",
+    "address": "愛知県 豊橋市 曙町南松原6-4",
+    "coords": [
+      34.7302650402,
+      137.400416128
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:12:01.654043"
+  },
+  {
+    "id": "4211",
+    "api_id": "2001000014211",
+    "name": "豊川大堀店",
+    "address": "愛知県 豊川市 大堀町335",
+    "coords": [
+      34.8356435163,
+      137.401860322
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:12:15.014646"
+  },
+  {
+    "id": "1248",
+    "api_id": "2001000011248",
+    "name": "豊川正岡店",
+    "address": "愛知県 豊川市 正岡町流田506",
+    "coords": [
+      34.8018563104,
+      137.386732023
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:12:25.783150"
+  },
+  {
+    "id": "4047",
+    "api_id": "2001000014047",
+    "name": "豊川下長山店",
+    "address": "愛知県 豊川市 下長山町宮下7-1",
+    "coords": [
+      34.8070798202,
+      137.381112527
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:12:40.113214"
+  },
+  {
+    "id": "4238",
+    "api_id": "2001000014238",
+    "name": "イオンモール豊川店",
+    "address": "愛知県 豊川市 白鳥町兎足1-16 イオンモール豊川",
+    "coords": [
+      34.8255075993,
+      137.350904743
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:12:51.483273"
+  },
+  {
+    "id": "4543",
+    "api_id": "2001000014543",
+    "name": "カインズ蒲郡店",
+    "address": "愛知県 蒲郡市 鹿島町浅井新田1-7",
+    "coords": [
+      34.8114330767,
+      137.196632925
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:13:03.634513"
+  },
+  {
+    "id": "4011",
+    "api_id": "2001000014011",
+    "name": "イオンタウン岡崎美合店",
+    "address": "愛知県 岡崎市 美合町つむぎ南1-1 イオンタウン岡崎美合",
+    "coords": [
+      34.9257120492,
+      137.185583025
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:13:14.982700"
+  },
+  {
+    "id": "4081",
+    "api_id": "2001000014081",
+    "name": "岡崎針崎店",
+    "address": "愛知県 岡崎市 針崎西1-9-4",
+    "coords": [
+      34.9192632642,
+      137.152041941
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:13:29.482368"
+  },
+  {
+    "id": "165",
+    "api_id": "200100001165",
+    "name": "イオンモール岡崎1階店",
+    "address": "愛知県 岡崎市 戸崎町外山38-5 イオンモール岡崎1階",
+    "coords": [
+      34.9378251039,
+      137.164289236
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:13:37.770619"
+  },
+  {
+    "id": "4057",
+    "api_id": "2001000014057",
+    "name": "イオンモール岡崎3階店",
+    "address": "愛知県 岡崎市 戸崎町外山38-5 イオンモール岡崎3階",
+    "coords": [
+      34.9366910558,
+      137.164137912
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:13:52.464284"
+  },
+  {
+    "id": "909",
+    "api_id": "200100001909",
+    "name": "岡崎竜美店",
+    "address": "愛知県 岡崎市 竜美西2-9-13",
+    "coords": [
+      34.9391355668,
+      137.167010061
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:14:01.877019"
+  },
+  {
+    "id": "1345",
+    "api_id": "2001000011345",
+    "name": "NEOPASA岡崎サービスエリア店",
+    "address": "愛知県 岡崎市 宮石町六ツ田10-4　 新東名高速道路　岡崎サービスエリア内",
+    "coords": [
+      35.0343457776,
+      137.221402826
+    ],
+    "prefecture_code": 23,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "06:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "06:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:14:16.600333"
+  },
+  {
+    "id": "4491",
+    "api_id": "2001000014491",
+    "name": "三井アウトレットパーク 岡崎店",
+    "address": "愛知県 岡崎市 舞木町字金森200 三井アウトレットパーク 岡崎1階",
+    "coords": [
+      34.8989982861,
+      137.251842642
+    ],
+    "prefecture_code": 23,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:14:28.903536"
+  },
+  {
+    "id": "4237",
+    "api_id": "2001000014237",
+    "name": "西尾今川店",
+    "address": "愛知県 西尾市 今川町下落21-1",
+    "coords": [
+      34.8536933487,
+      137.057516144
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:14:37.964118"
+  },
+  {
+    "id": "1204",
+    "api_id": "2001000011204",
+    "name": "ヴェルサウォーク西尾店",
+    "address": "愛知県 西尾市 高畠町3-23-9 ヴェルサウォーク西尾",
+    "coords": [
+      34.8638209171,
+      137.059833541
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:14:47.475092"
+  },
+  {
+    "id": "4308",
+    "api_id": "2001000014308",
+    "name": "西尾道光寺店",
+    "address": "愛知県 西尾市 道光寺町西縄16-1",
+    "coords": [
+      34.8718153346,
+      137.059542086
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:14:56.118675"
+  },
+  {
+    "id": "957",
+    "api_id": "200100001957",
+    "name": "安城百石店",
+    "address": "愛知県 安城市 百石町１-5-9",
+    "coords": [
+      34.9529561441,
+      137.077955987
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:15:09.391855"
+  },
+  {
+    "id": "4225",
+    "api_id": "2001000014225",
+    "name": "三河安城店",
+    "address": "愛知県 安城市 三河安城南町1-11-5",
+    "coords": [
+      34.9636544158,
+      137.060424728
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:15:18.198158"
+  },
+  {
+    "id": "4458",
+    "api_id": "2001000014458",
+    "name": "ららぽーと安城店",
+    "address": "愛知県 安城市 大東町9-30 ららぽーと安城1階",
+    "coords": [
+      34.9653187467,
+      137.080018024
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:15:29.645568"
+  },
+  {
+    "id": "1335",
+    "api_id": "2001000011335",
+    "name": "安城篠目店",
+    "address": "愛知県 安城市 篠目町肥田59-1",
+    "coords": [
+      34.979072857,
+      137.065598311
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:15:41.478271"
+  },
+  {
+    "id": "1470",
+    "api_id": "2001000011470",
+    "name": "碧南城山店",
+    "address": "愛知県 碧南市 城山町1-81-3",
+    "coords": [
+      34.8937495917,
+      137.008195062
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:15:56.567034"
+  },
+  {
+    "id": "4100",
+    "api_id": "2001000014100",
+    "name": "刈谷東境店",
+    "address": "愛知県 刈谷市 東境町松本15-2",
+    "coords": [
+      35.0368207205,
+      137.026557227
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:16:07.625952"
+  },
+  {
+    "id": "2322",
+    "api_id": "2001000012322",
+    "name": "JR刈谷駅店",
+    "address": "愛知県 刈谷市 桜町1-55 JR刈谷駅コンコース内",
+    "coords": [
+      34.9910169736,
+      137.00864749
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:16:16.530027"
+  },
+  {
+    "id": "4099",
+    "api_id": "2001000014099",
+    "name": "刈谷松栄店",
+    "address": "愛知県 刈谷市 松栄町2-7-5",
+    "coords": [
+      34.9794319769,
+      137.033314586
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:16:31.023804"
+  },
+  {
+    "id": "194",
+    "api_id": "200100001194",
+    "name": "名駅地下街 サンロード店",
+    "address": "愛知県 名古屋市中村区 名駅4-7-25 名駅地下街サンロード",
+    "coords": [
+      35.1696754207,
+      136.884662894
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:16:46.118507"
+  },
+  {
+    "id": "349",
+    "api_id": "200100001349",
+    "name": "名駅地下街 ユニモール店",
+    "address": "愛知県 名古屋市中村区 名駅4-5-26先 ユニモール",
+    "coords": [
+      35.171505516,
+      136.885426635
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:17:00.738347"
+  },
+  {
+    "id": "1650",
+    "api_id": "2001000011650",
+    "name": "名古屋スパイラルタワーズ店",
+    "address": "愛知県 名古屋市中村区 名駅4-27-1 モード学園スパイラルタワーズ",
+    "coords": [
+      35.16803284,
+      136.885887868
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:17:11.110013"
+  },
+  {
+    "id": "2028",
+    "api_id": "2001000012028",
+    "name": "JR名古屋駅　広小路口店",
+    "address": "愛知県 名古屋市中村区 名駅1-1-5　 JR名古屋駅構内",
+    "coords": [
+      35.170054237,
+      136.882829418
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:17:22.480310"
+  },
+  {
+    "id": "2048",
+    "api_id": "2001000012048",
+    "name": "JR名古屋駅 新幹線南ラチ内店",
+    "address": "愛知県 名古屋市中村区 名駅1-1-5　 JR名古屋駅構内",
+    "coords": [
+      35.1701089251,
+      136.881212327
+    ],
+    "prefecture_code": 23,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "06:45",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "06:45",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "06:45",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "06:45",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "06:45",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "06:45",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "06:45",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "06:45",
+        "close": "22:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:17:31.968433"
+  },
+  {
+    "id": "2068",
+    "api_id": "2001000012068",
+    "name": "ＪＲ名古屋駅 太閤通南口店",
+    "address": "愛知県 名古屋市中村区 名駅1-1-4",
+    "coords": [
+      35.1692829087,
+      136.881572335
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:17:40.242812"
+  },
+  {
+    "id": "2333",
+    "api_id": "2001000012333",
+    "name": "JR名古屋駅 中央コンコース店",
+    "address": "愛知県 名古屋市中村区 名駅1-1-4 JR名古屋駅 中央コンコース内",
+    "coords": [
+      35.1706094449,
+      136.882227498
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": true,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:17:53.322930"
+  },
+  {
+    "id": "4265",
+    "api_id": "2001000014265",
+    "name": "ジェイアール名古屋タカシマヤ店",
+    "address": "愛知県 名古屋市中村区 名駅1-1-4 ジェイアール名古屋タカシマヤ7階",
+    "coords": [
+      35.1713949186,
+      136.882353284
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:18:08.576150"
+  },
+  {
+    "id": "119",
+    "api_id": "200100001119",
+    "name": "名古屋ＪＲセントラルタワーズ店",
+    "address": "愛知県 名古屋市中村区 名駅1-1-4 ＪＲセントラルタワーズ 13F",
+    "coords": [
+      35.1703580957,
+      136.882963004
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:18:18.792431"
+  },
+  {
+    "id": "1358",
+    "api_id": "2001000011358",
+    "name": "ＫＩＴＴＥ名古屋店",
+    "address": "愛知県 名古屋市中村区 名駅1-1-1",
+    "coords": [
+      35.1727989423,
+      136.882765963
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:18:28.761917"
+  },
+  {
+    "id": "4007",
+    "api_id": "2001000014007",
+    "name": "大名古屋ビルヂング店",
+    "address": "愛知県 名古屋市中村区 名駅3-28-12 大名古屋ビルヂング地下1階",
+    "coords": [
+      35.1723504102,
+      136.884542503
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:18:39.593822"
+  },
+  {
+    "id": "2088",
+    "api_id": "2001000012088",
+    "name": "名古屋 タカシマヤ ゲートタワーモール店",
+    "address": "愛知県 名古屋市中村区 名駅1-1-3 タカシマヤ ゲートタワーモール１F",
+    "coords": [
+      35.1723531497,
+      136.882367406
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:18:54.595753"
+  },
+  {
+    "id": "2064",
+    "api_id": "2001000012064",
+    "name": "名古屋 JRゲートタワー店",
+    "address": "愛知県 名古屋市中村区 名駅1-1-3 JRゲートタワー 15F",
+    "coords": [
+      35.1720337505,
+      136.882999035
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:19:07.502023"
+  },
+  {
+    "id": "1210",
+    "api_id": "2001000011210",
+    "name": "名鉄百貨店名古屋店",
+    "address": "愛知県 名古屋市中村区 名駅1-2-1 名鉄百貨店本店本館",
+    "coords": [
+      35.1699503836,
+      136.884224307
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {},
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:19:19.976587"
+  },
+  {
+    "id": "4048",
+    "api_id": "2001000014048",
+    "name": "名古屋則武新町1階店",
+    "address": "愛知県 名古屋市西区 則武新町3-1-17 イオンモール Nagoya Noritake Garden",
+    "coords": [
+      35.1799861802,
+      136.879961976
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:19:33.803130"
+  },
+  {
+    "id": "4049",
+    "api_id": "2001000014049",
+    "name": "名古屋則武新町2階店",
+    "address": "愛知県 名古屋市西区 則武新町3-1-17 イオンモール Nagoya Noritake Garden",
+    "coords": [
+      35.1793537402,
+      136.879524264
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:19:46.195106"
+  },
+  {
+    "id": "935",
+    "api_id": "200100001935",
+    "name": "上小田井mozoワンダーシティ 2階店",
+    "address": "愛知県 名古屋市西区 二方町40 mozo ワンダーシティ",
+    "coords": [
+      35.2244967546,
+      136.88325382
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:20:00.092114"
+  },
+  {
+    "id": "1831",
+    "api_id": "2001000011831",
+    "name": "上小田井mozoワンダーシティ 4階店",
+    "address": "愛知県 名古屋市西区 二方町40 mozo ワンダーシティ",
+    "coords": [
+      35.2248155871,
+      136.881978078
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:20:13.234366"
+  },
+  {
+    "id": "1469",
+    "api_id": "2001000011469",
+    "name": "名古屋グローバルゲート店",
+    "address": "愛知県 名古屋市中村区 平池町4-60-12 グローバルゲート",
+    "coords": [
+      35.1627733722,
+      136.884152143
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:20:27.753934"
+  },
+  {
+    "id": "2127",
+    "api_id": "2001000012127",
+    "name": "名古屋みなと 蔦屋書店",
+    "address": "愛知県 名古屋市港区 港明2-3-2 ららぽーと名古屋みなとアクルス",
+    "coords": [
+      35.1091346608,
+      136.883913799
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:20:42.468631"
+  },
+  {
+    "id": "1215",
+    "api_id": "2001000011215",
+    "name": "イオンモール名古屋茶屋店",
+    "address": "愛知県 名古屋市港区 西茶屋2-11 イオンモール名古屋茶屋",
+    "coords": [
+      35.1038483725,
+      136.825495283
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:20:53.267295"
+  },
+  {
+    "id": "1618",
+    "api_id": "2001000011618",
+    "name": "ららぽーと名古屋みなとアクルス店",
+    "address": "愛知県 名古屋市港区 港明2-3-2 ららぽーと名古屋みなとアクルス",
+    "coords": [
+      35.1100251059,
+      136.88304022
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:21:05.580418"
+  },
+  {
+    "id": "385",
+    "api_id": "200100001385",
+    "name": "金山駅南口店",
+    "address": "愛知県 名古屋市熱田区 金山町1-2-26 ヤガミ金山ビル",
+    "coords": [
+      35.1421622618,
+      136.901103351
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:21:16.798730"
+  },
+  {
+    "id": "4041",
+    "api_id": "2001000014041",
+    "name": "ミュープラット神宮前店",
+    "address": "愛知県 名古屋市熱田区 三本松町18-4 μPLAT神宮前2階",
+    "coords": [
+      35.1262055697,
+      136.913255299
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:21:30.384064"
+  },
+  {
+    "id": "496",
+    "api_id": "200100001496",
+    "name": "イオンモール熱田1階店",
+    "address": "愛知県 名古屋市熱田区 六野1-201 イオンモール熱田 1階",
+    "coords": [
+      35.1368535375,
+      136.909825371
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:21:43.940991"
+  },
+  {
+    "id": "4230",
+    "api_id": "2001000014230",
+    "name": "イオンモール熱田3階店",
+    "address": "愛知県 名古屋市熱田区 六野1-201 イオンモール熱田 3階",
+    "coords": [
+      35.1361844386,
+      136.909608753
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:21:53.370394"
+  },
+  {
+    "id": "2162",
+    "api_id": "2001000012162",
+    "name": "大同病院店",
+    "address": "愛知県 名古屋市南区 白水町9 大同病院",
+    "coords": [
+      35.0744971126,
+      136.907592595
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "18:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:22:05.043911"
+  },
+  {
+    "id": "4234",
+    "api_id": "2001000014234",
+    "name": "名古屋港東通店",
+    "address": "愛知県 名古屋市南区 港東通1-32",
+    "coords": [
+      35.0919898655,
+      136.917863992
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:22:17.949585"
+  },
+  {
+    "id": "1412",
+    "api_id": "2001000011412",
+    "name": "名古屋滝ノ水店",
+    "address": "愛知県 名古屋市緑区 上旭2-201",
+    "coords": [
+      35.0918030848,
+      136.973803799
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:22:29.869901"
+  },
+  {
+    "id": "4174",
+    "api_id": "2001000014174",
+    "name": "名古屋鳴海店",
+    "address": "愛知県 名古屋市緑区 鳴海町上ノ山12-24",
+    "coords": [
+      35.0967524618,
+      136.95254117
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:22:42.897335"
+  },
+  {
+    "id": "584",
+    "api_id": "200100001584",
+    "name": "アピタ鳴海店",
+    "address": "愛知県 名古屋市緑区 鳴海町伝治山3-9 アピタ鳴海店",
+    "coords": [
+      35.0943517213,
+      136.959058795
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:22:57.717123"
+  },
+  {
+    "id": "4297",
+    "api_id": "2001000014297",
+    "name": "ヒルズウォーク徳重ガーデンズ店",
+    "address": "愛知県 名古屋市緑区 元徳重1-505 ヒルズウォーク徳重ガーデンズ",
+    "coords": [
+      35.0944240775,
+      136.998977699
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:23:06.930608"
+  },
+  {
+    "id": "834",
+    "api_id": "200100001834",
+    "name": "イオンモール大高1階店",
+    "address": "愛知県 名古屋市緑区 南大高2-450 イオンモール大高 1階",
+    "coords": [
+      35.0528006884,
+      136.947639712
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:23:16.593500"
+  },
+  {
+    "id": "835",
+    "api_id": "200100001835",
+    "name": "イオンモール大高3階店",
+    "address": "愛知県 名古屋市緑区 南大高2-450 イオンモール大高 3階",
+    "coords": [
+      35.0526570926,
+      136.947639719
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:23:27.008522"
+  },
+  {
+    "id": "294",
+    "api_id": "200100001294",
+    "name": "桜通り大津店",
+    "address": "愛知県 名古屋市中区 丸の内3-20-17 KDX桜通ビル 1F",
+    "coords": [
+      35.1739714443,
+      136.905959539
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:23:41.750031"
+  },
+  {
+    "id": "243",
+    "api_id": "200100001243",
+    "name": "三井住友銀行名古屋ビル店",
+    "address": "愛知県 名古屋市中区 錦2-18-19 三井住友銀行名古屋ビル 1F",
+    "coords": [
+      35.1685421834,
+      136.899124523
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:23:54.239728"
+  },
+  {
+    "id": "365",
+    "api_id": "200100001365",
+    "name": "栄広小路店",
+    "address": "愛知県 名古屋市中区 錦3-24-24 錦324ビル",
+    "coords": [
+      35.1690614131,
+      136.905915879
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:24:04.419214"
+  },
+  {
+    "id": "1288",
+    "api_id": "2001000011288",
+    "name": "名古屋インターシティ伏見店",
+    "address": "愛知県 名古屋市中区 錦1-11-11 名古屋インターシティ B1F",
+    "coords": [
+      35.1698395084,
+      136.89705158
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "6",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:24:17.391008"
+  },
+  {
+    "id": "1834",
+    "api_id": "2001000011834",
+    "name": "ヨリマチFUSHIMI店",
+    "address": "愛知県 名古屋市中区 錦2-16-24 ヨリマチFUSHIMI",
+    "coords": [
+      35.1680805341,
+      136.897294418
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:24:25.929397"
+  },
+  {
+    "id": "4068",
+    "api_id": "2001000014068",
+    "name": "栄セントラルパーク店",
+    "address": "愛知県 名古屋市中区 錦3-15-13先 セントラルパーク地下街",
+    "coords": [
+      35.1721664008,
+      136.908317481
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:24:34.564172"
+  },
+  {
+    "id": "364",
+    "api_id": "200100001364",
+    "name": "栄 チェリープラザ店",
+    "address": "愛知県 名古屋市中区 栄3-19-8 栄ミナミ平和ビル",
+    "coords": [
+      35.1657284123,
+      136.904541703
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:24:45.605966"
+  },
+  {
+    "id": "716",
+    "api_id": "200100001716",
+    "name": "栄ラシック店",
+    "address": "愛知県 名古屋市中区 栄3-6-1",
+    "coords": [
+      35.1671208169,
+      136.907607217
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "11:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:24:58.381844"
+  },
+  {
+    "id": "1021",
+    "api_id": "2001000011021",
+    "name": "栄大津通店",
+    "address": "愛知県 名古屋市中区 栄3-27-7 サンサカエビル",
+    "coords": [
+      35.1650496384,
+      136.906970143
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:25:09.139818"
+  },
+  {
+    "id": "1048",
+    "api_id": "2001000011048",
+    "name": "名古屋久屋南店",
+    "address": "愛知県 名古屋市中区 栄3-31-10 松坂屋久屋南パークテラス",
+    "coords": [
+      35.1635245491,
+      136.908420926
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:25:21.414730"
+  },
+  {
+    "id": "1690",
+    "api_id": "2001000011690",
+    "name": "名古屋パルコ 西館店",
+    "address": "愛知県 名古屋市中区 栄3-29-1 名古屋パルコ",
+    "coords": [
+      35.1636575713,
+      136.907326844
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:25:30.479564"
+  },
+  {
+    "id": "840",
+    "api_id": "200100001840",
+    "name": "名古屋大須万松寺店",
+    "address": "愛知県 名古屋市中区 大須3-31-14 山惣第２ビル",
+    "coords": [
+      35.1585028183,
+      136.905802208
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:25:45.266974"
+  },
+  {
+    "id": "1700",
+    "api_id": "2001000011700",
+    "name": "東別院店",
+    "address": "愛知県 名古屋市中区 橘2-903",
+    "coords": [
+      35.1511027446,
+      136.903977701
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:25:56.871080"
+  },
+  {
+    "id": "1163",
+    "api_id": "2001000011163",
+    "name": "アスナル金山1階店",
+    "address": "愛知県 名古屋市中区 金山1-17-1 アスナル金山",
+    "coords": [
+      35.1436040507,
+      136.901027735
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:26:06.670646"
+  },
+  {
+    "id": "4017",
+    "api_id": "2001000014017",
+    "name": "アスナル金山3階店",
+    "address": "愛知県 名古屋市中区 金山1-17-1 アスナル金山",
+    "coords": [
+      35.1443317445,
+      136.900676898
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "4",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:26:16.512949"
+  },
+  {
+    "id": "533",
+    "api_id": "200100001533",
+    "name": "名古屋 伏見 ＡＴビル店",
+    "address": "愛知県 名古屋市中区 錦1-18-22 名古屋ATビル",
+    "coords": [
+      35.1682540786,
+      136.894540195
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:26:27.870218"
+  },
+  {
+    "id": "400",
+    "api_id": "200100001400",
+    "name": "新栄葵町店",
+    "address": "愛知県 名古屋市東区 葵1-21-4",
+    "coords": [
+      35.1706076266,
+      136.921245091
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:26:40.988155"
+  },
+  {
+    "id": "2098",
+    "api_id": "2001000012098",
+    "name": "東山線千種駅店",
+    "address": "愛知県 名古屋市東区 葵3-15-21先 地下鉄千種駅",
+    "coords": [
+      35.1706502815,
+      136.930372942
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:26:53.160691"
+  },
+  {
+    "id": "389",
+    "api_id": "200100001389",
+    "name": "栄公園 オアシス２１店",
+    "address": "愛知県 名古屋市東区 東桜1-11-1 オアシス21",
+    "coords": [
+      35.1717014664,
+      136.909229094
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:27:03.543986"
+  },
+  {
+    "id": "2107",
+    "api_id": "2001000012107",
+    "name": "ASTY大曽根店",
+    "address": "愛知県 名古屋市東区 東大曽根町46-6 ASTY大曽根",
+    "coords": [
+      35.1919781182,
+      136.93712251
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:27:14.666577"
+  },
+  {
+    "id": "664",
+    "api_id": "200100001664",
+    "name": "イオンモールナゴヤドーム前店",
+    "address": "愛知県 名古屋市東区 矢田南4-102-3 イオンモールナゴヤドーム前",
+    "coords": [
+      35.1875101266,
+      136.945230376
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:27:27.413682"
+  },
+  {
+    "id": "1110",
+    "api_id": "2001000011110",
+    "name": "イオンモールナゴヤドーム前フードコート店",
+    "address": "愛知県 名古屋市東区 矢田南4-102-3",
+    "coords": [
+      35.18769455,
+      136.945157318
+    ],
+    "prefecture_code": 23,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:27:40.149172"
+  },
+  {
+    "id": "1479",
+    "api_id": "2001000011479",
+    "name": "名城公園店",
+    "address": "愛知県 名古屋市北区 名城1-4-1 tonarino",
+    "coords": [
+      35.188938971,
+      136.903726535
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:27:50.793327"
+  },
+  {
+    "id": "4105",
+    "api_id": "2001000014105",
+    "name": "そよら上飯田店",
+    "address": "愛知県 名古屋市北区 織部町1-1 そよら上飯田",
+    "coords": [
+      35.2012780941,
+      136.929084138
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:28:01.910480"
+  },
+  {
+    "id": "1552",
+    "api_id": "2001000011552",
+    "name": "名古屋志段味店",
+    "address": "愛知県 名古屋市守山区 上志段味羽根528",
+    "coords": [
+      35.2544059338,
+      137.035318981
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:28:10.393097"
+  },
+  {
+    "id": "2097",
+    "api_id": "2001000012097",
+    "name": "草叢BOOKS 新守山店",
+    "address": "愛知県 名古屋市守山区 新守山2830 アピタ新守山",
+    "coords": [
+      35.2044628171,
+      136.948627091
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:28:24.975391"
+  },
+  {
+    "id": "576",
+    "api_id": "200100001576",
+    "name": "アピタ千代田橋店",
+    "address": "愛知県 名古屋市千種区 千代田橋2-1-1 アピタ千代田橋店",
+    "coords": [
+      35.1875119385,
+      136.969463086
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:28:34.457031"
+  },
+  {
+    "id": "1150",
+    "api_id": "2001000011150",
+    "name": "名古屋自由ヶ丘店",
+    "address": "愛知県 名古屋市千種区 鹿子殿14-8",
+    "coords": [
+      35.1789193555,
+      136.975702685
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:28:48.676986"
+  },
+  {
+    "id": "1706",
+    "api_id": "2001000011706",
+    "name": "星が丘テラス店",
+    "address": "愛知県 名古屋市千種区 星が丘元町16-50 星が丘テラスEAST",
+    "coords": [
+      35.1607503612,
+      136.985632142
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:29:01.955326"
+  },
+  {
+    "id": "1478",
+    "api_id": "2001000011478",
+    "name": "本山駅前店",
+    "address": "愛知県 名古屋市千種区 東山通1-1-1",
+    "coords": [
+      35.1639993575,
+      136.963969902
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:29:14.432015"
+  },
+  {
+    "id": "453",
+    "api_id": "200100001453",
+    "name": "覚王山店",
+    "address": "愛知県 名古屋市千種区 末盛通1-1 末盛ビル",
+    "coords": [
+      35.1666127605,
+      136.952155763
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:29:23.213084"
+  },
+  {
+    "id": "615",
+    "api_id": "200100001615",
+    "name": "イオンタウン千種店",
+    "address": "愛知県 名古屋市千種区 千種2-16-13 イオンタウン千種",
+    "coords": [
+      35.1617113985,
+      136.923678354
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:30",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:30",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "08:30",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:29:36.846075"
+  },
+  {
+    "id": "972",
+    "api_id": "200100001972",
+    "name": "名古屋大学附属図書館店",
+    "address": "愛知県 名古屋市千種区 不老町 名古屋大学附属中央図書館",
+    "coords": [
+      35.1550464294,
+      136.964149466
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "18:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:29:47.686054"
+  },
+  {
+    "id": "4272",
+    "api_id": "2001000014272",
+    "name": "名古屋猪子石店",
+    "address": "愛知県 名古屋市名東区 猪子石2-804",
+    "coords": [
+      35.1886885895,
+      137.007573755
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:30:02.366008"
+  },
+  {
+    "id": "715",
+    "api_id": "200100001715",
+    "name": "藤が丘effe店",
+    "address": "愛知県 名古屋市名東区 藤が丘170-4 effe",
+    "coords": [
+      35.1821100955,
+      137.021703718
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:30:13.275076"
+  },
+  {
+    "id": "939",
+    "api_id": "200100001939",
+    "name": "御器所駅前店",
+    "address": "愛知県 名古屋市昭和区 阿由知通4-2-1",
+    "coords": [
+      35.1492751198,
+      136.933347846
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:30:21.574343"
+  },
+  {
+    "id": "4313",
+    "api_id": "2001000014313",
+    "name": "名古屋高辻店",
+    "address": "愛知県 名古屋市昭和区 白金3-11-11",
+    "coords": [
+      35.1419000805,
+      136.917742537
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:30:34.690010"
+  },
+  {
+    "id": "1880",
+    "api_id": "2001000011880",
+    "name": "イオン八事店",
+    "address": "愛知県 名古屋市昭和区 広路町石坂2-1 イオン八事B2階",
+    "coords": [
+      35.1371916532,
+      136.963045658
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:30:46.686322"
+  },
+  {
+    "id": "4116",
+    "api_id": "2001000014116",
+    "name": "中京大学 名古屋キャンパス店",
+    "address": "愛知県 名古屋市昭和区 八事本町101-2 中京大学名古屋キャンパスセンタービルＧ階",
+    "coords": [
+      35.1380041119,
+      136.965659292
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "17:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:30:57.359676"
+  },
+  {
+    "id": "765",
+    "api_id": "200100001765",
+    "name": "名古屋市立大学病院店",
+    "address": "愛知県 名古屋市瑞穂区 瑞穂町川澄1 名古屋市立大学病院　外来診療棟",
+    "coords": [
+      35.1392812307,
+      136.93574894
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "19:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:31:07.924670"
+  },
+  {
+    "id": "1517",
+    "api_id": "2001000011517",
+    "name": "プライムツリー赤池店",
+    "address": "愛知県 日進市 赤池町箕ノ手1 プライムツリー赤池",
+    "coords": [
+      35.1179691953,
+      137.02267909
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:31:20.443414"
+  },
+  {
+    "id": "1563",
+    "api_id": "2001000011563",
+    "name": "日進香久山店",
+    "address": "愛知県 日進市 香久山4-201-3 MiO香久山 con*te uno",
+    "coords": [
+      35.1437017865,
+      137.026446759
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:31:31.040645"
+  },
+  {
+    "id": "673",
+    "api_id": "200100001673",
+    "name": "日進竹の山店",
+    "address": "愛知県 日進市 竹の山2-2306",
+    "coords": [
+      35.1568749516,
+      137.033868036
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:31:43.693614"
+  },
+  {
+    "id": "1849",
+    "api_id": "2001000011849",
+    "name": "ららぽーと愛知東郷3階店",
+    "address": "愛知県 愛知郡 東郷町東郷中央土地区画整理事業62街区1・3 ららぽーと愛知東郷3階(店舗番号3470)",
+    "coords": [
+      35.0984039547,
+      137.048125934
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:31:58.865084"
+  },
+  {
+    "id": "2170",
+    "api_id": "2001000012170",
+    "name": "TSUTAYA BOOKSTORE ららぽーと愛知東郷店",
+    "address": "愛知県 愛知郡 東郷町東郷中央土地区画整理事業62街区1・3 ららぽーと愛知東郷2階(店舗番号23601)",
+    "coords": [
+      35.0986744545,
+      137.046589938
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:32:08.399465"
+  },
+  {
+    "id": "1725",
+    "api_id": "2001000011725",
+    "name": "みよし店",
+    "address": "愛知県 みよし市 三好町中島70-1",
+    "coords": [
+      35.0936257591,
+      137.074458133
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:32:17.969831"
+  },
+  {
+    "id": "1371",
+    "api_id": "2001000011371",
+    "name": "豊田上原店",
+    "address": "愛知県 豊田市 上原町一丁田74-1",
+    "coords": [
+      35.1179572839,
+      137.16762372
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:32:29.987081"
+  },
+  {
+    "id": "1843",
+    "api_id": "2001000011843",
+    "name": "豊明店",
+    "address": "愛知県 豊明市 沓掛町十三塚2",
+    "coords": [
+      35.0600811941,
+      137.021175214
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:32:40.872480"
+  },
+  {
+    "id": "4179",
+    "api_id": "2001000014179",
+    "name": "豊田渡刈店",
+    "address": "愛知県 豊田市 渡刈町1-253-1 ハビット豊田豊栄町",
+    "coords": [
+      35.0433542022,
+      137.15457185
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:32:53.573260"
+  },
+  {
+    "id": "287",
+    "api_id": "200100001287",
+    "name": "イオンモール東浦1階店",
+    "address": "愛知県 知多郡 東浦町緒川旭13-2 イオンモール東浦 1階",
+    "coords": [
+      34.9783874507,
+      136.97452785
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:33:02.208461"
+  },
+  {
+    "id": "1804",
+    "api_id": "2001000011804",
+    "name": "イオンモール東浦2階店",
+    "address": "愛知県 知多郡 東浦町緒川旭13-2 イオンモール東浦 2階",
+    "coords": [
+      34.9791826419,
+      136.974445876
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:33:11.355827"
+  },
+  {
+    "id": "1899",
+    "api_id": "2001000011899",
+    "name": "豊田鞍ケ池公園店",
+    "address": "愛知県 豊田市 池田町五反田566-1 鞍ケ池公園",
+    "coords": [
+      35.0976130825,
+      137.215983419
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:33:23.506462"
+  },
+  {
+    "id": "4119",
+    "api_id": "2001000014119",
+    "name": "豊田T-FACE店",
+    "address": "愛知県 豊田市 若宮町1-57-1 T-FACE A館2階",
+    "coords": [
+      35.0868926101,
+      137.155097302
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:33:36.526261"
+  },
+  {
+    "id": "604",
+    "api_id": "200100001604",
+    "name": "豊田元町店",
+    "address": "愛知県 豊田市 土橋町1-21 MEGA ドン・キホーテ UNY豊田元町",
+    "coords": [
+      35.0629088984,
+      137.129701627
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:33:50.303124"
+  },
+  {
+    "id": "1506",
+    "api_id": "2001000011506",
+    "name": "知立上重原店",
+    "address": "愛知県 知立市 上重原町恩田214",
+    "coords": [
+      35.0048649315,
+      137.024247779
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:34:04.821158"
+  },
+  {
+    "id": "296",
+    "api_id": "200100001296",
+    "name": "ギャラリエアピタ知立店",
+    "address": "愛知県 知立市 長篠町大山18-1 ギャラリエアピタ知立",
+    "coords": [
+      34.9982219764,
+      137.052927926
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:34:19.928432"
+  },
+  {
+    "id": "1730",
+    "api_id": "2001000011730",
+    "name": "豊田住吉店",
+    "address": "愛知県 豊田市 住吉町平和27-1",
+    "coords": [
+      35.0364149445,
+      137.122768978
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:34:30.274244"
+  },
+  {
+    "id": "1002",
+    "api_id": "2001000011002",
+    "name": "大府柊山店",
+    "address": "愛知県 大府市 柊山町3-401",
+    "coords": [
+      35.0198906913,
+      136.953019114
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:34:43.467251"
+  },
+  {
+    "id": "1518",
+    "api_id": "2001000011518",
+    "name": "半田住吉店",
+    "address": "愛知県 半田市 出口町１-40-8",
+    "coords": [
+      34.9024963533,
+      136.924066924
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:34:56.926676"
+  },
+  {
+    "id": "4369",
+    "api_id": "2001000014369",
+    "name": "半田山代店",
+    "address": "愛知県 半田市 山代町2-104-1",
+    "coords": [
+      34.8937628389,
+      136.907932555
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:35:07.963650"
+  },
+  {
+    "id": "1301",
+    "api_id": "2001000011301",
+    "name": "ラスパ太田川店",
+    "address": "愛知県 東海市 大田町下浜田102-1 ラスパ太田川ショッピングセンター (南館1F)",
+    "coords": [
+      35.0202643095,
+      136.892102212
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:35:20.254668"
+  },
+  {
+    "id": "1871",
+    "api_id": "2001000011871",
+    "name": "東海加木屋店",
+    "address": "愛知県 東海市 加木屋町石田72",
+    "coords": [
+      35.0068249136,
+      136.908003454
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:35:30.311072"
+  },
+  {
+    "id": "4382",
+    "api_id": "2001000014382",
+    "name": "知多信濃川店",
+    "address": "愛知県 知多市 八幡竹後20",
+    "coords": [
+      34.9944721004,
+      136.878039567
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:35:42.251497"
+  },
+  {
+    "id": "553",
+    "api_id": "200100001553",
+    "name": "中部国際空港セントレア店",
+    "address": "愛知県 常滑市 セントレア1-1 中部国際空港セントレア(4F)",
+    "coords": [
+      34.8593057422,
+      136.815437657
+    ],
+    "prefecture_code": 23,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:35:57.276246"
+  },
+  {
+    "id": "592",
+    "api_id": "200100001592",
+    "name": "中部国際空港出発ターミナル内店",
+    "address": "愛知県 常滑市 セントレア1-1 中部国際空港セントレア(3F)",
+    "coords": [
+      34.8586657448,
+      136.811666611
+    ],
+    "prefecture_code": 23,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:36:08.259420"
+  },
+  {
+    "id": "738",
+    "api_id": "200100001738",
+    "name": "中部国際空港第２セントレアビル店",
+    "address": "愛知県 常滑市 セントレア1-1 第2セントレアビル",
+    "coords": [
+      34.860485328,
+      136.814851262
+    ],
+    "prefecture_code": 23,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "18:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "18:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "18:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "18:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "18:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "18:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "18:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "18:30"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:36:22.225884"
+  },
+  {
+    "id": "1530",
+    "api_id": "2001000011530",
+    "name": "中部国際空港セントレアFLIGHT OF DREAMS店",
+    "address": "愛知県 常滑市 セントレア1-1 FLIGHT OF DREAMS",
+    "coords": [
+      34.8552942661,
+      136.817689599
+    ],
+    "prefecture_code": 23,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:36:34.235738"
+  },
+  {
+    "id": "4069",
+    "api_id": "2001000014069",
+    "name": "イオンモール常滑店",
+    "address": "愛知県 常滑市 りんくう町2-20-3 イオンモール常滑",
+    "coords": [
+      34.8826792593,
+      136.825960984
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:36:49.435970"
+  },
+  {
+    "id": "511",
+    "api_id": "200100001511",
+    "name": "イオンモール扶桑店",
+    "address": "愛知県 丹羽郡 扶桑町南山名高塚5-1 イオンモール扶桑",
+    "coords": [
+      35.3622459034,
+      136.898794242
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:36:58.416065"
+  },
+  {
+    "id": "177",
+    "api_id": "200100001177",
+    "name": "名古屋 アピタ長久手店",
+    "address": "愛知県 長久手市 戸田谷901-1 アピタ長久手店",
+    "coords": [
+      35.1724664207,
+      137.03851971
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:37:06.796843"
+  },
+  {
+    "id": "1492",
+    "api_id": "2001000011492",
+    "name": "イオンモール長久手店",
+    "address": "愛知県 長久手市 勝入塚501番地 イオンモール長久手",
+    "coords": [
+      35.1734476428,
+      137.050881694
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:37:19.123747"
+  },
+  {
+    "id": "4494",
+    "api_id": "2001000014494",
+    "name": "長久手南けやき通り店",
+    "address": "愛知県 長久手市 片平2-1702",
+    "coords": [
+      35.1571201197,
+      137.029090922
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:37:33.409846"
+  },
+  {
+    "id": "4095",
+    "api_id": "2001000014095",
+    "name": "愛知医科大学店",
+    "address": "愛知県 長久手市 岩作雁又1-1",
+    "coords": [
+      35.1912287455,
+      137.047963062
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:37:47.158911"
+  },
+  {
+    "id": "1664",
+    "api_id": "2001000011664",
+    "name": "北名古屋店",
+    "address": "愛知県 北名古屋市 井瀬木鴨80-1",
+    "coords": [
+      35.2426392658,
+      136.883671005
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:37:55.721689"
+  },
+  {
+    "id": "622",
+    "api_id": "200100001622",
+    "name": "VIA MALL アピタ江南西店",
+    "address": "愛知県 江南市 松竹町上野205 VIA MALL アピタ江南西",
+    "coords": [
+      35.3425111275,
+      136.854391894
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:38:10.885791"
+  },
+  {
+    "id": "1596",
+    "api_id": "2001000011596",
+    "name": "犬山梅坪店",
+    "address": "愛知県 犬山市 梅坪2-116",
+    "coords": [
+      35.3755681912,
+      136.952320017
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:38:25.585629"
+  },
+  {
+    "id": "1818",
+    "api_id": "2001000011818",
+    "name": "小牧市中央図書館店",
+    "address": "愛知県 小牧市 中央1-234 小牧市中央図書館",
+    "coords": [
+      35.2895574858,
+      136.925945334
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:38:36.448898"
+  },
+  {
+    "id": "1715",
+    "api_id": "2001000011715",
+    "name": "小牧川西店",
+    "address": "愛知県 小牧市 川西1-1-5",
+    "coords": [
+      35.285659812,
+      136.908033946
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:38:47.482815"
+  },
+  {
+    "id": "1602",
+    "api_id": "2001000011602",
+    "name": "春日井東野店",
+    "address": "愛知県 春日井市 東野町9-20-15",
+    "coords": [
+      35.2612299092,
+      136.986638265
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:38:56.306820"
+  },
+  {
+    "id": "1117",
+    "api_id": "2001000011117",
+    "name": "春日井南下原店",
+    "address": "愛知県 春日井市 南下原町3-12-4",
+    "coords": [
+      35.2680175353,
+      136.97181085
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:39:06.034494"
+  },
+  {
+    "id": "4077",
+    "api_id": "2001000014077",
+    "name": "イーアス春日井店",
+    "address": "愛知県 春日井市 六軒屋町東丘22 イーアス春日井",
+    "coords": [
+      35.2590359075,
+      136.982647586
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:39:18.433724"
+  },
+  {
+    "id": "2122",
+    "api_id": "2001000012122",
+    "name": "TSUTAYA 春日井店",
+    "address": "愛知県 春日井市 美濃町2-3",
+    "coords": [
+      35.2397594903,
+      136.942501808
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:39:32.443811"
+  },
+  {
+    "id": "1488",
+    "api_id": "2001000011488",
+    "name": "春日井勝川店",
+    "address": "愛知県 春日井市 小野町2-1-1",
+    "coords": [
+      35.2288407307,
+      136.962554812
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:39:47.813855"
+  },
+  {
+    "id": "614",
+    "api_id": "200100001614",
+    "name": "アピタ高蔵寺店",
+    "address": "愛知県 春日井市 中央台2-5 アピタ高蔵寺店",
+    "coords": [
+      35.2830250502,
+      137.048662388
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:40:01.558241"
+  },
+  {
+    "id": "2283",
+    "api_id": "2001000012283",
+    "name": "中部大学店",
+    "address": "愛知県 春日井市 松本町1200",
+    "coords": [
+      35.2747075642,
+      137.014430336
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "17:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:40:15.765500"
+  },
+  {
+    "id": "4258",
+    "api_id": "2001000014258",
+    "name": "瀬戸西長根店",
+    "address": "愛知県 瀬戸市 西長根町68-1",
+    "coords": [
+      35.2137428569,
+      137.071346194
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:40:28.628867"
+  },
+  {
+    "id": "2143",
+    "api_id": "2001000012143",
+    "name": "TSUTAYA 瀬戸店",
+    "address": "愛知県 瀬戸市 西本地町2-222-1",
+    "coords": [
+      35.2070022101,
+      137.056648281
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:40:42.703602"
+  },
+  {
+    "id": "4194",
+    "api_id": "2001000014194",
+    "name": "あま篠田店",
+    "address": "愛知県 あま市 篠田鹿造3",
+    "coords": [
+      35.1844503107,
+      136.793908084
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:40:51.188836"
+  },
+  {
+    "id": "1186",
+    "api_id": "2001000011186",
+    "name": "テラスウォーク一宮店",
+    "address": "愛知県 一宮市 両郷町1-2 テラスウォーク一宮",
+    "coords": [
+      35.3106472071,
+      136.816494564
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:41:01.676386"
+  },
+  {
+    "id": "1707",
+    "api_id": "2001000011707",
+    "name": "一宮富士店",
+    "address": "愛知県 一宮市 富士3-1-12",
+    "coords": [
+      35.3023167524,
+      136.818968909
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:41:14.825756"
+  },
+  {
+    "id": "929",
+    "api_id": "200100001929",
+    "name": "尾張一宮パーキングエリア（下り線）店",
+    "address": "愛知県 一宮市 千秋町塩尻14-2 尾張一宮パーキングエリア（下り線）",
+    "coords": [
+      35.2815079261,
+      136.854153056
+    ],
+    "prefecture_code": 23,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:41:29.488228"
+  },
+  {
+    "id": "928",
+    "api_id": "200100001928",
+    "name": "尾張一宮パーキングエリア（上り線）店",
+    "address": "愛知県 一宮市 丹陽町三ツ井2709-6 尾張一宮パーキングエリア（上り線）",
+    "coords": [
+      35.2780764834,
+      136.845962783
+    ],
+    "prefecture_code": 23,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:41:42.965102"
+  },
+  {
+    "id": "1576",
+    "api_id": "2001000011576",
+    "name": "稲沢桜木宮前店",
+    "address": "愛知県 稲沢市 桜木宮前町77-1",
+    "coords": [
+      35.2529526908,
+      136.777144377
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:41:57.586426"
+  },
+  {
+    "id": "4091",
+    "api_id": "2001000014091",
+    "name": "アピタタウン稲沢店",
+    "address": "愛知県 稲沢市 天池五反田町1 アピタタウン稲沢",
+    "coords": [
+      35.2521996205,
+      136.771690421
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:42:11.490817"
+  },
+  {
+    "id": "930",
+    "api_id": "200100001930",
+    "name": "リーフウォーク稲沢店",
+    "address": "愛知県 稲沢市 長野7-1-2 リーフウォーク稲沢",
+    "coords": [
+      35.2608797983,
+      136.819119693
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:42:24.623226"
+  },
+  {
+    "id": "563",
+    "api_id": "200100001563",
+    "name": "イオンモール木曽川店",
+    "address": "愛知県 一宮市 木曽川町黒田南八ツヶ池25-1",
+    "coords": [
+      35.3492459448,
+      136.773850495
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:42:34.664137"
+  },
+  {
+    "id": "1714",
+    "api_id": "2001000011714",
+    "name": "一宮木曽川店",
+    "address": "愛知県 一宮市 木曽川町外割田四の通り131",
+    "coords": [
+      35.3354804464,
+      136.772344032
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:42:48.931760"
+  },
+  {
+    "id": "1408",
+    "api_id": "2001000011408",
+    "name": "津島大坪店",
+    "address": "愛知県 津島市 大坪町蛤田28-1",
+    "coords": [
+      35.1616613144,
+      136.775436501
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:42:58.905241"
+  },
+  {
+    "id": "4223",
+    "api_id": "2001000014223",
+    "name": "天王川公園店",
+    "address": "愛知県 津島市 宮川町1-1 天王川公園",
+    "coords": [
+      35.1730977493,
+      136.720877727
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:43:12.838461"
+  },
+  {
+    "id": "1770",
+    "api_id": "2001000011770",
+    "name": "愛西店",
+    "address": "愛知県 愛西市 善太新田町十二上57",
+    "coords": [
+      35.1212418651,
+      136.766188297
+    ],
+    "prefecture_code": 23,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-26T14:43:22.887404"
+  }
+]
