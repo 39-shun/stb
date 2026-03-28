@@ -1559,7 +1559,10 @@ function buildDetailPanelHtml(shop) {
       <button onclick="window.open('https://maps.apple.com/?q=${lat},${lng}','_blank')" style="flex:1;padding:10px 6px;border-radius:8px;background:#555;color:#fff;font-size:12px;font-weight:700;border:none;cursor:pointer;">🍎 Apple Maps</button>
     </div>` : '';
 
-  const stbUrl = `https://store.starbucks.co.jp/detail-${shop.id}/`;
+  // 変更後
+  const officialLinks = isMerged
+  ? shop._mergeData.map(s => `<a href="https://store.starbucks.co.jp/detail-${s.id}/" target="_blank" rel="noopener" style="display:block;padding:10px;border-radius:8px;background:var(--surface2);color:var(--text);font-size:12px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);margin-bottom:6px;">🔗 公式ページ（${s.options?.reserve?'リザーブ':s.options?.teavana?'ティバーナ':s.name}）</a>`).join('')
+  : `<a href="https://store.starbucks.co.jp/detail-${shop.id}/" target="_blank" rel="noopener" style="display:block;padding:10px;border-radius:8px;background:var(--surface2);color:var(--text);font-size:12px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);margin-bottom:10px;">🔗 公式ページ</a>`;
 
   return `
     ${badges ? `<div class="p-badges" style="margin-bottom:10px;">${badges}</div>` : ''}
@@ -1569,7 +1572,7 @@ function buildDetailPanelHtml(shop) {
     ${buildDetailHoursHtml(shop)}
     <div style="font-size:10px;color:#aaa;margin-bottom:12px;">🕐 ${f.label}</div>
     ${mapBtns}
-    <a href="${stbUrl}" target="_blank" rel="noopener" style="display:block;padding:10px;border-radius:8px;background:var(--surface2);color:var(--text);font-size:12px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);margin-bottom:10px;">🔗 公式ページ</a>
+    ${officialLinks}
     <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
     <div class="p-affiliate-note">${AFFILIATE.note}</div>
   `;
