@@ -1089,7 +1089,8 @@ function redrawAfterFilter() {
     }
     map.addLayer(state.summaryGroup);
   }
-  if (state.originLat !== null) renderList(getAllCachedShops());
+  if (state.mapCenterMode) updateCenterList();
+  else if (state.originLat !== null) renderList(getAllCachedShops());
 }
 
 // ============================================================
@@ -1168,7 +1169,12 @@ async function loadSummary() {
 // 近い順リスト描画
 // ============================================================
 function renderList(allShops) {
-  if (state.originLat === null) return;
+  if (state.originLat === null && !state.mapCenterMode) return;
+  if (state.mapCenterMode && state.originLat === null) {
+    const center = map.getCenter();
+    state.originLat = center.lat;
+    state.originLng = center.lng;
+  }
 
   const filtered = applyMerge(allShops)
     .filter(passesFilter)
@@ -1288,7 +1294,8 @@ window.focusStore = async function(id, lat, lng) {
     await fetchDetail(code);
     await buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
     hideLoading();
-    if (state.mapCenterMode || state.originLat !== null) renderList(getAllCachedShops());
+    if (state.mapCenterMode) updateCenterList();
+    else if (state.originLat !== null) renderList(getAllCachedShops());
   }
   if (map.getZoom() < 11) {
     map.setView([lat, lng], 10, { animate:true });
