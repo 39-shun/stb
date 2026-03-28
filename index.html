@@ -1063,7 +1063,7 @@ function showToast(msg, duration=2500) {
 function redrawAfterFilter() {
   if (state.selectedPrefs.size > 0) {
     renderAllSelectedPrefs();
-  } else if (map.getZoom() >= 9 && state.detailGroup) {
+  } else if (map.getZoom() >= 8 && state.detailGroup) {
     // 詳細表示中：buildDetailLayerで再描画
     buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
   } else if (state.summaryData) {
@@ -1297,8 +1297,8 @@ window.focusStore = async function(id, lat, lng) {
     if (state.mapCenterMode) updateCenterList();
     else if (state.originLat !== null) renderList(getAllCachedShops());
   }
-  if (map.getZoom() < 11) {
-    map.setView([lat, lng], 10, { animate:true });
+  if (map.getZoom() < 13) {
+    map.setView([lat, lng], 13, { animate:true });
     await new Promise(r => setTimeout(r, 400));
   }
 
@@ -2094,7 +2094,7 @@ map.on('zoomend moveend', () => {
       state._displayedCodes = [];
     }
     const zoom = map.getZoom();
-    if (zoom >= 9) {
+    if (zoom >= 8) {
       const codes = getVisibleCodes();
       const uncached = codes.filter(c => !state.detailCache[c]);
       if (uncached.length > 0) {
