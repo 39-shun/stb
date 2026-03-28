@@ -1286,8 +1286,9 @@ window.focusStore = async function(id, lat, lng) {
   if (code && !state.detailCache[code]) {
     showLoading('読み込み中...');
     await fetchDetail(code);
+    await buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
     hideLoading();
-    // buildDetailLayerはmoveendに任せる（ここで呼ぶとmarkerMapが競合する）
+    if (state.mapCenterMode || state.originLat !== null) renderList(getAllCachedShops());
   }
   if (map.getZoom() < 11) {
     map.setView([lat, lng], 10, { animate:true });
@@ -1735,11 +1736,13 @@ function buildPopup(shop) {
       </div>`;
     }).join('');
     const mapBtn = shop.coords ? `<button onclick="openMapSelect(${shop.coords[0]},${shop.coords[1]})" style="flex:1;padding:7px 6px;border-radius:5px;background:#4285F4;color:#fff;font-size:11px;font-weight:700;text-align:center;border:none;cursor:pointer;">🗺 マップで開く</button>` : '';
+    const mergeLinks = shop._mergeData.map(s => `<a href="https://store.starbucks.co.jp/detail-${s.id}/" target="_blank" rel="noopener" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:var(--surface2);color:var(--text);font-size:11px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);">🔗 公式（${s.options?.reserve?'リザーブ':s.options?.teavana?'ティバーナ':s.name}）</a>`).join('');
     return `<div class="stb-popup">
       <div class="p-name">✦ ${shop.name}</div>
       <div class="p-badges"><span class="p-badge badge-merge">マージ店舗</span><span class="p-badge badge-reserve">★ リザーブ</span><span class="p-badge badge-teavana">🍃 ティバーナ</span></div>
       <div class="merge-tabs">${tabs}</div>${panes}
       <div style="display:flex;gap:6px;margin-bottom:6px;">${mapBtn}</div>
+      <div style="display:flex;gap:6px;margin-bottom:6px;">${mergeLinks}</div>
       <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
       <div class="p-affiliate-note">${AFFILIATE.note}</div>
     </div>`;
