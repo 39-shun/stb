@@ -1063,7 +1063,7 @@ function showToast(msg, duration=2500) {
 function redrawAfterFilter() {
   if (state.selectedPrefs.size > 0) {
     renderAllSelectedPrefs();
-  } else if (map.getZoom() >= 8 && state.detailGroup) {
+  } else if (map.getZoom() >= 9 && state.detailGroup) {
     // 詳細表示中：buildDetailLayerで再描画
     buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
   } else if (state.summaryData) {
@@ -1126,6 +1126,33 @@ function applyMerge(shops) {
     },
   };
   return [...shops.filter(s => !MERGE_IDS.has(s.id)), merged];
+}
+
+// ============================================================
+// サマリーグループ再構築（ズームアウト復帰時などに使う）
+// ============================================================
+function rebuildSummaryGroup() {
+  if (!state.summaryData) return;
+  if (state.summaryGroup) map.removeLayer(state.summaryGroup);
+  state.summaryGroup = L.markerClusterGroup({
+    maxClusterRadius:60, spiderfyOnMaxZoom:true,
+    showCoverageOnHover:false, iconCreateFunction:clusterIcon,
+  });
+  for (const s of state.summaryData) {
+    if (!s.coords || !passesFilter(s)) continue;
+    const m = L.circleMarker(s.coords, {
+      radius:5, color:'rgba(0,0,0,.15)', weight:1,
+      fillColor:getRankColor(s.price_rank, s.store_type), fillOpacity:.88,
+    });
+    m.on('click', () => {
+      const code = String(s.prefecture_code).padStart(2,'0');
+      if (state.currentPref) return;
+      if (map.getZoom() < 10) map.setView(s.coords, 10, { animate:true });
+      selectPref(code);
+    });
+    state.summaryGroup.addLayer(m);
+  }
+  map.addLayer(state.summaryGroup);
 }
 
 // ============================================================
@@ -1298,7 +1325,7 @@ window.focusStore = async function(id, lat, lng) {
     else if (state.originLat !== null) renderList(getAllCachedShops());
   }
   if (map.getZoom() < 13) {
-    map.setView([lat, lng], 13, { animate:true });
+    map.setView([lat, lng], 16, { animate:true });
     await new Promise(r => setTimeout(r, 400));
   }
 
@@ -2094,7 +2121,7 @@ map.on('zoomend moveend', () => {
       state._displayedCodes = [];
     }
     const zoom = map.getZoom();
-    if (zoom >= 8) {
+    if (zoom >= 9) {
       const codes = getVisibleCodes();
       const uncached = codes.filter(c => !state.detailCache[c]);
       if (uncached.length > 0) {
@@ -2116,7 +2143,7 @@ map.on('zoomend moveend', () => {
     } else {
       state._displayedCodes = [];
       if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
-      if (state.summaryGroup) map.addLayer(state.summaryGroup);
+      rebuildSummaryGroup();
     }
     updateCenterList();
   }, 300);
