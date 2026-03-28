@@ -1,0 +1,572 @@
+[
+  {
+    "id": "2134",
+    "api_id": "2001000012134",
+    "name": "蔦屋書店 和歌山市民図書館店",
+    "address": "和歌山県 和歌山市 屏風丁17",
+    "coords": [
+      34.2368221464,
+      135.167322084
+    ],
+    "prefecture_code": 30,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:21:04.619563"
+  },
+  {
+    "id": "1430",
+    "api_id": "2001000011430",
+    "name": "和歌山昭和通り店",
+    "address": "和歌山県 和歌山市 神前174-5",
+    "coords": [
+      34.215516962,
+      135.201238026
+    ],
+    "prefecture_code": 30,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:21:17.073452"
+  },
+  {
+    "id": "587",
+    "api_id": "200100001587",
+    "name": "ガーデンパーク和歌山店",
+    "address": "和歌山県 和歌山市 松江向鵜ノ島1469-1 ガーデンパーク和歌山",
+    "coords": [
+      34.23885752,
+      135.153466196
+    ],
+    "prefecture_code": 30,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:21:29.858459"
+  },
+  {
+    "id": "1188",
+    "api_id": "2001000011188",
+    "name": "イオンモール和歌山店",
+    "address": "和歌山県 和歌山市 ふじと台23番地 イオンモール和歌山",
+    "coords": [
+      34.2752343894,
+      135.149286813
+    ],
+    "prefecture_code": 30,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:21:38.214577"
+  },
+  {
+    "id": "1029",
+    "api_id": "2001000011029",
+    "name": "和歌山パームシティ店",
+    "address": "和歌山県 和歌山市 中野長差31-1 パームシティ和歌山",
+    "coords": [
+      34.2543214436,
+      135.138826978
+    ],
+    "prefecture_code": 30,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:21:48.014908"
+  },
+  {
+    "id": "4176",
+    "api_id": "2001000014176",
+    "name": "和歌山大浦街道店",
+    "address": "和歌山県 和歌山市 西小二里2-4-80",
+    "coords": [
+      34.2037505474,
+      135.159517866
+    ],
+    "prefecture_code": 30,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:22:00.663322"
+  },
+  {
+    "id": "4071",
+    "api_id": "2001000014071",
+    "name": "メッサオークワ 和歌山高松店",
+    "address": "和歌山県 和歌山市 西高松1-7-88 メッサオークワ 高松店",
+    "coords": [
+      34.2087882528,
+      135.170318959
+    ],
+    "prefecture_code": 30,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:22:12.914128"
+  },
+  {
+    "id": "1698",
+    "api_id": "2001000011698",
+    "name": "海南nobinos店",
+    "address": "和歌山県 海南市 日方1525-6 海南nobinos",
+    "coords": [
+      34.1554699194,
+      135.209583986
+    ],
+    "prefecture_code": 30,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:22:27.756745"
+  },
+  {
+    "id": "4306",
+    "api_id": "2001000014306",
+    "name": "和歌山橋本店",
+    "address": "和歌山県 橋本市 隅田町下兵庫615-1",
+    "coords": [
+      34.3228629671,
+      135.629857764
+    ],
+    "prefecture_code": 30,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:22:39.035553"
+  },
+  {
+    "id": "1428",
+    "api_id": "2001000011428",
+    "name": "和歌山岩出店",
+    "address": "和歌山県 岩出市 大町9-3",
+    "coords": [
+      34.2614680291,
+      135.321071791
+    ],
+    "prefecture_code": 30,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:22:48.369574"
+  }
+]

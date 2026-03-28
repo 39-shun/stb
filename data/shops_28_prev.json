@@ -1,0 +1,4261 @@
+[
+  {
+    "id": "1866",
+    "api_id": "2001000011866",
+    "name": "EKIZO 神戸三宮店",
+    "address": "兵庫県 神戸市中央区 加納町4-2-1 神戸三宮阪急ビル",
+    "coords": [
+      34.6936142956,
+      135.193227509
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:00:05.119353"
+  },
+  {
+    "id": "940",
+    "api_id": "200100001940",
+    "name": "神戸北野異人館店",
+    "address": "兵庫県 神戸市中央区 北野町3-1-31 北野物語館",
+    "coords": [
+      34.6999232913,
+      135.190265243
+    ],
+    "prefecture_code": 28,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:00:19.814182"
+  },
+  {
+    "id": "263",
+    "api_id": "200100001263",
+    "name": "三宮生田新道店",
+    "address": "兵庫県 神戸市中央区 下山手通2-1-13 第１３シャルマンビル",
+    "coords": [
+      34.6930693147,
+      135.190979943
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:00:29.323576"
+  },
+  {
+    "id": "1617",
+    "api_id": "2001000011617",
+    "name": "神戸BAL店",
+    "address": "兵庫県 神戸市中央区 三宮町3-6-1",
+    "coords": [
+      34.6901926667,
+      135.190340407
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "11:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:00:44.330772"
+  },
+  {
+    "id": "4504",
+    "api_id": "2001000014504",
+    "name": "クレフィ三宮店",
+    "address": "兵庫県 神戸市中央区 三宮町1-4-3 クレフィ三宮2階",
+    "coords": [
+      34.6910645676,
+      135.193185964
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:00:53.805013"
+  },
+  {
+    "id": "309",
+    "api_id": "200100001309",
+    "name": "神戸旧居留地店",
+    "address": "兵庫県 神戸市中央区 栄町通1-2-1 ＭＲＳＸビル",
+    "coords": [
+      34.6879884427,
+      135.189462803
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:01:03.907347"
+  },
+  {
+    "id": "4435",
+    "api_id": "2001000014435",
+    "name": "PLiCO神戸店",
+    "address": "兵庫県 神戸市中央区 相生町3-1-1 PLiCO神戸1階",
+    "coords": [
+      34.6790575361,
+      135.178284976
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:01:19.222564"
+  },
+  {
+    "id": "1432",
+    "api_id": "2001000011432",
+    "name": "神戸メリケンパーク店",
+    "address": "兵庫県 神戸市中央区 波止場町2-4",
+    "coords": [
+      34.6818282418,
+      135.187947935
+    ],
+    "prefecture_code": 28,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:01:33.180580"
+  },
+  {
+    "id": "1146",
+    "api_id": "2001000011146",
+    "name": "神戸ハーバーランドumie店",
+    "address": "兵庫県 神戸市中央区 東川崎町1-7-2 A201",
+    "coords": [
+      34.6791592609,
+      135.182236032
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:01:44.876515"
+  },
+  {
+    "id": "1381",
+    "api_id": "2001000011381",
+    "name": "神戸ハーバーランドumie MOSAIC店",
+    "address": "兵庫県 神戸市中央区 東川崎町1-6-1 神戸ハーバーランドumie MOSAIC　2F",
+    "coords": [
+      34.6796970219,
+      135.184567481
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:01:57.819638"
+  },
+  {
+    "id": "837",
+    "api_id": "200100001837",
+    "name": "三宮磯上通店",
+    "address": "兵庫県 神戸市中央区 磯上通7-1-19 PROGRESS KOBE",
+    "coords": [
+      34.6919900864,
+      135.196749792
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:02:09.471810"
+  },
+  {
+    "id": "52",
+    "api_id": "20010000152",
+    "name": "神戸国際会館ＳＯＬ店",
+    "address": "兵庫県 神戸市中央区 御幸通8-1-6 神戸国際会館 B1F",
+    "coords": [
+      34.6920120068,
+      135.195507116
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:02:21.444639"
+  },
+  {
+    "id": "256",
+    "api_id": "200100001256",
+    "name": "三宮ダイエー店",
+    "address": "兵庫県 神戸市中央区 雲井通6-1-15 三宮ダイエー",
+    "coords": [
+      34.6952241754,
+      135.196204966
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:02:31.137428"
+  },
+  {
+    "id": "1633",
+    "api_id": "2001000011633",
+    "name": "ミント神戸店",
+    "address": "兵庫県 神戸市中央区 雲井通7-1-1 ミント神戸",
+    "coords": [
+      34.6944584218,
+      135.196078067
+    ],
+    "prefecture_code": 28,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "11:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:02:43.011393"
+  },
+  {
+    "id": "723",
+    "api_id": "200100001723",
+    "name": "神戸上津台店",
+    "address": "兵庫県 神戸市北区 上津台9-2-13",
+    "coords": [
+      34.8618458591,
+      135.199707558
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:02:51.434798"
+  },
+  {
+    "id": "769",
+    "api_id": "200100001769",
+    "name": "神戸三田プレミアム・アウトレット店",
+    "address": "兵庫県 神戸市北区 上津台7-3 神戸三田プレミアム・アウトレット(120区)",
+    "coords": [
+      34.8618371215,
+      135.192413442
+    ],
+    "prefecture_code": 28,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:03:01.662817"
+  },
+  {
+    "id": "4008",
+    "api_id": "2001000014008",
+    "name": "イオンモール神戸北店",
+    "address": "兵庫県 神戸市北区 上津台8-1-1 イオンモール神戸北",
+    "coords": [
+      34.8612380626,
+      135.19491104
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:03:13.449708"
+  },
+  {
+    "id": "1718",
+    "api_id": "2001000011718",
+    "name": "学園都市キャンパススクェア店",
+    "address": "兵庫県 神戸市西区 学園西町1-4 キャンパススクェア",
+    "coords": [
+      34.6826372667,
+      135.057562337
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:03:27.515555"
+  },
+  {
+    "id": "4317",
+    "api_id": "2001000014317",
+    "name": "プレンティ西神中央店",
+    "address": "兵庫県 神戸市西区 糀台5-6-1 プレンティ 二番館2階",
+    "coords": [
+      34.7189907492,
+      135.018365585
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:03:40.189727"
+  },
+  {
+    "id": "4256",
+    "api_id": "2001000014256",
+    "name": "須磨海浜公園店",
+    "address": "兵庫県 神戸市須磨区 須磨浦通1-1-3 須磨海浜公園 松の社ヴィレッジA棟1階",
+    "coords": [
+      34.6438861814,
+      135.123901112
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:03:53.766101"
+  },
+  {
+    "id": "186",
+    "api_id": "200100001186",
+    "name": "須磨大丸店",
+    "address": "兵庫県 神戸市須磨区 中落合2-2-4 大丸 須磨店",
+    "coords": [
+      34.6779831165,
+      135.093616502
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:04:08.520663"
+  },
+  {
+    "id": "4247",
+    "api_id": "2001000014247",
+    "name": "PLiCO垂水店",
+    "address": "兵庫県 神戸市垂水区 神田町1-17 プリコ垂水南館2階",
+    "coords": [
+      34.6291229231,
+      135.053693734
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:04:20.385223"
+  },
+  {
+    "id": "4406",
+    "api_id": "2001000014406",
+    "name": "三井アウトレットパーク マリンピア神戸店",
+    "address": "兵庫県 神戸市垂水区 海岸通12-2 三井アウトレットパーク マリンピア神戸",
+    "coords": [
+      34.6254546041,
+      135.047959101
+    ],
+    "prefecture_code": 28,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:04:30.363872"
+  },
+  {
+    "id": "1091",
+    "api_id": "2001000011091",
+    "name": "神戸西舞子店",
+    "address": "兵庫県 神戸市垂水区 西舞子1-10-4",
+    "coords": [
+      34.6399340454,
+      135.02511922
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:04:42.558142"
+  },
+  {
+    "id": "766",
+    "api_id": "200100001766",
+    "name": "神戸垂水桃山台店",
+    "address": "兵庫県 神戸市垂水区 下畑町小川1400-12",
+    "coords": [
+      34.6619268422,
+      135.081370758
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:04:57.600856"
+  },
+  {
+    "id": "949",
+    "api_id": "200100001949",
+    "name": "淡路サービスエリア（下り線）店",
+    "address": "兵庫県 淡路市 岩屋2568 淡路サービスエリア（下り線）",
+    "coords": [
+      34.5842232005,
+      135.017273826
+    ],
+    "prefecture_code": 28,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:05:11.949173"
+  },
+  {
+    "id": "2236",
+    "api_id": "2001000012236",
+    "name": "神戸大学店",
+    "address": "兵庫県 神戸市灘区 六甲台町1-1",
+    "coords": [
+      34.7248269845,
+      135.236145286
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "17:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:05:20.886856"
+  },
+  {
+    "id": "1414",
+    "api_id": "2001000011414",
+    "name": "住吉リブ店",
+    "address": "兵庫県 神戸市東灘区 住吉本町1-2-1",
+    "coords": [
+      34.7195699328,
+      135.261420929
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:05:29.147441"
+  },
+  {
+    "id": "839",
+    "api_id": "200100001839",
+    "name": "阪神御影クラッセ店",
+    "address": "兵庫県 神戸市東灘区 御影中町3-2-1 御影クラッセ",
+    "coords": [
+      34.7156810784,
+      135.255483823
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:05:40.565875"
+  },
+  {
+    "id": "138",
+    "api_id": "200100001138",
+    "name": "摂津本山岡本ビル店",
+    "address": "兵庫県 神戸市東灘区 岡本1-2-17 摂津本山二楽園ビル",
+    "coords": [
+      34.7270777312,
+      135.276772641
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:05:53.663746"
+  },
+  {
+    "id": "1853",
+    "api_id": "2001000011853",
+    "name": "芦屋モンテメール店",
+    "address": "兵庫県 芦屋市 船戸町1-31 モンテメール",
+    "coords": [
+      34.7347993935,
+      135.307902478
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:06:05.890972"
+  },
+  {
+    "id": "827",
+    "api_id": "200100001827",
+    "name": "尼崎つかしん店",
+    "address": "兵庫県 尼崎市 塚口本町4-8-1 グンゼタウンセンターつかしん",
+    "coords": [
+      34.7615590412,
+      135.419790565
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:06:20.429311"
+  },
+  {
+    "id": "2338",
+    "api_id": "2001000012338",
+    "name": "Olive LOUNGE 塚口店",
+    "address": "兵庫県 尼崎市 塚口町1-12-21 Olive LOUNGE 1階",
+    "coords": [
+      34.7536778562,
+      135.415008825
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:06:33.647664"
+  },
+  {
+    "id": "4513",
+    "api_id": "2001000014513",
+    "name": "尼崎立花店",
+    "address": "兵庫県 尼崎市 立花町3-12-6",
+    "coords": [
+      34.7435931015,
+      135.399103388
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:06:48.262909"
+  },
+  {
+    "id": "1823",
+    "api_id": "2001000011823",
+    "name": "あまがさきキューズモール店",
+    "address": "兵庫県 尼崎市 潮江1-3-1 あまがさきキューズモール",
+    "coords": [
+      34.7333925311,
+      135.431205914
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:06:58.044882"
+  },
+  {
+    "id": "1372",
+    "api_id": "2001000011372",
+    "name": "ビエラ塚口店",
+    "address": "兵庫県 尼崎市 上坂部1-1-1 ビエラ塚口",
+    "coords": [
+      34.7512505203,
+      135.425440848
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "7",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:07:10.619040"
+  },
+  {
+    "id": "4610",
+    "api_id": "2001000014610",
+    "name": "そよら西宮今津店",
+    "address": "兵庫県 西宮市 浜松原町21-1 そよら西宮今津1階",
+    "coords": [
+      34.7257021522,
+      135.346521356
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:07:21.229926"
+  },
+  {
+    "id": "676",
+    "api_id": "200100001676",
+    "name": "西宮鞍掛店",
+    "address": "兵庫県 西宮市 鞍掛町6-7",
+    "coords": [
+      34.7290847075,
+      135.338591026
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:07:34.829602"
+  },
+  {
+    "id": "4127",
+    "api_id": "2001000014127",
+    "name": "西宮建石店",
+    "address": "兵庫県 西宮市 建石町2-33",
+    "coords": [
+      34.7284655262,
+      135.33396255
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:07:45.287274"
+  },
+  {
+    "id": "468",
+    "api_id": "200100001468",
+    "name": "エビスタ西宮店",
+    "address": "兵庫県 西宮市 田中町1-6 エビスタ西宮",
+    "coords": [
+      34.7367164012,
+      135.339165071
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:07:56.541472"
+  },
+  {
+    "id": "2120",
+    "api_id": "2001000012120",
+    "name": "関西学院大学店",
+    "address": "兵庫県 西宮市 上ヶ原一番町1-155",
+    "coords": [
+      34.7675140686,
+      135.346505821
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "17:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:08:07.032663"
+  },
+  {
+    "id": "4305",
+    "api_id": "2001000014305",
+    "name": "西宮大島店",
+    "address": "兵庫県 西宮市 大島町6-16",
+    "coords": [
+      34.7627327293,
+      135.36777372
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:08:16.373760"
+  },
+  {
+    "id": "555",
+    "api_id": "200100001555",
+    "name": "アクタ西宮店",
+    "address": "兵庫県 西宮市 北口町1-2 ACTA西宮 東館",
+    "coords": [
+      34.7473242117,
+      135.358285495
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:08:28.994046"
+  },
+  {
+    "id": "1243",
+    "api_id": "2001000011243",
+    "name": "ビエラ甲子園口店",
+    "address": "兵庫県 西宮市 甲子園口2-1-37",
+    "coords": [
+      34.738848191,
+      135.375173094
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:08:38.842012"
+  },
+  {
+    "id": "1566",
+    "api_id": "2001000011566",
+    "name": "阪神甲子園駅前店",
+    "address": "兵庫県 西宮市 甲子園高潮町4-3",
+    "coords": [
+      34.7236479289,
+      135.362502902
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:08:50.660287"
+  },
+  {
+    "id": "579",
+    "api_id": "200100001579",
+    "name": "ららぽーと甲子園2階店",
+    "address": "兵庫県 西宮市 甲子園八番町1-100 ららぽーと甲子園2階",
+    "coords": [
+      34.7167859282,
+      135.364973846
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:09:02.938000"
+  },
+  {
+    "id": "4588",
+    "api_id": "2001000014588",
+    "name": "ららぽーと甲子園1階店",
+    "address": "兵庫県 西宮市 甲子園八番町1-100 ららぽーと甲子園1階",
+    "coords": [
+      34.7192706348,
+      135.363389974
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:09:17.445399"
+  },
+  {
+    "id": "1717",
+    "api_id": "2001000011717",
+    "name": "阪急西宮ガーデンズ3階店",
+    "address": "兵庫県 西宮市 高松町14-2 阪急西宮ガーデンズ3階",
+    "coords": [
+      34.7435090879,
+      135.35964278
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:09:29.227518"
+  },
+  {
+    "id": "4377",
+    "api_id": "2001000014377",
+    "name": "阪急西宮ガーデンズ4階店",
+    "address": "兵庫県 西宮市 高松町14-2 阪急西宮ガーデンズ4階",
+    "coords": [
+      34.7443954028,
+      135.360833474
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": true,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:09:39.547763"
+  },
+  {
+    "id": "989",
+    "api_id": "200100001989",
+    "name": "イオンモール伊丹昆陽店",
+    "address": "兵庫県 伊丹市 池尻4-1-1 イオンモール伊丹昆陽",
+    "coords": [
+      34.7847850587,
+      135.38172349
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:09:54.847657"
+  },
+  {
+    "id": "426",
+    "api_id": "200100001426",
+    "name": "イオンモール伊丹店",
+    "address": "兵庫県 伊丹市 藤ノ木1-1-1",
+    "coords": [
+      34.782201056,
+      135.422995459
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:10:04.680247"
+  },
+  {
+    "id": "4345",
+    "api_id": "2001000014345",
+    "name": "宝塚安倉店",
+    "address": "兵庫県 宝塚市 安倉西4-610",
+    "coords": [
+      34.7921225343,
+      135.377549888
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:10:16.971985"
+  },
+  {
+    "id": "1419",
+    "api_id": "2001000011419",
+    "name": "中山寺店",
+    "address": "兵庫県 宝塚市 中筋8-11-58",
+    "coords": [
+      34.8140479137,
+      135.374499965
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:10:28.347263"
+  },
+  {
+    "id": "1125",
+    "api_id": "2001000011125",
+    "name": "川西加茂店",
+    "address": "兵庫県 川西市 加茂6-2-22",
+    "coords": [
+      34.812000446,
+      135.411520596
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:10:42.248973"
+  },
+  {
+    "id": "4537",
+    "api_id": "2001000014537",
+    "name": "川西阪急スクエア店",
+    "address": "兵庫県 川西市 栄町26-1 川西阪急スクエア2階",
+    "coords": [
+      34.8265455661,
+      135.412046827
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:10:50.950587"
+  },
+  {
+    "id": "2269",
+    "api_id": "2001000012269",
+    "name": "TSUTAYA BOOKSTORE AVIX豊岡店",
+    "address": "兵庫県 豊岡市 大手町7-30",
+    "coords": [
+      35.545576843,
+      134.815155233
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:11:03.481998"
+  },
+  {
+    "id": "1791",
+    "api_id": "2001000011791",
+    "name": "新三田桜のこみち公園店",
+    "address": "兵庫県 三田市 福島1－1",
+    "coords": [
+      34.9089559413,
+      135.206642313
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:11:18.157801"
+  },
+  {
+    "id": "4183",
+    "api_id": "2001000014183",
+    "name": "三田キッピーモール店",
+    "address": "兵庫県 三田市 駅前町2-1 キッピーモール 2階",
+    "coords": [
+      34.8882154892,
+      135.228682271
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:11:28.189957"
+  },
+  {
+    "id": "4159",
+    "api_id": "2001000014159",
+    "name": "姫路市川橋通店",
+    "address": "兵庫県 姫路市 市川橋通1-20",
+    "coords": [
+      34.8281562237,
+      134.712132102
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:11:39.665875"
+  },
+  {
+    "id": "1471",
+    "api_id": "2001000011471",
+    "name": "ピオレ姫路1階店",
+    "address": "兵庫県 姫路市 豆腐町222 ピオレ姫路2",
+    "coords": [
+      34.8271184292,
+      134.688918244
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:11:49.798930"
+  },
+  {
+    "id": "1096",
+    "api_id": "2001000011096",
+    "name": "ピオレ姫路4階店",
+    "address": "兵庫県 姫路市 駅前町188-1 ピオレ姫路1",
+    "coords": [
+      34.8275889583,
+      134.690284776
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:12:00.649971"
+  },
+  {
+    "id": "586",
+    "api_id": "200100001586",
+    "name": "イオンモール姫路大津店",
+    "address": "兵庫県 姫路市 大津区大津町2-5 イオンモール姫路大津",
+    "coords": [
+      34.8066941737,
+      134.606473254
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:12:13.751554"
+  },
+  {
+    "id": "1280",
+    "api_id": "2001000011280",
+    "name": "姫路南店",
+    "address": "兵庫県 姫路市 飾磨区三宅3-3",
+    "coords": [
+      34.8091763187,
+      134.680860295
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:12:25.821012"
+  },
+  {
+    "id": "683",
+    "api_id": "200100001683",
+    "name": "姫路飾磨店",
+    "address": "兵庫県 姫路市 飾磨区恵美酒236",
+    "coords": [
+      34.8037872858,
+      134.671420772
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:12:39.986206"
+  },
+  {
+    "id": "1272",
+    "api_id": "2001000011272",
+    "name": "イオンモール姫路リバーシティー店",
+    "address": "兵庫県 姫路市 飾磨区細江2560",
+    "coords": [
+      34.7986711193,
+      134.668729564
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:12:49.743349"
+  },
+  {
+    "id": "825",
+    "api_id": "200100001825",
+    "name": "三木サービスエリア(下り線)店",
+    "address": "兵庫県 三木市 加佐湯谷1142 三木サービスエリア(下り線)",
+    "coords": [
+      34.815445898,
+      134.981416157
+    ],
+    "prefecture_code": 28,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:13:04.128502"
+  },
+  {
+    "id": "920",
+    "api_id": "200100001920",
+    "name": "三木サービスエリア(上り線)店",
+    "address": "兵庫県 三木市 大村大門1067-110 三木サービスエリア(上り線)",
+    "coords": [
+      34.8178417285,
+      134.98002394
+    ],
+    "prefecture_code": 28,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:13:18.712279"
+  },
+  {
+    "id": "1339",
+    "api_id": "2001000011339",
+    "name": "ピオレ明石店",
+    "address": "兵庫県 明石市 大明石町1-1-23 ピオレ明石",
+    "coords": [
+      34.6490152841,
+      134.992617335
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:13:32.125842"
+  },
+  {
+    "id": "167",
+    "api_id": "200100001167",
+    "name": "明石ビブレ店",
+    "address": "兵庫県 明石市 大久保町ゆりのき通り 1-3-2  明石ビブレ",
+    "coords": [
+      34.6812269975,
+      134.938095657
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:13:46.413585"
+  },
+  {
+    "id": "1605",
+    "api_id": "2001000011605",
+    "name": "明石魚住店",
+    "address": "兵庫県 明石市 魚住町清水463-3",
+    "coords": [
+      34.7050586586,
+      134.908780605
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:13:58.262069"
+  },
+  {
+    "id": "2112",
+    "api_id": "2001000012112",
+    "name": "TSUTAYA パークタウン加古川店",
+    "address": "兵庫県 加古川市 加古川町寺家町269-1 ミーツテラス",
+    "coords": [
+      34.7710555926,
+      134.835232564
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:14:12.631878"
+  },
+  {
+    "id": "1147",
+    "api_id": "2001000011147",
+    "name": "加古川別府店",
+    "address": "兵庫県 加古川市 別府町朝日町11-1",
+    "coords": [
+      34.729890251,
+      134.849853523
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:14:25.743202"
+  },
+  {
+    "id": "4123",
+    "api_id": "2001000014123",
+    "name": "兵庫播磨店",
+    "address": "兵庫県 加古郡 播磨町南大中3-3-30",
+    "coords": [
+      34.7232179545,
+      134.868352571
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:14:34.454597"
+  },
+  {
+    "id": "1297",
+    "api_id": "2001000011297",
+    "name": "イオンモール加西北条店",
+    "address": "兵庫県 加西市 北条町北条308-1",
+    "coords": [
+      34.9302440132,
+      134.829046303
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:14:44.914006"
+  },
+  {
+    "id": "4084",
+    "api_id": "2001000014084",
+    "name": "高砂小松原店",
+    "address": "兵庫県 高砂市 荒井町小松原4-1005",
+    "coords": [
+      34.7654245301,
+      134.803533511
+    ],
+    "prefecture_code": 28,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:15:00.047002"
+  }
+]
