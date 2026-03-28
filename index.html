@@ -1303,9 +1303,10 @@ window.focusStore = async function(id, lat, lng) {
         const s = state.highlightedShop;
         if (s) state.highlightedMarker.setIcon(makeIcon(s.price_rank, s.store_type, s.options||{}, !!s._merged));
       }
-      // 店舗データを探す
-      const shop = [...Object.values(state.detailCache).flat(), ...(state.summaryData||[])]
-        .find(s => s.id === id) || (state.markerMap[id] ? {id} : null);
+      const allShops = applyMerge([...Object.values(state.detailCache).flat()]);
+      const shop = allShops.find(s => s.id === id)
+        || (state.summaryData||[]).find(s => s.id === id)
+        || (state.markerMap[id] ? {id} : null);
       if (marker && shop) {
         marker.setIcon(makeHighlightIcon(shop.price_rank, shop.store_type, shop.options||{}, !!shop._merged));
         state.highlightedMarker = marker;
