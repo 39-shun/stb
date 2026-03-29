@@ -1,0 +1,1313 @@
+[
+  {
+    "id": "1609",
+    "api_id": "2001000011609",
+    "name": "岡山一番街店",
+    "address": "岡山県 岡山市北区 駅元町一番街地下4号",
+    "coords": [
+      34.6648639978,
+      133.918738845
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:03:56.537178"
+  },
+  {
+    "id": "1814",
+    "api_id": "2001000011814",
+    "name": "さんすて岡山店",
+    "address": "岡山県 岡山市北区 駅元町1-1 サンステーションテラス岡山",
+    "coords": [
+      34.6657316615,
+      133.91751974
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:04:05.557265"
+  },
+  {
+    "id": "784",
+    "api_id": "200100001784",
+    "name": "岡山大安寺店",
+    "address": "岡山県 岡山市北区 野殿西町329-1 ハピーズ大安寺",
+    "coords": [
+      34.6594772492,
+      133.881065555
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:04:18.980497"
+  },
+  {
+    "id": "1234",
+    "api_id": "2001000011234",
+    "name": "イオンモール岡山5階店",
+    "address": "岡山県 岡山市北区 下石井1-2-1",
+    "coords": [
+      34.6616162757,
+      133.917944894
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:04:32.708912"
+  },
+  {
+    "id": "4016",
+    "api_id": "2001000014016",
+    "name": "イオンモール岡山1階店",
+    "address": "岡山県 岡山市北区 下石井1-2-1 イオンモール岡山",
+    "coords": [
+      34.6624606152,
+      133.91710298
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:04:44.935473"
+  },
+  {
+    "id": "1877",
+    "api_id": "2001000011877",
+    "name": "岡山青江店",
+    "address": "岡山県 岡山市北区 青江1-1-5",
+    "coords": [
+      34.6373627591,
+      133.91796212
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:05:00.122225"
+  },
+  {
+    "id": "1655",
+    "api_id": "2001000011655",
+    "name": "岡山中仙道店",
+    "address": "岡山県 岡山市北区 中仙道1-4-13",
+    "coords": [
+      34.6459360755,
+      133.889979605
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:05:14.798810"
+  },
+  {
+    "id": "653",
+    "api_id": "200100001653",
+    "name": "岡山大学病院店",
+    "address": "岡山県 岡山市北区 鹿田町2-5-1 岡山大学病院　",
+    "coords": [
+      34.6509577408,
+      133.92064766
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "17:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "17:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:05:28.898475"
+  },
+  {
+    "id": "4136",
+    "api_id": "2001000014136",
+    "name": "岡山天満屋店",
+    "address": "岡山県 岡山市北区 中山下2-3-4 岡山天満屋 県庁通り館1F",
+    "coords": [
+      34.6622866578,
+      133.928020137
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:05:42.069631"
+  },
+  {
+    "id": "694",
+    "api_id": "200100001694",
+    "name": "岡山シネマタウン岡南店",
+    "address": "岡山県 岡山市南区 築港新町1-25-1 シネマタウン岡南",
+    "coords": [
+      34.6026849202,
+      133.940657388
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:05:52.380817"
+  },
+  {
+    "id": "1106",
+    "api_id": "2001000011106",
+    "name": "岡山けやき通り店",
+    "address": "岡山県 岡山市中区 西川原124-1",
+    "coords": [
+      34.6805813362,
+      133.942121735
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:06:05.704364"
+  },
+  {
+    "id": "4029",
+    "api_id": "2001000014029",
+    "name": "岡山平井店",
+    "address": "岡山県 岡山市中区 平井7-19-8",
+    "coords": [
+      34.6336143078,
+      133.951866977
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:06:15.722497"
+  },
+  {
+    "id": "4254",
+    "api_id": "2001000014254",
+    "name": "岡山西大寺店",
+    "address": "岡山県 岡山市東区 西大寺中野427-1",
+    "coords": [
+      34.6533287801,
+      134.026475429
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:06:29.611989"
+  },
+  {
+    "id": "4457",
+    "api_id": "2001000014457",
+    "name": "津山ウエストランド店",
+    "address": "岡山県 津山市 二宮71 ウエストランド",
+    "coords": [
+      35.0607679181,
+      133.959438624
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:06:44.083062"
+  },
+  {
+    "id": "4021",
+    "api_id": "2001000014021",
+    "name": "イオンモール津山店",
+    "address": "岡山県 津山市 河辺1000-1 イオンモール津山",
+    "coords": [
+      35.0650662058,
+      134.046758674
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:06:58.626380"
+  },
+  {
+    "id": "4244",
+    "api_id": "2001000014244",
+    "name": "倉敷平田店",
+    "address": "岡山県 倉敷市 平田283-1",
+    "coords": [
+      34.6163544839,
+      133.776743982
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:07:13.231582"
+  },
+  {
+    "id": "841",
+    "api_id": "200100001841",
+    "name": "倉敷天満屋店",
+    "address": "岡山県 倉敷市 阿知1-7-1 天満屋　倉敷店",
+    "coords": [
+      34.6012231421,
+      133.766299713
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:07:26.024496"
+  },
+  {
+    "id": "1008",
+    "api_id": "2001000011008",
+    "name": "イオンモール倉敷店",
+    "address": "岡山県 倉敷市 水江1 イオンモール倉敷",
+    "coords": [
+      34.6027759247,
+      133.744278693
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:07:40.324111"
+  },
+  {
+    "id": "860",
+    "api_id": "200100001860",
+    "name": "倉敷中島店",
+    "address": "岡山県 倉敷市 中島2236-102 ハピーズ倉敷中島",
+    "coords": [
+      34.5816567444,
+      133.741392683
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:07:54.772567"
+  },
+  {
+    "id": "1050",
+    "api_id": "2001000011050",
+    "name": "三井アウトレットパーク倉敷店",
+    "address": "岡山県 倉敷市 寿町12-3 三井アウトレットパーク倉敷",
+    "coords": [
+      34.6041680274,
+      133.761862446
+    ],
+    "prefecture_code": 33,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:08:03.819463"
+  },
+  {
+    "id": "4193",
+    "api_id": "2001000014193",
+    "name": "倉敷安江店",
+    "address": "岡山県 倉敷市 安江85－1",
+    "coords": [
+      34.5979487875,
+      133.751388047
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:08:17.120202"
+  },
+  {
+    "id": "1726",
+    "api_id": "2001000011726",
+    "name": "倉敷笹沖店",
+    "address": "岡山県 倉敷市 笹沖6-1",
+    "coords": [
+      34.5705791223,
+      133.761985371
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:08:30.134005"
+  },
+  {
+    "id": "2086",
+    "api_id": "2001000012086",
+    "name": "蔦屋書店 高梁市図書館店",
+    "address": "岡山県 高梁市 旭町1306",
+    "coords": [
+      34.7890629354,
+      133.616577943
+    ],
+    "prefecture_code": 33,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:08:44.962171"
+  }
+]

@@ -1,0 +1,287 @@
+[
+  {
+    "id": "1129",
+    "api_id": "2001000011129",
+    "name": "シャミネ松江店",
+    "address": "島根県 松江市 朝日町472-2",
+    "coords": [
+      35.4639258001,
+      133.062753417
+    ],
+    "prefecture_code": 32,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:01:57.246736"
+  },
+  {
+    "id": "4334",
+    "api_id": "2001000014334",
+    "name": "出雲今市店",
+    "address": "島根県 出雲市 今市町北本町4-1-16",
+    "coords": [
+      35.3680980092,
+      132.761452575
+    ],
+    "prefecture_code": 32,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:02:09.082908"
+  },
+  {
+    "id": "1333",
+    "api_id": "2001000011333",
+    "name": "ゆめタウン出雲店",
+    "address": "島根県 出雲市 大塚町650-1 ゆめタウン出雲",
+    "coords": [
+      35.3776363326,
+      132.75568317
+    ],
+    "prefecture_code": 32,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:02:22.179074"
+  },
+  {
+    "id": "1564",
+    "api_id": "2001000011564",
+    "name": "松江玉湯店",
+    "address": "島根県 松江市 玉湯町布志名637-1",
+    "coords": [
+      35.4347304127,
+      133.020825466
+    ],
+    "prefecture_code": 32,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:02:36.817785"
+  },
+  {
+    "id": "1208",
+    "api_id": "2001000011208",
+    "name": "出雲大社店",
+    "address": "島根県 出雲市 大社町杵築南841",
+    "coords": [
+      35.3963956058,
+      132.685821442
+    ],
+    "prefecture_code": 32,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "18:30"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "18:30"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "18:30"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "18:30"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "18:30"
+      },
+      "sat": {
+        "open": "08:30",
+        "close": "18:30"
+      },
+      "sun": {
+        "open": "08:30",
+        "close": "18:30"
+      },
+      "hol": {
+        "open": "08:30",
+        "close": "18:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T14:02:45.847143"
+  }
+]
