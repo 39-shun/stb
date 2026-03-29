@@ -2057,7 +2057,7 @@ async function buildDetailLayer(codes) {
   if (!codes.length) {
     // 表示できる詳細がない場合はsummaryGroupに戻す
     if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
-    rebuildSummaryGroup();
+    if (state.summaryGroup) map.addLayer(state.summaryGroup);
     return;
   }
   if (state.summaryGroup) map.removeLayer(state.summaryGroup);
@@ -2127,7 +2127,6 @@ map.on('zoomend moveend', () => {
       if (uncached.length > 0) {
         // 未キャッシュ県がある → fetch して再描画
         await Promise.all(uncached.map(c => fetchDetail(c)));
-        showToast('✓ 詳細データに切り替えました');
       }
       // 表示すべきコード一覧
       const cachedCodes = codes.filter(c => state.detailCache[c]);
@@ -2139,12 +2138,14 @@ map.on('zoomend moveend', () => {
       if (needsRedraw) {
         state._displayedCodes = cachedCodes;
         await buildDetailLayer(cachedCodes);
+        showToast('✓ 詳細データに切り替えました');
       }
     } else {
+      const wasDetail = !!state.detailGroup;
       state._displayedCodes = [];
       if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
       rebuildSummaryGroup();
-      showToast('🗺 概要データを表示中');
+      if (wasDetail) showToast('🗺 概要データを表示中');
     }
     updateCenterList();
   }, 300);
