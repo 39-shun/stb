@@ -901,7 +901,7 @@ function isOpenAt(shop, checkDate) {
   const day  = DAYS[checkDate.getDay()];
   const open  = shop.hours?.[day]?.open;
   const close = shop.hours?.[day]?.close;
-  if (!open || !close) return null; // データなし→不明
+  if (!open || !close) return false; // データなし→除外
   const hm = t => { const [h,m] = t.split(':').map(Number); return h*60+m; };
   const now = checkDate.getHours()*60 + checkDate.getMinutes();
   const o = hm(open), c = hm(close);
