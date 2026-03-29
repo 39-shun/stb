@@ -2057,7 +2057,7 @@ async function buildDetailLayer(codes) {
   if (!codes.length) {
     // 表示できる詳細がない場合はsummaryGroupに戻す
     if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
-    if (state.summaryGroup) map.addLayer(state.summaryGroup);
+    rebuildSummaryGroup();
     return;
   }
   if (state.summaryGroup) map.removeLayer(state.summaryGroup);
@@ -2144,6 +2144,7 @@ map.on('zoomend moveend', () => {
       state._displayedCodes = [];
       if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
       rebuildSummaryGroup();
+      showToast('🗺 概要データを表示中');
     }
     updateCenterList();
   }, 300);
