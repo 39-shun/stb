@@ -1026,8 +1026,8 @@ function updateFilterIndicator() {
 }
 
 function initFilters() {
-  // 検索パネル内のチップはinitSearch側で管理するので除外
-  document.querySelectorAll('.filter-chip:not(#mobile-search-panel .filter-chip)').forEach(chip => {
+  document.querySelectorAll('.filter-chip').forEach(chip => {
+    if (chip.closest('#mobile-search-filter-area')) return;
     chip.addEventListener('click', () => {
       const ft = chip.dataset.filter, val = chip.dataset.value;
       if (ft === 'rank') {
@@ -1840,8 +1840,6 @@ window.switchMergeTab = function(tabEl, idx) {
 
 // スマホ検索オーバーレイ開閉
 // スマホ検索モード（下エリアを検索UIに切り替え）
-let mobileSearchMode = false;
-let mobileSearchLastQuery = '';
 
 window.toggleMobileSearchMode = function() {
   mobileSearchMode = !mobileSearchMode;
@@ -1953,6 +1951,8 @@ window.selectMobileSearchResult = async function(id, lat, lng) {
 // 検索機能（店舗名のみ・全国対応）
 // ============================================================
 let searchOverrideActive = false;
+let mobileSearchMode = false;
+let mobileSearchLastQuery = '';
 
 function searchStores(query) {
   if (!query.trim()) return [];
@@ -1962,6 +1962,7 @@ function searchStores(query) {
   const summaryOnly = (state.summaryData || []).filter(s => !detailIds.has(s.id));
   return [...detailShops, ...summaryOnly]
     .filter(s => s.name && s.name.toLowerCase().includes(q))
+    .filter(passesFilter)
     .slice(0, 50);
 }
 
