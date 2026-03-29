@@ -1263,15 +1263,22 @@ function addMarkerToGroup(shop, group) {
     // スマホ：タップでミニポップアップ→詳細パネル
     marker.on('click', () => {
       const isStatemap = mapState === 'map';
-      if (isStatemap && state.activeDetailId && state.activeDetailId !== shop.id) {
-        // state-map中に別ピン：強調そのまま、新ピンにミニポップアップ
+      const openPopup = () => {
+        map.closePopup();
+        const popup = L.popup({ maxWidth:240, autoPan:false })
+          .setLatLng(marker.getLatLng())
+          .setContent(buildMiniPopup(shop))
+          .openOn(map);
         window._miniPopupShop = shop;
-        marker.bindPopup(buildMiniPopup(shop), { maxWidth:240, autoPan:false }).openPopup();
+      };
+      if (isStatemap && state.activeDetailId && state.activeDetailId !== shop.id) {
+        // state-map中に別ピン
+        openPopup();
         return;
       }
-      // default中 or state-map中で同じピン or 詳細なし：ミニポップアップを出す
-      window._miniPopupShop = shop;
-      marker.bindPopup(buildMiniPopup(shop), { maxWidth:240, autoPan:false }).openPopup();
+      // default中 or state-map中で同じピン or 詳細なし
+      panToMarker(shop.coords[0], shop.coords[1]);
+      setTimeout(openPopup, 350);
     });
   } else {
     // PC：従来通りポップアップ
