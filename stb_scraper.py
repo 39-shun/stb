@@ -625,7 +625,7 @@ def main():
     log.info("===== モード: フル =====")
     targets = get_next_prefectures(state)
     log.info(f"本日の対象 ({BATCH_COUNT}県): {[PREFECTURE_CONFIG[c] for c in targets]}")
-    log.info(f"完了済み: {len(completed)}県 / 残り: {len(pending)}県 → {pending[:BATCH_COUNT]}")
+    log.info(f"完了済み: {len(state.get('completed',[]))}県 / 残り: {47 - len(state.get('completed',[]))}県")
 
     total_ok = total_skip = 0
     for pref_code in targets:
