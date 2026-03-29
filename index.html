@@ -1265,7 +1265,7 @@ function addMarkerToGroup(shop, group) {
       const isStatemap = mapState === 'map';
       const openPopup = () => {
         map.closePopup();
-        const popup = L.popup({ maxWidth:240, autoPan:false, offset: L.point(0, -17) })
+        const popup = L.popup({ maxWidth:240, autoPan:false, offset: L.point(0, -18) })
           .setLatLng(marker.getLatLng())
           .setContent(buildMiniPopup(shop))
           .openOn(map);
