@@ -409,7 +409,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
   /* 地図最大時：locate-btnをトグルバー(約36px)+広告(60px)の上に出す */
   #map-wrap.state-map #locate-btn { bottom:calc(var(--ad-bottom-h) + 48px) !important; }
-  #map-wrap.state-map #mobile-search-fab { bottom:calc(var(--ad-bottom-h) + 100px) !important; }
+  #map-wrap.state-map #mobile-search-fab { bottom:calc(var(--ad-bottom-h) + 108px) !important; }
 
   /* リスト最大：地図を0に、map-wrapは消す */
   #map-wrap.state-list { flex:0 0 0%; overflow:hidden; }
@@ -444,10 +444,10 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 #map-wrap.state-list #filter-indicator { display:none !important; }
 #mobile-search-fab {
   display:none;
-  position:absolute; bottom:88px; right:12px; left:auto; z-index:900;
-  width:40px; height:40px; border-radius:50%;
+  position:absolute; bottom:76px; right:12px; left:auto; z-index:900;
+  width:48px; height:48px; border-radius:50%;
   border:1px solid var(--border); background:var(--surface);
-  color:var(--text); font-size:18px; cursor:pointer;
+  color:var(--text); font-size:20px; cursor:pointer;
   box-shadow:var(--shadow);
   align-items:center; justify-content:center;
 }
@@ -1026,7 +1026,8 @@ function updateFilterIndicator() {
 }
 
 function initFilters() {
-  document.querySelectorAll('.filter-chip').forEach(chip => {
+  // 検索パネル内のチップはinitSearch側で管理するので除外
+  document.querySelectorAll('.filter-chip:not(#mobile-search-panel .filter-chip)').forEach(chip => {
     chip.addEventListener('click', () => {
       const ft = chip.dataset.filter, val = chip.dataset.value;
       if (ft === 'rank') {
@@ -1276,8 +1277,11 @@ function addMarkerToGroup(shop, group) {
       setTimeout(openPopup, 350);
     });
   } else {
-    // PC：従来通りポップアップ
-    marker.bindPopup(buildPopup(shop), { maxWidth:300, autoPan:false });
+    // PC：ピンクリックでpanTo + ポップアップ
+    marker.on('click', () => {
+      panToMarker(shop.coords[0], shop.coords[1]);
+      marker.bindPopup(buildPopup(shop), { maxWidth:300, autoPan:false }).openPopup();
+    });
   }
 
   group.addLayer(marker);
@@ -1948,24 +1952,6 @@ function searchStores(query) {
     .slice(0, 50);
 }
 
-function renderDropdown(results, containerEl) {
-  if (!results.length) {
-    containerEl.innerHTML = '<div style="padding:8px 12px;font-size:12px;color:var(--text-sub);">見つかりませんでした</div>';
-  } else {
-    containerEl.innerHTML = results.slice(0,8).map(s => {
-      const color = getRankColor(s.price_rank||'normal', s.store_type);
-      return `<div class="search-result-item" onclick="selectSearchResult('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
-        <div class="search-result-dot" style="background:${color}"></div>
-        <div>
-          <div style="font-size:12px;font-weight:700;">${s.name}</div>
-          <div style="font-size:10px;color:var(--text-sub);">${s.address||''}</div>
-        </div>
-      </div>`;
-    }).join('');
-  }
-  containerEl.classList.add('open');
-}
-
 function showSearchOverride(shops) {
   searchOverrideActive = true;
   document.getElementById('search-clear-btn').style.display = 'inline';
@@ -1982,7 +1968,7 @@ function showSearchOverride(shops) {
     const rank  = s.store_type==='11' ? 'roastery' : (s.price_rank||'normal');
     const color = getRankColor(rank, s.store_type);
     const prices = PRICE_TABLE[rank] || PRICE_TABLE.normal;
-    return `<div class="store-item" onclick="focusSearchStore('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
+    return `<div class="store-item" onclick="selectMobileSearchResult('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
       <div class="store-dot" style="background:${color}"></div>
       <div class="store-info">
         <div class="store-name">${s.name}</div>
@@ -1998,7 +1984,6 @@ window.clearSearchOverride = function() {
   document.getElementById('search-clear-btn').style.display = 'none';
   document.getElementById('list-header-title').textContent = state.mapCenterMode ? '地図中央から近い順' : '現在地から近い順';
   document.getElementById('search-input').value = '';
-  document.getElementById('search-results').classList.remove('open');
   if (state.mapCenterMode) updateCenterList();
   else renderList(getAllCachedShops());
   if (state.originLat === null && state.mapCenterMode === false) {
@@ -2006,21 +1991,6 @@ window.clearSearchOverride = function() {
     document.getElementById('store-list').innerHTML = '';
     document.getElementById('list-header-count').textContent = '';
   }
-};
-
-// 検索結果から選択 → 確実にfetchしてからfocusStore
-window.selectSearchResult = async function(id, lat, lng) {
-  document.getElementById('search-results').classList.remove('open');
-  showSearchOverride(searchStores(document.getElementById('search-input').value));
-  if (!lat) return;
-  const code = detectPrefFromCoords(lat, lng);
-  if (code && !state.detailCache[code]) {
-    showLoading('読み込み中...');
-    await fetchDetail(code);
-    hideLoading();
-    await buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
-  }
-  focusStore(id, lat, lng);
 };
 
 // (旧スマホ検索結果選択関数はselectMobileSearchResultに統合済み)
@@ -2031,39 +2001,13 @@ function initSearch() {
   input.addEventListener('input', e => {
     const q = e.target.value;
     if (!q.trim()) {
-      resultsEl.classList.remove('open');
       if (searchOverrideActive) clearSearchOverride();
       return;
     }
-    renderDropdown(searchStores(q), resultsEl);
-    // 入力中もリストに結果を反映（絞り込み連動）
     showSearchOverride(searchStores(q));
   });
-  input.addEventListener('focus', () => { if (input.value) renderDropdown(searchStores(input.value), resultsEl); });
   input.addEventListener('keydown', e => {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      const focused = resultsEl.querySelector('.search-result-item.focused');
-      if (focused) { focused.click(); return; }
-      showSearchOverride(searchStores(input.value));
-      resultsEl.classList.remove('open');
-    }
-    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
-      e.preventDefault();
-      const items = [...resultsEl.querySelectorAll('.search-result-item')];
-      if (!items.length) return;
-      const idx = items.indexOf(resultsEl.querySelector('.search-result-item.focused'));
-      const next = e.key === 'ArrowDown' ? Math.min(idx+1, items.length-1) : Math.max(idx-1, 0);
-      items.forEach(it => it.classList.remove('focused'));
-      items[next].classList.add('focused');
-      items[next].scrollIntoView({ block:'nearest' });
-    }
-    if (e.key === 'Escape') { resultsEl.classList.remove('open'); input.blur(); }
-  });
-  // 検索ボックス✕クリアでリストも戻す
-  input.addEventListener('input', e => { if (!e.target.value && searchOverrideActive) clearSearchOverride(); });
-  document.addEventListener('click', e => {
-    if (!e.target.closest('#search-wrap')) resultsEl.classList.remove('open');
+    if (e.key === 'Escape') { input.blur(); if (searchOverrideActive) clearSearchOverride(); }
   });
 
   const mInput = document.getElementById('mobile-search-panel-input');
@@ -2098,6 +2042,7 @@ function initSearch() {
           document.querySelectorAll('[data-filter="hours"]').forEach(c => c.classList.toggle('active', c.dataset.value===state.filters.hours));
         }
         updateFilterIndicator();
+        redrawAfterFilter();
         // 検索結果を絞り込み反映して再描画
         renderMobileSearchResults(mInput?.value || '');
       });
