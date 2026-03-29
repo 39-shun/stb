@@ -1089,16 +1089,22 @@ function redrawAfterFilter() {
   if (state.selectedPrefs.size > 0) {
     renderAllSelectedPrefs();
   } else if (map.getZoom() >= 9 && state.detailGroup) {
-    // 詳細表示中：buildDetailLayerで再描画
     buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
   } else if (state.summaryData) {
-    // サマリー再描画
     if (state.summaryGroup) map.removeLayer(state.summaryGroup);
     state.summaryGroup = buildSummaryGroupFromData(state.summaryData);
     map.addLayer(state.summaryGroup);
   }
-  if (state.mapCenterMode) updateCenterList();
-  else if (state.originLat !== null) renderList(getAllCachedShops());
+  // 検索モード中はリスト上書きしない、検索結果を再表示
+  if (mobileSearchMode) {
+    renderMobileSearchResults(mobileSearchLastQuery);
+  } else if (searchOverrideActive) {
+    showSearchOverride(searchStores(document.getElementById('search-input').value));
+  } else if (state.mapCenterMode) {
+    updateCenterList();
+  } else if (state.originLat !== null) {
+    renderList(getAllCachedShops());
+  }
 }
 
 // ============================================================
@@ -1279,8 +1285,15 @@ function addMarkerToGroup(shop, group) {
   } else {
     // PC：ピンクリックでpanTo + ポップアップ
     marker.on('click', () => {
-      panToMarker(shop.coords[0], shop.coords[1]);
-      marker.bindPopup(buildPopup(shop), { maxWidth:300, autoPan:false }).openPopup();
+      const lat = shop.coords[0], lng = shop.coords[1];
+      map.panTo([lat, lng], { animate:true, duration:0.25 });
+      // moveendによるbuildDetailLayerの完了を待ってからpopup
+      map.once('moveend', () => {
+        setTimeout(() => {
+          const m = state.markerMap[shop.id];
+          if (m) m.bindPopup(buildPopup(shop), { maxWidth:300, autoPan:false }).openPopup();
+        }, 350);
+      });
     });
   }
 
