@@ -1272,9 +1272,9 @@ function addMarkerToGroup(shop, group) {
       // default中 or state-map中で同じピン or 詳細なし：ミニポップアップを出す
       window._miniPopupShop = shop;
       panToMarker(shop.coords[0], shop.coords[1]);
-      setTimeout(() => {
+      map.once('moveend', () => {
         marker.bindPopup(buildMiniPopup(shop), { maxWidth:240, autoPan:false }).openPopup();
-      }, 300);
+      });
     });
   } else {
     // PC：従来通りポップアップ
