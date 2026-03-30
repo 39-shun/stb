@@ -181,7 +181,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
 /* アクティブフィルターインジケーター（地図側） */
 #filter-indicator {
-  position:absolute; bottom:80px; left:12px; z-index:900;
+  position:absolute; bottom:12px; left:12px; z-index:900;
   background:var(--surface); border:1px solid var(--accent);
   border-radius:20px; padding:4px 10px; font-size:11px;
   color:var(--accent); cursor:pointer; display:none;
@@ -318,28 +318,31 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 /* ============================================================
    Popup
 ============================================================ */
-.stb-popup { font-family:'Noto Sans JP',sans-serif; min-width:200px; color:#1c1a16; }
+.stb-popup { font-family:'Noto Sans JP',sans-serif; min-width:200px; color:var(--text); }
 .stb-popup .p-name { font-size:13px; font-weight:700; margin-bottom:5px; line-height:1.4; }
 .stb-popup .p-badges { display:flex; gap:4px; flex-wrap:wrap; margin-bottom:6px; }
 .p-badge { font-size:10px; padding:2px 6px; border-radius:10px; font-weight:700; white-space:nowrap; }
 .badge-reserve  { background:rgba(196,150,10,.15); color:#7a5e00; }
-.badge-teavana  { background:rgba(0,112,74,.12);   color:#00704A; }
+.badge-teavana  { background:rgba(0,112,74,.12);   color:var(--rank-normal); }
 .badge-dt       { background:rgba(60,100,180,.12); color:#3060b0; }
 .badge-roastery { background:#1a1a1a; color:#fff; }
 .badge-merge    { background:rgba(120,80,160,.12); color:#6040a0; }
 .stb-popup .p-rank { display:inline-flex; align-items:center; gap:5px; font-size:13px; font-weight:700; margin-bottom:4px; flex-wrap:wrap; }
 .rank-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
 .stb-popup .p-price { font-size:18px; font-weight:700; margin-bottom:2px; }
-.stb-popup .p-price-note { font-size:10px; color:#999; margin-bottom:6px; }
-.stb-popup .p-meta { font-size:11px; color:#888; line-height:1.6; margin-bottom:8px; }
+.stb-popup .p-price-note { font-size:10px; color:var(--text-sub); margin-bottom:6px; }
+.stb-popup .p-meta { font-size:11px; color:var(--text-sub); line-height:1.6; margin-bottom:8px; }
+/* Leafletポップアップ背景をテーマに合わせる */
+.leaflet-popup-content-wrapper { background:var(--surface) !important; color:var(--text) !important; box-shadow:var(--shadow) !important; }
+.leaflet-popup-tip { background:var(--surface) !important; }
 .merge-tabs { display:flex; gap:1px; margin-bottom:8px; }
-.merge-tab { flex:1; padding:4px 6px; font-size:11px; font-weight:700; border:1px solid #ddd; border-radius:4px 4px 0 0; cursor:pointer; background:#f5f5f0; color:#888; text-align:center; transition:all .15s; }
-.merge-tab.active { background:#00704A; color:#fff; border-color:#00704A; }
+.merge-tab { flex:1; padding:4px 6px; font-size:11px; font-weight:700; border:1px solid var(--border); border-radius:4px 4px 0 0; cursor:pointer; background:var(--surface2); color:var(--text-sub); text-align:center; transition:all .15s; }
+.merge-tab.active { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
 .merge-pane { display:none; }
 .merge-pane.active { display:block; }
-.p-affiliate { display:block; width:100%; padding:8px 10px; border-radius:5px; background:#00704A; color:#fff; font-size:11px; font-weight:700; text-align:center; text-decoration:none; line-height:1.4; transition:background .15s; }
-.p-affiliate:hover { background:#005a3c; }
-.p-affiliate-note { font-size:9px; color:#aaa; text-align:center; margin-top:3px; }
+.p-affiliate { display:block; width:100%; padding:8px 10px; border-radius:5px; background:var(--accent); color:var(--accent-fg); font-size:11px; font-weight:700; text-align:center; text-decoration:none; line-height:1.4; transition:background .15s; }
+.p-affiliate:hover { background:var(--accent); opacity:.85; }
+.p-affiliate-note { font-size:9px; color:var(--text-sub); text-align:center; margin-top:3px; }
 
 /* ポップアップ最大高さ制限（スマホで地図に収まるよう） */
 @media (max-width:700px) {
@@ -406,6 +409,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
   /* 地図最大時：locate-btnをトグルバー(約36px)+広告(60px)の上に出す */
   #map-wrap.state-map #locate-btn { bottom:calc(var(--ad-bottom-h) + 48px) !important; }
+  #map-wrap.state-map #mobile-search-fab { bottom:calc(var(--ad-bottom-h) + 108px) !important; }
 
   /* リスト最大：地図を0に、map-wrapは消す */
   #map-wrap.state-list { flex:0 0 0%; overflow:hidden; }
@@ -440,10 +444,10 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 #map-wrap.state-list #filter-indicator { display:none !important; }
 #mobile-search-fab {
   display:none;
-  position:absolute; top:10px; right:10px; left:auto; z-index:900;
-  width:40px; height:40px; border-radius:50%;
+  position:absolute; bottom:76px; right:12px; left:auto; z-index:900;
+  width:48px; height:48px; border-radius:50%;
   border:1px solid var(--border); background:var(--surface);
-  color:var(--text); font-size:18px; cursor:pointer;
+  color:var(--text); font-size:20px; cursor:pointer;
   box-shadow:var(--shadow);
   align-items:center; justify-content:center;
 }
@@ -559,7 +563,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     <!-- 広告枠 -->
     <div class="ad-sidebar">
       <div class="ad-label">Advertisement</div>
-      <div style="font-size:11px;color:#bbb;">広告枠（234×60）</div>
+      <div style="font-size:11px;color:var(--text-sub);">広告枠（234×60）</div>
     </div>
 
     <div id="sidebar-footer">
@@ -588,18 +592,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       
 
       <button id="locate-btn" title="現在地から近い順"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L4.5 20.3l.7.7L12 18l6.8 3 .7-.7z"/></svg></button>
-      <!-- スマホ検索ボタン（地図上） -->
-      <button id="mobile-search-fab" onclick="toggleMobileSearch()" title="検索">🔍</button>
-      <!-- スマホ検索オーバーレイ -->
-      <div id="mobile-search-overlay">
-        <div id="mobile-search-inner">
-          <div style="display:flex;gap:6px;align-items:center;">
-            <input type="text" id="mobile-search-input" placeholder="店舗名で検索..." autocomplete="off">
-            <button onclick="toggleMobileSearch()" style="background:none;border:none;color:var(--text-sub);font-size:18px;cursor:pointer;padding:0 4px;flex-shrink:0;">✕</button>
-          </div>
-          <div id="mobile-search-results"></div>
-        </div>
-      </div>
+      <!-- スマホ検索ボタン（現在地ボタンの上） -->
+      <button id="mobile-search-fab" onclick="toggleMobileSearchMode()" title="検索">🔍</button>
       <div id="loading"><div class="spinner"></div><span id="loading-text">読み込み中...</span></div>
     </div>
 
@@ -640,9 +634,35 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
               <div class="filter-chip" data-filter="hours" data-value="open_now">🕐 今営業中</div>
               <div class="filter-chip" data-filter="hours" data-value="open_at">🕐 時刻指定...</div>
             </div>
+            <div id="mobile-time-picker-wrap" style="display:none;margin-top:6px;">
+              <input type="time" id="mobile-time-picker" style="padding:4px 8px;border:1px solid var(--border);border-radius:5px;background:var(--surface);color:var(--text);font-size:12px;outline:none;">
+            </div>
           </div>
         </div>
       </div>
+    <!-- モバイル検索モードパネル -->
+    <div id="mobile-search-panel" style="display:none;flex-direction:column;flex:1;overflow:hidden;background:var(--surface);">
+      <div style="padding:10px 14px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--surface2);">
+        <input type="text" id="mobile-search-panel-input" placeholder="店舗名で検索..." autocomplete="off"
+          style="width:100%;padding:8px 10px;border:1px solid var(--accent);border-radius:6px;background:var(--surface);color:var(--text);font-size:14px;font-family:'Noto Sans JP',sans-serif;outline:none;box-sizing:border-box;">
+      </div>
+      <!-- 絞り込みチップ（検索モード用・コンパクト） -->
+      <div id="mobile-search-filter-area" style="padding:8px 14px;background:var(--surface2);border-bottom:1px solid var(--border);flex-shrink:0;">
+        <div style="display:flex;flex-wrap:wrap;gap:5px;align-items:center;">
+          <span style="font-size:10px;color:var(--text-sub);margin-right:2px;">絞込:</span>
+          <div class="filter-chip active" data-filter="rank" data-value="all">すべて</div>
+          <div class="filter-chip" data-filter="rank" data-value="normal"><span class="chip-dot" style="background:var(--rank-normal)"></span>通常</div>
+          <div class="filter-chip" data-filter="rank" data-value="B"><span class="chip-dot" style="background:var(--rank-b)"></span>B</div>
+          <div class="filter-chip" data-filter="rank" data-value="A"><span class="chip-dot" style="background:var(--rank-a)"></span>A</div>
+          <div class="filter-chip" data-filter="option" data-value="drive_thru">🚗</div>
+          <div class="filter-chip" data-filter="option" data-value="reserve">★</div>
+          <div class="filter-chip" data-filter="option" data-value="teavana">🍃</div>
+          <div class="filter-chip" data-filter="hours" data-value="open_now">🕐営業中</div>
+        </div>
+      </div>
+      <div id="mobile-search-panel-count" style="padding:5px 14px;font-size:10px;color:var(--text-sub);flex-shrink:0;border-bottom:1px solid var(--border);background:var(--surface);"></div>
+      <div id="mobile-search-panel-list" style="overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;padding-bottom:var(--ad-bottom-h);"></div>
+    </div>
     <!-- モバイル詳細パネル（ピンタップで切り替わる） -->
     <div id="mobile-detail-panel" style="display:none;flex-direction:column;flex:1;overflow:hidden;background:var(--surface);">
       <div id="mobile-detail-header" style="display:flex;align-items:center;justify-content:space-between;padding:8px 14px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--surface);">
@@ -681,7 +701,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
 <div id="ad-bottom">
   <div class="ad-label">Advertisement</div>
-  <div style="font-size:11px;color:#aaa;">広告枠（320×50）</div>
+  <div style="font-size:11px;color:var(--text-sub);">広告枠（320×50）</div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -901,7 +921,7 @@ function isOpenAt(shop, checkDate) {
   const day  = DAYS[checkDate.getDay()];
   const open  = shop.hours?.[day]?.open;
   const close = shop.hours?.[day]?.close;
-  if (!open || !close) return null; // データなし→不明
+  if (!open || !close) return false; // データなし→除外
   const hm = t => { const [h,m] = t.split(':').map(Number); return h*60+m; };
   const now = checkDate.getHours()*60 + checkDate.getMinutes();
   const o = hm(open), c = hm(close);
@@ -1007,6 +1027,7 @@ function updateFilterIndicator() {
 
 function initFilters() {
   document.querySelectorAll('.filter-chip').forEach(chip => {
+    if (chip.closest('#mobile-search-filter-area')) return;
     chip.addEventListener('click', () => {
       const ft = chip.dataset.filter, val = chip.dataset.value;
       if (ft === 'rank') {
@@ -1026,14 +1047,18 @@ function initFilters() {
           state.filters.timeVal = null;
           document.querySelectorAll('[data-filter="hours"]').forEach(c => c.classList.remove('active'));
           document.getElementById('time-picker-wrap')?.style && (document.getElementById('time-picker-wrap').style.display = 'none');
+          document.getElementById('mobile-time-picker-wrap')?.style && (document.getElementById('mobile-time-picker-wrap').style.display = 'none');
         } else {
           state.filters.hours = val;
           document.querySelectorAll('[data-filter="hours"]').forEach(c => c.classList.toggle('active', c.dataset.value===val));
           if (val === 'open_at') {
             document.getElementById('time-picker-wrap')?.style && (document.getElementById('time-picker-wrap').style.display = 'block');
+            document.getElementById('mobile-time-picker-wrap')?.style && (document.getElementById('mobile-time-picker-wrap').style.display = 'block');
             document.getElementById('time-picker')?.focus();
+            document.getElementById('mobile-time-picker')?.focus();
           } else {
             document.getElementById('time-picker-wrap')?.style && (document.getElementById('time-picker-wrap').style.display = 'none');
+            document.getElementById('mobile-time-picker-wrap')?.style && (document.getElementById('mobile-time-picker-wrap').style.display = 'none');
           }
           if (val === 'open_now' && map.getZoom() < 9) {
             showToast('📡 もう少し拡大すると営業中フィルターが使えます', 3000);
@@ -1064,32 +1089,22 @@ function redrawAfterFilter() {
   if (state.selectedPrefs.size > 0) {
     renderAllSelectedPrefs();
   } else if (map.getZoom() >= 9 && state.detailGroup) {
-    // 詳細表示中：buildDetailLayerで再描画
     buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
   } else if (state.summaryData) {
-    // サマリー再描画
     if (state.summaryGroup) map.removeLayer(state.summaryGroup);
-    state.summaryGroup = L.markerClusterGroup({
-      maxClusterRadius:60, spiderfyOnMaxZoom:true,
-      showCoverageOnHover:false, iconCreateFunction:clusterIcon,
-    });
-    for (const s of state.summaryData) {
-      if (!s.coords || !passesFilter(s)) continue;
-      const m = L.circleMarker(s.coords, {
-        radius:5, color:'rgba(0,0,0,.15)', weight:1,
-        fillColor:getRankColor(s.price_rank, s.store_type), fillOpacity:.88,
-      });
-      m.on('click', () => {
-        const code = String(s.prefecture_code).padStart(2,'0');
-        if (state.selectedPrefs.size > 0) return;
-        if (map.getZoom() < 10) map.setView(s.coords, 10, { animate:true });
-        selectPref(code);
-      });
-      state.summaryGroup.addLayer(m);
-    }
+    state.summaryGroup = buildSummaryGroupFromData(state.summaryData);
     map.addLayer(state.summaryGroup);
   }
-  if (state.originLat !== null) renderList(getAllCachedShops());
+  // 検索モード中はリスト上書きしない、検索結果を再表示
+  if (mobileSearchMode) {
+    renderMobileSearchResults(mobileSearchLastQuery);
+  } else if (searchOverrideActive) {
+    showSearchOverride(searchStores(document.getElementById('search-input').value));
+  } else if (state.mapCenterMode) {
+    updateCenterList();
+  } else if (state.originLat !== null) {
+    renderList(getAllCachedShops());
+  }
 }
 
 // ============================================================
@@ -1128,6 +1143,41 @@ function applyMerge(shops) {
 }
 
 // ============================================================
+// サマリーグループ構築（共通）
+// ============================================================
+function buildSummaryGroupFromData(shops) {
+  const group = L.markerClusterGroup({
+    maxClusterRadius:60, spiderfyOnMaxZoom:true,
+    showCoverageOnHover:false, iconCreateFunction:clusterIcon,
+  });
+  for (const s of shops) {
+    if (!s.coords || !passesFilter(s)) continue;
+    const m = L.circleMarker(s.coords, {
+      radius:5, color:'rgba(0,0,0,.15)', weight:1,
+      fillColor:getRankColor(s.price_rank, s.store_type), fillOpacity:.88,
+    });
+    m.on('click', () => {
+      const code = String(s.prefecture_code).padStart(2,'0');
+      if (state.selectedPrefs.size > 0) return;
+      if (map.getZoom() < 10) map.setView(s.coords, 10, { animate:true });
+      selectPref(code);
+    });
+    group.addLayer(m);
+  }
+  return group;
+}
+
+// ============================================================
+// サマリーグループ再構築（ズームアウト復帰時などに使う）
+// ============================================================
+function rebuildSummaryGroup() {
+  if (!state.summaryData) return;
+  if (state.summaryGroup) map.removeLayer(state.summaryGroup);
+  state.summaryGroup = buildSummaryGroupFromData(state.summaryData);
+  map.addLayer(state.summaryGroup);
+}
+
+// ============================================================
 // サマリー初期表示
 // ============================================================
 async function loadSummary() {
@@ -1136,28 +1186,8 @@ async function loadSummary() {
     const res = await fetch('data/all_summary.json?v=' + new Date().toISOString().slice(0,10));
     if (!res.ok) throw new Error('not found');
     const shops = await res.json();
-    state.summaryGroup = L.markerClusterGroup({
-      maxClusterRadius:60, spiderfyOnMaxZoom:true,
-      showCoverageOnHover:false, iconCreateFunction:clusterIcon,
-    });
-    // サマリーデータを保持しておき、フィルター再描画に使う
     state.summaryData = shops;
-    for (const s of shops) {
-      if (!s.coords) continue;
-      if (!passesFilter(s)) continue;
-      const m = L.circleMarker(s.coords, {
-        radius:5, color:'rgba(0,0,0,.15)', weight:1,
-        fillColor:getRankColor(s.price_rank, s.store_type), fillOpacity:.88,
-      });
-      m.on('click', () => {
-        const code = String(s.prefecture_code).padStart(2,'0');
-        // 既に詳細表示中なら何もしない
-        if (state.currentPref) return;
-        if (map.getZoom() < 10) map.setView(s.coords, 10, { animate:true });
-        selectPref(code);
-      });
-      state.summaryGroup.addLayer(m);
-    }
+    state.summaryGroup = buildSummaryGroupFromData(shops);
     map.addLayer(state.summaryGroup);
     updateCenterList();
   } catch(e) { console.warn('summary なし', e); }
@@ -1168,7 +1198,12 @@ async function loadSummary() {
 // 近い順リスト描画
 // ============================================================
 function renderList(allShops) {
-  if (state.originLat === null) return;
+  if (state.originLat === null && !state.mapCenterMode) return;
+  if (state.mapCenterMode && state.originLat === null) {
+    const center = map.getCenter();
+    state.originLat = center.lat;
+    state.originLng = center.lng;
+  }
 
   const filtered = applyMerge(allShops)
     .filter(passesFilter)
@@ -1230,20 +1265,36 @@ function addMarkerToGroup(shop, group) {
     // スマホ：タップでミニポップアップ→詳細パネル
     marker.on('click', () => {
       const isStatemap = mapState === 'map';
-      if (isStatemap && state.activeDetailId && state.activeDetailId !== shop.id) {
-        // state-map中に別ピン：強調そのまま、新ピンにミニポップアップ
+      const openPopup = () => {
+        map.closePopup();
+        const popup = L.popup({ maxWidth:240, autoPan:false, offset: L.point(0, -18) })
+          .setLatLng(marker.getLatLng())
+          .setContent(buildMiniPopup(shop))
+          .openOn(map);
         window._miniPopupShop = shop;
-        marker.bindPopup(buildMiniPopup(shop), { maxWidth:240, autoPan:false }).openPopup();
+      };
+      if (isStatemap && state.activeDetailId && state.activeDetailId !== shop.id) {
+        // state-map中に別ピン
+        openPopup();
         return;
       }
-      // default中 or state-map中で同じピン or 詳細なし：ミニポップアップを出す
-      window._miniPopupShop = shop;
-      marker.bindPopup(buildMiniPopup(shop), { maxWidth:240, autoPan:false }).openPopup();
+      // default中 or state-map中で同じピン or 詳細なし
       panToMarker(shop.coords[0], shop.coords[1]);
+      setTimeout(openPopup, 350);
     });
   } else {
-    // PC：従来通りポップアップ
-    marker.bindPopup(buildPopup(shop), { maxWidth:300, autoPan:false });
+    // PC：ピンクリックでpanTo + ポップアップ
+    marker.on('click', () => {
+      const lat = shop.coords[0], lng = shop.coords[1];
+      map.panTo([lat, lng], { animate:true, duration:0.25 });
+      // moveendによるbuildDetailLayerの完了を待ってからpopup
+      map.once('moveend', () => {
+        setTimeout(() => {
+          const m = state.markerMap[shop.id];
+          if (m) m.bindPopup(buildPopup(shop), { maxWidth:300, autoPan:false }).openPopup();
+        }, 350);
+      });
+    });
   }
 
   group.addLayer(marker);
@@ -1274,7 +1325,7 @@ function renderAllSelectedPrefs() {
 function panToMarker(lat, lng) {
   if (window.innerWidth > 700) { map.panTo([lat, lng], { animate:true, duration:0.25 }); return; }
   const mapH = document.getElementById('map-wrap').offsetHeight;
-  const offsetPx = mapH * 0.35; // ピンを下35%位置に（地図が小さいので大きめに）
+  const offsetPx = mapH * 0.15;
   const z = map.getZoom();
   const pt = map.project([lat, lng], z).subtract([0, offsetPx]);
   map.panTo(map.unproject(pt, z), { animate:true, duration:0.25 });
@@ -1286,11 +1337,13 @@ window.focusStore = async function(id, lat, lng) {
   if (code && !state.detailCache[code]) {
     showLoading('読み込み中...');
     await fetchDetail(code);
+    await buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
     hideLoading();
-    // buildDetailLayerはmoveendに任せる（ここで呼ぶとmarkerMapが競合する）
+    if (state.mapCenterMode) updateCenterList();
+    else if (state.originLat !== null) renderList(getAllCachedShops());
   }
-  if (map.getZoom() < 11) {
-    map.setView([lat, lng], 10, { animate:true });
+  if (map.getZoom() < 13) {
+    map.setView([lat, lng], 16, { animate:true });
     await new Promise(r => setTimeout(r, 400));
   }
 
@@ -1303,9 +1356,10 @@ window.focusStore = async function(id, lat, lng) {
         const s = state.highlightedShop;
         if (s) state.highlightedMarker.setIcon(makeIcon(s.price_rank, s.store_type, s.options||{}, !!s._merged));
       }
-      // 店舗データを探す
-      const shop = [...Object.values(state.detailCache).flat(), ...(state.summaryData||[])]
-        .find(s => s.id === id) || (state.markerMap[id] ? {id} : null);
+      const allShops = applyMerge([...Object.values(state.detailCache).flat()]);
+      const shop = allShops.find(s => s.id === id)
+        || (state.summaryData||[]).find(s => s.id === id)
+        || (state.markerMap[id] ? {id} : null);
       if (marker && shop) {
         marker.setIcon(makeHighlightIcon(shop.price_rank, shop.store_type, shop.options||{}, !!shop._merged));
         state.highlightedMarker = marker;
@@ -1492,17 +1546,22 @@ function clearHighlight() {
   state.activeDetailId = null;
 }
 
-// 詳細パネルを閉じてリストに戻る
+// 詳細パネルを閉じてリスト（または検索）に戻る
 window.closeMobileDetail = function() {
   if (window.innerWidth > 700) return;
   clearHighlight();
   document.getElementById('mobile-detail-panel').style.display = 'none';
-  document.getElementById('mobile-filter-body').style.display = '';
-  document.getElementById('mobile-filter-header').style.display = '';
-  document.getElementById('mobile-list-header-row').style.display = '';
-  document.getElementById('mobile-list-empty').style.display = '';
-  document.getElementById('mobile-store-list').style.display = '';
   document.getElementById('list-expand-btn').textContent = '▲ リストを広げる';
+  if (mobileSearchMode) {
+    // 検索モード中なら検索パネルに戻る
+    document.getElementById('mobile-search-panel').style.display = 'flex';
+  } else {
+    document.getElementById('mobile-filter-body').style.display = '';
+    document.getElementById('mobile-filter-header').style.display = '';
+    document.getElementById('mobile-list-header-row').style.display = '';
+    document.getElementById('mobile-list-empty').style.display = '';
+    document.getElementById('mobile-store-list').style.display = '';
+  }
 };
 
 // 詳細パネルを開く（スマホのみ）
@@ -1517,6 +1576,7 @@ function openMobileDetail(shop) {
   document.getElementById('mobile-list-header-row').style.display = 'none';
   document.getElementById('mobile-list-empty').style.display = 'none';
   document.getElementById('mobile-store-list').style.display = 'none';
+  document.getElementById('mobile-search-panel').style.display = 'none';
 
   // 詳細パネルを表示
   const panel = document.getElementById('mobile-detail-panel');
@@ -1559,17 +1619,20 @@ function buildDetailPanelHtml(shop) {
       <button onclick="window.open('https://maps.apple.com/?q=${lat},${lng}','_blank')" style="flex:1;padding:10px 6px;border-radius:8px;background:#555;color:#fff;font-size:12px;font-weight:700;border:none;cursor:pointer;">🍎 Apple Maps</button>
     </div>` : '';
 
-  const stbUrl = `https://store.starbucks.co.jp/detail-${shop.id}/`;
+  // 変更後
+  const officialLinks = isMerged
+  ? shop._mergeData.map(s => `<a href="https://store.starbucks.co.jp/detail-${s.id}/" target="_blank" rel="noopener" style="display:block;padding:10px;border-radius:8px;background:var(--surface2);color:var(--text);font-size:12px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);margin-bottom:6px;">🔗 公式ページ（${s.options?.reserve?'リザーブ':s.options?.teavana?'ティバーナ':s.name}）</a>`).join('')
+  : `<a href="https://store.starbucks.co.jp/detail-${shop.id}/" target="_blank" rel="noopener" style="display:block;padding:10px;border-radius:8px;background:var(--surface2);color:var(--text);font-size:12px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);margin-bottom:10px;">🔗 公式ページ</a>`;
 
   return `
     ${badges ? `<div class="p-badges" style="margin-bottom:10px;">${badges}</div>` : ''}
-    <div class="p-rank" style="margin-bottom:4px;"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)} ¥${prices.takeout}<span style="font-size:10px;color:#999;"> / ¥${prices.instore}(店内)</span></div>
-    <div style="font-size:10px;color:#999;margin-bottom:10px;">スターバックスラテ Tall</div>
+    <div class="p-rank" style="margin-bottom:4px;"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)} ¥${prices.takeout}<span style="font-size:10px;color:var(--text-sub);"> / ¥${prices.instore}(店内)</span></div>
+    <div style="font-size:10px;color:var(--text-sub);margin-bottom:10px;">スターバックスラテ Tall</div>
     ${shop.address ? `<div style="font-size:11px;color:var(--text-sub);margin-bottom:10px;">${shop.address}</div>` : ''}
     ${buildDetailHoursHtml(shop)}
-    <div style="font-size:10px;color:#aaa;margin-bottom:12px;">🕐 ${f.label}</div>
+    <div style="font-size:10px;color:var(--text-sub);margin-bottom:12px;">🕐 ${f.label}</div>
     ${mapBtns}
-    <a href="${stbUrl}" target="_blank" rel="noopener" style="display:block;padding:10px;border-radius:8px;background:var(--surface2);color:var(--text);font-size:12px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);margin-bottom:10px;">🔗 公式ページ</a>
+    ${officialLinks}
     <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
     <div class="p-affiliate-note">${AFFILIATE.note}</div>
   `;
@@ -1582,16 +1645,16 @@ function buildDetailHoursHtml(s) {
   const JP_NAMES = ['月','火','水','木','金','土','日'];
   const todayKey = DAYS[today.getDay()];
   const hasHours = JP_ORDER.some(d => s.hours?.[d]?.open);
-  if (!hasHours) return '<div style="font-size:10px;color:#aaa;margin-bottom:10px;">営業時間データなし</div>';
+  if (!hasHours) return '<div style="font-size:10px;color:var(--text-sub);margin-bottom:10px;">営業時間データなし</div>';
   const getTime = d => s.hours?.[d]?.open && s.hours?.[d]?.close ? `${s.hours[d].open}–${s.hours[d].close}` : null;
   const allTimes = JP_ORDER.map(getTime);
   const allSame = allTimes.every(t => t !== null && t === allTimes[0]);
   if (allSame) {
     const openNow = isOpenAt(s, today);
-    const col = openNow===true?'#00704A':openNow===false?'#B03A20':'#888';
+    const col = openNow===true?'var(--rank-normal)':openNow===false?'var(--rank-a)':'var(--text-sub)';
     const lbl = openNow===true?'営業中':openNow===false?'営業時間外':'';
     return `<div style="font-size:11px;margin-bottom:10px;">
-      <span style="color:#888;">毎日 </span>
+      <span style="color:var(--text-sub);">毎日 </span>
       <span style="font-family:'DM Mono',monospace;font-weight:700;color:${col};">${allTimes[0]}</span>
       ${lbl?`<span style="font-size:10px;color:${col};margin-left:4px;">(${lbl})</span>`:''}
     </div>`;
@@ -1603,9 +1666,9 @@ function buildDetailHoursHtml(s) {
   const addRow = (label, timeStr, isToday) => {
     const openNow = isToday ? isOpenAt(s, today) : null;
     let display = timeStr || '–';
-    if (timeStr && isToday && openNow===true)  display = `<span style="color:#00704A;font-weight:700;">${timeStr}</span>`;
-    if (timeStr && isToday && openNow===false) display = `<span style="color:#B03A20;">${timeStr}</span>`;
-    rows.push(`<tr style="font-size:11px;${isToday?'font-weight:700;color:var(--text);':'color:#888;'}">
+    if (timeStr && isToday && openNow===true)  display = `<span style="color:var(--rank-normal);font-weight:700;">${timeStr}</span>`;
+    if (timeStr && isToday && openNow===false) display = `<span style="color:var(--rank-a);">${timeStr}</span>`;
+    rows.push(`<tr style="font-size:11px;${isToday?'font-weight:700;color:var(--text);':'color:var(--text-sub);'}">
       <td style="padding:2px 8px 2px 0;white-space:nowrap;">${label}${isToday?' <span style="font-size:9px;">(今日)</span>':''}</td>
       <td style="font-family:'DM Mono',monospace;">${display}</td>
     </tr>`);
@@ -1630,20 +1693,20 @@ function buildMiniPopup(shop) {
   const emoji  = shop.store_type==='11' ? '★ ' : (shop.options?.teavana ? '🍃 ' : '');
   const openNow = isOpenAt(shop, new Date());
   const openBadge = openNow===true
-    ? '<div style="font-size:11px;color:#00704A;font-weight:700;margin-bottom:6px;">🟢 営業中</div>'
+    ? '<div style="font-size:11px;color:var(--rank-normal);font-weight:700;margin-bottom:6px;">🟢 営業中</div>'
     : openNow===false
-    ? '<div style="font-size:11px;color:#B03A20;margin-bottom:6px;">🔴 営業時間外</div>'
+    ? '<div style="font-size:11px;color:var(--rank-a);margin-bottom:6px;">🔴 営業時間外</div>'
     : '';
   return `<div style="font-family:'Noto Sans JP',sans-serif;min-width:180px;">
-    <div style="font-size:13px;font-weight:700;margin-bottom:5px;color:#1c1a16;">${emoji}${shop.name||''}</div>
+    <div style="font-size:13px;font-weight:700;margin-bottom:5px;color:var(--text);">${emoji}${shop.name||''}</div>
     <div style="display:flex;align-items:center;gap:5px;margin-bottom:5px;">
       <span style="width:9px;height:9px;border-radius:50%;background:${color};display:inline-block;flex-shrink:0;"></span>
-      <span style="font-size:12px;font-weight:700;color:#1c1a16;">${rankLabel} ¥${prices.takeout}</span>
+      <span style="font-size:12px;font-weight:700;color:var(--text);">${rankLabel} ¥${prices.takeout}</span>
     </div>
     ${openBadge}
     <div style="display:flex;gap:6px;">
-      <button onclick="(function(){var s=window._miniPopupShop;if(s)window._openMobileDetailFromPopup(s);})()" style="flex:1;padding:8px 4px;border-radius:6px;background:#00704A;color:#fff;font-size:11px;font-weight:700;border:none;cursor:pointer;">詳細を見る</button>
-      <a href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored" style="flex:1;padding:8px 4px;border-radius:6px;background:#f0ede6;color:#1c1a16;font-size:10px;font-weight:700;text-align:center;text-decoration:none;display:flex;align-items:center;justify-content:center;line-height:1.2;">PR</a>
+      <button onclick="(function(){var s=window._miniPopupShop;if(s)window._openMobileDetailFromPopup(s);})()" style="flex:1;padding:8px 4px;border-radius:6px;background:var(--accent);color:var(--accent-fg);font-size:11px;font-weight:700;border:none;cursor:pointer;">詳細を見る</button>
+      <a href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored" style="flex:1;padding:8px 4px;border-radius:6px;background:var(--surface2);color:var(--text-sub);font-size:10px;font-weight:700;text-align:center;text-decoration:none;display:flex;align-items:center;justify-content:center;line-height:1.2;">PR</a>
     </div>
   </div>`;
 }
@@ -1665,7 +1728,7 @@ function buildPopup(shop) {
     const todayKey = DAYS[today.getDay()]; // DAYS=['sun','mon',...,'sat']
 
     const hasHours = JP_ORDER.some(d => s.hours?.[d]?.open);
-    if (!hasHours) return '<div style="font-size:10px;color:#aaa;margin-bottom:4px;">営業時間データなし</div>';
+    if (!hasHours) return '<div style="font-size:10px;color:var(--text-sub);margin-bottom:4px;">営業時間データなし</div>';
 
     const getTime = d => s.hours?.[d]?.open && s.hours?.[d]?.close
       ? `${s.hours[d].open}–${s.hours[d].close}` : null;
@@ -1675,10 +1738,10 @@ function buildPopup(shop) {
     const allSame = allTimes.every(t => t !== null && t === allTimes[0]);
     if (allSame) {
       const openNow = isOpenAt(s, today);
-      const col = openNow===true?'#00704A':openNow===false?'#B03A20':'#888';
+      const col = openNow===true?'var(--rank-normal)':openNow===false?'var(--rank-a)':'var(--text-sub)';
       const lbl = openNow===true?'営業中':openNow===false?'営業時間外':'';
       return `<div style="font-size:10px;margin-bottom:4px;">
-        <span style="color:#888;">毎日 </span>
+        <span style="color:var(--text-sub);">毎日 </span>
         <span style="font-family:'DM Mono',monospace;font-weight:700;color:${col};">${allTimes[0]}</span>
         ${lbl?`<span style="font-size:9px;color:${col};margin-left:4px;">(${lbl})</span>`:''}
       </div>`;
@@ -1698,9 +1761,9 @@ function buildPopup(shop) {
     const addRow = (label, timeStr, isToday) => {
       const openNow = isToday ? isOpenAt(s, today) : null;
       let display = timeStr || '–';
-      if (timeStr && isToday && openNow===true)  display = `<span style="color:#00704A;font-weight:700;">${timeStr}</span>`;
-      if (timeStr && isToday && openNow===false) display = `<span style="color:#B03A20;">${timeStr}</span>`;
-      rows.push(`<tr style="font-size:10px;${isToday?'font-weight:700;color:var(--text);':'color:#aaa;'}">
+      if (timeStr && isToday && openNow===true)  display = `<span style="color:var(--rank-normal);font-weight:700;">${timeStr}</span>`;
+      if (timeStr && isToday && openNow===false) display = `<span style="color:var(--rank-a);">${timeStr}</span>`;
+      rows.push(`<tr style="font-size:10px;${isToday?'font-weight:700;color:var(--text);':'color:var(--text-sub);'}">
         <td style="padding:1px 4px 1px 0;white-space:nowrap;">${label}${isToday?' <span style="font-size:9px;">(今日)</span>':''}</td>
         <td style="font-family:'DM Mono',monospace;">${display}</td>
       </tr>`);
@@ -1725,17 +1788,19 @@ function buildPopup(shop) {
       const p = PRICE_TABLE[s.price_rank]||PRICE_TABLE.normal;
       const rLabel = getRankLabel(s.price_rank||'normal', s.store_type);
       return `<div class="merge-pane${i===0?' active':''}" data-pane="${i}">
-        <div class="p-rank"><span class="rank-dot" style="background:${getRankColor(s.price_rank||'normal',s.store_type)}"></span>${rLabel} ¥${p.takeout}<span style="font-size:10px;color:#999"> / ¥${p.instore}(店内)</span></div>
+        <div class="p-rank"><span class="rank-dot" style="background:${getRankColor(s.price_rank||'normal',s.store_type)}"></span>${rLabel} ¥${p.takeout}<span style="font-size:10px;color:var(--text-sub)"> / ¥${p.instore}(店内)</span></div>
         <div class="p-meta" style="margin-bottom:4px;">${s.address||''}<br>🕐 ${getFreshnessLabel(s.scraped_at).label}</div>
         ${buildHoursHtml(s)}
       </div>`;
     }).join('');
     const mapBtn = shop.coords ? `<button onclick="openMapSelect(${shop.coords[0]},${shop.coords[1]})" style="flex:1;padding:7px 6px;border-radius:5px;background:#4285F4;color:#fff;font-size:11px;font-weight:700;text-align:center;border:none;cursor:pointer;">🗺 マップで開く</button>` : '';
+    const mergeLinks = shop._mergeData.map(s => `<a href="https://store.starbucks.co.jp/detail-${s.id}/" target="_blank" rel="noopener" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:var(--surface2);color:var(--text);font-size:11px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);">🔗 公式（${s.options?.reserve?'リザーブ':s.options?.teavana?'ティバーナ':s.name}）</a>`).join('');
     return `<div class="stb-popup">
       <div class="p-name">✦ ${shop.name}</div>
       <div class="p-badges"><span class="p-badge badge-merge">マージ店舗</span><span class="p-badge badge-reserve">★ リザーブ</span><span class="p-badge badge-teavana">🍃 ティバーナ</span></div>
       <div class="merge-tabs">${tabs}</div>${panes}
       <div style="display:flex;gap:6px;margin-bottom:6px;">${mapBtn}</div>
+      <div style="display:flex;gap:6px;margin-bottom:6px;">${mergeLinks}</div>
       <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
       <div class="p-affiliate-note">${AFFILIATE.note}</div>
     </div>`;
@@ -1753,11 +1818,11 @@ function buildPopup(shop) {
   return `<div class="stb-popup">
     <div class="p-name">${shop.name}</div>
     ${badges?`<div class="p-badges">${badges}</div>`:''}
-    <div class="p-rank"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)} ¥${prices.takeout}<span style="font-size:10px;color:#999"> / ¥${prices.instore}(店内)</span></div>
+    <div class="p-rank"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)} ¥${prices.takeout}<span style="font-size:10px;color:var(--text-sub)"> / ¥${prices.instore}(店内)</span></div>
     <div class="p-price-note">スターバックスラテ Tall</div>
     <div class="p-meta" style="margin-bottom:4px;">${shop.address||''}</div>
     ${buildHoursHtml(shop)}
-    <div style="font-size:10px;color:#aaa;margin-bottom:8px;">🕐 ${f.label}</div>
+    <div style="font-size:10px;color:var(--text-sub);margin-bottom:8px;">🕐 ${f.label}</div>
     <div style="display:flex;gap:6px;margin-bottom:6px;">
       ${mapBtn}
       <a href="${stbUrl}" target="_blank" rel="noopener" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:var(--surface2);color:var(--text);font-size:11px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);">🔗 公式ページ</a>
@@ -1774,20 +1839,120 @@ window.switchMergeTab = function(tabEl, idx) {
 };
 
 // スマホ検索オーバーレイ開閉
-window.toggleMobileSearch = function() {
-  const overlay = document.getElementById('mobile-search-overlay');
-  const isOpen = overlay.classList.toggle('open');
-  if (isOpen) {
-    setTimeout(() => document.getElementById('mobile-search-input')?.focus(), 50);
+// スマホ検索モード（下エリアを検索UIに切り替え）
+
+window.toggleMobileSearchMode = function() {
+  mobileSearchMode = !mobileSearchMode;
+  const fab = document.getElementById('mobile-search-fab');
+  const searchPanel = document.getElementById('mobile-search-panel');
+  const filterHeader = document.getElementById('mobile-filter-header');
+  const filterBody = document.getElementById('mobile-filter-body');
+  const listHeaderRow = document.getElementById('mobile-list-header-row');
+  const listEmpty = document.getElementById('mobile-list-empty');
+  const storeList = document.getElementById('mobile-store-list');
+  const detailPanel = document.getElementById('mobile-detail-panel');
+
+  if (mobileSearchMode) {
+    fab.textContent = '✕';
+    fab.style.background = 'var(--accent)';
+    fab.style.color = 'var(--accent-fg)';
+    fab.style.border = 'none';
+    // フィルター・リスト・詳細を隠す
+    filterHeader.style.display = 'none';
+    filterBody.style.display = 'none';
+    listHeaderRow.style.display = 'none';
+    listEmpty.style.display = 'none';
+    storeList.style.display = 'none';
+    if (detailPanel.style.display !== 'none') {
+      // 詳細表示中なら一旦閉じる
+      closeMobileDetail();
+    }
+    searchPanel.style.display = 'flex';
+    // 絞り込み状態を検索パネルのチップに反映
+    syncSearchPanelChips();
+    setTimeout(() => document.getElementById('mobile-search-panel-input')?.focus(), 80);
+    // 前回クエリがあれば復元
+    if (mobileSearchLastQuery) {
+      document.getElementById('mobile-search-panel-input').value = mobileSearchLastQuery;
+      renderMobileSearchResults(mobileSearchLastQuery);
+    }
   } else {
-    document.getElementById('mobile-search-results')?.classList.remove('open');
+    fab.textContent = '🔍';
+    fab.style.background = 'var(--surface)';
+    fab.style.color = 'var(--text)';
+    fab.style.border = '1px solid var(--border)';
+    searchPanel.style.display = 'none';
+    filterHeader.style.display = '';
+    filterBody.style.display = '';
+    listHeaderRow.style.display = '';
+    storeList.style.display = '';
+    // 近い順リストに戻す
+    if (state.mapCenterMode) updateCenterList();
+    else if (state.originLat !== null) renderList(getAllCachedShops());
+    else document.getElementById('mobile-list-empty').style.display = 'block';
   }
+};
+
+function syncSearchPanelChips() {
+  const panel = document.getElementById('mobile-search-panel');
+  if (!panel) return;
+  panel.querySelectorAll('[data-filter="rank"]').forEach(c =>
+    c.classList.toggle('active', c.dataset.value === state.filters.rank));
+  panel.querySelectorAll('[data-filter="option"]').forEach(c =>
+    c.classList.toggle('active', state.filters.options.has(c.dataset.value)));
+  panel.querySelectorAll('[data-filter="hours"]').forEach(c =>
+    c.classList.toggle('active', c.dataset.value === state.filters.hours));
+}
+
+function renderMobileSearchResults(query) {
+  mobileSearchLastQuery = query;
+  const results = query.trim() ? searchStores(query) : [];
+  const listEl = document.getElementById('mobile-search-panel-list');
+  const countEl = document.getElementById('mobile-search-panel-count');
+  if (!query.trim()) {
+    listEl.innerHTML = '<div style="padding:20px 16px;font-size:12px;color:var(--text-sub);text-align:center;">店舗名を入力してください</div>';
+    countEl.textContent = '';
+    return;
+  }
+  countEl.textContent = `${results.length}件`;
+  if (!results.length) {
+    listEl.innerHTML = '<div style="padding:16px;font-size:12px;color:var(--text-sub);text-align:center;">見つかりませんでした</div>';
+    return;
+  }
+  listEl.innerHTML = results.map(s => {
+    const rank  = s.store_type==='11' ? 'roastery' : (s.price_rank||'normal');
+    const color = getRankColor(rank, s.store_type);
+    const prices = PRICE_TABLE[rank] || PRICE_TABLE.normal;
+    return `<div class="store-item" onclick="selectMobileSearchResult('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
+      <div class="store-dot" style="background:${color}"></div>
+      <div class="store-info">
+        <div class="store-name">${s.name}</div>
+        <div class="store-sub">¥${prices.takeout} テイクアウト / ¥${prices.instore} 店内</div>
+        <div class="store-sub" style="font-size:9px;">${s.address||''}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+window.selectMobileSearchResult = async function(id, lat, lng) {
+  if (!lat) return;
+  const code = detectPrefFromCoords(lat, lng);
+  if (code && !state.detailCache[code]) {
+    showLoading('読み込み中...');
+    await fetchDetail(code);
+    hideLoading();
+    await buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
+  }
+  // 検索パネルは維持したまま詳細を開く（戻ると検索結果に戻る）
+  focusStore(id, lat, lng);
 };
 
 // ============================================================
 // 検索機能（店舗名のみ・全国対応）
 // ============================================================
 let searchOverrideActive = false;
+let mobileSearchMode = false;
+let mobileSearchLastQuery = '';
 
 function searchStores(query) {
   if (!query.trim()) return [];
@@ -1797,25 +1962,8 @@ function searchStores(query) {
   const summaryOnly = (state.summaryData || []).filter(s => !detailIds.has(s.id));
   return [...detailShops, ...summaryOnly]
     .filter(s => s.name && s.name.toLowerCase().includes(q))
+    .filter(passesFilter)
     .slice(0, 50);
-}
-
-function renderDropdown(results, containerEl) {
-  if (!results.length) {
-    containerEl.innerHTML = '<div style="padding:8px 12px;font-size:12px;color:var(--text-sub);">見つかりませんでした</div>';
-  } else {
-    containerEl.innerHTML = results.slice(0,8).map(s => {
-      const color = getRankColor(s.price_rank||'normal', s.store_type);
-      return `<div class="search-result-item" onclick="selectSearchResult('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
-        <div class="search-result-dot" style="background:${color}"></div>
-        <div>
-          <div style="font-size:12px;font-weight:700;">${s.name}</div>
-          <div style="font-size:10px;color:var(--text-sub);">${s.address||''}</div>
-        </div>
-      </div>`;
-    }).join('');
-  }
-  containerEl.classList.add('open');
 }
 
 function showSearchOverride(shops) {
@@ -1834,7 +1982,7 @@ function showSearchOverride(shops) {
     const rank  = s.store_type==='11' ? 'roastery' : (s.price_rank||'normal');
     const color = getRankColor(rank, s.store_type);
     const prices = PRICE_TABLE[rank] || PRICE_TABLE.normal;
-    return `<div class="store-item" onclick="focusSearchStore('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
+    return `<div class="store-item" onclick="selectMobileSearchResult('${s.id}',${s.coords?.[0]},${s.coords?.[1]})">
       <div class="store-dot" style="background:${color}"></div>
       <div class="store-info">
         <div class="store-name">${s.name}</div>
@@ -1850,7 +1998,6 @@ window.clearSearchOverride = function() {
   document.getElementById('search-clear-btn').style.display = 'none';
   document.getElementById('list-header-title').textContent = state.mapCenterMode ? '地図中央から近い順' : '現在地から近い順';
   document.getElementById('search-input').value = '';
-  document.getElementById('search-results').classList.remove('open');
   if (state.mapCenterMode) updateCenterList();
   else renderList(getAllCachedShops());
   if (state.originLat === null && state.mapCenterMode === false) {
@@ -1860,84 +2007,70 @@ window.clearSearchOverride = function() {
   }
 };
 
-// 検索結果から選択 → 確実にfetchしてからfocusStore
-window.selectSearchResult = async function(id, lat, lng) {
-  document.getElementById('search-results').classList.remove('open');
-  showSearchOverride(searchStores(document.getElementById('search-input').value));
-  if (!lat) return;
-  const code = detectPrefFromCoords(lat, lng);
-  if (code && !state.detailCache[code]) {
-    showLoading('読み込み中...');
-    await fetchDetail(code);
-    hideLoading();
-    await buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
-  }
-  focusStore(id, lat, lng);
-};
-
-// スマホ検索結果から選択
-window.focusSearchStore = async function(id, lat, lng) {
-  document.getElementById('mobile-search-overlay')?.classList.remove('open');
-  if (!lat) return;
-  const code = detectPrefFromCoords(lat, lng);
-  if (code && !state.detailCache[code]) {
-    showLoading('読み込み中...');
-    await fetchDetail(code);
-    hideLoading();
-    await buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
-  }
-  focusStore(id, lat, lng);
-};
+// (旧スマホ検索結果選択関数はselectMobileSearchResultに統合済み)
 
 function initSearch() {
   const input = document.getElementById('search-input');
   const resultsEl = document.getElementById('search-results');
   input.addEventListener('input', e => {
     const q = e.target.value;
-    if (!q.trim()) { resultsEl.classList.remove('open'); return; }
-    renderDropdown(searchStores(q), resultsEl);
+    if (!q.trim()) {
+      if (searchOverrideActive) clearSearchOverride();
+      return;
+    }
+    showSearchOverride(searchStores(q));
   });
-  input.addEventListener('focus', () => { if (input.value) renderDropdown(searchStores(input.value), resultsEl); });
   input.addEventListener('keydown', e => {
-    if (e.key === 'Enter') {
-      e.preventDefault();
-      const focused = resultsEl.querySelector('.search-result-item.focused');
-      if (focused) { focused.click(); return; }
-      showSearchOverride(searchStores(input.value));
-      resultsEl.classList.remove('open');
-    }
-    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
-      e.preventDefault();
-      const items = [...resultsEl.querySelectorAll('.search-result-item')];
-      if (!items.length) return;
-      const idx = items.indexOf(resultsEl.querySelector('.search-result-item.focused'));
-      const next = e.key === 'ArrowDown' ? Math.min(idx+1, items.length-1) : Math.max(idx-1, 0);
-      items.forEach(it => it.classList.remove('focused'));
-      items[next].classList.add('focused');
-      items[next].scrollIntoView({ block:'nearest' });
-    }
-    if (e.key === 'Escape') { resultsEl.classList.remove('open'); input.blur(); }
-  });
-  // 検索ボックス✕クリアでリストも戻す
-  input.addEventListener('input', e => { if (!e.target.value && searchOverrideActive) clearSearchOverride(); });
-  document.addEventListener('click', e => {
-    if (!e.target.closest('#search-wrap')) resultsEl.classList.remove('open');
+    if (e.key === 'Escape') { input.blur(); if (searchOverrideActive) clearSearchOverride(); }
   });
 
-  const mInput = document.getElementById('mobile-search-input');
+  const mInput = document.getElementById('mobile-search-panel-input');
   if (mInput) {
-    const mResults = document.getElementById('mobile-search-results');
     mInput.addEventListener('input', e => {
-      const q = e.target.value;
-      if (!q.trim()) { mResults.classList.remove('open'); return; }
-      renderDropdown(searchStores(q), mResults);
+      renderMobileSearchResults(e.target.value);
     });
-    mInput.addEventListener('keydown', e => {
-      if (e.key === 'Enter') { e.preventDefault(); mResults.querySelector('.search-result-item')?.click(); }
-      if (e.key === 'Escape') toggleMobileSearch();
+    mInput.addEventListener('compositionend', e => {
+      renderMobileSearchResults(e.target.value);
     });
-    document.getElementById('mobile-search-overlay').addEventListener('click', e => {
-      if (e.target === document.getElementById('mobile-search-overlay')) toggleMobileSearch();
+  }
+
+  // 検索パネルの絞り込みチップ
+  const searchPanel = document.getElementById('mobile-search-panel');
+  if (searchPanel) {
+    searchPanel.querySelectorAll('.filter-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const ft = chip.dataset.filter, val = chip.dataset.value;
+        if (ft === 'rank') {
+          state.filters.rank = val;
+          document.querySelectorAll('[data-filter="rank"]').forEach(c => c.classList.toggle('active', c.dataset.value===val));
+        } else if (ft === 'option') {
+          if (state.filters.options.has(val)) {
+            state.filters.options.delete(val);
+            document.querySelectorAll(`[data-filter="option"][data-value="${val}"]`).forEach(c => c.classList.remove('active'));
+          } else {
+            state.filters.options.add(val);
+            document.querySelectorAll(`[data-filter="option"][data-value="${val}"]`).forEach(c => c.classList.add('active'));
+          }
+        } else if (ft === 'hours') {
+          state.filters.hours = state.filters.hours === val ? null : val;
+          document.querySelectorAll('[data-filter="hours"]').forEach(c => c.classList.toggle('active', c.dataset.value===state.filters.hours));
+        }
+        updateFilterIndicator();
+        redrawAfterFilter();
+        // 検索結果を絞り込み反映して再描画
+        renderMobileSearchResults(mInput?.value || '');
+      });
+    });
+  }
+
+  // スマホ時刻picker
+  const mTimePicker = document.getElementById('mobile-time-picker');
+  if (mTimePicker) {
+    mTimePicker.addEventListener('change', e => {
+      state.filters.timeVal = e.target.value;
+      updateFilterIndicator();
+      redrawAfterFilter();
+      renderMobileSearchResults(mInput?.value || '');
     });
   }
 
@@ -2086,7 +2219,6 @@ map.on('zoomend moveend', () => {
       if (uncached.length > 0) {
         // 未キャッシュ県がある → fetch して再描画
         await Promise.all(uncached.map(c => fetchDetail(c)));
-        showToast('✓ 詳細データに切り替えました');
       }
       // 表示すべきコード一覧
       const cachedCodes = codes.filter(c => state.detailCache[c]);
@@ -2098,11 +2230,20 @@ map.on('zoomend moveend', () => {
       if (needsRedraw) {
         state._displayedCodes = cachedCodes;
         await buildDetailLayer(cachedCodes);
+        showToast('✓ 詳細データに切り替えました');
+        if (mobileSearchMode) renderMobileSearchResults(mobileSearchLastQuery);
+        else if (searchOverrideActive) showSearchOverride(searchStores(document.getElementById('search-input').value));
       }
     } else {
+      const wasDetail = !!state.detailGroup;
       state._displayedCodes = [];
       if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
-      if (state.summaryGroup) map.addLayer(state.summaryGroup);
+      rebuildSummaryGroup();
+      if (wasDetail) {
+        showToast('🗺 概要データを表示中');
+        if (mobileSearchMode) renderMobileSearchResults(mobileSearchLastQuery);
+        else if (searchOverrideActive) showSearchOverride(searchStores(document.getElementById('search-input').value));
+      }
     }
     updateCenterList();
   }, 300);
