@@ -376,7 +376,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   /* メインを縦並びフレックスに */
   #main {
     display:flex; flex-direction:column;
-    height:calc(100vh - var(--header-h));
+    height:calc(100vh - var(--header-h) - var(--ad-bottom-h));
     overflow:hidden;
   }
 
@@ -392,7 +392,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   }
 
   /* 現在地ボタン: デフォルトは地図内右下 */
-  #locate-btn { bottom:16px !important; right:12px !important; }
+  #locate-btn { bottom:calc(var(--ad-bottom-h) + 16px) !important; right:12px !important; }
   /* 検索FAB: スマホのみ表示 */
   #mobile-search-fab { display:flex; }
 
@@ -444,7 +444,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 #map-wrap.state-list #filter-indicator { display:none !important; }
 #mobile-search-fab {
   display:none;
-  position:absolute; bottom:76px; right:12px; left:auto; z-index:900;
+  position:absolute; bottom:calc(var(--ad-bottom-h) + 76px); right:12px; left:auto; z-index:900;
   width:48px; height:48px; border-radius:50%;
   border:1px solid var(--border); background:var(--surface);
   color:var(--text); font-size:20px; cursor:pointer;
@@ -2189,8 +2189,11 @@ function updateCenterList() {
   const center = map.getCenter();
   state.originLat = center.lat;
   state.originLng = center.lng;
-  const detailShops = getAllCachedShops();
-  renderList(detailShops.length > 0 ? detailShops : (state.summaryData || []));
+  // detailモード(zoom≥9かつdetailGroup表示中)のみdetailCacheを使う
+  // summaryモード時はsummaryDataを使わないと画面外の県がキャッシュされていてもリストがその県だけになる
+  const useDetail = map.getZoom() >= 9 && !!state.detailGroup;
+  const shops = useDetail ? getAllCachedShops() : (state.summaryData || []);
+  renderList(shops);
 }
 
 let mapMoveTimer = null;
