@@ -399,8 +399,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     flex:0 0 0%;
   }
 
-  /* 現在地ボタン: デフォルトは地図内右下（広告なし想定の元位置） */
-  #locate-btn { bottom:32px !important; right:12px !important; }
+  /* 現在地ボタン: デフォルトは地図内右下（FABと重ならない位置） */
+  #locate-btn { bottom:14px !important; right:12px !important; }
   /* 検索FAB: スマホのみ表示 */
   #mobile-search-fab { display:flex; }
 
@@ -416,8 +416,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   }
 
   /* 地図最大時：locate-btnを広告直上、FABをその上に */
-  #map-wrap.state-map #locate-btn { bottom:calc(var(--ad-bottom-h) + 4px) !important; }
-  #map-wrap.state-map #mobile-search-fab { bottom:calc(var(--ad-bottom-h) + 60px) !important; }
+  #map-wrap.state-map #locate-btn { bottom:calc(var(--ad-bottom-h) + 22px) !important; }
+  #map-wrap.state-map #mobile-search-fab { bottom:calc(var(--ad-bottom-h) + 78px) !important; }
 
   /* リスト最大：地図を0に、map-wrapは消す */
   #map-wrap.state-list { flex:0 0 0%; overflow:hidden; }
@@ -680,7 +680,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
           <button id="mobile-share-btn" onclick="shareStore()" style="background:none;border:none;color:var(--text-sub);font-size:11px;font-weight:700;cursor:pointer;padding:4px;line-height:1;white-space:nowrap;">𝕏 Xで共有</button>
         </div>
       </div>
-      <div id="mobile-detail-body" style="overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;padding:12px 14px;padding-bottom:calc(var(--ad-bottom-h) + var(--toggle-bar-h) + 12px);"></div>
+      <div id="mobile-detail-body" style="overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;padding:12px 14px;padding-bottom:calc(var(--ad-bottom-h) + 16px);"></div>
     </div>
 
     <!-- 近くの店舗ヘッダー（フィルターより下） -->
@@ -1337,7 +1337,7 @@ function renderAllSelectedPrefs() {
 function panToMarker(lat, lng) {
   if (window.innerWidth > 700) { map.panTo([lat, lng], { animate:true, duration:0.25 }); return; }
   const mapH = document.getElementById('map-wrap').offsetHeight;
-  const offsetPx = mapH * 0.15;
+  const offsetPx = mapH * 0.15 - 36; // toggle-bar-h分下げる
   const z = map.getZoom();
   const pt = map.project([lat, lng], z).subtract([0, offsetPx]);
   map.panTo(map.unproject(pt, z), { animate:true, duration:0.25 });
@@ -2284,7 +2284,14 @@ function shareStore() {
   const prices = PRICE_TABLE[rank] || PRICE_TABLE.normal;
   const rankLabel = getRankLabel(rank, shop.store_type);
   const url   = `https://kakaku-starbucks.pages.dev/?store=${shop.id}`;
-  const text  = `${shop.name}のスターバックスラテ（Tall）は${rankLabel}・¥${prices.takeout}！\n近くのスタバ価格をチェック👇\n`;
+  let text;
+  if (rank === 'roastery') {
+    text = `${shop.name}はスターバックス リザーブ® ロースタリー！\n近くのスタバ価格をチェック👇\n`;
+  } else if (rank === 'normal') {
+    text = `${shop.name}のスターバックスラテ（Tall）は通常価格・¥${prices.takeout}！\n近くのスタバ価格をチェック👇\n`;
+  } else {
+    text = `${shop.name}のスターバックスラテ（Tall）は${rankLabel}・¥${prices.takeout}！\n近くのスタバ価格をチェック👇\n`;
+  }
   window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
 }
 
