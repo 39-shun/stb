@@ -1559,8 +1559,11 @@ window.closeMobileDetail = function() {
     document.getElementById('mobile-filter-body').style.display = '';
     document.getElementById('mobile-filter-header').style.display = '';
     document.getElementById('mobile-list-header-row').style.display = '';
-    document.getElementById('mobile-list-empty').style.display = '';
+    document.getElementById('mobile-list-empty').style.display = 'none';
     document.getElementById('mobile-store-list').style.display = '';
+    if (state.mapCenterMode) updateCenterList();
+    else if (state.originLat !== null) renderList(getAllCachedShops());
+    else document.getElementById('mobile-list-empty').style.display = 'block';
   }
 };
 
@@ -2182,6 +2185,7 @@ async function buildDetailLayer(codes) {
 // 地図中央を基点にリスト更新
 function updateCenterList() {
   if (!state.mapCenterMode || searchOverrideActive) return;
+  if (!state.summaryData && getAllCachedShops().length === 0) return;
   const center = map.getCenter();
   state.originLat = center.lat;
   state.originLng = center.lng;
