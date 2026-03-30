@@ -1254,9 +1254,8 @@ function renderList(allShops) {
         </div>`;
       }).join('');
 
-  const spacer = `<div style="height:calc(var(--ad-bottom-h) + var(--toggle-bar-h));flex-shrink:0;"></div>`;
-  listEl.innerHTML  = html + spacer;
-  listElM.innerHTML = html + spacer;
+  listEl.innerHTML  = html;
+  listElM.innerHTML = html;
 
   const countStr = `${filtered.length}件`;
   countEl.textContent  = countStr;
@@ -1584,6 +1583,7 @@ function openMobileDetail(shop) {
   if (window.innerWidth > 700) return;
 
   state.activeDetailId = shop.id;
+  state.highlightedShop = shop; // shareStore()で必ず参照できるよう常にセット
 
   // フィルター・リストを隠す
   document.getElementById('mobile-filter-body').style.display = 'none';
@@ -1602,8 +1602,7 @@ function openMobileDetail(shop) {
   document.getElementById('mobile-detail-title').textContent = (shop.name||'店舗詳細') + emoji;
 
   // 本体HTML
-  const spacer = `<div style="height:calc(var(--ad-bottom-h) + var(--toggle-bar-h));flex-shrink:0;"></div>`;
-  document.getElementById('mobile-detail-body').innerHTML = buildDetailPanelHtml(shop) + spacer;
+  document.getElementById('mobile-detail-body').innerHTML = buildDetailPanelHtml(shop);
 
   // トグルバー文言
   document.getElementById('list-expand-btn').textContent = '▲ 詳細を広げる';
@@ -1935,7 +1934,7 @@ function renderMobileSearchResults(query) {
     listEl.innerHTML = '<div style="padding:16px;font-size:12px;color:var(--text-sub);text-align:center;">見つかりませんでした</div>';
     return;
   }
-  const spacer = `<div style="height:calc(var(--ad-bottom-h) + var(--toggle-bar-h));flex-shrink:0;"></div>`;
+  const spacer = '';
   listEl.innerHTML = results.map(s => {
     const rank  = s.store_type==='11' ? 'roastery' : (s.price_rank||'normal');
     const color = getRankColor(rank, s.store_type);
