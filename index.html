@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>スターバックス価格マップ｜全国ラテ価格帯マップ</title>
+<meta property="og:title" content="スターバックス価格マップ">
+<meta property="og:description" content="全国スタバのラテ（Tall）価格帯を地図で確認。通常・Bランク・Aランク・ROASTERYの違いがひと目でわかる。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kakaku-starbucks.pages.dev/">
+<meta property="og:image" content="https://kakaku-starbucks.pages.dev/ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kakaku-starbucks.pages.dev/ogp.png">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
@@ -668,7 +675,9 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       <div id="mobile-detail-header" style="display:flex;align-items:center;justify-content:space-between;padding:8px 14px;border-bottom:1px solid var(--border);flex-shrink:0;background:var(--surface);">
         <button onclick="closeMobileDetail()" style="background:none;border:none;color:var(--accent);font-size:13px;font-weight:700;cursor:pointer;padding:0;display:flex;align-items:center;gap:4px;">← 戻る</button>
         <span id="mobile-detail-title" style="font-size:12px;font-weight:700;color:var(--text);flex:1;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0 8px;"></span>
-        <div style="width:40px;"></div>
+        <div style="width:40px;display:flex;justify-content:flex-end;">
+          <button id="mobile-share-btn" onclick="shareStore()" style="background:none;border:none;color:var(--text-sub);font-size:15px;font-weight:700;cursor:pointer;padding:4px;line-height:1;">𝕏</button>
+        </div>
       </div>
       <div id="mobile-detail-body" style="overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;padding:12px 14px;padding-bottom:calc(var(--ad-bottom-h) + 32px);"></div>
     </div>
@@ -1103,7 +1112,8 @@ function redrawAfterFilter() {
   } else if (state.mapCenterMode) {
     updateCenterList();
   } else if (state.originLat !== null) {
-    renderList(getAllCachedShops());
+    const useDetail = map.getZoom() >= 9 && !!state.detailGroup;
+    renderList(useDetail ? getAllCachedShops() : (state.summaryData || []));
   }
 }
 
@@ -1190,6 +1200,7 @@ async function loadSummary() {
     state.summaryGroup = buildSummaryGroupFromData(shops);
     map.addLayer(state.summaryGroup);
     updateCenterList();
+    restoreStoreFromUrl(); // URLパラメータがあれば該当店舗を開く
   } catch(e) { console.warn('summary なし', e); }
   finally { hideLoading(); }
 }
@@ -2260,6 +2271,39 @@ function detectPrefFromCoords(lat, lng) {
     }
   }
   return best;
+}
+
+// ============================================================
+// 店舗シェア（Xへの投稿）
+// ============================================================
+function shareStore() {
+  const shop = state.highlightedShop;
+  if (!shop) return;
+  const rank  = shop.store_type === '11' ? 'roastery' : (shop.price_rank || 'normal');
+  const prices = PRICE_TABLE[rank] || PRICE_TABLE.normal;
+  const rankLabel = getRankLabel(rank, shop.store_type);
+  const url   = `https://kakaku-starbucks.pages.dev/?store=${shop.id}`;
+  const text  = `${shop.name}\n${rankLabel}｜ラテTall ¥${prices.takeout}（テイクアウト）\n`;
+  window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+}
+
+// URLパラメータ?store=IDから店舗を復元
+async function restoreStoreFromUrl() {
+  const id = new URLSearchParams(location.search).get('store');
+  if (!id) return;
+  // summaryDataから座標を探す
+  const summary = (state.summaryData || []).find(s => s.id === id);
+  if (!summary?.coords) return;
+  const [lat, lng] = summary.coords;
+  // 該当県をfetchしてdetailを開く
+  const code = detectPrefFromCoords(lat, lng);
+  if (code && !state.detailCache[code]) {
+    await fetchDetail(code);
+    await buildDetailLayer(getVisibleCodes().filter(c => state.detailCache[c]));
+  }
+  map.setView([lat, lng], 15, { animate:false });
+  await new Promise(r => setTimeout(r, 600));
+  focusStore(id, lat, lng);
 }
 
 // ============================================================
