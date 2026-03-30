@@ -1,0 +1,5213 @@
+[
+  {
+    "id": "596",
+    "api_id": "200100001596",
+    "name": "サンリブシティ小倉店",
+    "address": "福岡県 北九州市小倉南区 上葛原2-14-１ サンリブシティ小倉",
+    "coords": [
+      33.8386745013,
+      130.908060256
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:57:50.484965"
+  },
+  {
+    "id": "2137",
+    "api_id": "2001000012137",
+    "name": "門司港駅店",
+    "address": "福岡県 北九州市門司区 西海岸1-5-31",
+    "coords": [
+      33.9452720893,
+      130.961545905
+    ],
+    "prefecture_code": 40,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:57:58.964362"
+  },
+  {
+    "id": "2124",
+    "api_id": "2001000012124",
+    "name": "アミュプラザ小倉店",
+    "address": "福岡県 北九州市小倉北区 浅野1-1-1 アミュプラザ小倉",
+    "coords": [
+      33.8865536524,
+      130.882305746
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {},
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:58:13.769658"
+  },
+  {
+    "id": "475",
+    "api_id": "200100001475",
+    "name": "小倉京町店",
+    "address": "福岡県 北九州市小倉北区 京町2-7-3 ユニバース京町ビル",
+    "coords": [
+      33.8856190103,
+      130.881166994
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:58:25.258486"
+  },
+  {
+    "id": "495",
+    "api_id": "200100001495",
+    "name": "リバーウォーク北九州デコシティ店",
+    "address": "福岡県 北九州市小倉北区 室町1-1-1 リバーウォーク北九州　デコシティ1F",
+    "coords": [
+      33.8855208633,
+      130.875331095
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:58:37.792173"
+  },
+  {
+    "id": "4188",
+    "api_id": "2001000014188",
+    "name": "到津の森公園店",
+    "address": "福岡県 北九州市小倉北区 上到津4-1-13 到津の森公園",
+    "coords": [
+      33.8717957236,
+      130.846897144
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:58:51.123667"
+  },
+  {
+    "id": "4301",
+    "api_id": "2001000014301",
+    "name": "八幡平野店",
+    "address": "福岡県 北九州市八幡東区 平野3-2-60 皿倉テラス",
+    "coords": [
+      33.8610042284,
+      130.790630647
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:59:03.471716"
+  },
+  {
+    "id": "726",
+    "api_id": "200100001726",
+    "name": "イオンモール八幡東店",
+    "address": "福岡県 北九州市八幡東区 東田3-2-102 イオンモール八幡東",
+    "coords": [
+      33.8702386078,
+      130.811648476
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:59:12.938649"
+  },
+  {
+    "id": "4073",
+    "api_id": "2001000014073",
+    "name": "ジ アウトレット北九州店",
+    "address": "福岡県 北九州市八幡東区 東田4-1-1 ジ アウトレット北九州",
+    "coords": [
+      33.8727502754,
+      130.81117951
+    ],
+    "prefecture_code": 40,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:59:21.511647"
+  },
+  {
+    "id": "2139",
+    "api_id": "2001000012139",
+    "name": "黒崎駅店",
+    "address": "福岡県 北九州市八幡西区 黒崎3-15-1",
+    "coords": [
+      33.8669748288,
+      130.766148516
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:59:33.436985"
+  },
+  {
+    "id": "2191",
+    "api_id": "2001000012191",
+    "name": "折尾駅店",
+    "address": "福岡県 北九州市八幡西区 北鷹見町13-17 えきマチ1丁目折尾1階",
+    "coords": [
+      33.8639214477,
+      130.712915855
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:59:42.060799"
+  },
+  {
+    "id": "4269",
+    "api_id": "2001000014269",
+    "name": "八幡永犬丸店",
+    "address": "福岡県 北九州市八幡西区 永犬丸4-6-27",
+    "coords": [
+      33.8421274596,
+      130.732808262
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:59:53.964052"
+  },
+  {
+    "id": "442",
+    "api_id": "200100001442",
+    "name": "イオン若松店",
+    "address": "福岡県 北九州市若松区 二島1-3-1 イオン若松ショッピングセンター",
+    "coords": [
+      33.8919389853,
+      130.743508414
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:00:06.919253"
+  },
+  {
+    "id": "4274",
+    "api_id": "2001000014274",
+    "name": "イオンなかま店",
+    "address": "福岡県 中間市 上蓮花寺1-1-2 イオンなかま",
+    "coords": [
+      33.8244113931,
+      130.722289674
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:00:17.203475"
+  },
+  {
+    "id": "737",
+    "api_id": "200100001737",
+    "name": "天神地下街店",
+    "address": "福岡県 福岡市中央区 天神2丁目地下０号 天神地下街",
+    "coords": [
+      33.58797163,
+      130.401212782
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:00:32.273101"
+  },
+  {
+    "id": "1219",
+    "api_id": "2001000011219",
+    "name": "天神VIORO店",
+    "address": "福岡県 福岡市中央区 天神2-10-3 天神VIORO",
+    "coords": [
+      33.5895219694,
+      130.398328506
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:00:46.924563"
+  },
+  {
+    "id": "1220",
+    "api_id": "2001000011220",
+    "name": "福岡パルコ店",
+    "address": "福岡県 福岡市中央区 天神2-11-1 福岡パルコ新館",
+    "coords": [
+      33.5910040287,
+      130.398079847
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:30"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:00:55.580557"
+  },
+  {
+    "id": "1247",
+    "api_id": "2001000011247",
+    "name": "天神ソラリアステージ店",
+    "address": "福岡県 福岡市中央区 天神2-11-3 ソラリアステージ",
+    "coords": [
+      33.5900988592,
+      130.398736223
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:01:06.101211"
+  },
+  {
+    "id": "1279",
+    "api_id": "2001000011279",
+    "name": "西鉄天神高速バスターミナル店",
+    "address": "福岡県 福岡市中央区 天神2-1-1 ソラリアターミナルビル　3階",
+    "coords": [
+      33.5889209475,
+      130.399760359
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:01:19.240007"
+  },
+  {
+    "id": "2294",
+    "api_id": "2001000012294",
+    "name": "福岡天神 蔦屋書店",
+    "address": "福岡県 福岡市中央区 天神1-11-1 ONE FUKUOKA BLDG. 4階",
+    "coords": [
+      33.5912556912,
+      130.399380005
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:01:27.598627"
+  },
+  {
+    "id": "4267",
+    "api_id": "2001000014267",
+    "name": "ミーナ天神店",
+    "address": "福岡県 福岡市中央区 天神4-3-8 ミーナ天神",
+    "coords": [
+      33.5926821893,
+      130.398464738
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:01:41.056523"
+  },
+  {
+    "id": "4438",
+    "api_id": "2001000014438",
+    "name": "天神駅店",
+    "address": "福岡県 福岡市中央区 天神2丁目 福岡市地下鉄天神駅東改札前",
+    "coords": [
+      33.591614833,
+      130.40015548
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": true,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:01:50.919599"
+  },
+  {
+    "id": "4526",
+    "api_id": "2001000014526",
+    "name": "天神住友生命FJビジネスセンター店",
+    "address": "福岡県 福岡市中央区 天神2-8-35 天神住友生命FJビジネスセンター",
+    "coords": [
+      33.5905423777,
+      130.396146695
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:01:59.308018"
+  },
+  {
+    "id": "4552",
+    "api_id": "2001000014552",
+    "name": "天神ソラリアプラザ地下2階店",
+    "address": "福岡県 福岡市中央区 天神2-2-43 ソラリアプラザ 地下2階",
+    "coords": [
+      33.5892842217,
+      130.398598216
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": true,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:02:09.678248"
+  },
+  {
+    "id": "1059",
+    "api_id": "2001000011059",
+    "name": "天神南渡辺通り店",
+    "address": "福岡県 福岡市中央区 渡辺通4-9-18 福酒ビル",
+    "coords": [
+      33.5873258665,
+      130.401258364
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:02:24.145232"
+  },
+  {
+    "id": "345",
+    "api_id": "200100001345",
+    "name": "福岡赤坂門店",
+    "address": "福岡県 福岡市中央区 大名2-4-22 新日本ビル 1F",
+    "coords": [
+      33.5888119164,
+      130.390948874
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:02:37.804897"
+  },
+  {
+    "id": "641",
+    "api_id": "200100001641",
+    "name": "天神西通り店",
+    "address": "福岡県 福岡市中央区 大名1-13-25",
+    "coords": [
+      33.5878943375,
+      130.396713715
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:02:48.210214"
+  },
+  {
+    "id": "2102",
+    "api_id": "2001000012102",
+    "name": "六本松 蔦屋書店",
+    "address": "福岡県 福岡市中央区 六本松4-2-1",
+    "coords": [
+      33.5774545659,
+      130.377667166
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:03:02.301687"
+  },
+  {
+    "id": "962",
+    "api_id": "200100001962",
+    "name": "福岡大濠公園店",
+    "address": "福岡県 福岡市中央区 大濠公園1-8",
+    "coords": [
+      33.5870988183,
+      130.378025859
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:03:11.095109"
+  },
+  {
+    "id": "1581",
+    "api_id": "2001000011581",
+    "name": "マークイズ福岡ももち店",
+    "address": "福岡県 福岡市中央区 地行浜2-2-1 マークイズ福岡ももち",
+    "coords": [
+      33.5924527045,
+      130.362945476
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:03:21.579335"
+  },
+  {
+    "id": "2126",
+    "api_id": "2001000012126",
+    "name": "TSUTAYA マークイズ 福岡ももち店",
+    "address": "福岡県 福岡市中央区 地行浜2-2-1 マークイズ福岡ももち",
+    "coords": [
+      33.5930081958,
+      130.362667696
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:03:31.372317"
+  },
+  {
+    "id": "1824",
+    "api_id": "2001000011824",
+    "name": "IWATAYA本店新館店",
+    "address": "福岡県 福岡市中央区 天神2-5-35 岩田屋本店新館",
+    "coords": [
+      33.5894761336,
+      130.397911876
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:03:44.466685"
+  },
+  {
+    "id": "1009",
+    "api_id": "2001000011009",
+    "name": "福岡新宮店",
+    "address": "福岡県 糟屋郡 新宮町中央駅前2-5-15",
+    "coords": [
+      33.708997957,
+      130.454955524
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:03:59.111617"
+  },
+  {
+    "id": "2241",
+    "api_id": "2001000012241",
+    "name": "ABURAYAMA FUKUOKA店",
+    "address": "福岡県 福岡市南区 柏原710-2 ABURAYAMA FUKUOKA",
+    "coords": [
+      33.5089832747,
+      130.377452004
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:04:14.427507"
+  },
+  {
+    "id": "561",
+    "api_id": "200100001561",
+    "name": "イオンモール福岡1階店",
+    "address": "福岡県 糟屋郡 粕屋町大字酒殿字老ノ木192-1 イオンモール福岡",
+    "coords": [
+      33.597064267,
+      130.480634101
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:04:25.140934"
+  },
+  {
+    "id": "4602",
+    "api_id": "2001000014602",
+    "name": "イオンモール福岡2階店",
+    "address": "福岡県 糟屋郡 粕屋町大字酒殿字老ノ木192-1 イオンモール福岡2階",
+    "coords": [
+      33.5971778417,
+      130.479246155
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:04:38.379837"
+  },
+  {
+    "id": "4131",
+    "api_id": "2001000014131",
+    "name": "福岡古賀店",
+    "address": "福岡県 古賀市 美明3-5-12",
+    "coords": [
+      33.7192786542,
+      130.462407765
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:04:49.407668"
+  },
+  {
+    "id": "1080",
+    "api_id": "2001000011080",
+    "name": "イオンモール福津店",
+    "address": "福岡県 福津市 日蒔野6-16-1 イオンモール福津",
+    "coords": [
+      33.7543593576,
+      130.494850399
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:05:04.400213"
+  },
+  {
+    "id": "4052",
+    "api_id": "2001000014052",
+    "name": "宗像店",
+    "address": "福岡県 宗像市 原町古森141-1",
+    "coords": [
+      33.7857970983,
+      130.558017317
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:05:13.220701"
+  },
+  {
+    "id": "4556",
+    "api_id": "2001000014556",
+    "name": "宗像ユリックス店",
+    "address": "福岡県 宗像市 久原400",
+    "coords": [
+      33.7903316854,
+      130.546244475
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:05:25.625171"
+  },
+  {
+    "id": "1685",
+    "api_id": "2001000011685",
+    "name": "福岡空港国内線ターミナル3階店",
+    "address": "福岡県 福岡市博多区 下臼井767-1 福岡空港国内線ターミナルビル",
+    "coords": [
+      33.5964379306,
+      130.448003506
+    ],
+    "prefecture_code": 40,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:05:36.780537"
+  },
+  {
+    "id": "288",
+    "api_id": "200100001288",
+    "name": "福岡朝日ビル店",
+    "address": "福岡県 福岡市博多区 博多駅前2-1-1 福岡朝日ビル 1F",
+    "coords": [
+      33.5906541443,
+      130.418457615
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:05:50.422005"
+  },
+  {
+    "id": "1708",
+    "api_id": "2001000011708",
+    "name": "博多駅前ビジネスセンター店",
+    "address": "福岡県 福岡市博多区 博多駅前3-25-21 博多駅前ビジネスセンター",
+    "coords": [
+      33.589533139,
+      130.417650512
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:05:59.259317"
+  },
+  {
+    "id": "2140",
+    "api_id": "2001000012140",
+    "name": "ザ・ブラッサム博多プレミア店",
+    "address": "福岡県 福岡市博多区 博多駅前2-8-12 THE BLOSSOM HAKATA Premier",
+    "coords": [
+      33.5900885737,
+      130.414131056
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:06:10.799340"
+  },
+  {
+    "id": "211",
+    "api_id": "200100001211",
+    "name": "オリエンタルホテル福岡博多ステーション店",
+    "address": "福岡県 福岡市博多区 博多駅中央街4-23 オリエンタルホテル福岡博多ステーション 1F",
+    "coords": [
+      33.5906039331,
+      130.421962882
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:06:24.586724"
+  },
+  {
+    "id": "1206",
+    "api_id": "2001000011206",
+    "name": "アミュプラザ博多 3階店",
+    "address": "福岡県 福岡市博多区 博多駅中央街1-1 アミュプラザ博多 3F",
+    "coords": [
+      33.5902336594,
+      130.419928901
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:06:33.504937"
+  },
+  {
+    "id": "1365",
+    "api_id": "2001000011365",
+    "name": "ＫＩＴＴＥ博多店",
+    "address": "福岡県 福岡市博多区 博多駅中央街9-1",
+    "coords": [
+      33.5889332304,
+      130.419212354
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:06:42.699136"
+  },
+  {
+    "id": "1366",
+    "api_id": "2001000011366",
+    "name": "JRJP博多ビル店",
+    "address": "福岡県 福岡市博多区 博多駅中央街8-1",
+    "coords": [
+      33.5880058251,
+      130.41895103
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:06:51.590946"
+  },
+  {
+    "id": "2288",
+    "api_id": "2001000012288",
+    "name": "博多駅新幹線改札内店",
+    "address": "福岡県 福岡市博多区 博多駅中央街1-1 JR博多駅新幹線構内2階",
+    "coords": [
+      33.5899287151,
+      130.42124825
+    ],
+    "prefecture_code": 40,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:07:04.794439"
+  },
+  {
+    "id": "2292",
+    "api_id": "2001000012292",
+    "name": "博多デイトスアネックス店",
+    "address": "福岡県 福岡市博多区 博多駅中央街1-1 博多デイトスアネックス2階",
+    "coords": [
+      33.5906092054,
+      130.421677628
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:07:16.279427"
+  },
+  {
+    "id": "2355",
+    "api_id": "2001000012355",
+    "name": "アミュプラザ博多 2階店",
+    "address": "福岡県 福岡市博多区 博多駅中央街1-1 アミュプラザ博多 2F",
+    "coords": [
+      33.5902997643,
+      130.419974172
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": true,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:07:24.870526"
+  },
+  {
+    "id": "4362",
+    "api_id": "2001000014362",
+    "name": "都ホテル 博多店",
+    "address": "福岡県 福岡市博多区 博多駅東2-1-1 都ホテル 博多1階",
+    "coords": [
+      33.589744595,
+      130.422785631
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:07:40.153672"
+  },
+  {
+    "id": "141",
+    "api_id": "200100001141",
+    "name": "キャナルシティ博多店",
+    "address": "福岡県 福岡市博多区 住吉1-2-22 キャナルシティＯＰＡ B1F",
+    "coords": [
+      33.5897743952,
+      130.41153212
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:07:53.820067"
+  },
+  {
+    "id": "4538",
+    "api_id": "2001000014538",
+    "name": "博多リバレインモール店",
+    "address": "福岡県 福岡市博多区 下川端町3-1 博多リバレインモール 1階",
+    "coords": [
+      33.5948679185,
+      130.405889854
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:08:05.343495"
+  },
+  {
+    "id": "4064",
+    "api_id": "2001000014064",
+    "name": "博多千代県庁口店",
+    "address": "福岡県 福岡市博多区 千代1-21-42",
+    "coords": [
+      33.6018912485,
+      130.416900838
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:08:16.335931"
+  },
+  {
+    "id": "629",
+    "api_id": "200100001629",
+    "name": "ボックスタウン箱崎店",
+    "address": "福岡県 福岡市東区 箱崎4-6-20 ボックスタウン箱崎",
+    "coords": [
+      33.6194399424,
+      130.417778013
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:08:26.761226"
+  },
+  {
+    "id": "756",
+    "api_id": "200100001756",
+    "name": "ゆめタウン博多店",
+    "address": "福岡県 福岡市東区 東浜1-1-1 ゆめタウン博多",
+    "coords": [
+      33.6125239248,
+      130.412589873
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:08:35.621648"
+  },
+  {
+    "id": "1496",
+    "api_id": "2001000011496",
+    "name": "福岡空港国際線ターミナル店",
+    "address": "福岡県 福岡市博多区 青木739",
+    "coords": [
+      33.5847363424,
+      130.444449896
+    ],
+    "prefecture_code": 40,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:30"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "20:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:08:46.191144"
+  },
+  {
+    "id": "1367",
+    "api_id": "2001000011367",
+    "name": "博多の森店",
+    "address": "福岡県 福岡市博多区 東平尾1-71-9",
+    "coords": [
+      33.5895752303,
+      130.458121871
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:08:55.830494"
+  },
+  {
+    "id": "4026",
+    "api_id": "2001000014026",
+    "name": "ららぽーと福岡店",
+    "address": "福岡県 福岡市博多区 那珂6-23-1 ららぽーと福岡",
+    "coords": [
+      33.5651825191,
+      130.439786183
+    ],
+    "prefecture_code": 40,
+    "price_rank": "B",
+    "price_takeout": 501,
+    "price_instore": 510,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:09:04.437649"
+  },
+  {
+    "id": "4055",
+    "api_id": "2001000014055",
+    "name": "福岡香椎店",
+    "address": "福岡県 福岡市東区 香椎駅東3-30-11",
+    "coords": [
+      33.662100683,
+      130.451062451
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:09:13.767181"
+  },
+  {
+    "id": "534",
+    "api_id": "200100001534",
+    "name": "イオンモール香椎浜店",
+    "address": "福岡県 福岡市東区 香椎浜3-12-1 イオンモール香椎浜",
+    "coords": [
+      33.6575296959,
+      130.430170785
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:09:28.092623"
+  },
+  {
+    "id": "4348",
+    "api_id": "2001000014348",
+    "name": "ガーデンズ千早東店",
+    "address": "福岡県 福岡市東区 千早3-6-36 エディオン ガーデンズ千早東店1階",
+    "coords": [
+      33.6507408179,
+      130.436932759
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:09:37.756535"
+  },
+  {
+    "id": "4565",
+    "api_id": "2001000014565",
+    "name": "PRALIVA西新店",
+    "address": "福岡県 福岡市早良区 西新4-1-1 PRALIVA 2階",
+    "coords": [
+      33.583479165,
+      130.359802817
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:09:46.181918"
+  },
+  {
+    "id": "2033",
+    "api_id": "2001000012033",
+    "name": "福岡大学病院店",
+    "address": "福岡県 福岡市城南区 七隈7-45-1 福岡大学病院新館",
+    "coords": [
+      33.5473538926,
+      130.361534892
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "19:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "19:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "19:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:09:58.752796"
+  },
+  {
+    "id": "714",
+    "api_id": "200100001714",
+    "name": "福岡次郎丸店",
+    "address": "福岡県 福岡市早良区 次郎丸2-10-10",
+    "coords": [
+      33.552942448,
+      130.328958729
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:10:11.604571"
+  },
+  {
+    "id": "1594",
+    "api_id": "2001000011594",
+    "name": "西鉄大橋駅店",
+    "address": "福岡県 福岡市南区 大橋1-5-1",
+    "coords": [
+      33.5593290248,
+      130.426531998
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:10:25.952433"
+  },
+  {
+    "id": "1860",
+    "api_id": "2001000011860",
+    "name": "パセオ野間大池店",
+    "address": "福岡県 福岡市南区 柳河内1-2-1 パセオ野間大池",
+    "coords": [
+      33.5541206241,
+      130.406687219
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:10:37.821559"
+  },
+  {
+    "id": "1017",
+    "api_id": "2001000011017",
+    "name": "福岡春日店",
+    "address": "福岡県 春日市 春日6-14",
+    "coords": [
+      33.5186507889,
+      130.469266989
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:10:52.313030"
+  },
+  {
+    "id": "4045",
+    "api_id": "2001000014045",
+    "name": "福岡星見ヶ丘店",
+    "address": "福岡県 春日市 星見ヶ丘5-250-2",
+    "coords": [
+      33.5066664635,
+      130.450405774
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:11:02.587604"
+  },
+  {
+    "id": "4113",
+    "api_id": "2001000014113",
+    "name": "イオンモール筑紫野店",
+    "address": "福岡県 筑紫野市 立明寺434-1 イオンモール筑紫野",
+    "coords": [
+      33.4804553095,
+      130.525988759
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:11:11.577582"
+  },
+  {
+    "id": "1058",
+    "api_id": "2001000011058",
+    "name": "太宰府天満宮表参道店",
+    "address": "福岡県 太宰府市 宰府3-2-43",
+    "coords": [
+      33.5196326373,
+      130.533390785
+    ],
+    "prefecture_code": 40,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:11:20.240691"
+  },
+  {
+    "id": "640",
+    "api_id": "200100001640",
+    "name": "太宰府向佐野店",
+    "address": "福岡県 太宰府市 向佐野1-10-20",
+    "coords": [
+      33.5094877752,
+      130.495065268
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:11:31.139909"
+  },
+  {
+    "id": "4482",
+    "api_id": "2001000014482",
+    "name": "福岡小戸店",
+    "address": "福岡県 福岡市西区 小戸3-25-25",
+    "coords": [
+      33.5908103815,
+      130.315315063
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:11:40.729324"
+  },
+  {
+    "id": "1424",
+    "api_id": "2001000011424",
+    "name": "ウエストコート姪浜店",
+    "address": "福岡県 福岡市西区 内浜1-7-7",
+    "coords": [
+      33.5813223694,
+      130.323313447
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:11:50.570100"
+  },
+  {
+    "id": "1033",
+    "api_id": "2001000011033",
+    "name": "木の葉モール橋本店",
+    "address": "福岡県 福岡市西区 橋本2-27-2 木の葉モール橋本",
+    "coords": [
+      33.5558522866,
+      130.321631703
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:12:01.025251"
+  },
+  {
+    "id": "679",
+    "api_id": "200100001679",
+    "name": "イオンモール福岡伊都店",
+    "address": "福岡県 福岡市西区 北原1-2-1 イオンモール福岡伊都",
+    "coords": [
+      33.5777105101,
+      130.258363174
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:12:15.213898"
+  },
+  {
+    "id": "4112",
+    "api_id": "2001000014112",
+    "name": "福岡周船寺店",
+    "address": "福岡県 福岡市西区 北原2-4-6",
+    "coords": [
+      33.5785106141,
+      130.253310223
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:12:29.450493"
+  },
+  {
+    "id": "4172",
+    "api_id": "2001000014172",
+    "name": "九大伊都 蔦屋書店",
+    "address": "福岡県 福岡市西区 九大新町5-1 いとLab＋",
+    "coords": [
+      33.5941193579,
+      130.229269279
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:12:37.785027"
+  },
+  {
+    "id": "4255",
+    "api_id": "2001000014255",
+    "name": "ゆめタウン飯塚店",
+    "address": "福岡県 飯塚市 菰田西3-6-1 ゆめタウン飯塚1階",
+    "coords": [
+      33.6317013631,
+      130.68551799
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:12:49.958006"
+  },
+  {
+    "id": "4469",
+    "api_id": "2001000014469",
+    "name": "直方店",
+    "address": "福岡県 直方市 下境894-1",
+    "coords": [
+      33.7369539294,
+      130.745419836
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:13:04.211863"
+  },
+  {
+    "id": "608",
+    "api_id": "200100001608",
+    "name": "イオンモール直方店",
+    "address": "福岡県 直方市 湯野原2-1-1",
+    "coords": [
+      33.7683364836,
+      130.749861633
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:13:16.127772"
+  },
+  {
+    "id": "1628",
+    "api_id": "2001000011628",
+    "name": "ゆめタウン行橋店",
+    "address": "福岡県 行橋市 西宮市3-8-1 ゆめタウン行橋",
+    "coords": [
+      33.7205748358,
+      130.967360769
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:13:30.685593"
+  },
+  {
+    "id": "1168",
+    "api_id": "2001000011168",
+    "name": "久留米東櫛原店",
+    "address": "福岡県 久留米市 東櫛原町413-1",
+    "coords": [
+      33.3256579142,
+      130.522345079
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:13:39.661828"
+  },
+  {
+    "id": "1595",
+    "api_id": "2001000011595",
+    "name": "西鉄久留米駅店",
+    "address": "福岡県 久留米市 東町上天神田316-2 エマックス・クルメ",
+    "coords": [
+      33.3122907099,
+      130.521031914
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:13:48.537421"
+  },
+  {
+    "id": "795",
+    "api_id": "200100001795",
+    "name": "久留米上津バイパス店",
+    "address": "福岡県 久留米市 野伏間1-7-25",
+    "coords": [
+      33.2854492404,
+      130.511079532
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:13:59.739756"
+  },
+  {
+    "id": "4540",
+    "api_id": "2001000014540",
+    "name": "柳川店",
+    "address": "福岡県 柳川市 三橋町高畑211",
+    "coords": [
+      33.1699793804,
+      130.41632133
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:14:09.561560"
+  },
+  {
+    "id": "4130",
+    "api_id": "2001000014130",
+    "name": "筑後店",
+    "address": "福岡県 筑後市 前津31-1",
+    "coords": [
+      33.2165925305,
+      130.516336989
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:14:23.736600"
+  },
+  {
+    "id": "4009",
+    "api_id": "2001000014009",
+    "name": "イオンモール大牟田店",
+    "address": "福岡県 大牟田市 岬町3-4 イオンモール大牟田",
+    "coords": [
+      33.0305144989,
+      130.427844017
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:14:34.828851"
+  },
+  {
+    "id": "317",
+    "api_id": "200100001317",
+    "name": "ゆめタウン大牟田店",
+    "address": "福岡県 大牟田市 旭町2-28 ゆめタウン大牟田",
+    "coords": [
+      33.0366984608,
+      130.453989061
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:14:46.715368"
+  },
+  {
+    "id": "4433",
+    "api_id": "2001000014433",
+    "name": "久留米合川店",
+    "address": "福岡県 久留米市 合川町309-1",
+    "coords": [
+      33.3152351626,
+      130.53953302
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:14:57.406999"
+  },
+  {
+    "id": "517",
+    "api_id": "200100001517",
+    "name": "ゆめタウン久留米店",
+    "address": "福岡県 久留米市 新合川1-2-1 ゆめタウン久留米",
+    "coords": [
+      33.322230215,
+      130.537660353
+    ],
+    "prefecture_code": 40,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:15:08.961453"
+  }
+]

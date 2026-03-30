@@ -1,14 +1,14 @@
 [
   {
-    "id": "174",
-    "api_id": "200100001174",
-    "name": "エスパル仙台本館店",
-    "address": "宮城県 仙台市青葉区 中央1-1-1 エスパル仙台本館",
+    "id": "406",
+    "api_id": "200100001406",
+    "name": "那覇メインプレイス店",
+    "address": "沖縄県 那覇市 おもろまち4-4-9 サンエー那覇メインプレイス",
     "coords": [
-      38.2591792275,
-      140.881710348
+      26.2251930106,
+      127.695704004
     ],
-    "prefecture_code": 4,
+    "prefecture_code": 47,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -20,52 +20,52 @@
     },
     "hours": {
       "mon": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "23:00"
       },
       "tue": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "23:00"
       },
       "wed": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "23:00"
       },
       "thu": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "23:00"
       },
       "fri": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "23:00"
       },
       "sat": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "23:00"
       },
       "sun": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "23:00"
       },
       "hol": {
-        "open": "07:00",
-        "close": "22:00"
+        "open": "09:00",
+        "close": "23:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:17:48.399634"
+    "scraped_at": "2026-03-30T03:38:44.201226"
   },
   {
-    "id": "245",
-    "api_id": "200100001245",
-    "name": "仙台クリスロード店",
-    "address": "宮城県 仙台市青葉区 中央2-5-3 第二やまふくビル",
+    "id": "381",
+    "api_id": "200100001381",
+    "name": "那覇国際通り牧志店",
+    "address": "沖縄県 那覇市 牧志2-1-1 プランタビル",
     "coords": [
-      38.261620271,
-      140.876885081
+      26.2165504722,
+      127.688290573
     ],
-    "prefecture_code": 4,
+    "prefecture_code": 47,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -78,51 +78,165 @@
     "hours": {
       "mon": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "23:00"
       },
       "tue": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "23:00"
       },
       "wed": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "23:00"
       },
       "thu": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "23:00"
       },
       "fri": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:38:58.975957"
+  },
+  {
+    "id": "4227",
+    "api_id": "2001000014227",
+    "name": "那覇オーパ店",
+    "address": "沖縄県 那覇市 泉崎1-20-1 那覇OPA 2階",
+    "coords": [
+      26.2114663628,
+      127.676338744
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
       },
       "sat": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "sun": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "hol": {
         "open": "08:00",
-        "close": "22:00"
+        "close": "21:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:18:00.454851"
+    "scraped_at": "2026-03-30T03:39:11.590450"
   },
   {
-    "id": "4059",
-    "api_id": "2001000014059",
-    "name": "仙台南町通り店",
-    "address": "宮城県 仙台市青葉区 中央3-7-25 ダイワロイネットホテル仙台西口",
+    "id": "2132",
+    "api_id": "2001000012132",
+    "name": "那覇空港国内線ゲート内店",
+    "address": "沖縄県 那覇市 鏡水150 那覇空港旅客ターミナルビル",
     "coords": [
-      38.2592413985,
-      140.879154446
+      26.2067764224,
+      127.65103134
     ],
-    "prefecture_code": 4,
+    "prefecture_code": 47,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "2",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:39:24.955913"
+  },
+  {
+    "id": "4496",
+    "api_id": "2001000014496",
+    "name": "那覇鏡原店",
+    "address": "沖縄県 那覇市 鏡原町37-30",
+    "coords": [
+      26.1950387624,
+      127.681315199
+    ],
+    "prefecture_code": 47,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -135,51 +249,51 @@
     "hours": {
       "mon": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "tue": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "wed": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "thu": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "fri": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "sat": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "sun": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       },
       "hol": {
         "open": "07:00",
-        "close": "22:00"
+        "close": "21:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:18:14.553226"
+    "scraped_at": "2026-03-30T03:39:37.687028"
   },
   {
-    "id": "215",
-    "api_id": "200100001215",
-    "name": "ホテルグランテラス 仙台国分町店",
-    "address": "宮城県 仙台市青葉区 国分町2-2-2 ホテルグランテラス仙台国分町　1F",
+    "id": "428",
+    "api_id": "200100001428",
+    "name": "イオン那覇ショッピングセンター店",
+    "address": "沖縄県 那覇市 金城5-10-2 イオン那覇ショッピングセンター",
     "coords": [
-      38.2624145019,
-      140.869518989
+      26.1967235964,
+      127.666228041
     ],
-    "prefecture_code": 4,
+    "prefecture_code": 47,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -191,52 +305,565 @@
     },
     "hours": {
       "mon": {
-        "open": "07:00",
-        "close": "22:30"
+        "open": "09:00",
+        "close": "23:00"
       },
       "tue": {
-        "open": "07:00",
-        "close": "22:30"
+        "open": "09:00",
+        "close": "23:00"
       },
       "wed": {
-        "open": "07:00",
-        "close": "22:30"
+        "open": "09:00",
+        "close": "23:00"
       },
       "thu": {
-        "open": "07:00",
-        "close": "22:30"
+        "open": "09:00",
+        "close": "23:00"
       },
       "fri": {
-        "open": "07:00",
-        "close": "22:30"
+        "open": "09:00",
+        "close": "23:00"
       },
       "sat": {
-        "open": "07:00",
-        "close": "22:30"
+        "open": "09:00",
+        "close": "23:00"
       },
       "sun": {
-        "open": "07:00",
-        "close": "22:30"
+        "open": "09:00",
+        "close": "23:00"
       },
       "hol": {
-        "open": "07:00",
-        "close": "22:30"
+        "open": "09:00",
+        "close": "23:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:18:26.088610"
+    "scraped_at": "2026-03-30T03:39:47.130958"
   },
   {
-    "id": "374",
-    "api_id": "200100001374",
-    "name": "仙台アエル店",
-    "address": "宮城県 仙台市青葉区 中央1-3-1 仙台ＡＥＲ",
+    "id": "1000",
+    "api_id": "2001000011000",
+    "name": "沖縄アウトレットモールあしびなー店",
+    "address": "沖縄県 豊見城市 豊崎1-1192 沖縄アウトレットモールあしびなー",
     "coords": [
-      38.2625924684,
-      140.881412438
+      26.1589869514,
+      127.659026765
     ],
-    "prefecture_code": 4,
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:39:59.116042"
+  },
+  {
+    "id": "1822",
+    "api_id": "2001000011822",
+    "name": "イーアス沖縄豊崎店",
+    "address": "沖縄県 豊見城市 豊崎3-35 イーアス沖縄豊崎",
+    "coords": [
+      26.1571275529,
+      127.6502698
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:40:10.242676"
+  },
+  {
+    "id": "4290",
+    "api_id": "2001000014290",
+    "name": "沖縄八重瀬店",
+    "address": "沖縄県 島尻郡 八重瀬町東風平1201-1",
+    "coords": [
+      26.1574012423,
+      127.720038438
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:40:19.899809"
+  },
+  {
+    "id": "559",
+    "api_id": "200100001559",
+    "name": "イオン南風原店",
+    "address": "沖縄県 島尻郡 南風原町宮平264 イオン南風原ショッピングセンター",
+    "coords": [
+      26.2005666455,
+      127.737101422
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:40:34.909811"
+  },
+  {
+    "id": "1245",
+    "api_id": "2001000011245",
+    "name": "沖縄津嘉山店",
+    "address": "沖縄県 島尻郡 南風原町津嘉山1321-1",
+    "coords": [
+      26.1929634281,
+      127.713080989
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:40:46.738903"
+  },
+  {
+    "id": "636",
+    "api_id": "200100001636",
+    "name": "浦添バークレーズコート店",
+    "address": "沖縄県 浦添市 当山2-2-9 バークレーズコート",
+    "coords": [
+      26.2523175209,
+      127.73834588
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:41:01.366302"
+  },
+  {
+    "id": "875",
+    "api_id": "200100001875",
+    "name": "経塚シティ店",
+    "address": "沖縄県 浦添市 経塚652 サンエー経塚シティ",
+    "coords": [
+      26.2376913085,
+      127.722500092
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:41:15.887718"
+  },
+  {
+    "id": "1671",
+    "api_id": "2001000011671",
+    "name": "浦添西海岸パルコシティ店",
+    "address": "沖縄県 浦添市 西洲3-1-1 サンエー浦添西海岸 PARCO CITY",
+    "coords": [
+      26.2622852021,
+      127.69844068
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:41:27.695676"
+  },
+  {
+    "id": "1244",
+    "api_id": "2001000011244",
+    "name": "沖縄宜野湾店",
+    "address": "沖縄県 宜野湾市 宇地泊1-1-2",
+    "coords": [
+      26.2695547791,
+      127.734640672
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:41:37.439439"
+  },
+  {
+    "id": "1277",
+    "api_id": "2001000011277",
+    "name": "イオンモール沖縄ライカム 2階店",
+    "address": "沖縄県 中頭郡 北中城村ライカム1 イオンモール沖縄ライカム 2階",
+    "coords": [
+      26.3142263763,
+      127.79747423
+    ],
+    "prefecture_code": 47,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -248,52 +875,337 @@
     },
     "hours": {
       "mon": {
-        "open": "07:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       "tue": {
-        "open": "07:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       "wed": {
-        "open": "07:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       "thu": {
-        "open": "07:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       "fri": {
-        "open": "07:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       "sat": {
-        "open": "07:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       "sun": {
-        "open": "07:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       },
       "hol": {
-        "open": "07:00",
-        "close": "21:00"
+        "open": "10:00",
+        "close": "22:00"
       }
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:18:38.463399"
+    "scraped_at": "2026-03-30T03:41:50.613680"
   },
   {
-    "id": "4468",
-    "api_id": "2001000014468",
-    "name": "仙台パルコ店",
-    "address": "宮城県 仙台市青葉区 中央1-2-3 仙台パルコ1 4階",
+    "id": "4562",
+    "api_id": "2001000014562",
+    "name": "イオンモール沖縄ライカム 3階店",
+    "address": "沖縄県 中頭郡 北中城村ライカム1 イオンモール沖縄ライカム 3階",
     "coords": [
-      38.2620614155,
-      140.881498566
+      26.3143952162,
+      127.795700203
     ],
-    "prefecture_code": 4,
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": true,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:42:02.287384"
+  },
+  {
+    "id": "1105",
+    "api_id": "2001000011105",
+    "name": "沖縄真嘉比店",
+    "address": "沖縄県 那覇市 松島1-14-13",
+    "coords": [
+      26.2227201039,
+      127.704985569
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:42:10.979274"
+  },
+  {
+    "id": "652",
+    "api_id": "200100001652",
+    "name": "沖縄西原シティ店",
+    "address": "沖縄県 中頭郡 西原町嘉手苅130 サンエー西原シティ",
+    "coords": [
+      26.2243862575,
+      127.76532687
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:42:21.531928"
+  },
+  {
+    "id": "893",
+    "api_id": "200100001893",
+    "name": "沖縄国体道路店",
+    "address": "沖縄県 中頭郡 北谷町上勢頭813－1",
+    "coords": [
+      26.3283421778,
+      127.770772464
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:42:31.939850"
+  },
+  {
+    "id": "398",
+    "api_id": "200100001398",
+    "name": "美浜アメリカンビレッジ店",
+    "address": "沖縄県 中頭郡 北谷町美浜16-2 美浜メディアステーション",
+    "coords": [
+      26.3162151961,
+      127.757987696
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:42:45.144823"
+  },
+  {
+    "id": "623",
+    "api_id": "200100001623",
+    "name": "イオン北谷店",
+    "address": "沖縄県 中頭郡 北谷町美浜8-3 イオン北谷店",
+    "coords": [
+      26.3145334134,
+      127.756948693
+    ],
+    "prefecture_code": 47,
     "price_rank": "normal",
     "price_takeout": 491,
     "price_instore": 500,
@@ -306,1578 +1218,780 @@
     "hours": {
       "mon": {
         "open": "10:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:42:58.039929"
+  },
+  {
+    "id": "702",
+    "api_id": "200100001702",
+    "name": "北谷国道58号店",
+    "address": "沖縄県 中頭郡 北谷町美浜1-5-11",
+    "coords": [
+      26.3137413466,
+      127.760996726
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "06:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:43:10.664516"
+  },
+  {
+    "id": "4151",
+    "api_id": "2001000014151",
+    "name": "北谷北前店",
+    "address": "沖縄県 中頭郡 北谷町北前1-6-1",
+    "coords": [
+      26.3004633225,
+      127.761006226
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:43:25.032267"
+  },
+  {
+    "id": "2185",
+    "api_id": "2001000012185",
+    "name": "読谷村立図書館店",
+    "address": "沖縄県 中頭郡 読谷村座喜味2901-1 ゆんラボ・未来館",
+    "coords": [
+      26.3951084675,
+      127.744558789
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:43:33.919829"
+  },
+  {
+    "id": "842",
+    "api_id": "200100001842",
+    "name": "沖縄読谷店",
+    "address": "沖縄県 中頭郡 読谷村古堅639-1 イオンタウン読谷ショッピングセンター",
+    "coords": [
+      26.3695973437,
+      127.746643124
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "06:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "06:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "06:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "06:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "06:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:43:48.345848"
+  },
+  {
+    "id": "4101",
+    "api_id": "2001000014101",
+    "name": "沖縄登川店",
+    "address": "沖縄県 沖縄市 登川1-8-6",
+    "coords": [
+      26.3682268035,
+      127.818643597
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:43:58.851977"
+  },
+  {
+    "id": "4219",
+    "api_id": "2001000014219",
+    "name": "沖縄あわせモール店",
+    "address": "沖縄県 沖縄市 古謝2-17-6",
+    "coords": [
+      26.3336693809,
+      127.834102515
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:44:08.955657"
+  },
+  {
+    "id": "4129",
+    "api_id": "2001000014129",
+    "name": "沖縄うるま安慶名店",
+    "address": "沖縄県 うるま市 安慶名1-2-28",
+    "coords": [
+      26.3749022682,
+      127.854318938
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:44:18.952989"
+  },
+  {
+    "id": "1630",
+    "api_id": "2001000011630",
+    "name": "沖縄アブロうるま店",
+    "address": "沖縄県 うるま市 豊原393-1 ABLOうるま",
+    "coords": [
+      26.3437008966,
+      127.855079756
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:44:29.593749"
+  },
+  {
+    "id": "577",
+    "api_id": "200100001577",
+    "name": "具志川メインシティ店",
+    "address": "沖縄県 うるま市 江洲450-1 サンエー具志川メインシティ",
+    "coords": [
+      26.3530618877,
+      127.826018127
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:44:43.322512"
+  },
+  {
+    "id": "4199",
+    "api_id": "2001000014199",
+    "name": "沖縄うるま江洲店",
+    "address": "沖縄県 うるま市 江洲598-5",
+    "coords": [
+      26.3480333986,
+      127.834019638
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:44:56.867805"
+  },
+  {
+    "id": "4322",
+    "api_id": "2001000014322",
+    "name": "イオン名護店",
+    "address": "沖縄県 名護市 名護見取川原4472 イオン名護",
+    "coords": [
+      26.608810901,
+      127.983869352
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:45:05.382945"
+  },
+  {
+    "id": "1543",
+    "api_id": "2001000011543",
+    "name": "沖縄本部町店",
+    "address": "沖縄県 国頭郡 本部町山川1421-4",
+    "coords": [
+      26.6821418549,
+      127.88321989
+    ],
+    "prefecture_code": 47,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:45:17.293816"
+  },
+  {
+    "id": "2050",
+    "api_id": "2001000012050",
+    "name": "石垣空港店",
+    "address": "沖縄県 石垣市 白保1960-104-1",
+    "coords": [
+      24.3905614852,
+      124.24590443
+    ],
+    "prefecture_code": 47,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
         "close": "20:00"
       },
       "tue": {
-        "open": "10:00",
+        "open": "07:30",
         "close": "20:00"
       },
       "wed": {
-        "open": "10:00",
+        "open": "07:30",
         "close": "20:00"
       },
       "thu": {
-        "open": "10:00",
+        "open": "07:30",
         "close": "20:00"
       },
       "fri": {
-        "open": "10:00",
+        "open": "07:30",
         "close": "20:00"
       },
       "sat": {
-        "open": "10:00",
+        "open": "07:30",
         "close": "20:00"
       },
       "sun": {
-        "open": "10:00",
+        "open": "07:30",
         "close": "20:00"
       },
       "hol": {
-        "open": "10:00",
+        "open": "07:30",
         "close": "20:00"
       }
     },
-    "store_type": "1",
+    "store_type": "2",
     "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:18:52.089247"
-  },
-  {
-    "id": "1356",
-    "api_id": "2001000011356",
-    "name": "エスパル仙台東館店",
-    "address": "宮城県 仙台市青葉区 中央1-1-1 エスパル仙台東館 4階",
-    "coords": [
-      38.259469221,
-      140.883109663
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:19:06.548679"
-  },
-  {
-    "id": "1820",
-    "api_id": "2001000011820",
-    "name": "利府街道店",
-    "address": "宮城県 宮城郡 利府町中央3-20-4",
-    "coords": [
-      38.3273491459,
-      140.976420177
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:19:17.750580"
-  },
-  {
-    "id": "1896",
-    "api_id": "2001000011896",
-    "name": "イオンモール新利府南館1階店",
-    "address": "宮城県 宮城郡 利府町新中道3-1-1 イオンモール新利府南館",
-    "coords": [
-      38.3239658352,
-      140.972899514
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:19:32.884619"
-  },
-  {
-    "id": "1897",
-    "api_id": "2001000011897",
-    "name": "イオンモール新利府南館2階店",
-    "address": "宮城県 宮城郡 利府町新中道3-1-1 イオンモール新利府南館",
-    "coords": [
-      38.3238241771,
-      140.97252344
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:19:41.328671"
-  },
-  {
-    "id": "1550",
-    "api_id": "2001000011550",
-    "name": "仙台台原店",
-    "address": "宮城県 仙台市青葉区 台原1-8-7",
-    "coords": [
-      38.2833109325,
-      140.872646378
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:19:49.712128"
-  },
-  {
-    "id": "4557",
-    "api_id": "2001000014557",
-    "name": "イオンモール仙台上杉店",
-    "address": "宮城県 仙台市青葉区 堤通雨宮町1-1 イオンモール仙台上杉 2階",
-    "coords": [
-      38.275870889,
-      140.872307027
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:19:59.046344"
-  },
-  {
-    "id": "4110",
-    "api_id": "2001000014110",
-    "name": "名取増田店",
-    "address": "宮城県 名取市 増田北谷235-1",
-    "coords": [
-      38.1732802368,
-      140.890570512
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:20:09.089764"
-  },
-  {
-    "id": "1678",
-    "api_id": "2001000011678",
-    "name": "イオンモール名取2階店",
-    "address": "宮城県 名取市 杜せきのした5-3-1 イオンモール名取2階",
-    "coords": [
-      38.164624879,
-      140.896601798
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:20:21.344853"
-  },
-  {
-    "id": "4478",
-    "api_id": "2001000014478",
-    "name": "イオンモール名取1階店",
-    "address": "宮城県 名取市 杜せきのした5-3-1 イオンモール名取1階",
-    "coords": [
-      38.1636794211,
-      140.896401025
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:20:30.639495"
-  },
-  {
-    "id": "1205",
-    "api_id": "2001000011205",
-    "name": "仙台市名坂店",
-    "address": "宮城県 仙台市泉区 高玉町3-10",
-    "coords": [
-      38.3181756283,
-      140.893795794
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": true,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:20:45.838434"
-  },
-  {
-    "id": "391",
-    "api_id": "200100001391",
-    "name": "泉中央セルバ店",
-    "address": "宮城県 仙台市泉区 泉中央1-4-1 泉中央セルバ",
-    "coords": [
-      38.3235248552,
-      140.882287337
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:20:58.536452"
-  },
-  {
-    "id": "1873",
-    "api_id": "2001000011873",
-    "name": "仙台泉パークタウン桂店",
-    "address": "宮城県 仙台市泉区 桂1-1-1 仙台泉パークタウン桂ガーデンプラザ",
-    "coords": [
-      38.3326763451,
-      140.86459644
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:21:08.760120"
-  },
-  {
-    "id": "871",
-    "api_id": "200100001871",
-    "name": "仙台泉パークタウン タピオ店",
-    "address": "宮城県 仙台市泉区 寺岡6-5-1 泉パークタウン タピオ",
-    "coords": [
-      38.3429105743,
-      140.835431447
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:21:22.118124"
-  },
-  {
-    "id": "490",
-    "api_id": "200100001490",
-    "name": "イオンモール富谷店",
-    "address": "宮城県 富谷市 大清水1-33-1 イオンモール富谷",
-    "coords": [
-      38.3645270094,
-      140.875024941
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:21:31.920405"
-  },
-  {
-    "id": "444",
-    "api_id": "200100001444",
-    "name": "ザ・モール仙台長町 Ｐａｒｔ２店",
-    "address": "宮城県 仙台市太白区 長町7-20-3 ザ・モール仙台長町 Part2",
-    "coords": [
-      38.2261207404,
-      140.877206411
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:21:44.132409"
-  },
-  {
-    "id": "1557",
-    "api_id": "2001000011557",
-    "name": "ザ・モール仙台長町本館店",
-    "address": "宮城県 仙台市太白区 長町7-20-3 ザ・モール仙台長町本館3階",
-    "coords": [
-      38.2251883288,
-      140.87656123
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:21:54.588427"
-  },
-  {
-    "id": "1122",
-    "api_id": "2001000011122",
-    "name": "仙台大野田店",
-    "address": "宮城県 仙台市太白区 大野田4-2-1",
-    "coords": [
-      38.2139317642,
-      140.877085315
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:22:03.630606"
-  },
-  {
-    "id": "2031",
-    "api_id": "2001000012031",
-    "name": "TSUTAYA 東仙台店",
-    "address": "宮城県 仙台市宮城野区 東仙台4-14-1 TSUTAYA ヤマト屋書店 東仙台店",
-    "coords": [
-      38.2762636978,
-      140.908290965
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "09:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:22:15.529584"
-  },
-  {
-    "id": "328",
-    "api_id": "200100001328",
-    "name": "仙台駅東口店",
-    "address": "宮城県 仙台市宮城野区 榴岡1-2-10 エンドウビル 1F",
-    "coords": [
-      38.2595064861,
-      140.885795549
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:22:24.048162"
-  },
-  {
-    "id": "1757",
-    "api_id": "2001000011757",
-    "name": "仙台六丁の目店",
-    "address": "宮城県 仙台市若林区 六丁の目中町1-70",
-    "coords": [
-      38.2511407719,
-      140.936804754
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:22:37.729854"
-  },
-  {
-    "id": "2093",
-    "api_id": "2001000012093",
-    "name": "TSUTAYA 仙台荒井店",
-    "address": "宮城県 仙台市若林区 なないろの里3-3-28 クロスモール仙台荒井",
-    "coords": [
-      38.2382300908,
-      140.930069796
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "09:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "09:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:22:46.835209"
-  },
-  {
-    "id": "2066",
-    "api_id": "2001000012066",
-    "name": "蔦屋書店 多賀城市立図書館店",
-    "address": "宮城県 多賀城市 中央2-4-3",
-    "coords": [
-      38.2919581539,
-      141.005066094
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "08:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "08:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:23:01.337869"
-  },
-  {
-    "id": "1140",
-    "api_id": "2001000011140",
-    "name": "イオンモール石巻店",
-    "address": "宮城県 石巻市 茜平4-104 イオンモール石巻",
-    "coords": [
-      38.4477957509,
-      141.265161762
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": false,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "tue": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "wed": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "thu": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "fri": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sat": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "sun": {
-        "open": "10:00",
-        "close": "21:00"
-      },
-      "hol": {
-        "open": "10:00",
-        "close": "21:00"
-      }
-    },
-    "store_type": "1",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:23:14.357345"
-  },
-  {
-    "id": "1697",
-    "api_id": "2001000011697",
-    "name": "石巻バイパス店",
-    "address": "宮城県 石巻市 新橋10-30",
-    "coords": [
-      38.4398750502,
-      141.287865797
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:23:27.528256"
-  },
-  {
-    "id": "4402",
-    "api_id": "2001000014402",
-    "name": "仙台南吉成店",
-    "address": "宮城県 仙台市青葉区 南吉成3-16-5",
-    "coords": [
-      38.2884244565,
-      140.81946056
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "22:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "22:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:23:37.732164"
-  },
-  {
-    "id": "1522",
-    "api_id": "2001000011522",
-    "name": "古川店",
-    "address": "宮城県 大崎市 古川旭2-3-15",
-    "coords": [
-      38.56606826,
-      140.972147595
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:23:47.766390"
-  },
-  {
-    "id": "4460",
-    "api_id": "2001000014460",
-    "name": "古川北稲葉店",
-    "address": "宮城県 大崎市 古川北稲葉3-4-12",
-    "coords": [
-      38.5646643845,
-      140.948415186
-    ],
-    "prefecture_code": 4,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
-    "options": {
-      "reserve": false,
-      "teavana": false,
-      "drive_thru": true,
-      "wifi": true
-    },
-    "hours": {
-      "mon": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "tue": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "wed": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "thu": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "fri": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sat": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "sun": {
-        "open": "07:00",
-        "close": "23:00"
-      },
-      "hol": {
-        "open": "07:00",
-        "close": "23:00"
-      }
-    },
-    "store_type": "3",
-    "detail_fetched": true,
-    "scraped_at": "2026-03-30T14:23:59.519705"
+    "scraped_at": "2026-03-30T03:45:26.508312"
   }
 ]

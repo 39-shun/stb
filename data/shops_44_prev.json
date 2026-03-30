@@ -1,0 +1,971 @@
+[
+  {
+    "id": "4200",
+    "api_id": "2001000014200",
+    "name": "大分中春日店",
+    "address": "大分県 大分市 中春日町12－24",
+    "coords": [
+      33.2398972197,
+      131.595413244
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:28:03.139448"
+  },
+  {
+    "id": "4111",
+    "api_id": "2001000014111",
+    "name": "大分森町店",
+    "address": "大分県 大分市 森町593-1",
+    "coords": [
+      33.2250186513,
+      131.681675931
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:28:12.955273"
+  },
+  {
+    "id": "363",
+    "api_id": "200100001363",
+    "name": "パークプレイス大分店",
+    "address": "大分県 大分市 公園通り西2-1 パークプレイス大分",
+    "coords": [
+      33.1957099651,
+      131.656937113
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:28:22.054299"
+  },
+  {
+    "id": "1231",
+    "api_id": "2001000011231",
+    "name": "アミュプラザおおいた 1階店",
+    "address": "大分県 大分市 要町1-14 アミュプラザおおいた1階",
+    "coords": [
+      33.2330909245,
+      131.606807055
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:28:32.421794"
+  },
+  {
+    "id": "2277",
+    "api_id": "2001000012277",
+    "name": "アミュプラザおおいた 2階店",
+    "address": "大分県 大分市 要町1-14 アミュプラザおおいた2階",
+    "coords": [
+      33.2330631511,
+      131.606882606
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:28:41.607840"
+  },
+  {
+    "id": "1330",
+    "api_id": "2001000011330",
+    "name": "大分大道バイパス店",
+    "address": "大分県 大分市 二又町3-2-6",
+    "coords": [
+      33.2124026813,
+      131.596597745
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:28:50.491847"
+  },
+  {
+    "id": "4152",
+    "api_id": "2001000014152",
+    "name": "大分高城店",
+    "address": "大分県 大分市 日吉町19-18",
+    "coords": [
+      33.2444119217,
+      131.653705972
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:29:02.821182"
+  },
+  {
+    "id": "1095",
+    "api_id": "2001000011095",
+    "name": "大分下郡店",
+    "address": "大分県 大分市 下郡北3-25-16",
+    "coords": [
+      33.2302564422,
+      131.634987068
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:29:11.726434"
+  },
+  {
+    "id": "184",
+    "api_id": "200100001184",
+    "name": "大分わさだトキハ店",
+    "address": "大分県 大分市 玉沢楠本755-1 トキハわさだタウン 1F",
+    "coords": [
+      33.1882322269,
+      131.581604547
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:29:21.418596"
+  },
+  {
+    "id": "1756",
+    "api_id": "2001000011756",
+    "name": "大分トキハ本店",
+    "address": "大分県 大分市 府内町2-1-4 トキハ本店",
+    "coords": [
+      33.2364991865,
+      131.607687658
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:29:35.655870"
+  },
+  {
+    "id": "4403",
+    "api_id": "2001000014403",
+    "name": "中津店",
+    "address": "大分県 中津市 東本町5-6",
+    "coords": [
+      33.5953268594,
+      131.190909637
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:29:49.157027"
+  },
+  {
+    "id": "4551",
+    "api_id": "2001000014551",
+    "name": "イオンモール三光店",
+    "address": "大分県 中津市 三光佐知1032 イオンモール三光1階",
+    "coords": [
+      33.5599117803,
+      131.192156165
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:29:57.679220"
+  },
+  {
+    "id": "4316",
+    "api_id": "2001000014316",
+    "name": "別府上人ケ浜店",
+    "address": "大分県 別府市 上人ヶ浜町2-51",
+    "coords": [
+      33.3135985095,
+      131.500356078
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:30:08.568406"
+  },
+  {
+    "id": "1769",
+    "api_id": "2001000011769",
+    "name": "別府公園店",
+    "address": "大分県 別府市 西野口町2780-28 別府公園東駐車場",
+    "coords": [
+      33.2814562768,
+      131.493761439
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:30:18.545525"
+  },
+  {
+    "id": "650",
+    "api_id": "200100001650",
+    "name": "別府トキハ店",
+    "address": "大分県 別府市 北浜2-9-1 トキハ別府店",
+    "coords": [
+      33.2799994218,
+      131.505863556
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:30:27.156143"
+  },
+  {
+    "id": "4373",
+    "api_id": "2001000014373",
+    "name": "日田店",
+    "address": "大分県 日田市 庄手648-6",
+    "coords": [
+      33.311937234,
+      130.924176783
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:30:38.650759"
+  },
+  {
+    "id": "785",
+    "api_id": "200100001785",
+    "name": "大分大学医学部附属病院店",
+    "address": "大分県 由布市 挾間町医大ヶ丘1-1 大分大学医学部附属病院",
+    "coords": [
+      33.2098779875,
+      131.535056583
+    ],
+    "prefecture_code": 44,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "19:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "19:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "19:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "19:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "19:30"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "18:30"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "18:30"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "18:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:30:52.378219"
+  }
+]

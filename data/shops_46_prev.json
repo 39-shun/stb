@@ -1,0 +1,743 @@
+[
+  {
+    "id": "1233",
+    "api_id": "2001000011233",
+    "name": "アミュプラザ鹿児島 プレミアム館1階店",
+    "address": "鹿児島県 鹿児島市 中央町1-1 アミュプラザ鹿児島",
+    "coords": [
+      31.583790965,
+      130.542423063
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:35:22.472722"
+  },
+  {
+    "id": "1768",
+    "api_id": "2001000011768",
+    "name": "アミュプラザ鹿児島 本館2階店",
+    "address": "鹿児島県 鹿児島市 中央町1-1 アミュプラザ鹿児島",
+    "coords": [
+      31.5842414774,
+      130.542713296
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:35:37.480276"
+  },
+  {
+    "id": "4031",
+    "api_id": "2001000014031",
+    "name": "鹿児島与次郎店",
+    "address": "鹿児島県 鹿児島市 与次郎1-8-30",
+    "coords": [
+      31.5670056089,
+      130.562377456
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:35:51.184882"
+  },
+  {
+    "id": "804",
+    "api_id": "200100001804",
+    "name": "鹿児島OPSIAミスミ店",
+    "address": "鹿児島県 鹿児島市 宇宿2-3-5 OPSIA Misumi",
+    "coords": [
+      31.5435739013,
+      130.543768414
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:36:06.098656"
+  },
+  {
+    "id": "791",
+    "api_id": "200100001791",
+    "name": "イオンモール鹿児島店",
+    "address": "鹿児島県 鹿児島市 東開町7 イオンモール鹿児島",
+    "coords": [
+      31.5274482711,
+      130.536171454
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:36:18.226549"
+  },
+  {
+    "id": "4335",
+    "api_id": "2001000014335",
+    "name": "鹿児島東開町店",
+    "address": "鹿児島県 鹿児島市 東開町4-113",
+    "coords": [
+      31.5360737126,
+      130.534747009
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:36:30.516906"
+  },
+  {
+    "id": "4181",
+    "api_id": "2001000014181",
+    "name": "鹿児島谷山駅前店",
+    "address": "鹿児島県 鹿児島市 谷山中央1-4127-17",
+    "coords": [
+      31.5263539075,
+      130.518191609
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:36:41.786198"
+  },
+  {
+    "id": "1713",
+    "api_id": "2001000011713",
+    "name": "鹿児島マルヤガーデンズ店",
+    "address": "鹿児島県 鹿児島市 呉服町6-5 マルヤガーデンズ",
+    "coords": [
+      31.5911770968,
+      130.557030676
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:36:56.285323"
+  },
+  {
+    "id": "701",
+    "api_id": "200100001701",
+    "name": "鹿児島天文館店",
+    "address": "鹿児島県 鹿児島市 東千石町16-18 STYLISHビル",
+    "coords": [
+      31.5920191893,
+      130.55476027
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:37:11.381875"
+  },
+  {
+    "id": "1441",
+    "api_id": "2001000011441",
+    "name": "鹿児島仙巌園店",
+    "address": "鹿児島県 鹿児島市 吉野町9688-1",
+    "coords": [
+      31.6168260625,
+      130.575364084
+    ],
+    "prefecture_code": 46,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:37:21.009152"
+  },
+  {
+    "id": "2227",
+    "api_id": "2001000012227",
+    "name": "薩摩川内 センノオト店",
+    "address": "鹿児島県 薩摩川内市 若松町3-33 センノオト1階",
+    "coords": [
+      31.813947161,
+      130.302754314
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:37:33.092585"
+  },
+  {
+    "id": "2157",
+    "api_id": "2001000012157",
+    "name": "TSUTAYA BOOKSTORE 霧島店",
+    "address": "鹿児島県 霧島市 国分野口東8-40",
+    "coords": [
+      31.737479616,
+      130.75428978
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:37:45.801161"
+  },
+  {
+    "id": "4143",
+    "api_id": "2001000014143",
+    "name": "イオンタウン姶良店",
+    "address": "鹿児島県 姶良市 西餅田264-1 イオンタウン姶良",
+    "coords": [
+      31.7325520826,
+      130.626786707
+    ],
+    "prefecture_code": 46,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:38:00.215305"
+  }
+]
