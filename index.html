@@ -67,6 +67,7 @@
   --sb-w: 300px;
   --header-h: 52px;
   --ad-bottom-h: 60px;
+  --toggle-bar-h: 36px;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -277,7 +278,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 }
 #mobile-filter-area .filter-group { margin-bottom:8px; }
 #mobile-filter-area .filter-group:last-child { margin-bottom:0; }
-#mobile-store-list { overflow-y:auto; -webkit-overflow-scrolling:touch; flex:1; padding-bottom:var(--ad-bottom-h); }
+#mobile-store-list { overflow-y:auto; -webkit-overflow-scrolling:touch; flex:1; padding-bottom:calc(var(--ad-bottom-h) + var(--toggle-bar-h)); }
 
 /* FAB */
 #locate-btn {
@@ -398,8 +399,8 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     flex:0 0 0%;
   }
 
-  /* 現在地ボタン: デフォルトは地図内右下 */
-  #locate-btn { bottom:calc(var(--ad-bottom-h) + 16px) !important; right:12px !important; }
+  /* 現在地ボタン: デフォルトは地図内右下（広告なし想定の元位置） */
+  #locate-btn { bottom:32px !important; right:12px !important; }
   /* 検索FAB: スマホのみ表示 */
   #mobile-search-fab { display:flex; }
 
@@ -414,9 +415,9 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     border-top:1px solid var(--border);
   }
 
-  /* 地図最大時：locate-btnをトグルバー(約36px)+広告(60px)の上に出す */
-  #map-wrap.state-map #locate-btn { bottom:calc(var(--ad-bottom-h) + 48px) !important; }
-  #map-wrap.state-map #mobile-search-fab { bottom:calc(var(--ad-bottom-h) + 108px) !important; }
+  /* 地図最大時：locate-btnを広告直上、FABをその上に */
+  #map-wrap.state-map #locate-btn { bottom:calc(var(--ad-bottom-h) + 4px) !important; }
+  #map-wrap.state-map #mobile-search-fab { bottom:calc(var(--ad-bottom-h) + 60px) !important; }
 
   /* リスト最大：地図を0に、map-wrapは消す */
   #map-wrap.state-list { flex:0 0 0%; overflow:hidden; }
@@ -436,7 +437,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
   #mobile-bar.hidden { opacity:0; pointer-events:none; }
 
   /* 広告: 固定下部 */
-  #mobile-store-list { padding-bottom:var(--ad-bottom-h); }
+  #mobile-store-list { padding-bottom:calc(var(--ad-bottom-h) + var(--toggle-bar-h)); }
 }
 @media (max-width:960px) { .tagline { display:none; } }
 
@@ -451,7 +452,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 #map-wrap.state-list #filter-indicator { display:none !important; }
 #mobile-search-fab {
   display:none;
-  position:absolute; bottom:calc(var(--ad-bottom-h) + 76px); right:12px; left:auto; z-index:900;
+  position:absolute; bottom:76px; right:12px; left:auto; z-index:900;
   width:48px; height:48px; border-radius:50%;
   border:1px solid var(--border); background:var(--surface);
   color:var(--text); font-size:20px; cursor:pointer;
@@ -668,7 +669,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
         </div>
       </div>
       <div id="mobile-search-panel-count" style="padding:5px 14px;font-size:10px;color:var(--text-sub);flex-shrink:0;border-bottom:1px solid var(--border);background:var(--surface);"></div>
-      <div id="mobile-search-panel-list" style="overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;padding-bottom:var(--ad-bottom-h);"></div>
+      <div id="mobile-search-panel-list" style="overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;padding-bottom:calc(var(--ad-bottom-h) + var(--toggle-bar-h));"></div>
     </div>
     <!-- モバイル詳細パネル（ピンタップで切り替わる） -->
     <div id="mobile-detail-panel" style="display:none;flex-direction:column;flex:1;overflow:hidden;background:var(--surface);">
@@ -676,10 +677,10 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
         <button onclick="closeMobileDetail()" style="background:none;border:none;color:var(--accent);font-size:13px;font-weight:700;cursor:pointer;padding:0;display:flex;align-items:center;gap:4px;">← 戻る</button>
         <span id="mobile-detail-title" style="font-size:12px;font-weight:700;color:var(--text);flex:1;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:0 8px;"></span>
         <div style="width:40px;display:flex;justify-content:flex-end;">
-          <button id="mobile-share-btn" onclick="shareStore()" style="background:none;border:none;color:var(--text-sub);font-size:15px;font-weight:700;cursor:pointer;padding:4px;line-height:1;">𝕏</button>
+          <button id="mobile-share-btn" onclick="shareStore()" style="background:none;border:none;color:var(--text-sub);font-size:11px;font-weight:700;cursor:pointer;padding:4px;line-height:1;white-space:nowrap;">𝕏 Xで共有</button>
         </div>
       </div>
-      <div id="mobile-detail-body" style="overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;padding:12px 14px;padding-bottom:calc(var(--ad-bottom-h) + 32px);"></div>
+      <div id="mobile-detail-body" style="overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1;padding:12px 14px;padding-bottom:calc(var(--ad-bottom-h) + var(--toggle-bar-h) + 12px);"></div>
     </div>
 
     <!-- 近くの店舗ヘッダー（フィルターより下） -->
@@ -2283,7 +2284,7 @@ function shareStore() {
   const prices = PRICE_TABLE[rank] || PRICE_TABLE.normal;
   const rankLabel = getRankLabel(rank, shop.store_type);
   const url   = `https://kakaku-starbucks.pages.dev/?store=${shop.id}`;
-  const text  = `${shop.name}\n${rankLabel}｜ラテTall ¥${prices.takeout}（テイクアウト）\n`;
+  const text  = `${shop.name}のスターバックスラテ（Tall）は${rankLabel}・¥${prices.takeout}！\n近くのスタバ価格をチェック👇\n`;
   window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
 }
 
