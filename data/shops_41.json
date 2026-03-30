@@ -1,0 +1,800 @@
+[
+  {
+    "id": "1167",
+    "api_id": "2001000011167",
+    "name": "佐賀南バイパス店",
+    "address": "佐賀県 佐賀市 本庄町袋306-6",
+    "coords": [
+      33.2387694143,
+      130.298800422
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:16:14.336231"
+  },
+  {
+    "id": "1364",
+    "api_id": "2001000011364",
+    "name": "佐賀大学通り店",
+    "address": "佐賀県 佐賀市 与賀町70-1 TSUTAYA積文館書店 佐大通り店",
+    "coords": [
+      33.2484146642,
+      130.292657711
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:16:26.618619"
+  },
+  {
+    "id": "1705",
+    "api_id": "2001000011705",
+    "name": "鳥栖プレミアム・アウトレット店",
+    "address": "佐賀県 鳥栖市 弥生が丘8-1 鳥栖プレミアム・アウトレット",
+    "coords": [
+      33.4043540472,
+      130.512506994
+    ],
+    "prefecture_code": 41,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:16:41.559314"
+  },
+  {
+    "id": "2021",
+    "api_id": "2001000012021",
+    "name": "TSUTAYA 鳥栖店",
+    "address": "佐賀県 鳥栖市 本鳥栖町537-1",
+    "coords": [
+      33.3764032236,
+      130.516837644
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:16:52.645741"
+  },
+  {
+    "id": "1425",
+    "api_id": "2001000011425",
+    "name": "鳥栖蔵上町店",
+    "address": "佐賀県 鳥栖市 蔵上町662-5",
+    "coords": [
+      33.3760343322,
+      130.498530292
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:17:06.537605"
+  },
+  {
+    "id": "931",
+    "api_id": "200100001931",
+    "name": "基山パーキングエリア（上り線）店",
+    "address": "佐賀県 三養基郡 基山町小倉2097-1 基山パーキングエリア（上り線）",
+    "coords": [
+      33.4408154555,
+      130.530150517
+    ],
+    "prefecture_code": 41,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:17:17.840351"
+  },
+  {
+    "id": "4476",
+    "api_id": "2001000014476",
+    "name": "吉野ヶ里歴史公園店",
+    "address": "佐賀県 神埼市 神埼町鶴612-1",
+    "coords": [
+      33.3241266804,
+      130.378721521
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:17:31.512992"
+  },
+  {
+    "id": "2049",
+    "api_id": "2001000012049",
+    "name": "蔦屋書店 武雄市図書館店",
+    "address": "佐賀県 武雄市 武雄町武雄5304-1",
+    "coords": [
+      33.1891368632,
+      130.023759161
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:17:40.909301"
+  },
+  {
+    "id": "1521",
+    "api_id": "2001000011521",
+    "name": "佐賀武雄店",
+    "address": "佐賀県 武雄市 武雄町昭和277",
+    "coords": [
+      33.1934050809,
+      130.027372553
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:17:52.252716"
+  },
+  {
+    "id": "4051",
+    "api_id": "2001000014051",
+    "name": "唐津店",
+    "address": "佐賀県 唐津市 和多田西山1-46-1",
+    "coords": [
+      33.4305894761,
+      129.982089281
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:18:02.246940"
+  },
+  {
+    "id": "2348",
+    "api_id": "2001000012348",
+    "name": "TSUTAYA BOOKSTORE 伊万里店",
+    "address": "佐賀県 伊万里市 二里町八谷搦1274",
+    "coords": [
+      33.2768100452,
+      129.868141103
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:18:12.382644"
+  },
+  {
+    "id": "926",
+    "api_id": "200100001926",
+    "name": "金立サービスエリア（下り線）店",
+    "address": "佐賀県 佐賀市 金立町金立1197-57 金立サービスエリア（下り線）",
+    "coords": [
+      33.3284233805,
+      130.311528015
+    ],
+    "prefecture_code": 41,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:18:27.151618"
+  },
+  {
+    "id": "4474",
+    "api_id": "2001000014474",
+    "name": "佐賀兵庫店",
+    "address": "佐賀県 佐賀市 兵庫町藤木1192-1",
+    "coords": [
+      33.2762102053,
+      130.303009738
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:18:38.894699"
+  },
+  {
+    "id": "729",
+    "api_id": "200100001729",
+    "name": "ゆめタウン佐賀店",
+    "address": "佐賀県 佐賀市 兵庫北5-14-1 ゆめタウン佐賀",
+    "coords": [
+      33.2756514666,
+      130.308187945
+    ],
+    "prefecture_code": 41,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T03:18:49.841637"
+  }
+]
