@@ -1,0 +1,401 @@
+[
+  {
+    "id": "1176",
+    "api_id": "2001000011176",
+    "name": "イオンモール高知1階店",
+    "address": "高知県 高知市 秦南町1-4-8 イオンモール高知 1階",
+    "coords": [
+      33.5766918662,
+      133.542111342
+    ],
+    "prefecture_code": 39,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:55:37.280320"
+  },
+  {
+    "id": "4023",
+    "api_id": "2001000014023",
+    "name": "イオンモール高知2階店",
+    "address": "高知県 高知市 秦南町1-4-8 イオンモール高知 2階",
+    "coords": [
+      33.5766666009,
+      133.542670463
+    ],
+    "prefecture_code": 39,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:55:47.960506"
+  },
+  {
+    "id": "2115",
+    "api_id": "2001000012115",
+    "name": "高知 蔦屋書店",
+    "address": "高知県 高知市 南御座90-1",
+    "coords": [
+      33.5667732912,
+      133.562951734
+    ],
+    "prefecture_code": 39,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:55:57.288910"
+  },
+  {
+    "id": "1273",
+    "api_id": "2001000011273",
+    "name": "高知帯屋町店",
+    "address": "高知県 高知市 帯屋町2-2-14 岡村帯屋町ビル",
+    "coords": [
+      33.5602779742,
+      133.536836424
+    ],
+    "prefecture_code": 39,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:56:09.839338"
+  },
+  {
+    "id": "778",
+    "api_id": "200100001778",
+    "name": "高知あぞの店",
+    "address": "高知県 高知市 薊野北町1-9-39",
+    "coords": [
+      33.5788348887,
+      133.553338366
+    ],
+    "prefecture_code": 39,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:56:24.543746"
+  },
+  {
+    "id": "4145",
+    "api_id": "2001000014145",
+    "name": "高知知寄店",
+    "address": "高知県 高知市 小倉町1-40",
+    "coords": [
+      33.5577690314,
+      133.566094388
+    ],
+    "prefecture_code": 39,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:56:37.825591"
+  },
+  {
+    "id": "805",
+    "api_id": "200100001805",
+    "name": "高知潮江店",
+    "address": "高知県 高知市 潮新町2-13-28",
+    "coords": [
+      33.5487269563,
+      133.550955228
+    ],
+    "prefecture_code": 39,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-30T02:56:52.869866"
+  }
+]
