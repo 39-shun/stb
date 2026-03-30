@@ -1,0 +1,1256 @@
+[
+  {
+    "id": "1876",
+    "api_id": "2001000011876",
+    "name": "イオンモール奈良登美ヶ丘店",
+    "address": "奈良県 生駒市 鹿畑町3027 イオンモール奈良登美ヶ丘",
+    "coords": [
+      34.7260750132,
+      135.751137181
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:15:47.647680"
+  },
+  {
+    "id": "1329",
+    "api_id": "2001000011329",
+    "name": "北生駒ならやま大通り店",
+    "address": "奈良県 生駒市 上町3420-1",
+    "coords": [
+      34.724493818,
+      135.720733945
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:15:58.030182"
+  },
+  {
+    "id": "2147",
+    "api_id": "2001000012147",
+    "name": "奈良 蔦屋書店",
+    "address": "奈良県 奈良市 三条大路1-691-1",
+    "coords": [
+      34.6823686835,
+      135.804942503
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:16:10.699409"
+  },
+  {
+    "id": "1514",
+    "api_id": "2001000011514",
+    "name": "奈良鴻ノ池運動公園店",
+    "address": "奈良県 奈良市 法蓮佐保山4-1703-1　",
+    "coords": [
+      34.6961050895,
+      135.826428697
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:16:19.142417"
+  },
+  {
+    "id": "1377",
+    "api_id": "2001000011377",
+    "name": "JR奈良駅旧駅舎店",
+    "address": "奈良県 奈良市 三条本町1082 奈良市総合観光案内所",
+    "coords": [
+      34.6817884494,
+      135.819794907
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:16:31.381287"
+  },
+  {
+    "id": "1349",
+    "api_id": "2001000011349",
+    "name": "奈良公園バスターミナル店",
+    "address": "奈良県 奈良市 登大路町76 奈良公園バスターミナル2階",
+    "coords": [
+      34.6847517239,
+      135.834568266
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "07:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:16:44.316881"
+  },
+  {
+    "id": "1766",
+    "api_id": "2001000011766",
+    "name": "奈良猿沢池店",
+    "address": "奈良県 奈良市 樽井町1",
+    "coords": [
+      34.6817166942,
+      135.830190714
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:16:58.712053"
+  },
+  {
+    "id": "226",
+    "api_id": "200100001226",
+    "name": "奈良学園前駅店",
+    "address": "奈良県 奈良市 学園南3-1-5 奈良西部会館 1F",
+    "coords": [
+      34.6968845113,
+      135.750391642
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:17:09.148763"
+  },
+  {
+    "id": "399",
+    "api_id": "200100001399",
+    "name": "奈良西大寺駅前店",
+    "address": "奈良県 奈良市 西大寺東町2-1-63 サンワシティ西大寺",
+    "coords": [
+      34.6942512025,
+      135.783378469
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:17:19.874721"
+  },
+  {
+    "id": "4241",
+    "api_id": "2001000014241",
+    "name": "ならファミリー店",
+    "address": "奈良県 奈良市 西大寺東町2-4-1 ならファミリー 2階",
+    "coords": [
+      34.6943465045,
+      135.785344968
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:17:32.310679"
+  },
+  {
+    "id": "4094",
+    "api_id": "2001000014094",
+    "name": "橿原中和幹線常盤店",
+    "address": "奈良県 橿原市 常盤町549-1",
+    "coords": [
+      34.5212952381,
+      135.814071384
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:17:44.930203"
+  },
+  {
+    "id": "816",
+    "api_id": "200100001816",
+    "name": "橿原中和幹線葛本店",
+    "address": "奈良県 橿原市 葛本町789-１",
+    "coords": [
+      34.5205612923,
+      135.80631845
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:18:00.131715"
+  },
+  {
+    "id": "4470",
+    "api_id": "2001000014470",
+    "name": "イオンモール橿原 ウエスト・ビレッジ店",
+    "address": "奈良県 橿原市 新堂町357-1 イオンモール橿原 ウェスト・ビレッジ",
+    "coords": [
+      34.5036278468,
+      135.759814203
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "20:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:18:12.124615"
+  },
+  {
+    "id": "544",
+    "api_id": "200100001544",
+    "name": "イオンモール橿原店",
+    "address": "奈良県 橿原市 曲川町7-20-1-102",
+    "coords": [
+      34.505329088,
+      135.761776462
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:18:21.570145"
+  },
+  {
+    "id": "786",
+    "api_id": "200100001786",
+    "name": "大和高田店",
+    "address": "奈良県 大和高田市 神楽281-4",
+    "coords": [
+      34.5282343807,
+      135.743862728
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:18:32.012593"
+  },
+  {
+    "id": "4235",
+    "api_id": "2001000014235",
+    "name": "大和高田市役所通り店",
+    "address": "奈良県 大和高田市 大中100-1",
+    "coords": [
+      34.5150334377,
+      135.736265078
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:18:46.210213"
+  },
+  {
+    "id": "882",
+    "api_id": "200100001882",
+    "name": "奈良西大和ニュータウン店",
+    "address": "奈良県 北葛城郡 河合町薬井476-4",
+    "coords": [
+      34.5897958479,
+      135.711844775
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:18:56.792196"
+  },
+  {
+    "id": "4436",
+    "api_id": "2001000014436",
+    "name": "奈良香芝店",
+    "address": "奈良県 香芝市 逢坂7-130-1",
+    "coords": [
+      34.5508444194,
+      135.693698353
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:19:07.329041"
+  },
+  {
+    "id": "556",
+    "api_id": "200100001556",
+    "name": "大和郡山アピタ店",
+    "address": "奈良県 大和郡山市 田中町宮西517 アピタ大和郡山店",
+    "coords": [
+      34.6414204959,
+      135.769278739
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:19:22.314425"
+  },
+  {
+    "id": "1187",
+    "api_id": "2001000011187",
+    "name": "イオンモール大和郡山店",
+    "address": "奈良県 大和郡山市 下三橋町741 イオンモール大和郡山",
+    "coords": [
+      34.6502406865,
+      135.802391972
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:19:33.791899"
+  },
+  {
+    "id": "4276",
+    "api_id": "2001000014276",
+    "name": "イオンモール大和郡山 中央コート店",
+    "address": "奈良県 大和郡山市 下三橋町741 イオンモール大和郡山",
+    "coords": [
+      34.6507809086,
+      135.802516103
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:19:43.683730"
+  },
+  {
+    "id": "4245",
+    "api_id": "2001000014245",
+    "name": "奈良葛城店",
+    "address": "奈良県 葛城市 柿本91-3",
+    "coords": [
+      34.4903735342,
+      135.733906687
+    ],
+    "prefecture_code": 29,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-28T14:19:58.012921"
+  }
+]

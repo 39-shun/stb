@@ -1,0 +1,971 @@
+[
+  {
+    "id": "4397",
+    "api_id": "2001000014397",
+    "name": "高松西宝町店",
+    "address": "香川県 高松市 西宝町1-5-15",
+    "coords": [
+      34.3418291057,
+      134.030080862
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:40:25.957810"
+  },
+  {
+    "id": "1632",
+    "api_id": "2001000011632",
+    "name": "JR高松駅店",
+    "address": "香川県 高松市 浜ノ町1-20 COM高松",
+    "coords": [
+      34.3507042794,
+      134.046658521
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:40:37.200983"
+  },
+  {
+    "id": "336",
+    "api_id": "200100001336",
+    "name": "高松丸亀町フェスタ店",
+    "address": "香川県 高松市 丸亀町6-1 フェスタ河野１",
+    "coords": [
+      34.3430204329,
+      134.049746951
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:40:48.992647"
+  },
+  {
+    "id": "344",
+    "api_id": "200100001344",
+    "name": "高松瓦町駅店",
+    "address": "香川県 高松市 常磐町1-3-1 琴電瓦町ビル",
+    "coords": [
+      34.3392753269,
+      134.05254828
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "07:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:41:00.368423"
+  },
+  {
+    "id": "4427",
+    "api_id": "2001000014427",
+    "name": "高松上福岡店",
+    "address": "香川県 高松市 上福岡町2021-5",
+    "coords": [
+      34.3270712861,
+      134.064538124
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:41:15.563856"
+  },
+  {
+    "id": "704",
+    "api_id": "200100001704",
+    "name": "香川大学病院店",
+    "address": "香川県 木田郡 三木町池戸1750-1 香川大学医学部付属病院",
+    "coords": [
+      34.2921657609,
+      134.122878775
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "18:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:41:24.020868"
+  },
+  {
+    "id": "1692",
+    "api_id": "2001000011692",
+    "name": "イオンモール綾川店",
+    "address": "香川県 綾歌郡 綾川町萱原822-1 イオンモール綾川",
+    "coords": [
+      34.251706454,
+      133.930708264
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:41:34.974260"
+  },
+  {
+    "id": "762",
+    "api_id": "200100001762",
+    "name": "イオンモール高松店",
+    "address": "香川県 高松市 香西本町1-1 イオンモール高松",
+    "coords": [
+      34.3516448259,
+      134.004192282
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:41:49.836179"
+  },
+  {
+    "id": "950",
+    "api_id": "200100001950",
+    "name": "高松レインボーロード店",
+    "address": "香川県 高松市 伏石町2084-5 ヤマダ電機テックランドNew高松",
+    "coords": [
+      34.3118364538,
+      134.060359728
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:42:01.587626"
+  },
+  {
+    "id": "4189",
+    "api_id": "2001000014189",
+    "name": "高松伏石店",
+    "address": "香川県 高松市 伏石町2149-8",
+    "coords": [
+      34.3068390013,
+      134.064285466
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:42:14.028005"
+  },
+  {
+    "id": "390",
+    "api_id": "200100001390",
+    "name": "ゆめタウン高松 1階店",
+    "address": "香川県 高松市 三条町中所608-1 ゆめタウン高松",
+    "coords": [
+      34.3166436578,
+      134.0410475
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": true,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "09:30",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:42:26.429702"
+  },
+  {
+    "id": "1786",
+    "api_id": "2001000011786",
+    "name": "ゆめタウン高松 東館3階店",
+    "address": "香川県 高松市 三条町608-1 ゆめタウン高松 東館3階",
+    "coords": [
+      34.3159734865,
+      134.043035699
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "21:00"
+      },
+      "hol": {
+        "open": "10:00",
+        "close": "21:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:42:36.806602"
+  },
+  {
+    "id": "1177",
+    "api_id": "2001000011177",
+    "name": "高松サン・フラワー通り店",
+    "address": "香川県 高松市 太田下町3010-3",
+    "coords": [
+      34.3040849124,
+      134.051868846
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:42:46.366186"
+  },
+  {
+    "id": "4195",
+    "api_id": "2001000014195",
+    "name": "坂出久米店",
+    "address": "香川県 坂出市 久米町１-26-1",
+    "coords": [
+      34.3190826591,
+      133.855682782
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:42:55.598572"
+  },
+  {
+    "id": "2173",
+    "api_id": "2001000012173",
+    "name": "丸亀マルタス店",
+    "address": "香川県 丸亀市 大手町2-4-11 丸亀市市民交流活動センター マルタス",
+    "coords": [
+      34.2895545439,
+      133.79867582
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": false
+    },
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "hol": {
+        "open": "09:00",
+        "close": "21:30"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:43:04.960547"
+  },
+  {
+    "id": "1797",
+    "api_id": "2001000011797",
+    "name": "丸亀新田店",
+    "address": "香川県 丸亀市 新田町179-3",
+    "coords": [
+      34.2749053312,
+      133.785847005
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": true,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "3",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:43:16.906563"
+  },
+  {
+    "id": "2065",
+    "api_id": "2001000012065",
+    "name": "TSUTAYA 宇多津店",
+    "address": "香川県 綾歌郡 宇多津町浜3-21-2",
+    "coords": [
+      34.3109280636,
+      133.813003368
+    ],
+    "prefecture_code": 37,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "23:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-29T18:43:25.848261"
+  }
+]

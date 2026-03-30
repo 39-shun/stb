@@ -323,7 +323,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 .stb-popup .p-badges { display:flex; gap:4px; flex-wrap:wrap; margin-bottom:6px; }
 .p-badge { font-size:10px; padding:2px 6px; border-radius:10px; font-weight:700; white-space:nowrap; }
 .badge-reserve  { background:rgba(196,150,10,.15); color:#7a5e00; }
-.badge-teavana  { background:rgba(0,112,74,.12);   color:var(--rank-normal); }
+.badge-teavana  { background:rgba(0,112,74,.12);   color:#00704A; }
 .badge-dt       { background:rgba(60,100,180,.12); color:#3060b0; }
 .badge-roastery { background:#1a1a1a; color:#fff; }
 .badge-merge    { background:rgba(120,80,160,.12); color:#6040a0; }
@@ -336,13 +336,13 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 .leaflet-popup-content-wrapper { background:var(--surface) !important; color:var(--text) !important; box-shadow:var(--shadow) !important; }
 .leaflet-popup-tip { background:var(--surface) !important; }
 .merge-tabs { display:flex; gap:1px; margin-bottom:8px; }
-.merge-tab { flex:1; padding:4px 6px; font-size:11px; font-weight:700; border:1px solid var(--border); border-radius:4px 4px 0 0; cursor:pointer; background:var(--surface2); color:var(--text-sub); text-align:center; transition:all .15s; }
-.merge-tab.active { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
+.merge-tab { flex:1; padding:4px 6px; font-size:11px; font-weight:700; border:1px solid #ddd; border-radius:4px 4px 0 0; cursor:pointer; background:#f5f5f0; color:#888; text-align:center; transition:all .15s; }
+.merge-tab.active { background:#00704A; color:#fff; border-color:#00704A; }
 .merge-pane { display:none; }
 .merge-pane.active { display:block; }
-.p-affiliate { display:block; width:100%; padding:8px 10px; border-radius:5px; background:var(--accent); color:var(--accent-fg); font-size:11px; font-weight:700; text-align:center; text-decoration:none; line-height:1.4; transition:background .15s; }
-.p-affiliate:hover { background:var(--accent); opacity:.85; }
-.p-affiliate-note { font-size:9px; color:var(--text-sub); text-align:center; margin-top:3px; }
+.p-affiliate { display:block; width:100%; padding:8px 10px; border-radius:5px; background:#00704A; color:#fff; font-size:11px; font-weight:700; text-align:center; text-decoration:none; line-height:1.4; transition:background .15s; }
+.p-affiliate:hover { background:#005a3c; }
+.p-affiliate-note { font-size:9px; color:#aaa; text-align:center; margin-top:3px; }
 
 /* ポップアップ最大高さ制限（スマホで地図に収まるよう） */
 @media (max-width:700px) {
@@ -563,7 +563,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
     <!-- 広告枠 -->
     <div class="ad-sidebar">
       <div class="ad-label">Advertisement</div>
-      <div style="font-size:11px;color:var(--text-sub);">広告枠（234×60）</div>
+      <div style="font-size:11px;color:#bbb;">広告枠（234×60）</div>
     </div>
 
     <div id="sidebar-footer">
@@ -701,7 +701,7 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
 
 <div id="ad-bottom">
   <div class="ad-label">Advertisement</div>
-  <div style="font-size:11px;color:var(--text-sub);">広告枠（320×50）</div>
+  <div style="font-size:11px;color:#aaa;">広告枠（320×50）</div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -1626,11 +1626,11 @@ function buildDetailPanelHtml(shop) {
 
   return `
     ${badges ? `<div class="p-badges" style="margin-bottom:10px;">${badges}</div>` : ''}
-    <div class="p-rank" style="margin-bottom:4px;"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)} ¥${prices.takeout}<span style="font-size:10px;color:var(--text-sub);"> / ¥${prices.instore}(店内)</span></div>
-    <div style="font-size:10px;color:var(--text-sub);margin-bottom:10px;">スターバックスラテ Tall</div>
+    <div class="p-rank" style="margin-bottom:4px;"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)} ¥${prices.takeout}<span style="font-size:10px;color:#999;"> / ¥${prices.instore}(店内)</span></div>
+    <div style="font-size:10px;color:#999;margin-bottom:10px;">スターバックスラテ Tall</div>
     ${shop.address ? `<div style="font-size:11px;color:var(--text-sub);margin-bottom:10px;">${shop.address}</div>` : ''}
     ${buildDetailHoursHtml(shop)}
-    <div style="font-size:10px;color:var(--text-sub);margin-bottom:12px;">🕐 ${f.label}</div>
+    <div style="font-size:10px;color:#aaa;margin-bottom:12px;">🕐 ${f.label}</div>
     ${mapBtns}
     ${officialLinks}
     <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
@@ -1645,16 +1645,16 @@ function buildDetailHoursHtml(s) {
   const JP_NAMES = ['月','火','水','木','金','土','日'];
   const todayKey = DAYS[today.getDay()];
   const hasHours = JP_ORDER.some(d => s.hours?.[d]?.open);
-  if (!hasHours) return '<div style="font-size:10px;color:var(--text-sub);margin-bottom:10px;">営業時間データなし</div>';
+  if (!hasHours) return '<div style="font-size:10px;color:#aaa;margin-bottom:10px;">営業時間データなし</div>';
   const getTime = d => s.hours?.[d]?.open && s.hours?.[d]?.close ? `${s.hours[d].open}–${s.hours[d].close}` : null;
   const allTimes = JP_ORDER.map(getTime);
   const allSame = allTimes.every(t => t !== null && t === allTimes[0]);
   if (allSame) {
     const openNow = isOpenAt(s, today);
-    const col = openNow===true?'var(--rank-normal)':openNow===false?'var(--rank-a)':'var(--text-sub)';
+    const col = openNow===true?'#00704A':openNow===false?'#B03A20':'#888';
     const lbl = openNow===true?'営業中':openNow===false?'営業時間外':'';
     return `<div style="font-size:11px;margin-bottom:10px;">
-      <span style="color:var(--text-sub);">毎日 </span>
+      <span style="color:#888;">毎日 </span>
       <span style="font-family:'DM Mono',monospace;font-weight:700;color:${col};">${allTimes[0]}</span>
       ${lbl?`<span style="font-size:10px;color:${col};margin-left:4px;">(${lbl})</span>`:''}
     </div>`;
@@ -1666,9 +1666,9 @@ function buildDetailHoursHtml(s) {
   const addRow = (label, timeStr, isToday) => {
     const openNow = isToday ? isOpenAt(s, today) : null;
     let display = timeStr || '–';
-    if (timeStr && isToday && openNow===true)  display = `<span style="color:var(--rank-normal);font-weight:700;">${timeStr}</span>`;
-    if (timeStr && isToday && openNow===false) display = `<span style="color:var(--rank-a);">${timeStr}</span>`;
-    rows.push(`<tr style="font-size:11px;${isToday?'font-weight:700;color:var(--text);':'color:var(--text-sub);'}">
+    if (timeStr && isToday && openNow===true)  display = `<span style="color:#00704A;font-weight:700;">${timeStr}</span>`;
+    if (timeStr && isToday && openNow===false) display = `<span style="color:#B03A20;">${timeStr}</span>`;
+    rows.push(`<tr style="font-size:11px;${isToday?'font-weight:700;color:var(--text);':'color:#888;'}">
       <td style="padding:2px 8px 2px 0;white-space:nowrap;">${label}${isToday?' <span style="font-size:9px;">(今日)</span>':''}</td>
       <td style="font-family:'DM Mono',monospace;">${display}</td>
     </tr>`);
@@ -1693,20 +1693,20 @@ function buildMiniPopup(shop) {
   const emoji  = shop.store_type==='11' ? '★ ' : (shop.options?.teavana ? '🍃 ' : '');
   const openNow = isOpenAt(shop, new Date());
   const openBadge = openNow===true
-    ? '<div style="font-size:11px;color:var(--rank-normal);font-weight:700;margin-bottom:6px;">🟢 営業中</div>'
+    ? '<div style="font-size:11px;color:#00704A;font-weight:700;margin-bottom:6px;">🟢 営業中</div>'
     : openNow===false
-    ? '<div style="font-size:11px;color:var(--rank-a);margin-bottom:6px;">🔴 営業時間外</div>'
+    ? '<div style="font-size:11px;color:#B03A20;margin-bottom:6px;">🔴 営業時間外</div>'
     : '';
   return `<div style="font-family:'Noto Sans JP',sans-serif;min-width:180px;">
-    <div style="font-size:13px;font-weight:700;margin-bottom:5px;color:var(--text);">${emoji}${shop.name||''}</div>
+    <div style="font-size:13px;font-weight:700;margin-bottom:5px;color:#1c1a16;">${emoji}${shop.name||''}</div>
     <div style="display:flex;align-items:center;gap:5px;margin-bottom:5px;">
       <span style="width:9px;height:9px;border-radius:50%;background:${color};display:inline-block;flex-shrink:0;"></span>
-      <span style="font-size:12px;font-weight:700;color:var(--text);">${rankLabel} ¥${prices.takeout}</span>
+      <span style="font-size:12px;font-weight:700;color:#1c1a16;">${rankLabel} ¥${prices.takeout}</span>
     </div>
     ${openBadge}
     <div style="display:flex;gap:6px;">
-      <button onclick="(function(){var s=window._miniPopupShop;if(s)window._openMobileDetailFromPopup(s);})()" style="flex:1;padding:8px 4px;border-radius:6px;background:var(--accent);color:var(--accent-fg);font-size:11px;font-weight:700;border:none;cursor:pointer;">詳細を見る</button>
-      <a href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored" style="flex:1;padding:8px 4px;border-radius:6px;background:var(--surface2);color:var(--text-sub);font-size:10px;font-weight:700;text-align:center;text-decoration:none;display:flex;align-items:center;justify-content:center;line-height:1.2;">PR</a>
+      <button onclick="(function(){var s=window._miniPopupShop;if(s)window._openMobileDetailFromPopup(s);})()" style="flex:1;padding:8px 4px;border-radius:6px;background:#00704A;color:#fff;font-size:11px;font-weight:700;border:none;cursor:pointer;">詳細を見る</button>
+      <a href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored" style="flex:1;padding:8px 4px;border-radius:6px;background:#f0ede6;color:#1c1a16;font-size:10px;font-weight:700;text-align:center;text-decoration:none;display:flex;align-items:center;justify-content:center;line-height:1.2;">PR</a>
     </div>
   </div>`;
 }
@@ -1728,7 +1728,7 @@ function buildPopup(shop) {
     const todayKey = DAYS[today.getDay()]; // DAYS=['sun','mon',...,'sat']
 
     const hasHours = JP_ORDER.some(d => s.hours?.[d]?.open);
-    if (!hasHours) return '<div style="font-size:10px;color:var(--text-sub);margin-bottom:4px;">営業時間データなし</div>';
+    if (!hasHours) return '<div style="font-size:10px;color:#aaa;margin-bottom:4px;">営業時間データなし</div>';
 
     const getTime = d => s.hours?.[d]?.open && s.hours?.[d]?.close
       ? `${s.hours[d].open}–${s.hours[d].close}` : null;
@@ -1738,10 +1738,10 @@ function buildPopup(shop) {
     const allSame = allTimes.every(t => t !== null && t === allTimes[0]);
     if (allSame) {
       const openNow = isOpenAt(s, today);
-      const col = openNow===true?'var(--rank-normal)':openNow===false?'var(--rank-a)':'var(--text-sub)';
+      const col = openNow===true?'#00704A':openNow===false?'#B03A20':'#888';
       const lbl = openNow===true?'営業中':openNow===false?'営業時間外':'';
       return `<div style="font-size:10px;margin-bottom:4px;">
-        <span style="color:var(--text-sub);">毎日 </span>
+        <span style="color:#888;">毎日 </span>
         <span style="font-family:'DM Mono',monospace;font-weight:700;color:${col};">${allTimes[0]}</span>
         ${lbl?`<span style="font-size:9px;color:${col};margin-left:4px;">(${lbl})</span>`:''}
       </div>`;
@@ -1761,9 +1761,9 @@ function buildPopup(shop) {
     const addRow = (label, timeStr, isToday) => {
       const openNow = isToday ? isOpenAt(s, today) : null;
       let display = timeStr || '–';
-      if (timeStr && isToday && openNow===true)  display = `<span style="color:var(--rank-normal);font-weight:700;">${timeStr}</span>`;
-      if (timeStr && isToday && openNow===false) display = `<span style="color:var(--rank-a);">${timeStr}</span>`;
-      rows.push(`<tr style="font-size:10px;${isToday?'font-weight:700;color:var(--text);':'color:var(--text-sub);'}">
+      if (timeStr && isToday && openNow===true)  display = `<span style="color:#00704A;font-weight:700;">${timeStr}</span>`;
+      if (timeStr && isToday && openNow===false) display = `<span style="color:#B03A20;">${timeStr}</span>`;
+      rows.push(`<tr style="font-size:10px;${isToday?'font-weight:700;color:var(--text);':'color:#aaa;'}">
         <td style="padding:1px 4px 1px 0;white-space:nowrap;">${label}${isToday?' <span style="font-size:9px;">(今日)</span>':''}</td>
         <td style="font-family:'DM Mono',monospace;">${display}</td>
       </tr>`);
@@ -1788,7 +1788,7 @@ function buildPopup(shop) {
       const p = PRICE_TABLE[s.price_rank]||PRICE_TABLE.normal;
       const rLabel = getRankLabel(s.price_rank||'normal', s.store_type);
       return `<div class="merge-pane${i===0?' active':''}" data-pane="${i}">
-        <div class="p-rank"><span class="rank-dot" style="background:${getRankColor(s.price_rank||'normal',s.store_type)}"></span>${rLabel} ¥${p.takeout}<span style="font-size:10px;color:var(--text-sub)"> / ¥${p.instore}(店内)</span></div>
+        <div class="p-rank"><span class="rank-dot" style="background:${getRankColor(s.price_rank||'normal',s.store_type)}"></span>${rLabel} ¥${p.takeout}<span style="font-size:10px;color:#999"> / ¥${p.instore}(店内)</span></div>
         <div class="p-meta" style="margin-bottom:4px;">${s.address||''}<br>🕐 ${getFreshnessLabel(s.scraped_at).label}</div>
         ${buildHoursHtml(s)}
       </div>`;
@@ -1818,11 +1818,11 @@ function buildPopup(shop) {
   return `<div class="stb-popup">
     <div class="p-name">${shop.name}</div>
     ${badges?`<div class="p-badges">${badges}</div>`:''}
-    <div class="p-rank"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)} ¥${prices.takeout}<span style="font-size:10px;color:var(--text-sub)"> / ¥${prices.instore}(店内)</span></div>
+    <div class="p-rank"><span class="rank-dot" style="background:${color}"></span>${getRankLabel(rank,shop.store_type)} ¥${prices.takeout}<span style="font-size:10px;color:#999"> / ¥${prices.instore}(店内)</span></div>
     <div class="p-price-note">スターバックスラテ Tall</div>
     <div class="p-meta" style="margin-bottom:4px;">${shop.address||''}</div>
     ${buildHoursHtml(shop)}
-    <div style="font-size:10px;color:var(--text-sub);margin-bottom:8px;">🕐 ${f.label}</div>
+    <div style="font-size:10px;color:#aaa;margin-bottom:8px;">🕐 ${f.label}</div>
     <div style="display:flex;gap:6px;margin-bottom:6px;">
       ${mapBtn}
       <a href="${stbUrl}" target="_blank" rel="noopener" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:var(--surface2);color:var(--text);font-size:11px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);">🔗 公式ページ</a>
@@ -2231,19 +2231,13 @@ map.on('zoomend moveend', () => {
         state._displayedCodes = cachedCodes;
         await buildDetailLayer(cachedCodes);
         showToast('✓ 詳細データに切り替えました');
-        if (mobileSearchMode) renderMobileSearchResults(mobileSearchLastQuery);
-        else if (searchOverrideActive) showSearchOverride(searchStores(document.getElementById('search-input').value));
       }
     } else {
       const wasDetail = !!state.detailGroup;
       state._displayedCodes = [];
       if (state.detailGroup) { map.removeLayer(state.detailGroup); state.detailGroup = null; state.markerMap = {}; }
       rebuildSummaryGroup();
-      if (wasDetail) {
-        showToast('🗺 概要データを表示中');
-        if (mobileSearchMode) renderMobileSearchResults(mobileSearchLastQuery);
-        else if (searchOverrideActive) showSearchOverride(searchStores(document.getElementById('search-input').value));
-      }
+      if (wasDetail) showToast('🗺 概要データを表示中');
     }
     updateCenterList();
   }, 300);
