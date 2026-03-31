@@ -1,0 +1,79 @@
+[
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "新千歳空港店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "弘前公園前店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "守谷サービスエリア（上り線）店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "守谷サービスエリア(下り線)店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "友部サービスエリア（上り線）店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "友部サービスエリア（下り線）店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "佐野サービスエリア（下り線）店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "佐野プレミアム・アウトレット 370区店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "佐野プレミアム・アウトレット 1125区店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "那須ガーデンアウトレット店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-30",
+    "name": "横川サービスエリア(上り線)店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  }
+]
