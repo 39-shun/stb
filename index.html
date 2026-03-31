@@ -1314,7 +1314,7 @@ function addMarkerToGroup(shop, group) {
     // PC：ピンクリックでpanTo + ポップアップ
     marker.on('click', () => {
       const lat = shop.coords[0], lng = shop.coords[1];
-      map.panTo([lat, lng], { animate:true, duration:0.25 });
+      panToMarker(lat, lng);
       // moveendによるbuildDetailLayerの完了を待ってからpopup
       map.once('moveend', () => {
         setTimeout(() => {
