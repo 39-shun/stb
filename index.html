@@ -655,12 +655,15 @@ body { font-family:'Noto Sans JP',sans-serif; background:var(--bg); color:var(--
       </div>
       <!-- 絞り込みチップ（検索モード用・コンパクト） -->
       <div id="mobile-search-filter-area" style="padding:8px 14px;background:var(--surface2);border-bottom:1px solid var(--border);flex-shrink:0;">
-        <div style="display:flex;flex-wrap:wrap;gap:5px;align-items:center;">
-          <span style="font-size:10px;color:var(--text-sub);margin-right:2px;">絞込:</span>
-          <div class="filter-chip active" data-filter="rank" data-value="all">すべて</div>
+        <div style="display:flex;flex-wrap:wrap;gap:5px;align-items:center;margin-bottom:5px;">
+          <span style="font-size:10px;color:var(--text-sub);margin-right:2px;">価格帯:</span>
+          <div class="filter-chip active" data-filter="rank" data-value="all">すべての価格帯</div>
           <div class="filter-chip" data-filter="rank" data-value="normal"><span class="chip-dot" style="background:var(--rank-normal)"></span>通常</div>
           <div class="filter-chip" data-filter="rank" data-value="B"><span class="chip-dot" style="background:var(--rank-b)"></span>B</div>
           <div class="filter-chip" data-filter="rank" data-value="A"><span class="chip-dot" style="background:var(--rank-a)"></span>A</div>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:5px;align-items:center;">
+          <span style="font-size:10px;color:var(--text-sub);margin-right:2px;">設備:</span>
           <div class="filter-chip" data-filter="option" data-value="drive_thru">🚗</div>
           <div class="filter-chip" data-filter="option" data-value="reserve">★</div>
           <div class="filter-chip" data-filter="option" data-value="teavana">🍃</div>
@@ -726,10 +729,21 @@ const TILE_LAYERS = {
   standard: { url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',              attr:'© OpenStreetMap contributors' },
 };
 const AFFILIATE = {
+  enabled: false, // アフィリエイト準備できたらtrueに
   url:  'https://example.com/affiliate-link',
   text: '☕ スタバをもっとお得に使う方法（PR）',
   note: '※ 対象カード利用時。条件あり。',
 };
+
+// ハードコードパッチ：スクレイパーデータに依存せず特定店舗を補正
+function patchHardcoded(shops) {
+  for (const s of shops) {
+    if (s.id === '2381') { // スターバックス リザーブ® ロースタリー 東京
+      s.options = s.options || {};
+      s.options.teavana = true;
+    }
+  }
+}
 const MERGE_IDS  = new Set(['197', '4507']);
 const MERGE_LABEL = '銀座マロニエ通り（リザーブ＋ティバーナ）';
 const RANK_COLORS  = { normal:'#00704A', B:'#C4960A', A:'#B03A20', roastery:'#1a1a1a' };
@@ -1128,6 +1142,7 @@ async function fetchDetail(code) {
     if (!res.ok) throw new Error(res.status);
     const shops = await res.json();
     state.detailCache[code] = shops;
+    patchHardcoded(state.detailCache[code]);
     return shops;
   } catch(e) { console.warn(`shops_${code}.json 失敗`, e); return null; }
 }
@@ -1198,6 +1213,7 @@ async function loadSummary() {
     if (!res.ok) throw new Error('not found');
     const shops = await res.json();
     state.summaryData = shops;
+    patchHardcoded(state.summaryData);
     state.summaryGroup = buildSummaryGroupFromData(shops);
     map.addLayer(state.summaryGroup);
     updateCenterList();
@@ -1335,7 +1351,12 @@ function renderAllSelectedPrefs() {
 
 // ピンを地図下寄りに配置してポップアップが見える位置に
 function panToMarker(lat, lng) {
-  if (window.innerWidth > 700) { map.panTo([lat, lng], { animate:true, duration:0.25 }); return; }
+  if (window.innerWidth > 700) {
+    const z = map.getZoom();
+    const pt = map.project([lat, lng], z).subtract([0, -80]); // 80px下にオフセット
+    map.panTo(map.unproject(pt, z), { animate:true, duration:0.25 });
+    return;
+  }
   const mapH = document.getElementById('map-wrap').offsetHeight;
   const offsetPx = mapH * 0.15 + 36; // toggle-bar-h分下げる
   const z = map.getZoom();
@@ -1650,8 +1671,7 @@ function buildDetailPanelHtml(shop) {
     <div style="font-size:10px;color:#aaa;margin-bottom:12px;">🕐 ${f.label}</div>
     ${mapBtns}
     ${officialLinks}
-    <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
-    <div class="p-affiliate-note">${AFFILIATE.note}</div>
+    ${AFFILIATE.enabled ? `<a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a><div class="p-affiliate-note">${AFFILIATE.note}</div>` : ""}
   `;
 }
 
@@ -1707,7 +1727,7 @@ function buildMiniPopup(shop) {
   const color  = getRankColor(rank, shop.store_type);
   const prices = PRICE_TABLE[rank] || PRICE_TABLE.normal;
   const rankLabel = getRankLabel(rank, shop.store_type);
-  const emoji  = shop.store_type==='11' ? '★ ' : (shop.options?.teavana ? '🍃 ' : '');
+  const badge = shop.store_type==='11' ? '★ ' : (shop.options?.reserve ? '★ ' : (shop.options?.teavana ? '🍃 ' : ''));
   const openNow = isOpenAt(shop, new Date());
   const openBadge = openNow===true
     ? '<div style="font-size:11px;color:#00704A;font-weight:700;margin-bottom:6px;">🟢 営業中</div>'
@@ -1715,7 +1735,7 @@ function buildMiniPopup(shop) {
     ? '<div style="font-size:11px;color:#B03A20;margin-bottom:6px;">🔴 営業時間外</div>'
     : '';
   return `<div style="font-family:'Noto Sans JP',sans-serif;min-width:180px;">
-    <div style="font-size:13px;font-weight:700;margin-bottom:5px;color:#1c1a16;">${emoji}${shop.name||''}</div>
+    <div style="font-size:13px;font-weight:700;margin-bottom:5px;color:#1c1a16;">${badge}${shop.name||''}</div>
     <div style="display:flex;align-items:center;gap:5px;margin-bottom:5px;">
       <span style="width:9px;height:9px;border-radius:50%;background:${color};display:inline-block;flex-shrink:0;"></span>
       <span style="font-size:12px;font-weight:700;color:#1c1a16;">${rankLabel} ¥${prices.takeout}</span>
@@ -1723,7 +1743,7 @@ function buildMiniPopup(shop) {
     ${openBadge}
     <div style="display:flex;gap:6px;">
       <button onclick="(function(){var s=window._miniPopupShop;if(s)window._openMobileDetailFromPopup(s);})()" style="flex:1;padding:8px 4px;border-radius:6px;background:#00704A;color:#fff;font-size:11px;font-weight:700;border:none;cursor:pointer;">詳細を見る</button>
-      <a href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored" style="flex:1;padding:8px 4px;border-radius:6px;background:#f0ede6;color:#1c1a16;font-size:10px;font-weight:700;text-align:center;text-decoration:none;display:flex;align-items:center;justify-content:center;line-height:1.2;">PR</a>
+      ${AFFILIATE.enabled ? `<a href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored" style="flex:1;padding:8px 4px;border-radius:6px;background:#f0ede6;color:#1c1a16;font-size:10px;font-weight:700;text-align:center;text-decoration:none;display:flex;align-items:center;justify-content:center;line-height:1.2;">PR</a>` : ""}
     </div>
   </div>`;
 }
@@ -1818,8 +1838,7 @@ function buildPopup(shop) {
       <div class="merge-tabs">${tabs}</div>${panes}
       <div style="display:flex;gap:6px;margin-bottom:6px;">${mapBtn}</div>
       <div style="display:flex;gap:6px;margin-bottom:6px;">${mergeLinks}</div>
-      <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
-      <div class="p-affiliate-note">${AFFILIATE.note}</div>
+      ${AFFILIATE.enabled ? `<a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a><div class="p-affiliate-note">${AFFILIATE.note}</div>` : ""}
     </div>`;
   }
 
@@ -1845,8 +1864,7 @@ function buildPopup(shop) {
       ${mapBtn}
       <a href="${stbUrl}" target="_blank" rel="noopener" style="flex:1;display:block;padding:7px 6px;border-radius:5px;background:var(--surface2);color:var(--text);font-size:11px;font-weight:700;text-align:center;text-decoration:none;border:1px solid var(--border);">🔗 公式ページ</a>
     </div>
-    <a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a>
-    <div class="p-affiliate-note">${AFFILIATE.note}</div>
+    ${AFFILIATE.enabled ? `<a class="p-affiliate" href="${AFFILIATE.url}" target="_blank" rel="noopener sponsored">${AFFILIATE.text}</a><div class="p-affiliate-note">${AFFILIATE.note}</div>` : ""}
   </div>`;
 }
 
@@ -2296,7 +2314,7 @@ function shareStore() {
   const url   = `https://kakaku-starbucks.pages.dev/?store=${shop.id}`;
   let text;
   if (rank === 'roastery') {
-    text = `スターバックス リザーブ® ロースタリー 東京のコールドブリュー コーヒー（Tall）は¥770！\n近くのスタバ価格をチェック👇\n`;
+    text = `ROASTERY TOKYO のコールドブリュー コーヒー（Tall）¥770！\n近くのスタバ価格をチェック👇\n`;
   } else if (rank === 'normal') {
     text = `${shop.name}のスターバックスラテ（Tall）は通常価格・¥${prices.takeout}！\n近くのスタバ価格をチェック👇\n`;
   } else {
