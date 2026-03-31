@@ -54,7 +54,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:58:45.720634"
+    "scraped_at": "2026-03-31T16:48:43.910182"
   },
   {
     "id": "1260",
@@ -111,7 +111,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:58:57.772774"
+    "scraped_at": "2026-03-31T16:48:53.060465"
   },
   {
     "id": "527",
@@ -168,7 +168,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:59:07.524422"
+    "scraped_at": "2026-03-31T16:49:04.181519"
   },
   {
     "id": "4495",
@@ -225,7 +225,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:59:17.249819"
+    "scraped_at": "2026-03-31T16:49:13.274867"
   },
   {
     "id": "4483",
@@ -282,7 +282,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:59:25.494012"
+    "scraped_at": "2026-03-31T16:49:27.711090"
   },
   {
     "id": "4085",
@@ -339,7 +339,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:59:34.079854"
+    "scraped_at": "2026-03-31T16:49:36.147676"
   },
   {
     "id": "1569",
@@ -396,7 +396,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:59:42.866439"
+    "scraped_at": "2026-03-31T16:49:46.462826"
   },
   {
     "id": "1355",
@@ -453,7 +453,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:59:53.498848"
+    "scraped_at": "2026-03-31T16:49:56.772363"
   },
   {
     "id": "1311",
@@ -510,7 +510,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:00:04.039485"
+    "scraped_at": "2026-03-31T16:50:05.816237"
   },
   {
     "id": "2051",
@@ -567,7 +567,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:00:13.352804"
+    "scraped_at": "2026-03-31T16:50:14.138416"
   },
   {
     "id": "937",
@@ -624,7 +624,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:00:27.992680"
+    "scraped_at": "2026-03-31T16:50:26.131721"
   },
   {
     "id": "1734",
@@ -681,6 +681,6 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T20:00:36.970564"
+    "scraped_at": "2026-03-31T16:50:37.640552"
   }
 ]

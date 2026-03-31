@@ -54,7 +54,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:52:40.166022"
+    "scraped_at": "2026-03-31T16:40:42.334115"
   },
   {
     "id": "1207",
@@ -111,7 +111,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:52:53.120246"
+    "scraped_at": "2026-03-31T16:40:56.003129"
   },
   {
     "id": "794",
@@ -168,7 +168,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:53:05.584837"
+    "scraped_at": "2026-03-31T16:41:05.915427"
   },
   {
     "id": "897",
@@ -225,7 +225,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:53:17.330604"
+    "scraped_at": "2026-03-31T16:41:14.552578"
   },
   {
     "id": "4467",
@@ -282,7 +282,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:53:27.052916"
+    "scraped_at": "2026-03-31T16:41:24.358292"
   },
   {
     "id": "806",
@@ -339,7 +339,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:53:36.342423"
+    "scraped_at": "2026-03-31T16:41:33.447886"
   },
   {
     "id": "4291",
@@ -396,7 +396,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:53:49.766583"
+    "scraped_at": "2026-03-31T16:41:46.424967"
   },
   {
     "id": "1298",
@@ -453,7 +453,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:54:01.799850"
+    "scraped_at": "2026-03-31T16:41:56.969173"
   },
   {
     "id": "431",
@@ -510,7 +510,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:54:10.448216"
+    "scraped_at": "2026-03-31T16:42:09.234130"
   },
   {
     "id": "1295",
@@ -567,7 +567,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:54:23.061177"
+    "scraped_at": "2026-03-31T16:42:17.851553"
   },
   {
     "id": "4344",
@@ -624,7 +624,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:54:31.706835"
+    "scraped_at": "2026-03-31T16:42:26.893440"
   },
   {
     "id": "1826",
@@ -681,7 +681,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:54:44.665365"
+    "scraped_at": "2026-03-31T16:42:38.388819"
   },
   {
     "id": "986",
@@ -738,7 +738,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:54:58.724354"
+    "scraped_at": "2026-03-31T16:42:51.497878"
   },
   {
     "id": "1223",
@@ -795,6 +795,6 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:55:08.833830"
+    "scraped_at": "2026-03-31T16:43:02.405481"
   }
 ]

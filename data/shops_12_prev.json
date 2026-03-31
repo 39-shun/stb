@@ -54,7 +54,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:43:11.217060"
+    "scraped_at": "2026-03-31T14:19:57.464145"
   },
   {
     "id": "213",
@@ -111,7 +111,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:43:19.294586"
+    "scraped_at": "2026-03-31T14:20:09.358330"
   },
   {
     "id": "487",
@@ -168,7 +168,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:43:34.248909"
+    "scraped_at": "2026-03-31T14:20:20.361987"
   },
   {
     "id": "1508",
@@ -225,7 +225,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:43:43.267939"
+    "scraped_at": "2026-03-31T14:20:34.112945"
   },
   {
     "id": "1793",
@@ -282,7 +282,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:43:55.310458"
+    "scraped_at": "2026-03-31T14:20:46.571064"
   },
   {
     "id": "4606",
@@ -339,7 +339,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:44:09.447243"
+    "scraped_at": "2026-03-31T14:20:55.734423"
   },
   {
     "id": "4485",
@@ -396,7 +396,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:44:20.504949"
+    "scraped_at": "2026-03-31T14:21:10.153917"
   },
   {
     "id": "4208",
@@ -453,7 +453,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:44:33.786467"
+    "scraped_at": "2026-03-31T14:21:19.061729"
   },
   {
     "id": "1537",
@@ -510,7 +510,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:44:42.052831"
+    "scraped_at": "2026-03-31T14:21:29.185135"
   },
   {
     "id": "857",
@@ -567,7 +567,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:44:55.447577"
+    "scraped_at": "2026-03-31T14:21:41.921291"
   },
   {
     "id": "4486",
@@ -624,7 +624,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:45:06.621468"
+    "scraped_at": "2026-03-31T14:21:52.803004"
   },
   {
     "id": "198",
@@ -681,7 +681,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:45:14.944660"
+    "scraped_at": "2026-03-31T14:22:05.500372"
   },
   {
     "id": "1788",
@@ -738,7 +738,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:45:25.907953"
+    "scraped_at": "2026-03-31T14:22:16.344869"
   },
   {
     "id": "4487",
@@ -795,7 +795,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:45:34.778792"
+    "scraped_at": "2026-03-31T14:22:28.939054"
   },
   {
     "id": "969",
@@ -807,9 +807,9 @@
       140.030116861
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -852,7 +852,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:45:43.374951"
+    "scraped_at": "2026-03-31T14:22:43.004652"
   },
   {
     "id": "1081",
@@ -864,9 +864,9 @@
       140.028828657
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -909,7 +909,7 @@
     },
     "store_type": "2",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:45:56.568821"
+    "scraped_at": "2026-03-31T14:22:55.480341"
   },
   {
     "id": "651",
@@ -966,7 +966,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:46:11.601217"
+    "scraped_at": "2026-03-31T14:23:05.679508"
   },
   {
     "id": "1182",
@@ -1023,7 +1023,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:46:22.086139"
+    "scraped_at": "2026-03-31T14:23:20.657760"
   },
   {
     "id": "4356",
@@ -1080,7 +1080,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:46:30.485031"
+    "scraped_at": "2026-03-31T14:23:32.007597"
   },
   {
     "id": "1214",
@@ -1137,7 +1137,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:46:38.759718"
+    "scraped_at": "2026-03-31T14:23:44.495372"
   },
   {
     "id": "942",
@@ -1194,7 +1194,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:46:50.877386"
+    "scraped_at": "2026-03-31T14:23:56.839643"
   },
   {
     "id": "4587",
@@ -1251,7 +1251,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:47:00.217793"
+    "scraped_at": "2026-03-31T14:24:05.928193"
   },
   {
     "id": "917",
@@ -1308,7 +1308,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:47:12.692418"
+    "scraped_at": "2026-03-31T14:24:16.288213"
   },
   {
     "id": "2150",
@@ -1365,7 +1365,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:47:25.334736"
+    "scraped_at": "2026-03-31T14:24:25.998230"
   },
   {
     "id": "1724",
@@ -1422,7 +1422,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:47:39.431300"
+    "scraped_at": "2026-03-31T14:24:35.279360"
   },
   {
     "id": "1444",
@@ -1479,7 +1479,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:47:53.501085"
+    "scraped_at": "2026-03-31T14:24:46.729796"
   },
   {
     "id": "4583",
@@ -1536,7 +1536,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:48:07.963872"
+    "scraped_at": "2026-03-31T14:25:01.451948"
   },
   {
     "id": "4580",
@@ -1593,7 +1593,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:48:18.652137"
+    "scraped_at": "2026-03-31T14:25:16.554646"
   },
   {
     "id": "1305",
@@ -1650,7 +1650,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:48:28.139446"
+    "scraped_at": "2026-03-31T14:25:29.038034"
   },
   {
     "id": "4212",
@@ -1707,7 +1707,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:48:38.329205"
+    "scraped_at": "2026-03-31T14:25:37.937514"
   },
   {
     "id": "1310",
@@ -1764,7 +1764,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:48:52.057807"
+    "scraped_at": "2026-03-31T14:25:51.293203"
   },
   {
     "id": "1721",
@@ -1821,7 +1821,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:49:04.651413"
+    "scraped_at": "2026-03-31T14:26:05.981929"
   },
   {
     "id": "671",
@@ -1878,7 +1878,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:49:15.946111"
+    "scraped_at": "2026-03-31T14:26:19.170639"
   },
   {
     "id": "1426",
@@ -1935,7 +1935,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:49:28.034007"
+    "scraped_at": "2026-03-31T14:26:32.459798"
   },
   {
     "id": "1309",
@@ -1992,7 +1992,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:49:39.182580"
+    "scraped_at": "2026-03-31T14:26:41.399512"
   },
   {
     "id": "1737",
@@ -2049,7 +2049,64 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:49:50.628704"
+    "scraped_at": "2026-03-31T14:26:55.039408"
+  },
+  {
+    "id": "4627",
+    "api_id": "2001000014627",
+    "name": "そよらリーフシティ市川店",
+    "address": "千葉県 市川市 市川南2-8-1 そよらリーフシティ市川 2階",
+    "coords": [
+      35.7253931815,
+      139.904947306
+    ],
+    "prefecture_code": 12,
+    "price_rank": "normal",
+    "price_takeout": 491,
+    "price_instore": 500,
+    "options": {
+      "reserve": false,
+      "teavana": false,
+      "drive_thru": false,
+      "wifi": true
+    },
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "hol": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "store_type": "1",
+    "detail_fetched": true,
+    "scraped_at": "2026-03-31T14:27:06.174664"
   },
   {
     "id": "1720",
@@ -2106,7 +2163,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:49:59.563853"
+    "scraped_at": "2026-03-31T14:27:14.659199"
   },
   {
     "id": "4075",
@@ -2163,7 +2220,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:50:10.686081"
+    "scraped_at": "2026-03-31T14:27:27.039678"
   },
   {
     "id": "1338",
@@ -2220,7 +2277,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:50:20.447033"
+    "scraped_at": "2026-03-31T14:27:42.239935"
   },
   {
     "id": "1560",
@@ -2277,7 +2334,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:50:34.816302"
+    "scraped_at": "2026-03-31T14:27:54.366081"
   },
   {
     "id": "262",
@@ -2334,7 +2391,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:50:49.856369"
+    "scraped_at": "2026-03-31T14:28:09.287964"
   },
   {
     "id": "1268",
@@ -2391,7 +2448,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:51:00.977077"
+    "scraped_at": "2026-03-31T14:28:22.116878"
   },
   {
     "id": "1066",
@@ -2448,7 +2505,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:51:11.685829"
+    "scraped_at": "2026-03-31T14:28:34.342865"
   },
   {
     "id": "878",
@@ -2505,7 +2562,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:51:26.501258"
+    "scraped_at": "2026-03-31T14:28:42.947882"
   },
   {
     "id": "4520",
@@ -2562,7 +2619,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:51:37.062207"
+    "scraped_at": "2026-03-31T14:28:52.966014"
   },
   {
     "id": "4214",
@@ -2619,7 +2676,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:51:47.952536"
+    "scraped_at": "2026-03-31T14:29:03.469287"
   },
   {
     "id": "63",
@@ -2676,7 +2733,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:52:02.098783"
+    "scraped_at": "2026-03-31T14:29:13.946777"
   },
   {
     "id": "4354",
@@ -2733,7 +2790,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:52:10.445799"
+    "scraped_at": "2026-03-31T14:29:25.363844"
   },
   {
     "id": "4082",
@@ -2790,7 +2847,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:52:20.541039"
+    "scraped_at": "2026-03-31T14:29:34.648151"
   },
   {
     "id": "605",
@@ -2847,7 +2904,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:52:32.186578"
+    "scraped_at": "2026-03-31T14:29:48.510956"
   },
   {
     "id": "2281",
@@ -2904,7 +2961,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:52:43.339884"
+    "scraped_at": "2026-03-31T14:30:02.075143"
   },
   {
     "id": "568",
@@ -2961,7 +3018,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:52:52.169232"
+    "scraped_at": "2026-03-31T14:30:15.928347"
   },
   {
     "id": "170",
@@ -3018,7 +3075,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:53:06.833687"
+    "scraped_at": "2026-03-31T14:30:26.552781"
   },
   {
     "id": "1183",
@@ -3075,7 +3132,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:53:20.402745"
+    "scraped_at": "2026-03-31T14:30:40.374780"
   },
   {
     "id": "675",
@@ -3132,7 +3189,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:53:30.144354"
+    "scraped_at": "2026-03-31T14:30:52.991181"
   },
   {
     "id": "2091",
@@ -3189,7 +3246,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:53:42.388924"
+    "scraped_at": "2026-03-31T14:31:04.304709"
   },
   {
     "id": "1373",
@@ -3246,7 +3303,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:53:53.412798"
+    "scraped_at": "2026-03-31T14:31:18.866356"
   },
   {
     "id": "1527",
@@ -3303,7 +3360,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:54:04.534138"
+    "scraped_at": "2026-03-31T14:31:32.619280"
   },
   {
     "id": "507",
@@ -3360,7 +3417,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:54:13.304659"
+    "scraped_at": "2026-03-31T14:31:45.476884"
   },
   {
     "id": "669",
@@ -3417,7 +3474,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:54:22.257748"
+    "scraped_at": "2026-03-31T14:31:56.560511"
   },
   {
     "id": "1626",
@@ -3474,7 +3531,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:54:32.358603"
+    "scraped_at": "2026-03-31T14:32:11.846700"
   },
   {
     "id": "2248",
@@ -3531,7 +3588,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:54:44.932074"
+    "scraped_at": "2026-03-31T14:32:26.679177"
   },
   {
     "id": "836",
@@ -3588,7 +3645,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:54:56.132554"
+    "scraped_at": "2026-03-31T14:32:37.586372"
   },
   {
     "id": "1758",
@@ -3645,7 +3702,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:55:09.400403"
+    "scraped_at": "2026-03-31T14:32:49.219870"
   },
   {
     "id": "1449",
@@ -3657,9 +3714,9 @@
       140.38910546
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -3702,7 +3759,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:55:24.010228"
+    "scraped_at": "2026-03-31T14:33:03.920417"
   },
   {
     "id": "1510",
@@ -3714,9 +3771,9 @@
       140.388599139
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -3759,7 +3816,7 @@
     },
     "store_type": "2",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:55:35.086707"
+    "scraped_at": "2026-03-31T14:33:15.979029"
   },
   {
     "id": "1709",
@@ -3771,9 +3828,9 @@
       140.392998937
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -3816,7 +3873,7 @@
     },
     "store_type": "2",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:55:48.639283"
+    "scraped_at": "2026-03-31T14:33:24.309150"
   },
   {
     "id": "1719",
@@ -3828,9 +3885,9 @@
       140.387268886
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -3873,7 +3930,7 @@
     },
     "store_type": "2",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:55:59.757848"
+    "scraped_at": "2026-03-31T14:33:38.251741"
   },
   {
     "id": "199",
@@ -3885,9 +3942,9 @@
       140.384507023
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -3897,7 +3954,7 @@
     "hours": {},
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:56:09.894044"
+    "scraped_at": "2026-03-31T14:33:49.968547"
   },
   {
     "id": "436",
@@ -3909,9 +3966,9 @@
       140.384035773
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -3954,7 +4011,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:56:22.729256"
+    "scraped_at": "2026-03-31T14:34:02.709096"
   },
   {
     "id": "1591",
@@ -3966,9 +4023,9 @@
       140.383225507
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -4011,7 +4068,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:56:33.144569"
+    "scraped_at": "2026-03-31T14:34:18.024059"
   },
   {
     "id": "4097",
@@ -4068,7 +4125,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:56:47.608432"
+    "scraped_at": "2026-03-31T14:34:30.982941"
   },
   {
     "id": "607",
@@ -4125,7 +4182,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:56:57.288976"
+    "scraped_at": "2026-03-31T14:34:43.075438"
   },
   {
     "id": "796",
@@ -4182,7 +4239,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:57:06.134142"
+    "scraped_at": "2026-03-31T14:34:56.939367"
   },
   {
     "id": "1599",
@@ -4239,7 +4296,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:57:20.880529"
+    "scraped_at": "2026-03-31T14:35:07.106240"
   },
   {
     "id": "1114",
@@ -4251,9 +4308,9 @@
       140.294051738
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -4296,7 +4353,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:57:33.420209"
+    "scraped_at": "2026-03-31T14:35:19.708887"
   },
   {
     "id": "899",
@@ -4308,9 +4365,9 @@
       140.284494399
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -4353,7 +4410,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:57:48.161329"
+    "scraped_at": "2026-03-31T14:35:31.191667"
   },
   {
     "id": "1489",
@@ -4410,7 +4467,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:57:59.764198"
+    "scraped_at": "2026-03-31T14:35:44.312726"
   },
   {
     "id": "2321",
@@ -4467,7 +4524,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:58:12.222767"
+    "scraped_at": "2026-03-31T14:35:53.164610"
   },
   {
     "id": "103",
@@ -4524,7 +4581,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:58:26.547094"
+    "scraped_at": "2026-03-31T14:36:04.771928"
   },
   {
     "id": "721",
@@ -4581,7 +4638,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:58:34.856303"
+    "scraped_at": "2026-03-31T14:36:14.943600"
   },
   {
     "id": "1384",
@@ -4638,7 +4695,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:58:48.605991"
+    "scraped_at": "2026-03-31T14:36:25.167817"
   },
   {
     "id": "4266",
@@ -4695,7 +4752,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:59:00.778580"
+    "scraped_at": "2026-03-31T14:36:39.493870"
   },
   {
     "id": "1073",
@@ -4752,7 +4809,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:59:15.481303"
+    "scraped_at": "2026-03-31T14:36:49.654609"
   },
   {
     "id": "4415",
@@ -4809,7 +4866,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:59:27.258616"
+    "scraped_at": "2026-03-31T14:37:01.153453"
   },
   {
     "id": "1680",
@@ -4866,7 +4923,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:59:38.079744"
+    "scraped_at": "2026-03-31T14:37:13.749873"
   },
   {
     "id": "4218",
@@ -4923,7 +4980,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:59:50.063635"
+    "scraped_at": "2026-03-31T14:37:27.194702"
   },
   {
     "id": "4390",
@@ -4980,7 +5037,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T15:59:58.485513"
+    "scraped_at": "2026-03-31T14:37:41.501528"
   },
   {
     "id": "4450",
@@ -4992,9 +5049,9 @@
       139.935853403
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -5037,7 +5094,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:00:11.870550"
+    "scraped_at": "2026-03-31T14:37:53.804053"
   },
   {
     "id": "4471",
@@ -5049,9 +5106,9 @@
       139.933002492
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -5094,7 +5151,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:00:21.392939"
+    "scraped_at": "2026-03-31T14:38:05.791060"
   },
   {
     "id": "892",
@@ -5151,7 +5208,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:00:32.090373"
+    "scraped_at": "2026-03-31T14:38:20.518766"
   },
   {
     "id": "776",
@@ -5163,9 +5220,9 @@
       139.87565152
     ],
     "prefecture_code": 12,
-    "price_rank": "normal",
-    "price_takeout": 491,
-    "price_instore": 500,
+    "price_rank": "A",
+    "price_takeout": 510,
+    "price_instore": 520,
     "options": {
       "reserve": false,
       "teavana": false,
@@ -5208,7 +5265,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:00:46.079192"
+    "scraped_at": "2026-03-31T14:38:30.734170"
   },
   {
     "id": "1237",
@@ -5265,7 +5322,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:00:56.530460"
+    "scraped_at": "2026-03-31T14:38:40.318710"
   },
   {
     "id": "4003",
@@ -5322,7 +5379,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:01:06.921413"
+    "scraped_at": "2026-03-31T14:38:50.605098"
   },
   {
     "id": "4355",
@@ -5379,6 +5436,6 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T16:01:18.130550"
+    "scraped_at": "2026-03-31T14:39:03.910568"
   }
 ]

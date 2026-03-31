@@ -54,7 +54,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:55:22.824501"
+    "scraped_at": "2026-03-31T16:44:01.634228"
   },
   {
     "id": "4103",
@@ -111,7 +111,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:55:31.673337"
+    "scraped_at": "2026-03-31T16:44:14.766608"
   },
   {
     "id": "1089",
@@ -168,7 +168,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:55:44.070953"
+    "scraped_at": "2026-03-31T16:44:29.016264"
   },
   {
     "id": "4186",
@@ -225,7 +225,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:55:57.282026"
+    "scraped_at": "2026-03-31T16:44:41.982971"
   },
   {
     "id": "1844",
@@ -282,7 +282,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:56:07.350640"
+    "scraped_at": "2026-03-31T16:44:53.118196"
   },
   {
     "id": "4591",
@@ -339,7 +339,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:56:17.426993"
+    "scraped_at": "2026-03-31T16:45:03.903405"
   },
   {
     "id": "358",
@@ -396,7 +396,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:56:26.522556"
+    "scraped_at": "2026-03-31T16:45:18.462118"
   },
   {
     "id": "1336",
@@ -453,7 +453,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:56:38.074475"
+    "scraped_at": "2026-03-31T16:45:31.580508"
   },
   {
     "id": "1261",
@@ -510,7 +510,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:56:48.205857"
+    "scraped_at": "2026-03-31T16:45:45.372138"
   },
   {
     "id": "1023",
@@ -567,7 +567,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:03.257219"
+    "scraped_at": "2026-03-31T16:45:55.562214"
   },
   {
     "id": "4114",
@@ -624,7 +624,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:14.729923"
+    "scraped_at": "2026-03-31T16:46:06.367382"
   },
   {
     "id": "746",
@@ -681,7 +681,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:23.965867"
+    "scraped_at": "2026-03-31T16:46:20.420580"
   },
   {
     "id": "4410",
@@ -738,7 +738,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:33.540010"
+    "scraped_at": "2026-03-31T16:46:33.797878"
   },
   {
     "id": "4284",
@@ -795,7 +795,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:44.421634"
+    "scraped_at": "2026-03-31T16:46:47.772632"
   },
   {
     "id": "1460",
@@ -852,7 +852,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:57:55.070814"
+    "scraped_at": "2026-03-31T16:46:59.579586"
   },
   {
     "id": "4034",
@@ -909,7 +909,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:58:08.534003"
+    "scraped_at": "2026-03-31T16:47:12.667223"
   },
   {
     "id": "4035",
@@ -966,7 +966,7 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:58:17.909631"
+    "scraped_at": "2026-03-31T16:47:23.226122"
   },
   {
     "id": "500",
@@ -1023,7 +1023,7 @@
     },
     "store_type": "3",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:58:28.448389"
+    "scraped_at": "2026-03-31T16:47:32.915678"
   },
   {
     "id": "883",
@@ -1080,6 +1080,6 @@
     },
     "store_type": "1",
     "detail_fetched": true,
-    "scraped_at": "2026-03-25T19:58:36.838048"
+    "scraped_at": "2026-03-31T16:47:42.407388"
   }
 ]

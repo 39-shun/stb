@@ -1,0 +1,204 @@
+[
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "羽生パーキングエリア（下り線）店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "蓮田サービスエリア（上り線）店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "川越鐘つき通り店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "三芳パーキングエリア(下り線)店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "三井アウトレットパーク入間店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "上里サービスエリア(上り線)店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "上里サービスエリア（下り線）店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "ふかや花園プレミアム・アウトレット店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "湾岸幕張パーキングエリア（下り線）店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "湾岸幕張パーキングエリア（上り線）店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "new_open",
+    "date": "2026-03-31",
+    "name": "そよらリーフシティ市川店",
+    "address": "千葉県 市川市 市川南2-8-1 そよらリーフシティ市川 2階",
+    "prefecture_code": 12
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "成田空港第2ターミナル店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "成田空港第2ターミナル到着ロビー南店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "成田空港第2ターミナルサテライト店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "成田空港第2ターミナル到着ロビー北店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "成田空港店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "成田空港第1ターミナル店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "成田空港第1ターミナル第2サテライト店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "酒々井プレミアム・アウトレット店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "酒々井パーキングエリア(下り線)店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "三井アウトレットパーク木更津サウスゾーン店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "三井アウトレットパーク木更津ウエストゾーン店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "price_change",
+    "date": "2026-03-31",
+    "name": "海ほたるパーキングエリア店",
+    "old_rank": "normal",
+    "new_rank": "A"
+  },
+  {
+    "type": "new_open",
+    "date": "2026-03-31",
+    "name": "スターバックス カフェ & アートギャラリー 谷中御殿坂",
+    "address": "東京都 荒川区 西日暮里3-2-5",
+    "prefecture_code": 13
+  },
+  {
+    "type": "new_open",
+    "date": "2026-03-31",
+    "name": "TSUTAYA BOOKSTORE 大井町トラックス店",
+    "address": "東京都 品川区 広町2-1-17 OIMACHI TRACKS 2階 220区画",
+    "prefecture_code": 13
+  },
+  {
+    "type": "new_open",
+    "date": "2026-03-31",
+    "name": "大井町トラックスパーク店",
+    "address": "東京都 品川区 広町2-2-9 OIMACHI TRACKS 1階",
+    "prefecture_code": 13
+  },
+  {
+    "type": "closed",
+    "date": "2026-03-31",
+    "name": "アクセス表参道店",
+    "address": "東京都 港区 北青山3-6-17 アクセス表参道ビル"
+  },
+  {
+    "type": "closed",
+    "date": "2026-03-31",
+    "name": "JR池袋駅 西口店",
+    "address": "東京都 豊島区 西池袋1-1-25"
+  },
+  {
+    "type": "facility_change",
+    "date": "2026-03-31",
+    "name": "BASEGATE横浜関内店",
+    "item": "teavana",
+    "old": false,
+    "new": true
+  }
+]
