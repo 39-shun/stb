@@ -1353,7 +1353,7 @@ function renderAllSelectedPrefs() {
 function panToMarker(lat, lng) {
   if (window.innerWidth > 700) {
     const z = map.getZoom();
-    const pt = map.project([lat, lng], z).subtract([0, -400]); // 80px下にオフセット
+    const pt = map.project([lat, lng], z).subtract([0, 200]); // 80px下にオフセット
     map.panTo(map.unproject(pt, z), { animate:true, duration:0.25 });
     return;
   }
