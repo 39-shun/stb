@@ -1353,7 +1353,7 @@ function renderAllSelectedPrefs() {
 function panToMarker(lat, lng) {
   if (window.innerWidth > 700) {
     const z = map.getZoom();
-    const pt = map.project([lat, lng], z).subtract([0, -200]); // 80px下にオフセット
+    const pt = map.project([lat, lng], z).subtract([0, -400]); // 80px下にオフセット
     map.panTo(map.unproject(pt, z), { animate:true, duration:0.25 });
     return;
   }
@@ -2314,11 +2314,11 @@ function shareStore() {
   const url   = `https://kakaku-starbucks.pages.dev/?store=${shop.id}`;
   let text;
   if (rank === 'roastery') {
-    text = `ROASTERY TOKYO のコールドブリュー コーヒー（Tall）¥770！\n近くのスタバ価格をチェック👇\n`;
+    text = `ROASTERY TOKYO のコールドブリュー コーヒー（Tall）の価格は¥770！\n近くのスタバ価格をチェック👇\n`;
   } else if (rank === 'normal') {
-    text = `${shop.name}のスターバックスラテ（Tall）は通常価格・¥${prices.takeout}！\n近くのスタバ価格をチェック👇\n`;
+    text = `${shop.name}のスターバックスラテ（Tall）の価格帯は通常・¥${prices.takeout}！\n近くのスタバ価格をチェック👇\n`;
   } else {
-    text = `${shop.name}のスターバックスラテ（Tall）は${rankLabel}・¥${prices.takeout}！\n近くのスタバ価格をチェック👇\n`;
+    text = `${shop.name}のスターバックスラテ（Tall）の価格帯は${rankLabel}・¥${prices.takeout}！\n近くのスタバ価格をチェック👇\n`;
   }
   window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
 }
